@@ -4,6 +4,14 @@
   "sector33": "卸売業",
   "market": "スタンダード（内国株式）",
   "profit_basis": "経常利益",
+  "cycle_phase": {
+    "num": 8,
+    "name": "夜明け前",
+    "label": "⑧ 夜明け前",
+    "zone": "buy",
+    "level": 0.324,
+    "momentum": -0.116
+  },
   "as_of_price": "2026-09-07",
   "price": 157.0,
   "market_cap_oku": 86,

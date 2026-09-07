@@ -72,6 +72,23 @@ tbody tr:hover{background:var(--head)}
 .f1{background:var(--ok);color:#fff}.f0{background:var(--line);color:var(--sub)}
 .mk{font-weight:700;padding:0 .1em}
 .mk.ok{color:var(--ok)}.mk.warn{color:var(--warn)}.mk.ng{color:var(--ng)}
+td.cyc{font-weight:600}
+.cyc-buy td.cyc,td.cyc.cyc-buy{color:var(--ok)}
+.cyc-sell td.cyc,td.cyc.cyc-sell{color:var(--warn)}
+.cyc-hold td.cyc,td.cyc.cyc-hold{color:var(--sub)}
+.cyclegend{margin:1.6rem 0 0}
+.cyclegend h2{margin-bottom:.4rem}
+table.legend{font-size:.82rem}
+table.legend tbody td:first-child{font-weight:600}
+table.legend .cyc-buy td:first-child,table.legend .cyc-buy td:last-child{color:var(--ok)}
+table.legend .cyc-sell td:first-child,table.legend .cyc-sell td:last-child{color:var(--warn)}
+table.legend .cyc-hold td:first-child,table.legend .cyc-hold td:last-child{color:var(--sub)}
+table.legend td:nth-child(2),table.legend td:nth-child(3),table.legend td:nth-child(4){
+  font-size:1rem;color:var(--text)}
+.phasestrip{display:flex;gap:.3rem;margin-top:.4rem}
+.phasestrip span{width:1.9rem;height:1.9rem;display:grid;place-items:center;
+  border:1px solid var(--line-strong);border-radius:.35rem;color:var(--sub);font-size:.9rem}
+.phasestrip span.on{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:700}
 .scorebar{display:inline-block;height:.5rem;border-radius:.25rem;background:var(--accent);
   vertical-align:.05em;min-width:2px}
 .detail{position:fixed;inset:0;background:var(--bg);overflow-y:auto;z-index:10;
@@ -153,10 +170,41 @@ def main() -> None:
     <th data-k="cyclicality">循環性</th>
     <th data-k="trough_score">トラフ度</th>
     <th data-k="market_phase_score">市況<br>フェーズ</th>
+    <th data-k="_cycle">循環<br>局面</th>
     <th data-k="equity_ratio">自己資本<br>比率</th>
     <th data-k="net_debt_to_equity">ネット<br>D/E</th>
     <th data-k="_abc">A/B/C</th>
   </tr></thead><tbody></tbody></table></div>
+
+  <section class="cyclegend">
+    <h2>循環局面の見かた（① 底入れ 〜 ⑧ 夜明け前）</h2>
+    <p class="note">シクリカルバリュー投資の株価循環を、各銘柄の
+    <b>水準</b>（利益率・市況・株価が過去のどの高さか）×
+    <b>方向</b>（売上・利益率・市況の前年比）から自動で推定したもの。
+    <b>あくまで目安</b>。実際の局面は有報・在庫循環・市況スプレッド・先物カーブで確認すること。</p>
+    <div class="tablewrap"><table class="mini legend">
+      <thead><tr><th class="l">局面</th><th>売上</th><th>数量</th><th>価格</th>
+        <th class="l">状況</th><th>目安</th></tr></thead>
+      <tbody>
+        <tr class="cyc-buy"><td class="l">① 底入れ</td><td>→</td><td>→</td><td>→</td>
+          <td class="l">景気の底。動き出しを待つ</td><td>買い場</td></tr>
+        <tr class="cyc-buy"><td class="l">② 回復</td><td>↑</td><td>↑</td><td>→</td>
+          <td class="l">数量から回復が始まる</td><td>買い場</td></tr>
+        <tr class="cyc-hold"><td class="l">③ 拡大</td><td>↑</td><td>↑</td><td>↑</td>
+          <td class="l">数量も価格も伸びる</td><td>保有</td></tr>
+        <tr class="cyc-sell"><td class="l">④ 過熱</td><td>↑</td><td>→</td><td>↑</td>
+          <td class="l">価格高騰で数量の伸びが鈍る</td><td>売り場</td></tr>
+        <tr class="cyc-sell"><td class="l">⑤ 高原</td><td>↑</td><td>→</td><td>↓</td>
+          <td class="l">価格が天井を打つ</td><td>売り場</td></tr>
+        <tr class="cyc-sell"><td class="l">⑥ 後退</td><td>↓</td><td>→</td><td>↓</td>
+          <td class="l">売上が減り始める</td><td>売り場</td></tr>
+        <tr class="cyc-buy"><td class="l">⑦ 不況</td><td>↓</td><td>↓</td><td>↓</td>
+          <td class="l">すべてが縮む（谷。下落途中）</td><td>まだ待つ</td></tr>
+        <tr class="cyc-buy"><td class="l">⑧ 夜明け前</td><td>→</td><td>→</td><td>↓</td>
+          <td class="l">安すぎて買い手がつき始める</td><td>買い場</td></tr>
+      </tbody>
+    </table></div>
+  </section>
 
   <footer>
   出典: EDINET 有価証券報告書（主要な経営指標等の推移）・Yahoo Finance 調整後終値・
@@ -207,6 +255,7 @@ function render(){{
     if(sortK==="_funnel"){{x=a.funnel.filter(Boolean).length;y=b.funnel.filter(Boolean).length;}}
     if(sortK==="_abc"){{const g=r=>ABC.reduce((n,k)=>n+(r.checklist[k]==="○"?1:r.checklist[k]==="△"?.5:0),0);
       x=g(a);y=g(b);}}
+    if(sortK==="_cycle"){{x=a.cycle_phase?a.cycle_phase.num:99;y=b.cycle_phase?b.cycle_phase.num:99;}}
     x=x==null?-1e9:x;y=y==null?-1e9:y;
     return (x<y?-1:x>y?1:0)*sortDir;}});
   document.querySelector("#count").textContent=rows.length+" 社";
@@ -225,6 +274,7 @@ function render(){{
     <td>${{pct(r.cyclicality)}}</td>
     <td>${{pct(r.trough_score)}}</td>
     <td>${{phaseTxt(r.market_phase_score)}}</td>
+    <td class="cyc ${{r.cycle_phase?'cyc-'+r.cycle_phase.zone:''}}">${{r.cycle_phase?r.cycle_phase.label:"—"}}</td>
     <td>${{pct(r.equity_ratio)}}</td>
     <td>${{num(r.net_debt_to_equity,2)}}</td>
     <td>${{ABC.map(k=>`<span class="mk ${{mkClass(r.checklist[k])}}">${{r.checklist[k]}}</span>`).join("")}}</td>
@@ -338,6 +388,22 @@ function openDetail(code){{
     </div>${{ph?`<table class="mini"><thead><tr><th class="l">市況</th><th>フェーズ</th>
       <th>15年%タイル</th><th>前年比</th><th></th></tr></thead><tbody>${{ph}}</tbody></table>`
       :`<p class="note">この業種に紐づく自動取得の市況シリーズはありません。</p>`}}</div>
+
+    ${{a.cycle_phase?`<h2>循環局面（推定）</h2>
+    <div class="card">
+      <p><b class="cyc cyc-${{a.cycle_phase.zone}}" style="font-size:1.3rem">${{a.cycle_phase.label}}</b>
+        <span class="note">（${{a.cycle_phase.zone==="buy"?"買い場ゾーン":a.cycle_phase.zone==="sell"?"売り場ゾーン":"保有ゾーン"}}）</span></p>
+      <div class="phasestrip">${{"①②③④⑤⑥⑦⑧".split("").map((c,i)=>
+        `<span class="${{i+1===a.cycle_phase.num?'on':''}}">${{c}}</span>`).join("")}}</div>
+      <div class="grid" style="margin-top:.7rem">
+        ${{kv("水準（0=谷 / 1=山）",num(a.cycle_phase.level,2))}}
+        ${{kv("方向（−1=下降 / +1=上昇）",num(a.cycle_phase.momentum,2))}}
+      </div>
+      <p class="note">水準＝利益率・市況・株価の過去パーセンタイルの加重平均。
+      方向＝売上・利益率・市況の前年比。<b>自動推定の目安</b>で、
+      実際の局面は在庫循環・市況スプレッド・先物カーブで確認すること。
+      局面の一覧はページ下部の凡例を参照。</p>
+    </div>`:""}}
 
     <h2>構造縮小でないか（バリュートラップ判定）</h2>
     <div class="card"><div class="grid">

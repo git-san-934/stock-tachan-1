@@ -4,6 +4,14 @@
   "sector33": "輸送用機器",
   "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
+  "cycle_phase": {
+    "num": 2,
+    "name": "回復",
+    "label": "② 回復",
+    "zone": "buy",
+    "level": 0.509,
+    "momentum": 0.018
+  },
   "as_of_price": "2026-09-07",
   "price": 2301.5,
   "market_cap_oku": 4319,

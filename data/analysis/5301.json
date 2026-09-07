@@ -4,6 +4,14 @@
   "sector33": "ガラス・土石製品",
   "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
+  "cycle_phase": {
+    "num": 3,
+    "name": "拡大",
+    "label": "③ 拡大",
+    "zone": "hold",
+    "level": 0.655,
+    "momentum": 0.459
+  },
   "as_of_price": "2026-09-07",
   "price": 1912.0,
   "market_cap_oku": 4300,

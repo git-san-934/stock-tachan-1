@@ -202,10 +202,30 @@ def build_index(shortlist: dict) -> str:
 <th data-k="cyclicality">循環性</th>
 <th data-k="trough_score">トラフ<br>度</th>
 <th data-k="market_phase_score">市況<br>フェーズ</th>
+<th data-k="_cycle">循環<br>局面</th>
 <th data-k="equity_ratio">自己資本<br>比率</th>
 <th data-k="net_debt_to_equity">ネット<br>D/E</th>
 <th data-k="_abc">A/B/C</th>
 </tr></thead><tbody></tbody></table></div>
+
+<section style="margin-top:1.6rem">
+<h2>循環局面の見かた（① 底入れ 〜 ⑧ 夜明け前）</h2>
+<p class="note">シクリカルバリュー投資の株価循環を、各銘柄の<b>水準</b>（利益率・市況・株価が
+過去のどの高さか）×<b>方向</b>（売上・利益率・市況の前年比）から自動で推定したもの。
+<b>あくまで目安</b>。実際の局面は有報・在庫循環・市況スプレッド・先物カーブで確認すること。</p>
+<div class="tablewrap"><table style="min-width:0;font-size:.85rem">
+<thead><tr><th class="l">局面</th><th>売上</th><th>数量</th><th>価格</th>
+<th class="l">状況</th><th>目安</th></tr></thead><tbody>
+<tr><td class="l"><span class="mk ○">① 底入れ</span></td><td>→</td><td>→</td><td>→</td><td class="l">景気の底。動き出しを待つ</td><td>買い場</td></tr>
+<tr><td class="l"><span class="mk ○">② 回復</span></td><td>↑</td><td>↑</td><td>→</td><td class="l">数量から回復が始まる</td><td>買い場</td></tr>
+<tr><td class="l"><span class="mk △">③ 拡大</span></td><td>↑</td><td>↑</td><td>↑</td><td class="l">数量も価格も伸びる</td><td>保有</td></tr>
+<tr><td class="l"><span class="mk ×">④ 過熱</span></td><td>↑</td><td>→</td><td>↑</td><td class="l">価格高騰で数量の伸びが鈍る</td><td>売り場</td></tr>
+<tr><td class="l"><span class="mk ×">⑤ 高原</span></td><td>↑</td><td>→</td><td>↓</td><td class="l">価格が天井を打つ</td><td>売り場</td></tr>
+<tr><td class="l"><span class="mk ×">⑥ 後退</span></td><td>↓</td><td>→</td><td>↓</td><td class="l">売上が減り始める</td><td>売り場</td></tr>
+<tr><td class="l"><span class="mk ○">⑦ 不況</span></td><td>↓</td><td>↓</td><td>↓</td><td class="l">すべてが縮む（谷。下落途中）</td><td>まだ待つ</td></tr>
+<tr><td class="l"><span class="mk ○">⑧ 夜明け前</span></td><td>→</td><td>→</td><td>↓</td><td class="l">安すぎて買い手がつき始める</td><td>買い場</td></tr>
+</tbody></table></div>
+</section>
 
 <script>
 const ROWS={data_json};
@@ -216,6 +236,7 @@ const pct=v=>v==null?"—":(v*100).toFixed(0)+"%";
 const num=(v,d=1)=>v==null?"—":Number(v).toLocaleString(undefined,{{maximumFractionDigits:d}});
 function funnelCells(f){{return f.map((b,i)=>`<span class="pill ${{b?'f1':'f0'}}" title="${{FL[i]}}">${{b?'✓':'·'}}</span>`).join('')}}
 function phase(v){{if(v==null)return"—";if(v>=0.7)return"谷寄り "+pct(v);if(v<=0.4)return"山寄り "+pct(v);return"中立 "+pct(v)}}
+function cyc(cp){{if(!cp)return"—";const c=cp.zone==="buy"?"var(--ok)":cp.zone==="sell"?"var(--ng)":"var(--sub)";return`<span style="color:${{c}};font-weight:600">${{cp.label}}</span>`}}
 function render(){{
  const onlyp=document.querySelector("#onlypass").checked;
  const sec=document.querySelector("#sector").value;
@@ -224,6 +245,7 @@ function render(){{
    (!q||r.code.toLowerCase().includes(q)||(r.name||"").toLowerCase().includes(q)));
  rows.sort((a,b)=>{{let x=a[sortK],y=b[sortK];
    if(sortK==="_funnel"){{x=a.funnel.filter(Boolean).length;y=b.funnel.filter(Boolean).length}}
+   if(sortK==="_cycle"){{x=a.cycle_phase?a.cycle_phase.num:99;y=b.cycle_phase?b.cycle_phase.num:99}}
    x=x==null?-1e9:x;y=y==null?-1e9:y;return (x<y?-1:x>y?1:0)*sortDir}});
  document.querySelector("#count").textContent=rows.length+" 社";
  tb.innerHTML=rows.map(r=>`<tr>
@@ -239,6 +261,7 @@ function render(){{
  <td>${{pct(r.cyclicality)}}</td>
  <td>${{pct(r.trough_score)}}</td>
  <td>${{phase(r.market_phase_score)}}</td>
+ <td>${{cyc(r.cycle_phase)}}</td>
  <td>${{pct(r.equity_ratio)}}</td>
  <td>${{num(r.net_debt_to_equity,2)}}</td>
  <td>${{["A_cycle_not_structural","B_survive_to_next_peak","C_operating_leverage_upside"]
@@ -279,6 +302,31 @@ def build_company(a: dict, market: dict) -> str:
         c = a["checklist"][key]
         return (f"<div class='card'><b class='mk {c['mark']}'>{c['mark']}</b> "
                 f"{esc(_CHECK_TITLE[key])}<div class='note'>{esc(c['note'])}</div></div>")
+
+    cp = a.get("cycle_phase")
+    cycle_block = ""
+    if cp:
+        col = {"buy": "var(--ok)", "sell": "var(--ng)"}.get(cp["zone"], "var(--sub)")
+        zone_txt = {"buy": "買い場ゾーン", "sell": "売り場ゾーン"}.get(cp["zone"], "保有ゾーン")
+        strip = "".join(
+            f"<span style=\"width:1.8rem;height:1.8rem;display:grid;place-items:center;"
+            f"border:1px solid var(--border);border-radius:.35rem;"
+            f"{'background:var(--accent);color:#fff;font-weight:700' if i + 1 == cp['num'] else 'color:var(--sub)'}\">"
+            f"{c}</span>" for i, c in enumerate('①②③④⑤⑥⑦⑧'))
+        cycle_block = f"""<h2>循環局面（推定）</h2>
+<div class="card">
+<p><b style="font-size:1.3rem;color:{col}">{esc(cp['label'])}</b>
+<span class="note">（{zone_txt}）</span></p>
+<div style="display:flex;gap:.3rem;margin:.4rem 0 .7rem">{strip}</div>
+<div class="grid">
+{kv("水準（0=谷 / 1=山）", fmt(cp['level'], digits=2))}
+{kv("方向（−1=下降 / +1=上昇）", fmt(cp['momentum'], digits=2))}
+</div>
+<p class="note">水準＝利益率・市況・株価の過去パーセンタイルの加重平均。
+方向＝売上・利益率・市況の前年比。<b>自動推定の目安</b>で、実際の局面は
+在庫循環・市況スプレッド・先物カーブで確認すること（局面の一覧は
+<a href="../index.html">一覧ページ下部の凡例</a>）。</p>
+</div>"""
 
     body = f"""
 <h1>{esc(a['code'])} {esc(a['name'])}
@@ -324,6 +372,7 @@ def build_company(a: dict, market: dict) -> str:
 </div>
 {"<table style='margin-top:.6rem'><thead><tr><th class='l'>市況</th><th>フェーズ</th><th>15年%タイル</th><th>前年比</th><th></th></tr></thead><tbody>"+phase_rows+"</tbody></table>" if phase_rows else "<p class='note'>この業種に紐づく自動取得の市況シリーズはありません。</p>"}
 </div>
+{cycle_block}
 
 <h2>構造縮小でないか（バリュートラップ判定）</h2>
 <div class="card"><div class="grid">

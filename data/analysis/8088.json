@@ -4,6 +4,14 @@
   "sector33": "卸売業",
   "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
+  "cycle_phase": {
+    "num": 6,
+    "name": "後退",
+    "label": "⑥ 後退",
+    "zone": "sell",
+    "level": 0.795,
+    "momentum": -0.266
+  },
   "as_of_price": "2026-09-07",
   "price": 2138.5,
   "market_cap_oku": 5009,

@@ -4,6 +4,14 @@
   "sector33": "輸送用機器",
   "market": "スタンダード（内国株式）",
   "profit_basis": "経常利益",
+  "cycle_phase": {
+    "num": 6,
+    "name": "後退",
+    "label": "⑥ 後退",
+    "zone": "sell",
+    "level": 0.673,
+    "momentum": -0.23
+  },
   "as_of_price": "2026-09-07",
   "price": 4025.0,
   "market_cap_oku": 145,

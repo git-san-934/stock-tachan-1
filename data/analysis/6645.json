@@ -4,6 +4,14 @@
   "sector33": "電気機器",
   "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
+  "cycle_phase": {
+    "num": 7,
+    "name": "不況",
+    "label": "⑦ 不況",
+    "zone": "buy",
+    "level": 0.362,
+    "momentum": -0.449
+  },
   "as_of_price": "2026-09-07",
   "price": 6314.0,
   "market_cap_oku": 13022,

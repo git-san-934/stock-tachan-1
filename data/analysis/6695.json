@@ -4,6 +4,14 @@
   "sector33": "電気機器",
   "market": "PRO Market",
   "profit_basis": "経常利益",
+  "cycle_phase": {
+    "num": 3,
+    "name": "拡大",
+    "label": "③ 拡大",
+    "zone": "hold",
+    "level": 0.5,
+    "momentum": 0.375
+  },
   "as_of_price": null,
   "price": null,
   "market_cap_oku": null,

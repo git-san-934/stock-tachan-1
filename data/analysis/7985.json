@@ -4,6 +4,14 @@
   "sector33": "金属製品",
   "market": "スタンダード（内国株式）",
   "profit_basis": "経常利益",
+  "cycle_phase": {
+    "num": 1,
+    "name": "底入れ",
+    "label": "① 底入れ",
+    "zone": "buy",
+    "level": 0.3,
+    "momentum": -0.029
+  },
   "as_of_price": null,
   "price": null,
   "market_cap_oku": null,

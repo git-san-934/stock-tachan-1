@@ -4,6 +4,14 @@
   "sector33": "機械",
   "market": "スタンダード（内国株式）",
   "profit_basis": "経常利益",
+  "cycle_phase": {
+    "num": 4,
+    "name": "過熱",
+    "label": "④ 過熱",
+    "zone": "sell",
+    "level": 0.848,
+    "momentum": 1.0
+  },
   "as_of_price": "2026-09-07",
   "price": 1900.0,
   "market_cap_oku": 146,

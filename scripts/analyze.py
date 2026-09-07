@@ -52,6 +52,90 @@ def _phase_score(commodities: list[str], market: dict) -> tuple[float | None, li
     return score, got
 
 
+# シクリカルバリュー投資.md の株価循環8局面
+PHASE_NAMES = {1: "底入れ", 2: "回復", 3: "拡大", 4: "過熱",
+               5: "高原", 6: "後退", 7: "不況", 8: "夜明け前"}
+PHASE_ZONE = {7: "buy", 8: "buy", 1: "buy", 2: "buy",
+              3: "hold", 4: "sell", 5: "sell", 6: "sell"}
+# 川上（素材・資源）＝ 自社の売上が商品市況に連動。川下（加工・組立）＝ 市況は原価要因。
+UPSTREAM_SECTORS = {"鉱業", "石油・石炭製品", "化学", "鉄鋼", "非鉄金属",
+                    "ガラス・土石製品", "パルプ・紙", "繊維製品", "ゴム製品", "海運業"}
+
+
+def _clip(x, lo=-1.0, hi=1.0):
+    return max(lo, min(hi, x))
+
+
+def _cycle_phase(margin_pctile, commodity_level, price_pctile,
+                 sales_yoy, margin_delta, commodity_yoy, sales_yoy_prev,
+                 *, upstream=True):
+    """8局面（①底入れ〜⑧夜明け前）を水準×方向から推定する。
+
+    水準 level: 0=谷 / 1=山（利益率・市況・株価のパーセンタイル加重平均）
+    方向 mom:  -1=下降 / +1=上昇（売上前年比・利益率変化・市況前年比の加重平均）
+    川下（加工・組立）業種では市況は自社売上に連動しないので市況項を使わない。
+    """
+    if not upstream:
+        commodity_level = None
+        commodity_yoy = None
+
+    lv, lw = 0.0, 0.0
+    for val, w in ((margin_pctile, 0.45), (commodity_level, 0.30), (price_pctile, 0.25)):
+        if val is not None:
+            lv += val * w
+            lw += w
+    if lw == 0:
+        return None
+    level = lv / lw
+
+    # 名目成長ぶん（約4%）を差し引いてから方向を測る。利益率の変化を主軸に。
+    mv, mw = 0.0, 0.0
+    for val, offset, scale, w in (
+            (sales_yoy, 0.04, 0.15, 0.25),
+            (margin_delta, 0.0, 0.025, 0.55),
+            (commodity_yoy, 0.0, 0.25, 0.35)):
+        if val is not None:
+            mv += _clip((val - offset) / scale) * w
+            mw += w
+    mom = mv / mw if mw else 0.0
+
+    improving = (sales_yoy is not None and sales_yoy_prev is not None
+                 and sales_yoy > sales_yoy_prev)
+
+    if level < 0.38:                      # 谷ゾーン
+        if mom >= 0.12:
+            n = 2                          # 回復
+        elif mom <= -0.20:
+            n = 7                          # 不況
+        elif mom <= -0.05:
+            n = 8 if improving else 7      # 夜明け前 / 不況
+        else:
+            n = 1                          # 底入れ
+    elif level < 0.66:                     # 中位ゾーン
+        if mom >= 0.15:
+            n = 3                          # 拡大
+        elif mom <= -0.15:
+            n = 6                          # 後退
+        elif mom > 0.02:
+            n = 3
+        elif level >= 0.55:
+            n = 5                          # 高原（高めで横ばい）
+        else:
+            n = 2 if mom > -0.05 else 6    # 回復 / 後退
+    else:                                  # 山ゾーン
+        if mom >= 0.25 and level >= 0.72:
+            n = 4                          # 過熱（山高で強く上昇）
+        elif mom <= -0.12:
+            n = 6                          # 後退
+        else:
+            n = 5                          # 高原
+
+    return {"num": n, "name": PHASE_NAMES[n],
+            "label": f"{'①②③④⑤⑥⑦⑧'[n-1]} {PHASE_NAMES[n]}",
+            "zone": PHASE_ZONE[n],
+            "level": round(level, 3), "momentum": round(mom, 3)}
+
+
 def analyze(code: str) -> dict | None:
     fin = read_json(DATA / code / "financials.json")
     if not fin or not fin.get("annual"):
@@ -141,6 +225,25 @@ def analyze(code: str) -> dict | None:
         price_trough,
     ]
     trough_score = _mean(trough_parts)
+
+    # ---- 循環8局面（①底入れ〜⑧夜明け前）: 表示のみ ---------------------
+    _s_yoy_full = _yoy(sales)
+    commodity_yoy = _mean([d["yoy"] for d in phase_detail
+                           if not d.get("stale") and d.get("yoy") is not None])
+    margin_delta = None
+    _m = [m for m in o_margin if m is not None]
+    if len(_m) >= 2:
+        margin_delta = _m[-1] - _m[-2]
+    cycle = _cycle_phase(
+        margin_pctile,
+        (1 - phase_score) if phase_score is not None else None,
+        prices.get("pctile_10y"),
+        _s_yoy_full[-1] if _s_yoy_full else None,
+        margin_delta,
+        commodity_yoy,
+        _s_yoy_full[-2] if len(_s_yoy_full) >= 2 else None,
+        upstream=uni.get("sector33", "") in UPSTREAM_SECTORS,
+    )
 
     # ---- 構造 vs 循環 ---------------------------------------------
     s_first = next((v for v in sales if v), None)
@@ -269,6 +372,7 @@ def analyze(code: str) -> dict | None:
     out = {
         "code": code, "name": fin.get("name", ""), "sector33": uni.get("sector33", ""),
         "market": uni.get("market", ""), "profit_basis": profit_basis,
+        "cycle_phase": cycle,
         "as_of_price": prices.get("as_of"), "price": price,
         "market_cap_oku": int(market_cap // 1e8) if market_cap else None,
         "fy_range": [fys[0], fys[-1]] if fys else None, "n_years": len(fys),

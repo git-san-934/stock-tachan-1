@@ -54,6 +54,7 @@ def run(limit: int = 0) -> dict:
             "cyclicality": a["cyclicality"]["score"],
             "trough_score": t["score"], "margin_pctile": t["margin_pctile"],
             "market_phase_score": t["market_phase_score"],
+            "cycle_phase": a.get("cycle_phase"),
             "equity_ratio": s["equity_ratio"], "net_debt_to_equity": s["net_debt_to_equity"],
             "sales_cagr": a["structural"]["sales_cagr"],
             "downside_to_liquidation": a["liquidation"]["downside_to_liquidation"],

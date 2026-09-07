@@ -4,6 +4,14 @@
   "sector33": "卸売業",
   "market": "スタンダード（内国株式）",
   "profit_basis": "経常利益",
+  "cycle_phase": {
+    "num": 5,
+    "name": "高原",
+    "label": "⑤ 高原",
+    "zone": "sell",
+    "level": 1.0,
+    "momentum": 0.165
+  },
   "as_of_price": null,
   "price": null,
   "market_cap_oku": null,

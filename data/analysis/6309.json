@@ -4,6 +4,14 @@
   "sector33": "機械",
   "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
+  "cycle_phase": {
+    "num": 5,
+    "name": "高原",
+    "label": "⑤ 高原",
+    "zone": "sell",
+    "level": 0.927,
+    "momentum": 0.189
+  },
   "as_of_price": "2026-09-07",
   "price": 2048.0,
   "market_cap_oku": 613,
