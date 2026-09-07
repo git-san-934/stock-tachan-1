@@ -1,0 +1,153 @@
+{
+  "code": "7751",
+  "name": "キヤノン株式会社",
+  "edinet_code": "E02274",
+  "latest_doc_id": "S100XTLJ",
+  "latest_period_end": "2025-12-31",
+  "shares_outstanding": 1333763464.0,
+  "annual": [
+    {
+      "fy": 2016,
+      "sales": 1763987000000.0,
+      "ordinary": 158359000000.0,
+      "net_income": 133055000000.0,
+      "equity": 1452646000000.0,
+      "assets": 3176703000000.0,
+      "equity_ratio": 0.4571,
+      "roe": 0.091,
+      "eps": 121.84,
+      "bps": 1329.75
+    },
+    {
+      "fy": 2017,
+      "sales": 1930064000000.0,
+      "ordinary": 261362000000.0,
+      "net_income": 225029000000.0,
+      "equity": 1460364000000.0,
+      "assets": 3086366000000.0,
+      "equity_ratio": 0.4732,
+      "roe": 0.155,
+      "eps": 207.32,
+      "bps": 1352.49
+    },
+    {
+      "fy": 2018,
+      "sales": 1822782000000.0,
+      "ordinary": 248630000000.0,
+      "net_income": 208921000000.0,
+      "equity": 1489315000000.0,
+      "assets": 2997395000000.0,
+      "equity_ratio": 0.4968,
+      "roe": 0.142,
+      "eps": 193.49,
+      "bps": 1379.11
+    },
+    {
+      "fy": 2019,
+      "sales": 1539271000000.0,
+      "ordinary": 102000000000.0,
+      "net_income": 90169000000.0,
+      "equity": 1358701000000.0,
+      "assets": 2928307000000.0,
+      "equity_ratio": 0.4638,
+      "roe": 0.063,
+      "eps": 84.27,
+      "bps": 1276.73
+    },
+    {
+      "fy": 2020,
+      "sales": 1255499000000.0,
+      "ordinary": 40481000000.0,
+      "net_income": 42845000000.0,
+      "equity": 1225758000000.0,
+      "assets": 2855139000000.0,
+      "equity_ratio": 0.4291,
+      "roe": 0.033,
+      "eps": 40.81,
+      "bps": 1171.59
+    },
+    {
+      "fy": 2021,
+      "sales": 1508752000000.0,
+      "ordinary": 247994000000.0,
+      "net_income": 227999000000.0,
+      "equity": 1367549000000.0,
+      "assets": 2819215000000.0,
+      "equity_ratio": 0.485,
+      "roe": 0.176,
+      "eps": 218.02,
+      "bps": 1307.1
+    },
+    {
+      "fy": 2022,
+      "sales": 1739820000000.0,
+      "ordinary": 214323000000.0,
+      "net_income": 193624000000.0,
+      "equity": 1341103000000.0,
+      "assets": 2914232000000.0,
+      "equity_ratio": 0.46,
+      "roe": 0.143,
+      "eps": 187.84,
+      "bps": 1319.84
+    },
+    {
+      "fy": 2023,
+      "sales": 1668007000000.0,
+      "ordinary": 511618000000.0,
+      "net_income": 476755000000.0,
+      "equity": 1591876000000.0,
+      "assets": 2938538000000.0,
+      "equity_ratio": 0.541,
+      "roe": 0.325,
+      "eps": 476.12,
+      "bps": 1610.54
+    },
+    {
+      "fy": 2024,
+      "sales": 1886031000000.0,
+      "ordinary": 465458000000.0,
+      "net_income": 469083000000.0,
+      "equity": 1716389000000.0,
+      "assets": 3026990000000.0,
+      "equity_ratio": 0.567,
+      "roe": 0.284,
+      "eps": 485.14,
+      "bps": 1816.9
+    },
+    {
+      "fy": 2025,
+      "sales": 1837606000000.0,
+      "ordinary": 324303000000.0,
+      "net_income": 262055000000.0,
+      "equity": 1531792000000.0,
+      "assets": 2980493000000.0,
+      "equity_ratio": 0.513,
+      "roe": 0.161,
+      "eps": 289.97,
+      "bps": 1741.54
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 20517000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 573983000000.0,
+    "intangibles": 19454000000.0,
+    "investments_other": 1685895000000.0,
+    "total_assets": 2980493000000.0,
+    "total_liabilities": 1448701000000.0,
+    "net_assets_bs": 1531792000000.0,
+    "short_loans": 627399000000.0,
+    "current_lt_loans": null,
+    "long_loans": 300000000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XTLJ",
+    "S100L2I7"
+  ]
+}

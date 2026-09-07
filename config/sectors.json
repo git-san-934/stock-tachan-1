@@ -1,0 +1,66 @@
+{
+  "_note": "東証33業種のうちシクリカルバリュー投資の対象にする業種と、各業種の市況を代表する商品市況シリーズの対応。commodity_sources のキーが fetch_market.py の取得対象。",
+
+  "cyclical_sectors": [
+    "鉱業",
+    "繊維製品",
+    "パルプ・紙",
+    "化学",
+    "石油・石炭製品",
+    "ゴム製品",
+    "ガラス・土石製品",
+    "鉄鋼",
+    "非鉄金属",
+    "金属製品",
+    "機械",
+    "電気機器",
+    "輸送用機器",
+    "精密機器",
+    "その他製品",
+    "海運業",
+    "空運業",
+    "倉庫・運輸関連業",
+    "卸売業",
+    "建設業"
+  ],
+
+  "sector_commodities": {
+    "鉱業": ["crude_brent", "coal_aus", "iron_ore"],
+    "石油・石炭製品": ["crude_brent", "coal_aus"],
+    "化学": ["crude_brent", "lng_japan"],
+    "鉄鋼": ["iron_ore", "coal_aus"],
+    "非鉄金属": ["copper", "aluminum", "nickel", "zinc"],
+    "金属製品": ["copper", "aluminum"],
+    "ガラス・土石製品": ["crude_brent", "lng_japan"],
+    "パルプ・紙": ["japan_iip", "crude_brent"],
+    "ゴム製品": ["rubber", "crude_brent"],
+    "繊維製品": ["cotton"],
+    "海運業": ["baltic_dry", "coal_aus", "iron_ore"],
+    "空運業": ["crude_brent"],
+    "機械": ["copper", "japan_iip"],
+    "電気機器": ["japan_iip", "copper"],
+    "輸送用機器": ["japan_iip", "aluminum"],
+    "精密機器": ["japan_iip"],
+    "その他製品": ["japan_iip"],
+    "倉庫・運輸関連業": ["baltic_dry", "crude_brent"],
+    "建設業": ["japan_iip"]
+  },
+
+  "commodity_sources": {
+    "crude_brent": {"provider": "fred", "series": "POILBREUSDM", "label": "原油ブレント ($/bbl, 月次)"},
+    "crude_wti":   {"provider": "fred", "series": "MCOILWTICO",  "label": "原油WTI ($/bbl, 月次)"},
+    "coal_aus":    {"provider": "fred", "series": "PCOALAUUSDM", "label": "石炭 豪州 ($/mt, 月次)"},
+    "iron_ore":    {"provider": "fred", "series": "PIORECRUSDM", "label": "鉄鉱石 中国CFR ($/dmt, 月次)"},
+    "copper":      {"provider": "fred", "series": "PCOPPUSDM",   "label": "銅 ($/mt, 月次)"},
+    "aluminum":    {"provider": "fred", "series": "PALUMUSDM",   "label": "アルミ ($/mt, 月次)"},
+    "nickel":      {"provider": "fred", "series": "PNICKUSDM",   "label": "ニッケル ($/mt, 月次)"},
+    "zinc":        {"provider": "fred", "series": "PZINCUSDM",   "label": "亜鉛 ($/mt, 月次)"},
+    "lead":        {"provider": "fred", "series": "PLEADUSDM",   "label": "鉛 ($/mt, 月次)"},
+    "tin":         {"provider": "fred", "series": "PTINUSDM",    "label": "錫 ($/mt, 月次)"},
+    "lng_japan":   {"provider": "fred", "series": "PNGASJPUSDM", "label": "LNG 日本 ($/mmbtu, 月次)"},
+    "rubber":      {"provider": "fred", "series": "PRUBBUSDM",   "label": "天然ゴム ($/kg, 月次)"},
+    "cotton":      {"provider": "fred", "series": "PCOTTINDUSDM","label": "綿花 ($/kg, 月次)"},
+    "japan_iip":   {"provider": "fred", "series": "JPNPRINTO01IXOBM", "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)"},
+    "baltic_dry":  {"provider": "manual", "series": "", "label": "海運市況 BDI（自動取得不可・手動メモ）"}
+  }
+}

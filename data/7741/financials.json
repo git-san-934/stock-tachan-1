@@ -1,0 +1,153 @@
+{
+  "code": "7741",
+  "name": "ＨＯＹＡ株式会社",
+  "edinet_code": "E01124",
+  "latest_doc_id": "S100Y90T",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 338414320.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 169887000000.0,
+      "ordinary": 92226000000.0,
+      "net_income": 85113000000.0,
+      "equity": 150249000000.0,
+      "assets": 237016000000.0,
+      "equity_ratio": 0.628,
+      "roe": 0.617,
+      "eps": 217.77,
+      "bps": 383.27
+    },
+    {
+      "fy": 2018,
+      "sales": 182385000000.0,
+      "ordinary": 146987000000.0,
+      "net_income": 127735000000.0,
+      "equity": 196689000000.0,
+      "assets": 266590000000.0,
+      "equity_ratio": 0.733,
+      "roe": 0.742,
+      "eps": 331.83,
+      "bps": 514.94
+    },
+    {
+      "fy": 2019,
+      "sales": 191861000000.0,
+      "ordinary": 80119000000.0,
+      "net_income": 63264000000.0,
+      "equity": 227895000000.0,
+      "assets": 346000000000.0,
+      "equity_ratio": 0.656,
+      "roe": 0.3,
+      "eps": 166.6,
+      "bps": 596.98
+    },
+    {
+      "fy": 2020,
+      "sales": 203868000000.0,
+      "ordinary": 80332000000.0,
+      "net_income": 65968000000.0,
+      "equity": 216457000000.0,
+      "assets": 322255000000.0,
+      "equity_ratio": 0.669,
+      "roe": 0.298,
+      "eps": 174.87,
+      "bps": 574.9
+    },
+    {
+      "fy": 2021,
+      "sales": 207700000000.0,
+      "ordinary": 123572000000.0,
+      "net_income": 107229000000.0,
+      "equity": 215237000000.0,
+      "assets": 344709000000.0,
+      "equity_ratio": 0.623,
+      "roe": 0.499,
+      "eps": 287.01,
+      "bps": 581.12
+    },
+    {
+      "fy": 2022,
+      "sales": 231650000000.0,
+      "ordinary": 221795000000.0,
+      "net_income": 193157000000.0,
+      "equity": 309480000000.0,
+      "assets": 384614000000.0,
+      "equity_ratio": 0.803,
+      "roe": 0.738,
+      "eps": 524.2,
+      "bps": 846.08
+    },
+    {
+      "fy": 2023,
+      "sales": 226077000000.0,
+      "ordinary": 201506000000.0,
+      "net_income": 177968000000.0,
+      "equity": 294216000000.0,
+      "assets": 364038000000.0,
+      "equity_ratio": 0.807,
+      "roe": 0.591,
+      "eps": 495.75,
+      "bps": 829.98
+    },
+    {
+      "fy": 2024,
+      "sales": 223724000000.0,
+      "ordinary": 65034000000.0,
+      "net_income": 47747000000.0,
+      "equity": 247599000000.0,
+      "assets": 367717000000.0,
+      "equity_ratio": 0.673,
+      "roe": 0.176,
+      "eps": 135.7,
+      "bps": 705.53
+    },
+    {
+      "fy": 2025,
+      "sales": 242671000000.0,
+      "ordinary": 359356000000.0,
+      "net_income": 334750000000.0,
+      "equity": 402348000000.0,
+      "assets": 489543000000.0,
+      "equity_ratio": 0.822,
+      "roe": 1.031,
+      "eps": 963.08,
+      "bps": 1173.42
+    },
+    {
+      "fy": 2026,
+      "sales": 255451000000.0,
+      "ordinary": 286657000000.0,
+      "net_income": 266019000000.0,
+      "equity": 406833000000.0,
+      "assets": 498809000000.0,
+      "equity_ratio": 0.815,
+      "roe": 0.658,
+      "eps": 781.95,
+      "bps": 1212.47
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 85780000000.0,
+    "receivables": null,
+    "inventories": 15291000000.0,
+    "ppe": 25908000000.0,
+    "intangibles": 860000000.0,
+    "investments_other": 268134000000.0,
+    "total_assets": 498809000000.0,
+    "total_liabilities": 91976000000.0,
+    "net_assets_bs": 406833000000.0,
+    "short_loans": null,
+    "current_lt_loans": null,
+    "long_loans": null,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100Y90T",
+    "S100LGMY"
+  ]
+}

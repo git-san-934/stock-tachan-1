@@ -1,0 +1,192 @@
+{
+  "code": "9104",
+  "name": "株式会社　商船三井",
+  "sector33": "海運業",
+  "market": "",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 7144.0,
+  "market_cap_oku": 25932.9,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      1504373000000.0,
+      1652393000000.0,
+      1234077000000.0,
+      1155404000000.0,
+      991426000000.0,
+      1269310000000.0,
+      1611984000000.0,
+      1627912000000.0,
+      1775470000000.0,
+      1825098000000.0
+    ],
+    "ordinary": [
+      25426000000.0,
+      31473000000.0,
+      38574000000.0,
+      55090000000.0,
+      133604000000.0,
+      721779000000.0,
+      811589000000.0,
+      258986000000.0,
+      419703000000.0,
+      175839000000.0
+    ],
+    "ordinary_margin": [
+      0.0169,
+      0.019,
+      0.0313,
+      0.0477,
+      0.1348,
+      0.5686,
+      0.5035,
+      0.1591,
+      0.2364,
+      0.0963
+    ],
+    "equity_ratio": [
+      0.2579,
+      0.2297,
+      0.246,
+      0.2446,
+      0.2757,
+      0.4744,
+      0.5402,
+      0.571,
+      0.539,
+      0.4821
+    ],
+    "ocf": [
+      17623000000.0,
+      98380000000.0,
+      55248000000.0,
+      100723000000.0,
+      98898000000.0,
+      307637000000.0,
+      549925000000.0,
+      314202000000.0,
+      360499000000.0,
+      450963000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.817,
+    "fixed_cost": 781250550.4,
+    "contribution_margin": 0.183,
+    "breakeven_sales": 4270096132.2,
+    "dol": 1.9,
+    "r2": 0.395,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 8.68,
+    "margin_stdev": 0.2001,
+    "has_loss_year": false,
+    "median_margin": 0.1156
+  },
+  "trough": {
+    "score": 0.25,
+    "latest_margin": 0.0963,
+    "margin_pctile": 0.5,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "coal_aus",
+        "label": "石炭 豪州 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.786,
+        "yoy": 0.207,
+        "stale": false
+      },
+      {
+        "key": "iron_ore",
+        "label": "鉄鉱石 中国CFR ($/dmt, 月次)",
+        "hint": "中立",
+        "pctile": 0.444,
+        "yoy": 0.004,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 1.0,
+    "price_drawdown_10y": 0.0
+  },
+  "structural": {
+    "sales_cagr": 0.0217,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.4821,
+    "min_equity_ratio": 0.2297,
+    "net_debt": 2058285000000.0,
+    "net_debt_to_equity": 0.7,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 363001827.0,
+    "normalized_sales": 1558178500000.0,
+    "normalized_margin": 0.1156,
+    "normalized_ordinary": 180050946440.6,
+    "normalized_eps": 347.2,
+    "normalized_per": 20.6,
+    "midcycle_per": 12.0,
+    "fair_value": 4166.4,
+    "expected_return_x": 0.58,
+    "pbr": 0.85
+  },
+  "liquidation": {
+    "value": 727869100000.0,
+    "per_share": 2005.1,
+    "downside_to_liquidation": 0.719
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 48%（最低 23%） / ネットD/E 0.7"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.9 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 34.0,
+  "passes": {
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "code": "6857",
+  "name": "株式会社アドバンテスト",
+  "edinet_code": "E01950",
+  "latest_doc_id": "S100YKTA",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 732000000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 143559000000.0,
+      "ordinary": 9851000000.0,
+      "net_income": 15238000000.0,
+      "equity": 130031000000.0,
+      "assets": 270123000000.0,
+      "equity_ratio": 0.476,
+      "roe": 0.126,
+      "eps": 86.98,
+      "bps": 727.4
+    },
+    {
+      "fy": 2018,
+      "sales": 181830000000.0,
+      "ordinary": 26709000000.0,
+      "net_income": 26302000000.0,
+      "equity": 155528000000.0,
+      "assets": 291126000000.0,
+      "equity_ratio": 0.532,
+      "roe": 0.185,
+      "eps": 148.11,
+      "bps": 865.73
+    },
+    {
+      "fy": 2019,
+      "sales": 261120000000.0,
+      "ordinary": 53164000000.0,
+      "net_income": 48310000000.0,
+      "equity": 220826000000.0,
+      "assets": 329537000000.0,
+      "equity_ratio": 0.668,
+      "roe": 0.258,
+      "eps": 256.28,
+      "bps": 1112.87
+    },
+    {
+      "fy": 2020,
+      "sales": 253795000000.0,
+      "ordinary": 59096000000.0,
+      "net_income": 55066000000.0,
+      "equity": 260243000000.0,
+      "assets": 372821000000.0,
+      "equity_ratio": 0.696,
+      "roe": 0.23,
+      "eps": 277.86,
+      "bps": 1308.66
+    },
+    {
+      "fy": 2021,
+      "sales": 271875000000.0,
+      "ordinary": 54736000000.0,
+      "net_income": 53031000000.0,
+      "equity": 285409000000.0,
+      "assets": 414128000000.0,
+      "equity_ratio": 0.688,
+      "roe": 0.195,
+      "eps": 268.91,
+      "bps": 1449.74
+    },
+    {
+      "fy": 2022,
+      "sales": 355575000000.0,
+      "ordinary": 93667000000.0,
+      "net_income": 70814000000.0,
+      "equity": 262918000000.0,
+      "assets": 459809000000.0,
+      "equity_ratio": 0.57,
+      "roe": 0.259,
+      "eps": 364.61,
+      "bps": 1380.85
+    },
+    {
+      "fy": 2023,
+      "sales": 482576000000.0,
+      "ordinary": 150368000000.0,
+      "net_income": 115834000000.0,
+      "equity": 305989000000.0,
+      "assets": 533860000000.0,
+      "equity_ratio": 0.572,
+      "roe": 0.408,
+      "eps": 154.81,
+      "bps": 414.65
+    },
+    {
+      "fy": 2024,
+      "sales": 394694000000.0,
+      "ordinary": 58068000000.0,
+      "net_income": 49394000000.0,
+      "equity": 332607000000.0,
+      "assets": 586204000000.0,
+      "equity_ratio": 0.567,
+      "roe": 0.155,
+      "eps": 66.93,
+      "bps": 450.14
+    },
+    {
+      "fy": 2025,
+      "sales": 673095000000.0,
+      "ordinary": 226951000000.0,
+      "net_income": 166854000000.0,
+      "equity": 426685000000.0,
+      "assets": 809980000000.0,
+      "equity_ratio": 0.527,
+      "roe": 0.44,
+      "eps": 226.24,
+      "bps": 581.37
+    },
+    {
+      "fy": 2026,
+      "sales": 988232000000.0,
+      "ordinary": 425372000000.0,
+      "net_income": 301335000000.0,
+      "equity": 583420000000.0,
+      "assets": 998158000000.0,
+      "equity_ratio": 0.584,
+      "roe": 0.597,
+      "eps": 413.29,
+      "bps": 804.15
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 286741000000.0,
+    "receivables": null,
+    "inventories": 25428000000.0,
+    "ppe": 25132000000.0,
+    "intangibles": 3358000000.0,
+    "investments_other": 254086000000.0,
+    "total_assets": 998158000000.0,
+    "total_liabilities": 414738000000.0,
+    "net_assets_bs": 583420000000.0,
+    "short_loans": null,
+    "current_lt_loans": null,
+    "long_loans": null,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YKTA",
+    "S100LOF7"
+  ]
+}

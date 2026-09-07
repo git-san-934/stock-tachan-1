@@ -1,0 +1,153 @@
+{
+  "code": "6981",
+  "name": "株式会社村田製作所",
+  "edinet_code": "E01914",
+  "latest_doc_id": "S100YHPY",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 1963001000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 831136000000.0,
+      "ordinary": 73134000000.0,
+      "net_income": 75754000000.0,
+      "equity": 580270000000.0,
+      "assets": 942873000000.0,
+      "equity_ratio": 0.615,
+      "roe": 0.136,
+      "eps": 118.74,
+      "bps": 909.21
+    },
+    {
+      "fy": 2018,
+      "sales": 948594000000.0,
+      "ordinary": 41193000000.0,
+      "net_income": 48095000000.0,
+      "equity": 587945000000.0,
+      "assets": 1015877000000.0,
+      "equity_ratio": 0.579,
+      "roe": 0.082,
+      "eps": 75.27,
+      "bps": 919.02
+    },
+    {
+      "fy": 2019,
+      "sales": 1053105000000.0,
+      "ordinary": 63623000000.0,
+      "net_income": 67005000000.0,
+      "equity": 595827000000.0,
+      "assets": 1053270000000.0,
+      "equity_ratio": 0.566,
+      "roe": 0.113,
+      "eps": 104.73,
+      "bps": 931.32
+    },
+    {
+      "fy": 2020,
+      "sales": 1044772000000.0,
+      "ordinary": 68629000000.0,
+      "net_income": 67669000000.0,
+      "equity": 601650000000.0,
+      "assets": 1147829000000.0,
+      "equity_ratio": 0.524,
+      "roe": 0.113,
+      "eps": 105.77,
+      "bps": 940.38
+    },
+    {
+      "fy": 2021,
+      "sales": 1107863000000.0,
+      "ordinary": 90872000000.0,
+      "net_income": 85317000000.0,
+      "equity": 623496000000.0,
+      "assets": 1268960000000.0,
+      "equity_ratio": 0.491,
+      "roe": 0.139,
+      "eps": 133.35,
+      "bps": 974.49
+    },
+    {
+      "fy": 2022,
+      "sales": 1233464000000.0,
+      "ordinary": 213786000000.0,
+      "net_income": 184784000000.0,
+      "equity": 730966000000.0,
+      "assets": 1425313000000.0,
+      "equity_ratio": 0.513,
+      "roe": 0.273,
+      "eps": 96.27,
+      "bps": 380.81
+    },
+    {
+      "fy": 2023,
+      "sales": 1069417000000.0,
+      "ordinary": 146625000000.0,
+      "net_income": 148193000000.0,
+      "equity": 707765000000.0,
+      "assets": 1311948000000.0,
+      "equity_ratio": 0.539,
+      "roe": 0.206,
+      "eps": 78.09,
+      "bps": 374.64
+    },
+    {
+      "fy": 2024,
+      "sales": 1069763000000.0,
+      "ordinary": 103760000000.0,
+      "net_income": 107807000000.0,
+      "equity": 724441000000.0,
+      "assets": 1414724000000.0,
+      "equity_ratio": 0.512,
+      "roe": 0.151,
+      "eps": 57.06,
+      "bps": 383.46
+    },
+    {
+      "fy": 2025,
+      "sales": 1106301000000.0,
+      "ordinary": 223281000000.0,
+      "net_income": 221545000000.0,
+      "equity": 762316000000.0,
+      "assets": 1452484000000.0,
+      "equity_ratio": 0.525,
+      "roe": 0.298,
+      "eps": 118.54,
+      "bps": 409.33
+    },
+    {
+      "fy": 2026,
+      "sales": 1163240000000.0,
+      "ordinary": 347006000000.0,
+      "net_income": 325746000000.0,
+      "equity": 883265000000.0,
+      "assets": 1515912000000.0,
+      "equity_ratio": 0.583,
+      "roe": 0.396,
+      "eps": 177.77,
+      "bps": 485.23
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 230049000000.0,
+    "receivables": null,
+    "inventories": 9753000000.0,
+    "ppe": 225068000000.0,
+    "intangibles": 33408000000.0,
+    "investments_other": 480181000000.0,
+    "total_assets": 1515912000000.0,
+    "total_liabilities": 632646000000.0,
+    "net_assets_bs": 883265000000.0,
+    "short_loans": 389141000000.0,
+    "current_lt_loans": 1200000000.0,
+    "long_loans": null,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YHPY",
+    "S100LPV9"
+  ]
+}

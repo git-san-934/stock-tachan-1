@@ -1,0 +1,184 @@
+{
+  "code": "1721",
+  "name": "コムシスホールディングス株式会社",
+  "sector33": "建設業",
+  "market": "",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 5438.0,
+  "market_cap_oku": 6416.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      334163000000.0,
+      380024000000.0,
+      481783000000.0,
+      560882000000.0,
+      563252000000.0,
+      589028000000.0,
+      563295000000.0,
+      571186000000.0,
+      614631000000.0,
+      630658000000.0
+    ],
+    "ordinary": [
+      25341000000.0,
+      30706000000.0,
+      36071000000.0,
+      40064000000.0,
+      42941000000.0,
+      44036000000.0,
+      30934000000.0,
+      40396000000.0,
+      46650000000.0,
+      52164000000.0
+    ],
+    "ordinary_margin": [
+      0.0758,
+      0.0808,
+      0.0749,
+      0.0714,
+      0.0762,
+      0.0748,
+      0.0549,
+      0.0707,
+      0.0759,
+      0.0827
+    ],
+    "equity_ratio": [
+      0.709,
+      0.708,
+      0.678,
+      0.683,
+      0.683,
+      0.645,
+      0.679,
+      0.703,
+      0.693,
+      0.707
+    ],
+    "ocf": [
+      12545000000.0,
+      28831000000.0,
+      8964000000.0,
+      37496000000.0,
+      25469000000.0,
+      5244000000.0,
+      61781000000.0,
+      44275000000.0,
+      16625000000.0,
+      42469000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9293,
+    "fixed_cost": -1515750490.4,
+    "contribution_margin": 0.0707,
+    "breakeven_sales": -21426573099.0,
+    "dol": 0.86,
+    "r2": 0.998,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": 1.74,
+    "margin_stdev": 0.0076,
+    "has_loss_year": false,
+    "median_margin": 0.0754
+  },
+  "trough": {
+    "score": 0.02,
+    "latest_margin": 0.0827,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.043
+  },
+  "structural": {
+    "sales_cagr": 0.0731,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.707,
+    "min_equity_ratio": 0.645,
+    "net_debt": -39620000000.0,
+    "net_debt_to_equity": -0.1,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 118000000.0,
+    "normalized_sales": 563273500000.0,
+    "normalized_margin": 0.0754,
+    "normalized_ordinary": 42443800286.4,
+    "normalized_eps": 251.79,
+    "normalized_per": 21.6,
+    "midcycle_per": 12.0,
+    "fair_value": 3021.4,
+    "expected_return_x": 0.56,
+    "pbr": 1.57
+  },
+  "liquidation": {
+    "value": 43664400000.0,
+    "per_share": 370.0,
+    "downside_to_liquidation": 0.932
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +7.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 71%（最低 64%） / ネットD/E -0.1"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.86 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 35.5,
+  "passes": {
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

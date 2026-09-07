@@ -1,0 +1,208 @@
+{
+  "code": "5714",
+  "name": "ＤＯＷＡホールディングス株式会社",
+  "sector33": "非鉄金属",
+  "market": "",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 9373.0,
+  "market_cap_oku": 5810.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      410503000000.0,
+      454754000000.0,
+      452928000000.0,
+      485130000000.0,
+      588003000000.0,
+      831794000000.0,
+      780060000000.0,
+      717194000000.0,
+      678672000000.0,
+      745410000000.0
+    ],
+    "ordinary": [
+      36504000000.0,
+      36355000000.0,
+      24309000000.0,
+      28996000000.0,
+      37200000000.0,
+      76073000000.0,
+      55501000000.0,
+      44745000000.0,
+      43598000000.0,
+      54325000000.0
+    ],
+    "ordinary_margin": [
+      0.0889,
+      0.0799,
+      0.0537,
+      0.0598,
+      0.0633,
+      0.0915,
+      0.0711,
+      0.0624,
+      0.0642,
+      0.0729
+    ],
+    "equity_ratio": [
+      0.542,
+      0.5231,
+      0.4795,
+      0.484,
+      0.444,
+      0.4769,
+      0.5263,
+      0.5895,
+      0.5915,
+      0.5734
+    ],
+    "ocf": [
+      29389000000.0,
+      11125000000.0,
+      37555000000.0,
+      55113000000.0,
+      -3088000000.0,
+      59911000000.0,
+      50725000000.0,
+      118630000000.0,
+      12827000000.0,
+      5241000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9156,
+    "fixed_cost": 8112774995.6,
+    "contribution_margin": 0.0844,
+    "breakeven_sales": 96096550687.6,
+    "dol": 1.16,
+    "r2": 0.997,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.63,
+    "margin_stdev": 0.0126,
+    "has_loss_year": false,
+    "median_margin": 0.0677
+  },
+  "trough": {
+    "score": 0.172,
+    "latest_margin": 0.0729,
+    "margin_pctile": 0.7,
+    "market_phase_score": 0.12,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      },
+      {
+        "key": "nickel",
+        "label": "ニッケル ($/mt, 月次)",
+        "hint": "中立",
+        "pctile": 0.594,
+        "yoy": 0.106,
+        "stale": false
+      },
+      {
+        "key": "zinc",
+        "label": "亜鉛 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.968,
+        "yoy": 0.301,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.155
+  },
+  "structural": {
+    "sales_cagr": 0.0685,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.5734,
+    "min_equity_ratio": 0.444,
+    "net_debt": 45674000000.0,
+    "net_debt_to_equity": 0.1,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 61989206.0,
+    "normalized_sales": 633337500000.0,
+    "normalized_margin": 0.0677,
+    "normalized_ordinary": 44107317263.6,
+    "normalized_eps": 498.07,
+    "normalized_per": 18.8,
+    "midcycle_per": 12.0,
+    "fair_value": 5976.9,
+    "expected_return_x": 0.64,
+    "pbr": 1.22
+  },
+  "liquidation": {
+    "value": 68402000000.0,
+    "per_share": 1103.5,
+    "downside_to_liquidation": 0.882
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +6.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 57%（最低 44%） / ネットD/E 0.1"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.16 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 39.3,
+  "passes": {
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "code": "8053",
+  "name": "住友商事株式会社",
+  "edinet_code": "E02528",
+  "latest_doc_id": "S100YARD",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 1211426667.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 2523023000000.0,
+      "ordinary": 101855000000.0,
+      "net_income": 111952000000.0,
+      "equity": 962127000000.0,
+      "assets": 4152593000000.0,
+      "equity_ratio": 0.231,
+      "roe": 0.122,
+      "eps": 89.69,
+      "bps": 769.89
+    },
+    {
+      "fy": 2018,
+      "sales": 2816180000000.0,
+      "ordinary": 208211000000.0,
+      "net_income": 196143000000.0,
+      "equity": 1110837000000.0,
+      "assets": 4230914000000.0,
+      "equity_ratio": 0.262,
+      "roe": 0.189,
+      "eps": 157.12,
+      "bps": 888.76
+    },
+    {
+      "fy": 2019,
+      "sales": 2353642000000.0,
+      "ordinary": 263208000000.0,
+      "net_income": 257361000000.0,
+      "equity": 1251098000000.0,
+      "assets": 4307405000000.0,
+      "equity_ratio": 0.29,
+      "roe": 0.218,
+      "eps": 206.1,
+      "bps": 1000.85
+    },
+    {
+      "fy": 2020,
+      "sales": 2021074000000.0,
+      "ordinary": 82461000000.0,
+      "net_income": 104046000000.0,
+      "equity": 1224612000000.0,
+      "assets": 4289019000000.0,
+      "equity_ratio": 0.285,
+      "roe": 0.084,
+      "eps": 83.29,
+      "bps": 979.47
+    },
+    {
+      "fy": 2021,
+      "sales": 1622317000000.0,
+      "ordinary": -105187000000.0,
+      "net_income": -125560000000.0,
+      "equity": 1053351000000.0,
+      "assets": 4174571000000.0,
+      "equity_ratio": 0.252,
+      "roe": -0.11,
+      "eps": -100.49,
+      "bps": 842.21
+    },
+    {
+      "fy": 2022,
+      "sales": 5495015000000.0,
+      "ordinary": 275466000000.0,
+      "net_income": 287902000000.0,
+      "equity": 1205666000000.0,
+      "assets": 4702441000000.0,
+      "equity_ratio": 0.256,
+      "roe": 0.255,
+      "eps": 230.35,
+      "bps": 963.97
+    },
+    {
+      "fy": 2023,
+      "sales": 6817872000000.0,
+      "ordinary": 391718000000.0,
+      "net_income": 413561000000.0,
+      "equity": 1419359000000.0,
+      "assets": 4801000000000.0,
+      "equity_ratio": 0.296,
+      "roe": 0.315,
+      "eps": 331.27,
+      "bps": 1149.68
+    },
+    {
+      "fy": 2024,
+      "sales": 6910302000000.0,
+      "ordinary": 231977000000.0,
+      "net_income": 246864000000.0,
+      "equity": 1546979000000.0,
+      "assets": 4950289000000.0,
+      "equity_ratio": 0.312,
+      "roe": 0.167,
+      "eps": 201.91,
+      "bps": 1265.66
+    },
+    {
+      "fy": 2025,
+      "sales": 7292084000000.0,
+      "ordinary": 479748000000.0,
+      "net_income": 505962000000.0,
+      "equity": 1800572000000.0,
+      "assets": 5377639000000.0,
+      "equity_ratio": 0.335,
+      "roe": 0.302,
+      "eps": 417.66,
+      "bps": 1487.77
+    },
+    {
+      "fy": 2026,
+      "sales": 7337259000000.0,
+      "ordinary": 562658000000.0,
+      "net_income": 727198000000.0,
+      "equity": 2269832000000.0,
+      "assets": 7209656000000.0,
+      "equity_ratio": 0.315,
+      "roe": 0.357,
+      "eps": 604.72,
+      "bps": 1902.9
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 262186000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 318935000000.0,
+    "intangibles": 52916000000.0,
+    "investments_other": 4105358000000.0,
+    "total_assets": 7209656000000.0,
+    "total_liabilities": 4939824000000.0,
+    "net_assets_bs": 2269832000000.0,
+    "short_loans": 500254000000.0,
+    "current_lt_loans": null,
+    "long_loans": 1988675000000.0,
+    "bonds": 774147000000.0,
+    "current_bonds": 79932000000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YARD",
+    "S100LJW1"
+  ]
+}

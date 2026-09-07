@@ -1,0 +1,105 @@
+{
+  "code": "5486",
+  "name": "日立金属株式会社",
+  "edinet_code": "E01244",
+  "latest_doc_id": "S100OBJU",
+  "latest_period_end": "2022-03-31",
+  "shares_outstanding": 428904000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 410818000000.0,
+      "ordinary": 25707000000.0,
+      "net_income": 31168000000.0,
+      "equity": 360087000000.0,
+      "assets": 713495000000.0,
+      "equity_ratio": 0.505,
+      "roe": 0.089,
+      "eps": 72.89,
+      "bps": 842.16
+    },
+    {
+      "fy": 2018,
+      "sales": 467963000000.0,
+      "ordinary": 26928000000.0,
+      "net_income": 26960000000.0,
+      "equity": 376053000000.0,
+      "assets": 720841000000.0,
+      "equity_ratio": 0.522,
+      "roe": 0.073,
+      "eps": 63.05,
+      "bps": 879.51
+    },
+    {
+      "fy": 2019,
+      "sales": 535308000000.0,
+      "ordinary": 22232000000.0,
+      "net_income": 16421000000.0,
+      "equity": 379638000000.0,
+      "assets": 739578000000.0,
+      "equity_ratio": 0.513,
+      "roe": 0.043,
+      "eps": 38.41,
+      "bps": 887.9
+    },
+    {
+      "fy": 2020,
+      "sales": 471933000000.0,
+      "ordinary": 1258000000.0,
+      "net_income": -18622000000.0,
+      "equity": 348127000000.0,
+      "assets": 664712000000.0,
+      "equity_ratio": 0.524,
+      "roe": -0.051,
+      "eps": -43.55,
+      "bps": 814.2
+    },
+    {
+      "fy": 2021,
+      "sales": 409931000000.0,
+      "ordinary": -3600000000.0,
+      "net_income": -8975000000.0,
+      "equity": 333666000000.0,
+      "assets": 670703000000.0,
+      "equity_ratio": 0.497,
+      "roe": -0.026,
+      "eps": -20.99,
+      "bps": 780.39
+    },
+    {
+      "fy": 2022,
+      "sales": 516993000000.0,
+      "ordinary": 43815000000.0,
+      "net_income": 29547000000.0,
+      "equity": 351451000000.0,
+      "assets": 711320000000.0,
+      "equity_ratio": 0.494,
+      "roe": 0.086,
+      "eps": 69.11,
+      "bps": 822.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 59558000000.0,
+    "receivables": null,
+    "inventories": 17352000000.0,
+    "ppe": 128313000000.0,
+    "intangibles": 15454000000.0,
+    "investments_other": 214362000000.0,
+    "total_assets": 711320000000.0,
+    "total_liabilities": 359869000000.0,
+    "net_assets_bs": 351451000000.0,
+    "short_loans": 73830000000.0,
+    "current_lt_loans": 10100000000.0,
+    "long_loans": 20800000000.0,
+    "bonds": 40000000000.0,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100OBJU",
+    "S100LKIG"
+  ]
+}

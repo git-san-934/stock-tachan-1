@@ -1,0 +1,153 @@
+{
+  "code": "4901",
+  "name": "富士フイルムホールディングス株式会社",
+  "edinet_code": "E00988",
+  "latest_doc_id": "S100YIBH",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 1243877000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 29646000000.0,
+      "ordinary": 39080000000.0,
+      "net_income": 34023000000.0,
+      "equity": 1380484000000.0,
+      "assets": 1968036000000.0,
+      "equity_ratio": 0.699,
+      "roe": 0.025,
+      "eps": 76.65,
+      "bps": 3142.76
+    },
+    {
+      "fy": 2018,
+      "sales": 46321000000.0,
+      "ordinary": 69535000000.0,
+      "net_income": 62308000000.0,
+      "equity": 1372846000000.0,
+      "assets": 1861275000000.0,
+      "equity_ratio": 0.735,
+      "roe": 0.046,
+      "eps": 142.88,
+      "bps": 3181.4
+    },
+    {
+      "fy": 2019,
+      "sales": 72382000000.0,
+      "ordinary": 64974000000.0,
+      "net_income": 65240000000.0,
+      "equity": 1091421000000.0,
+      "assets": 1707924000000.0,
+      "equity_ratio": 0.637,
+      "roe": 0.06,
+      "eps": 154.38,
+      "bps": 2656.98
+    },
+    {
+      "fy": 2020,
+      "sales": 60391000000.0,
+      "ordinary": 240630000000.0,
+      "net_income": 254448000000.0,
+      "equity": 1251907000000.0,
+      "assets": 1852948000000.0,
+      "equity_ratio": 0.673,
+      "roe": 0.218,
+      "eps": 623.32,
+      "bps": 3121.02
+    },
+    {
+      "fy": 2021,
+      "sales": 30995000000.0,
+      "ordinary": 26584000000.0,
+      "net_income": 26234000000.0,
+      "equity": 1252676000000.0,
+      "assets": 1741422000000.0,
+      "equity_ratio": 0.717,
+      "roe": 0.021,
+      "eps": 65.62,
+      "bps": 3121.03
+    },
+    {
+      "fy": 2022,
+      "sales": 43862000000.0,
+      "ordinary": 34482000000.0,
+      "net_income": 32685000000.0,
+      "equity": 1243055000000.0,
+      "assets": 1695782000000.0,
+      "equity_ratio": 0.731,
+      "roe": 0.026,
+      "eps": 27.21,
+      "bps": 1031.28
+    },
+    {
+      "fy": 2023,
+      "sales": 17493000000.0,
+      "ordinary": 16991000000.0,
+      "net_income": 13276000000.0,
+      "equity": 1205401000000.0,
+      "assets": 1634365000000.0,
+      "equity_ratio": 0.736,
+      "roe": 0.011,
+      "eps": 11.04,
+      "bps": 999.66
+    },
+    {
+      "fy": 2024,
+      "sales": 19062000000.0,
+      "ordinary": 8572000000.0,
+      "net_income": 6431000000.0,
+      "equity": 1167563000000.0,
+      "assets": 1896300000000.0,
+      "equity_ratio": 0.615,
+      "roe": 0.005,
+      "eps": 5.34,
+      "bps": 968.06
+    },
+    {
+      "fy": 2025,
+      "sales": 41979000000.0,
+      "ordinary": 5977000000.0,
+      "net_income": 5197000000.0,
+      "equity": 1102203000000.0,
+      "assets": 2025160000000.0,
+      "equity_ratio": 0.543,
+      "roe": 0.005,
+      "eps": 4.32,
+      "bps": 913.43
+    },
+    {
+      "fy": 2026,
+      "sales": 46064000000.0,
+      "ordinary": 18927000000.0,
+      "net_income": 14119000000.0,
+      "equity": 1025287000000.0,
+      "assets": 2159749000000.0,
+      "equity_ratio": 0.474,
+      "roe": 0.013,
+      "eps": 11.72,
+      "bps": 849.38
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 556000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 959000000.0,
+    "intangibles": 9059000000.0,
+    "investments_other": 1290154000000.0,
+    "total_assets": 2159749000000.0,
+    "total_liabilities": 1134461000000.0,
+    "net_assets_bs": 1025287000000.0,
+    "short_loans": 475956000000.0,
+    "current_lt_loans": 25000000000.0,
+    "long_loans": 220000000000.0,
+    "bonds": 380000000000.0,
+    "current_bonds": 10000000000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YIBH",
+    "S100LV2D"
+  ]
+}

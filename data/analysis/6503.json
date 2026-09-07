@@ -1,0 +1,192 @@
+{
+  "code": "6503",
+  "name": "三菱電機株式会社",
+  "sector33": "電気機器",
+  "market": "",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 5370.0,
+  "market_cap_oku": 113478.9,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      2576296000000.0,
+      2675821000000.0,
+      2717760000000.0,
+      2639209000000.0,
+      2459282000000.0,
+      2557436000000.0,
+      2712165000000.0,
+      2682655000000.0,
+      2070072000000.0,
+      2355541000000.0
+    ],
+    "ordinary": [
+      124840000000.0,
+      214193000000.0,
+      184441000000.0,
+      143216000000.0,
+      177521000000.0,
+      172920000000.0,
+      163372000000.0,
+      225149000000.0,
+      279433000000.0,
+      461031000000.0
+    ],
+    "ordinary_margin": [
+      0.0485,
+      0.08,
+      0.0679,
+      0.0543,
+      0.0722,
+      0.0676,
+      0.0602,
+      0.0839,
+      0.135,
+      0.1957
+    ],
+    "equity_ratio": [
+      0.381,
+      0.417,
+      0.437,
+      0.447,
+      0.478,
+      0.486,
+      0.497,
+      0.508,
+      0.528,
+      0.503
+    ],
+    "ocf": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.2,
+    "fixed_cost": -875100532620.7,
+    "contribution_margin": -0.2,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.908,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 3.31,
+    "margin_stdev": 0.0452,
+    "has_loss_year": false,
+    "median_margin": 0.07
+  },
+  "trough": {
+    "score": 0.04,
+    "latest_margin": 0.1957,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.95,
+    "price_drawdown_10y": 0.181
+  },
+  "structural": {
+    "sales_cagr": -0.0099,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.503,
+    "min_equity_ratio": 0.381,
+    "net_debt": 641362000000.0,
+    "net_debt_to_equity": 0.33,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 2113201000.0,
+    "normalized_sales": 2607752500000.0,
+    "normalized_margin": 0.07,
+    "normalized_ordinary": 182606769066.6,
+    "normalized_eps": 60.49,
+    "normalized_per": 88.8,
+    "midcycle_per": 12.0,
+    "fair_value": 725.9,
+    "expected_return_x": 0.14,
+    "pbr": 5.7
+  },
+  "liquidation": {
+    "value": -465185700000.0,
+    "per_share": -220.1,
+    "downside_to_liquidation": 1.041
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR -1.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 50%（最低 38%） / ネットD/E 0.33"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.1倍"
+    }
+  },
+  "auto_score": 33.0,
+  "passes": {
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

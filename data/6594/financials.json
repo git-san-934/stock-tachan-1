@@ -1,0 +1,141 @@
+{
+  "code": "6594",
+  "name": "ニデック株式会社",
+  "edinet_code": "E01975",
+  "latest_doc_id": "S100WRH7",
+  "latest_period_end": "2025-03-31",
+  "shares_outstanding": 1192569000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 218682000000.0,
+      "ordinary": 10558000000.0,
+      "net_income": 7808000000.0,
+      "equity": 334814000000.0,
+      "assets": 867645000000.0,
+      "equity_ratio": 0.386,
+      "roe": 0.023,
+      "eps": 13.16,
+      "bps": 564.43
+    },
+    {
+      "fy": 2018,
+      "sales": 225793000000.0,
+      "ordinary": 16947000000.0,
+      "net_income": 16715000000.0,
+      "equity": 318857000000.0,
+      "assets": 904890000000.0,
+      "equity_ratio": 0.352,
+      "roe": 0.051,
+      "eps": 28.23,
+      "bps": 538.68
+    },
+    {
+      "fy": 2019,
+      "sales": 222217000000.0,
+      "ordinary": 49213000000.0,
+      "net_income": 48417000000.0,
+      "equity": 309867000000.0,
+      "assets": 983178000000.0,
+      "equity_ratio": 0.315,
+      "roe": 0.154,
+      "eps": 82.12,
+      "bps": 526.46
+    },
+    {
+      "fy": 2020,
+      "sales": 190206000000.0,
+      "ordinary": 31845000000.0,
+      "net_income": 31027000000.0,
+      "equity": 288888000000.0,
+      "assets": 1183299000000.0,
+      "equity_ratio": 0.244,
+      "roe": 0.104,
+      "eps": 52.74,
+      "bps": 493.19
+    },
+    {
+      "fy": 2021,
+      "sales": 200138000000.0,
+      "ordinary": 45646000000.0,
+      "net_income": 41572000000.0,
+      "equity": 298063000000.0,
+      "assets": 1307494000000.0,
+      "equity_ratio": 0.228,
+      "roe": 0.142,
+      "eps": 35.49,
+      "bps": 254.44
+    },
+    {
+      "fy": 2022,
+      "sales": 198127000000.0,
+      "ordinary": 47695000000.0,
+      "net_income": 45079000000.0,
+      "equity": 250330000000.0,
+      "assets": 1403315000000.0,
+      "equity_ratio": 0.178,
+      "roe": 0.164,
+      "eps": 38.58,
+      "bps": 215.7
+    },
+    {
+      "fy": 2023,
+      "sales": 199470000000.0,
+      "ordinary": 84171000000.0,
+      "net_income": 77294000000.0,
+      "equity": 240793000000.0,
+      "assets": 1471552000000.0,
+      "equity_ratio": 0.164,
+      "roe": 0.315,
+      "eps": 67.15,
+      "bps": 209.47
+    },
+    {
+      "fy": 2024,
+      "sales": 222138000000.0,
+      "ordinary": 164990000000.0,
+      "net_income": 135748000000.0,
+      "equity": 339520000000.0,
+      "assets": 1691144000000.0,
+      "equity_ratio": 0.201,
+      "roe": 0.468,
+      "eps": 118.12,
+      "bps": 295.44
+    },
+    {
+      "fy": 2025,
+      "sales": 253299000000.0,
+      "ordinary": 60115000000.0,
+      "net_income": 55171000000.0,
+      "equity": 339045000000.0,
+      "assets": 1801917000000.0,
+      "equity_ratio": 0.188,
+      "roe": 0.163,
+      "eps": 48.02,
+      "bps": 295.77
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 204314000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 56274000000.0,
+    "intangibles": 3286000000.0,
+    "investments_other": 1271002000000.0,
+    "total_assets": 1801917000000.0,
+    "total_liabilities": 1462872000000.0,
+    "net_assets_bs": 339045000000.0,
+    "short_loans": 781586000000.0,
+    "current_lt_loans": 20000000000.0,
+    "long_loans": 186000000000.0,
+    "bonds": 90000000000.0,
+    "current_bonds": 131040000000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100WRH7",
+    "S100LMP5"
+  ]
+}

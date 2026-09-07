@@ -1,0 +1,153 @@
+{
+  "code": "6752",
+  "name": "パナソニックホールディングス株式会社",
+  "edinet_code": "E01772",
+  "latest_doc_id": "S100YETA",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 2454531000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 3655233000000.0,
+      "ordinary": 247651000000.0,
+      "net_income": 443416000000.0,
+      "equity": 1259685000000.0,
+      "assets": 4099204000000.0,
+      "equity_ratio": 0.307,
+      "roe": 0.415,
+      "eps": 190.97,
+      "bps": 539.73
+    },
+    {
+      "fy": 2018,
+      "sales": 4056083000000.0,
+      "ordinary": 321023000000.0,
+      "net_income": 176054000000.0,
+      "equity": 1388655000000.0,
+      "assets": 4436635000000.0,
+      "equity_ratio": 0.313,
+      "roe": 0.133,
+      "eps": 75.48,
+      "bps": 594.87
+    },
+    {
+      "fy": 2019,
+      "sales": 4255215000000.0,
+      "ordinary": 165210000000.0,
+      "net_income": 139098000000.0,
+      "equity": 1439139000000.0,
+      "assets": 4438409000000.0,
+      "equity_ratio": 0.324,
+      "roe": 0.098,
+      "eps": 59.64,
+      "bps": 616.38
+    },
+    {
+      "fy": 2020,
+      "sales": 4058822000000.0,
+      "ordinary": 137332000000.0,
+      "net_income": 155528000000.0,
+      "equity": 1518010000000.0,
+      "assets": 4432684000000.0,
+      "equity_ratio": 0.342,
+      "roe": 0.105,
+      "eps": 66.67,
+      "bps": 650.16
+    },
+    {
+      "fy": 2021,
+      "sales": 3812591000000.0,
+      "ordinary": 137102000000.0,
+      "net_income": 78792000000.0,
+      "equity": 1545228000000.0,
+      "assets": 4482166000000.0,
+      "equity_ratio": 0.345,
+      "roe": 0.051,
+      "eps": 33.77,
+      "bps": 661.79
+    },
+    {
+      "fy": 2022,
+      "sales": 2755967000000.0,
+      "ordinary": 126896000000.0,
+      "net_income": 86573000000.0,
+      "equity": 1585353000000.0,
+      "assets": 5327546000000.0,
+      "equity_ratio": 0.297,
+      "roe": 0.055,
+      "eps": 37.1,
+      "bps": 678.94
+    },
+    {
+      "fy": 2023,
+      "sales": 8378942000000.0,
+      "ordinary": 109660000000.0,
+      "net_income": 66610000000.0,
+      "equity": 1591098000000.0,
+      "assets": 3958577000000.0,
+      "equity_ratio": 0.402,
+      "roe": 0.042,
+      "eps": 28.54,
+      "bps": 681.37
+    },
+    {
+      "fy": 2024,
+      "sales": 8496420000000.0,
+      "ordinary": 110368000000.0,
+      "net_income": 52752000000.0,
+      "equity": 1561071000000.0,
+      "assets": 4361539000000.0,
+      "equity_ratio": 0.358,
+      "roe": 0.033,
+      "eps": 22.6,
+      "bps": 668.47
+    },
+    {
+      "fy": 2025,
+      "sales": 8458185000000.0,
+      "ordinary": 128464000000.0,
+      "net_income": 39732000000.0,
+      "equity": 1500231000000.0,
+      "assets": 4417684000000.0,
+      "equity_ratio": 0.339,
+      "roe": 0.026,
+      "eps": 17.02,
+      "bps": 642.38
+    },
+    {
+      "fy": 2026,
+      "sales": 8048722000000.0,
+      "ordinary": 106269000000.0,
+      "net_income": 12493000000.0,
+      "equity": 1392988000000.0,
+      "assets": 4629010000000.0,
+      "equity_ratio": 0.301,
+      "roe": 0.009,
+      "eps": 5.35,
+      "bps": 596.43
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 7536000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 251706000000.0,
+    "intangibles": 2710000000.0,
+    "investments_other": 4114658000000.0,
+    "total_assets": 4629010000000.0,
+    "total_liabilities": 3236022000000.0,
+    "net_assets_bs": 1392988000000.0,
+    "short_loans": null,
+    "current_lt_loans": null,
+    "long_loans": 25000000000.0,
+    "bonds": 1114800000000.0,
+    "current_bonds": 130000000000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YETA",
+    "S100LP1N"
+  ]
+}

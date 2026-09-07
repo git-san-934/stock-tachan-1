@@ -1,0 +1,83 @@
+{
+  "code": "9147",
+  "name": "NIPPON EXPRESSホールディングス株式会社",
+  "edinet_code": "E36706",
+  "latest_doc_id": "S100XTG8",
+  "latest_period_end": "2025-12-31",
+  "shares_outstanding": 243000000.0,
+  "annual": [
+    {
+      "fy": 2022,
+      "sales": 2619746000000.0,
+      "ordinary": 137323000000.0,
+      "net_income": 109809000000.0,
+      "equity": 771274000000.0,
+      "assets": 1730922000000.0,
+      "equity_ratio": 0.432,
+      "roe": 0.159,
+      "eps": 406.3,
+      "bps": 2797.32,
+      "ocf": 241107000000.0,
+      "cash": 274075000000.0
+    },
+    {
+      "fy": 2023,
+      "sales": 2239017000000.0,
+      "ordinary": 50028000000.0,
+      "net_income": 49793000000.0,
+      "equity": 436068000000.0,
+      "assets": 652556000000.0,
+      "equity_ratio": 0.668,
+      "roe": 0.115,
+      "eps": 187.51,
+      "bps": 1652.9
+    },
+    {
+      "fy": 2024,
+      "sales": 2577643000000.0,
+      "ordinary": 22816000000.0,
+      "net_income": 37413000000.0,
+      "equity": 428622000000.0,
+      "assets": 666921000000.0,
+      "equity_ratio": 0.643,
+      "roe": 0.087,
+      "eps": 143.2,
+      "bps": 1649.81
+    },
+    {
+      "fy": 2025,
+      "sales": 2574826000000.0,
+      "ordinary": 21117000000.0,
+      "net_income": 23824000000.0,
+      "equity": 372990000000.0,
+      "assets": 688095000000.0,
+      "equity_ratio": 0.542,
+      "roe": 0.059,
+      "eps": 95.43,
+      "bps": 1538.19
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 4772000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 232000000.0,
+    "intangibles": 3867000000.0,
+    "investments_other": 630174000000.0,
+    "total_assets": 688095000000.0,
+    "total_liabilities": 315105000000.0,
+    "net_assets_bs": 372990000000.0,
+    "short_loans": null,
+    "current_lt_loans": null,
+    "long_loans": null,
+    "bonds": 110000000000.0,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XTG8",
+    "S100QHYM"
+  ]
+}

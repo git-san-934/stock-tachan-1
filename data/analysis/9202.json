@@ -1,0 +1,184 @@
+{
+  "code": "9202",
+  "name": "ＡＮＡホールディングス株式会社",
+  "sector33": "空運業",
+  "market": "",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3000.0,
+  "market_cap_oku": 14528.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      1765259000000.0,
+      1971799000000.0,
+      2058312000000.0,
+      1974216000000.0,
+      728683000000.0,
+      1020324000000.0,
+      1707484000000.0,
+      2055928000000.0,
+      2261856000000.0,
+      2539233000000.0
+    ],
+    "ordinary": [
+      140375000000.0,
+      160636000000.0,
+      156681000000.0,
+      59358000000.0,
+      -451355000000.0,
+      -184935000000.0,
+      111810000000.0,
+      207656000000.0,
+      200086000000.0,
+      219651000000.0
+    ],
+    "ordinary_margin": [
+      0.0795,
+      0.0815,
+      0.0761,
+      0.0301,
+      -0.6194,
+      -0.1813,
+      0.0655,
+      0.101,
+      0.0885,
+      0.0865
+    ],
+    "equity_ratio": [
+      0.397,
+      0.386,
+      0.409,
+      0.414,
+      0.314,
+      0.248,
+      0.256,
+      0.293,
+      0.312,
+      0.377
+    ],
+    "ocf": [
+      237084000000.0,
+      316014000000.0,
+      296148000000.0,
+      130169000000.0,
+      -270441000000.0,
+      -76413000000.0,
+      449822000000.0,
+      420622000000.0,
+      373034000000.0,
+      443459000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.6342,
+    "fixed_cost": 599472968365.9,
+    "contribution_margin": 0.3658,
+    "breakeven_sales": 1638825347729.2,
+    "dol": 4.23,
+    "r2": 0.953,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 1.0,
+    "elasticity": 8.19,
+    "margin_stdev": 0.2266,
+    "has_loss_year": true,
+    "median_margin": 0.0778
+  },
+  "trough": {
+    "score": 0.347,
+    "latest_margin": 0.0865,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.62,
+    "price_drawdown_10y": 0.301
+  },
+  "structural": {
+    "sales_cagr": 0.0412,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.377,
+    "min_equity_ratio": 0.248,
+    "net_debt": 461862000000.0,
+    "net_debt_to_equity": 0.31,
+    "survive_years_if_loss": 1.7
+  },
+  "valuation": {
+    "shares_outstanding": 484293561.0,
+    "normalized_sales": 1973007500000.0,
+    "normalized_margin": 0.0778,
+    "normalized_ordinary": 137897306581.6,
+    "normalized_eps": 199.32,
+    "normalized_per": 15.1,
+    "midcycle_per": 12.0,
+    "fair_value": 2391.8,
+    "expected_return_x": 0.8,
+    "pbr": 1.05
+  },
+  "liquidation": {
+    "value": -558116600000.0,
+    "per_share": -1152.4,
+    "downside_to_liquidation": 1.384
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +4.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 38%（最低 25%） / ネットD/E 0.31"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 4.23 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 35.6,
+  "passes": {
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

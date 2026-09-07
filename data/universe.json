@@ -1,0 +1,1075 @@
+[
+  {
+    "code": "1518",
+    "name": "三井松島ホールディングス",
+    "sector33": "鉱業",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "coal_aus",
+      "iron_ore"
+    ]
+  },
+  {
+    "code": "1605",
+    "name": "INPEX",
+    "sector33": "鉱業",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "coal_aus",
+      "iron_ore"
+    ]
+  },
+  {
+    "code": "1721",
+    "name": "コムシスホールディングス",
+    "sector33": "建設業",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "1801",
+    "name": "大成建設",
+    "sector33": "建設業",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "1802",
+    "name": "大林組",
+    "sector33": "建設業",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "1803",
+    "name": "清水建設",
+    "sector33": "建設業",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "1808",
+    "name": "長谷工コーポレーション",
+    "sector33": "建設業",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "1812",
+    "name": "鹿島建設",
+    "sector33": "建設業",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "1928",
+    "name": "積水ハウス",
+    "sector33": "建設業",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "3401",
+    "name": "帝人",
+    "sector33": "繊維製品",
+    "market": "",
+    "commodities": [
+      "cotton"
+    ]
+  },
+  {
+    "code": "3402",
+    "name": "東レ",
+    "sector33": "繊維製品",
+    "market": "",
+    "commodities": [
+      "cotton"
+    ]
+  },
+  {
+    "code": "3861",
+    "name": "王子ホールディングス",
+    "sector33": "パルプ・紙",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "crude_brent"
+    ]
+  },
+  {
+    "code": "3863",
+    "name": "日本製紙",
+    "sector33": "パルプ・紙",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "crude_brent"
+    ]
+  },
+  {
+    "code": "4004",
+    "name": "レゾナック・ホールディングス",
+    "sector33": "化学",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "4005",
+    "name": "住友化学",
+    "sector33": "化学",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "4021",
+    "name": "日産化学",
+    "sector33": "化学",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "4042",
+    "name": "東ソー",
+    "sector33": "化学",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "4061",
+    "name": "デンカ",
+    "sector33": "化学",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "4063",
+    "name": "信越化学工業",
+    "sector33": "化学",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "4183",
+    "name": "三井化学",
+    "sector33": "化学",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "4188",
+    "name": "三菱ケミカルグループ",
+    "sector33": "化学",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "4208",
+    "name": "UBE",
+    "sector33": "化学",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "4272",
+    "name": "日本化薬",
+    "sector33": "化学",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "4901",
+    "name": "富士フイルムホールディングス",
+    "sector33": "化学",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "5019",
+    "name": "出光興産",
+    "sector33": "石油・石炭製品",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "coal_aus"
+    ]
+  },
+  {
+    "code": "5020",
+    "name": "ENEOSホールディングス",
+    "sector33": "石油・石炭製品",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "coal_aus"
+    ]
+  },
+  {
+    "code": "5101",
+    "name": "横浜ゴム",
+    "sector33": "ゴム製品",
+    "market": "",
+    "commodities": [
+      "rubber",
+      "crude_brent"
+    ]
+  },
+  {
+    "code": "5108",
+    "name": "ブリヂストン",
+    "sector33": "ゴム製品",
+    "market": "",
+    "commodities": [
+      "rubber",
+      "crude_brent"
+    ]
+  },
+  {
+    "code": "5201",
+    "name": "AGC",
+    "sector33": "ガラス・土石製品",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "5214",
+    "name": "日本電気硝子",
+    "sector33": "ガラス・土石製品",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "5233",
+    "name": "太平洋セメント",
+    "sector33": "ガラス・土石製品",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "5301",
+    "name": "東海カーボン",
+    "sector33": "ガラス・土石製品",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "5332",
+    "name": "TOTO",
+    "sector33": "ガラス・土石製品",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "5333",
+    "name": "日本碍子",
+    "sector33": "ガラス・土石製品",
+    "market": "",
+    "commodities": [
+      "crude_brent",
+      "lng_japan"
+    ]
+  },
+  {
+    "code": "5401",
+    "name": "日本製鉄",
+    "sector33": "鉄鋼",
+    "market": "",
+    "commodities": [
+      "iron_ore",
+      "coal_aus"
+    ]
+  },
+  {
+    "code": "5406",
+    "name": "神戸製鋼所",
+    "sector33": "鉄鋼",
+    "market": "",
+    "commodities": [
+      "iron_ore",
+      "coal_aus"
+    ]
+  },
+  {
+    "code": "5411",
+    "name": "JFEホールディングス",
+    "sector33": "鉄鋼",
+    "market": "",
+    "commodities": [
+      "iron_ore",
+      "coal_aus"
+    ]
+  },
+  {
+    "code": "5423",
+    "name": "東京製鐵",
+    "sector33": "鉄鋼",
+    "market": "",
+    "commodities": [
+      "iron_ore",
+      "coal_aus"
+    ]
+  },
+  {
+    "code": "5471",
+    "name": "大同特殊鋼",
+    "sector33": "鉄鋼",
+    "market": "",
+    "commodities": [
+      "iron_ore",
+      "coal_aus"
+    ]
+  },
+  {
+    "code": "5486",
+    "name": "日立金属",
+    "sector33": "鉄鋼",
+    "market": "",
+    "commodities": [
+      "iron_ore",
+      "coal_aus"
+    ]
+  },
+  {
+    "code": "5541",
+    "name": "大平洋金属",
+    "sector33": "鉄鋼",
+    "market": "",
+    "commodities": [
+      "iron_ore",
+      "coal_aus"
+    ]
+  },
+  {
+    "code": "5711",
+    "name": "三菱マテリアル",
+    "sector33": "非鉄金属",
+    "market": "",
+    "commodities": [
+      "copper",
+      "aluminum",
+      "nickel",
+      "zinc"
+    ]
+  },
+  {
+    "code": "5713",
+    "name": "住友金属鉱山",
+    "sector33": "非鉄金属",
+    "market": "",
+    "commodities": [
+      "copper",
+      "aluminum",
+      "nickel",
+      "zinc"
+    ]
+  },
+  {
+    "code": "5714",
+    "name": "DOWAホールディングス",
+    "sector33": "非鉄金属",
+    "market": "",
+    "commodities": [
+      "copper",
+      "aluminum",
+      "nickel",
+      "zinc"
+    ]
+  },
+  {
+    "code": "5801",
+    "name": "古河電気工業",
+    "sector33": "非鉄金属",
+    "market": "",
+    "commodities": [
+      "copper",
+      "aluminum",
+      "nickel",
+      "zinc"
+    ]
+  },
+  {
+    "code": "5802",
+    "name": "住友電気工業",
+    "sector33": "非鉄金属",
+    "market": "",
+    "commodities": [
+      "copper",
+      "aluminum",
+      "nickel",
+      "zinc"
+    ]
+  },
+  {
+    "code": "5803",
+    "name": "フジクラ",
+    "sector33": "非鉄金属",
+    "market": "",
+    "commodities": [
+      "copper",
+      "aluminum",
+      "nickel",
+      "zinc"
+    ]
+  },
+  {
+    "code": "5901",
+    "name": "東洋製罐グループホールディングス",
+    "sector33": "金属製品",
+    "market": "",
+    "commodities": [
+      "copper",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "5991",
+    "name": "ニッパツ",
+    "sector33": "金属製品",
+    "market": "",
+    "commodities": [
+      "copper",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "6103",
+    "name": "オークマ",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6113",
+    "name": "アマダ",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6273",
+    "name": "SMC",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6301",
+    "name": "小松製作所",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6302",
+    "name": "住友重機械工業",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6305",
+    "name": "日立建機",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6326",
+    "name": "クボタ",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6361",
+    "name": "荏原製作所",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6367",
+    "name": "ダイキン工業",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6471",
+    "name": "日本精工",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6472",
+    "name": "NTN",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6473",
+    "name": "ジェイテクト",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "6501",
+    "name": "日立製作所",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6503",
+    "name": "三菱電機",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6504",
+    "name": "富士電機",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6506",
+    "name": "安川電機",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6594",
+    "name": "ニデック",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6702",
+    "name": "富士通",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6752",
+    "name": "パナソニックホールディングス",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6758",
+    "name": "ソニーグループ",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6762",
+    "name": "TDK",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6857",
+    "name": "アドバンテスト",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6902",
+    "name": "デンソー",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "6952",
+    "name": "カシオ計算機",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6954",
+    "name": "ファナック",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6976",
+    "name": "太陽誘電",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "6981",
+    "name": "村田製作所",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "7003",
+    "name": "三井E&S",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "7004",
+    "name": "日立造船",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "7011",
+    "name": "三菱重工業",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "7012",
+    "name": "川崎重工業",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "7013",
+    "name": "IHI",
+    "sector33": "機械",
+    "market": "",
+    "commodities": [
+      "copper",
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "7201",
+    "name": "日産自動車",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "7202",
+    "name": "いすゞ自動車",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "7203",
+    "name": "トヨタ自動車",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "7205",
+    "name": "日野自動車",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "7211",
+    "name": "三菱自動車工業",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "7261",
+    "name": "マツダ",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "7267",
+    "name": "ホンダ",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "7269",
+    "name": "スズキ",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "7270",
+    "name": "SUBARU",
+    "sector33": "輸送用機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "aluminum"
+    ]
+  },
+  {
+    "code": "7731",
+    "name": "ニコン",
+    "sector33": "精密機器",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "7733",
+    "name": "オリンパス",
+    "sector33": "精密機器",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "7741",
+    "name": "HOYA",
+    "sector33": "精密機器",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "7751",
+    "name": "キヤノン",
+    "sector33": "電気機器",
+    "market": "",
+    "commodities": [
+      "japan_iip",
+      "copper"
+    ]
+  },
+  {
+    "code": "7911",
+    "name": "TOPPANホールディングス",
+    "sector33": "その他製品",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "7912",
+    "name": "大日本印刷",
+    "sector33": "その他製品",
+    "market": "",
+    "commodities": [
+      "japan_iip"
+    ]
+  },
+  {
+    "code": "8001",
+    "name": "伊藤忠商事",
+    "sector33": "卸売業",
+    "market": "",
+    "commodities": []
+  },
+  {
+    "code": "8002",
+    "name": "丸紅",
+    "sector33": "卸売業",
+    "market": "",
+    "commodities": []
+  },
+  {
+    "code": "8015",
+    "name": "豊田通商",
+    "sector33": "卸売業",
+    "market": "",
+    "commodities": []
+  },
+  {
+    "code": "8031",
+    "name": "三井物産",
+    "sector33": "卸売業",
+    "market": "",
+    "commodities": []
+  },
+  {
+    "code": "8053",
+    "name": "住友商事",
+    "sector33": "卸売業",
+    "market": "",
+    "commodities": []
+  },
+  {
+    "code": "8058",
+    "name": "三菱商事",
+    "sector33": "卸売業",
+    "market": "",
+    "commodities": []
+  },
+  {
+    "code": "9101",
+    "name": "日本郵船",
+    "sector33": "海運業",
+    "market": "",
+    "commodities": [
+      "baltic_dry",
+      "coal_aus",
+      "iron_ore"
+    ]
+  },
+  {
+    "code": "9104",
+    "name": "商船三井",
+    "sector33": "海運業",
+    "market": "",
+    "commodities": [
+      "baltic_dry",
+      "coal_aus",
+      "iron_ore"
+    ]
+  },
+  {
+    "code": "9107",
+    "name": "川崎汽船",
+    "sector33": "海運業",
+    "market": "",
+    "commodities": [
+      "baltic_dry",
+      "coal_aus",
+      "iron_ore"
+    ]
+  },
+  {
+    "code": "9147",
+    "name": "NIPPON EXPRESSホールディングス",
+    "sector33": "倉庫・運輸関連業",
+    "market": "",
+    "commodities": [
+      "baltic_dry",
+      "crude_brent"
+    ]
+  },
+  {
+    "code": "9201",
+    "name": "日本航空",
+    "sector33": "空運業",
+    "market": "",
+    "commodities": [
+      "crude_brent"
+    ]
+  },
+  {
+    "code": "9202",
+    "name": "ANAホールディングス",
+    "sector33": "空運業",
+    "market": "",
+    "commodities": [
+      "crude_brent"
+    ]
+  },
+  {
+    "code": "9301",
+    "name": "三菱倉庫",
+    "sector33": "倉庫・運輸関連業",
+    "market": "",
+    "commodities": [
+      "baltic_dry",
+      "crude_brent"
+    ]
+  }
+]

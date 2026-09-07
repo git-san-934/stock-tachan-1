@@ -1,0 +1,153 @@
+{
+  "code": "6305",
+  "name": "日立建機株式会社",
+  "edinet_code": "E01585",
+  "latest_doc_id": "S100YIBR",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 215115038.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 357072000000.0,
+      "ordinary": 13883000000.0,
+      "net_income": 17209000000.0,
+      "equity": 216277000000.0,
+      "assets": 492421000000.0,
+      "equity_ratio": 0.438,
+      "roe": 0.082,
+      "eps": 80.92,
+      "bps": 1014.66
+    },
+    {
+      "fy": 2018,
+      "sales": 477221000000.0,
+      "ordinary": 51569000000.0,
+      "net_income": 46287000000.0,
+      "equity": 252936000000.0,
+      "assets": 556493000000.0,
+      "equity_ratio": 0.455,
+      "roe": 0.198,
+      "eps": 217.66,
+      "bps": 1189.41
+    },
+    {
+      "fy": 2019,
+      "sales": 545949000000.0,
+      "ordinary": 57703000000.0,
+      "net_income": 50503000000.0,
+      "equity": 281616000000.0,
+      "assets": 634437000000.0,
+      "equity_ratio": 0.444,
+      "roe": 0.189,
+      "eps": 237.49,
+      "bps": 1324.29
+    },
+    {
+      "fy": 2020,
+      "sales": 482571000000.0,
+      "ordinary": 34434000000.0,
+      "net_income": 33832000000.0,
+      "equity": 295232000000.0,
+      "assets": 608967000000.0,
+      "equity_ratio": 0.485,
+      "roe": 0.117,
+      "eps": 159.1,
+      "bps": 1388.33
+    },
+    {
+      "fy": 2021,
+      "sales": 392842000000.0,
+      "ordinary": 8951000000.0,
+      "net_income": 12142000000.0,
+      "equity": 300991000000.0,
+      "assets": 609918000000.0,
+      "equity_ratio": 0.493,
+      "roe": 0.041,
+      "eps": 57.1,
+      "bps": 1415.42
+    },
+    {
+      "fy": 2022,
+      "sales": 1024961000000.0,
+      "ordinary": 52733000000.0,
+      "net_income": 67589000000.0,
+      "equity": 356424000000.0,
+      "assets": 715436000000.0,
+      "equity_ratio": 0.498,
+      "roe": 0.206,
+      "eps": 317.84,
+      "bps": 1676.1
+    },
+    {
+      "fy": 2023,
+      "sales": 1264927000000.0,
+      "ordinary": 57595000000.0,
+      "net_income": 48904000000.0,
+      "equity": 382237000000.0,
+      "assets": 883465000000.0,
+      "equity_ratio": 0.433,
+      "roe": 0.132,
+      "eps": 229.97,
+      "bps": 1797.5
+    },
+    {
+      "fy": 2024,
+      "sales": 1405928000000.0,
+      "ordinary": 76261000000.0,
+      "net_income": 65754000000.0,
+      "equity": 418012000000.0,
+      "assets": 924054000000.0,
+      "equity_ratio": 0.452,
+      "roe": 0.164,
+      "eps": 309.18,
+      "bps": 1965.52
+    },
+    {
+      "fy": 2025,
+      "sales": 1371285000000.0,
+      "ordinary": 68274000000.0,
+      "net_income": 91118000000.0,
+      "equity": 482442000000.0,
+      "assets": 928264000000.0,
+      "equity_ratio": 0.52,
+      "roe": 0.202,
+      "eps": 428.39,
+      "bps": 2268.15
+    },
+    {
+      "fy": 2026,
+      "sales": 1405493000000.0,
+      "ordinary": 72702000000.0,
+      "net_income": 27879000000.0,
+      "equity": 472632000000.0,
+      "assets": 896080000000.0,
+      "equity_ratio": 0.527,
+      "roe": 0.058,
+      "eps": 131.05,
+      "bps": 2221.68
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 14393000000.0,
+    "receivables": null,
+    "inventories": 84050000000.0,
+    "ppe": 128848000000.0,
+    "intangibles": 24100000000.0,
+    "investments_other": 258393000000.0,
+    "total_assets": 896080000000.0,
+    "total_liabilities": 423448000000.0,
+    "net_assets_bs": 472632000000.0,
+    "short_loans": 19100000000.0,
+    "current_lt_loans": 3198000000.0,
+    "long_loans": 120000000000.0,
+    "bonds": 30000000000.0,
+    "current_bonds": 20000000000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YIBR",
+    "S100LTRB"
+  ]
+}

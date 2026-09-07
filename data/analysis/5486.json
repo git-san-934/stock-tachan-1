@@ -1,0 +1,168 @@
+{
+  "code": "5486",
+  "name": "日立金属株式会社",
+  "sector33": "鉄鋼",
+  "market": "",
+  "profit_basis": "経常利益",
+  "as_of_price": null,
+  "price": null,
+  "market_cap_oku": null,
+  "fy_range": [
+    2017,
+    2022
+  ],
+  "n_years": 6,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "sales": [
+      410818000000.0,
+      467963000000.0,
+      535308000000.0,
+      471933000000.0,
+      409931000000.0,
+      516993000000.0
+    ],
+    "ordinary": [
+      25707000000.0,
+      26928000000.0,
+      22232000000.0,
+      1258000000.0,
+      -3600000000.0,
+      43815000000.0
+    ],
+    "ordinary_margin": [
+      0.0626,
+      0.0575,
+      0.0415,
+      0.0027,
+      -0.0088,
+      0.0847
+    ],
+    "equity_ratio": [
+      0.505,
+      0.522,
+      0.513,
+      0.524,
+      0.497,
+      0.494
+    ],
+    "ocf": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8314,
+    "fixed_cost": 59650314988.6,
+    "contribution_margin": 0.1686,
+    "breakeven_sales": 353813356660.9,
+    "dol": 1.99,
+    "r2": 0.889,
+    "n_points": 6
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 31.82,
+    "margin_stdev": 0.0363,
+    "has_loss_year": true,
+    "median_margin": 0.0495
+  },
+  "trough": {
+    "score": 0.125,
+    "latest_margin": 0.0847,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "iron_ore",
+        "label": "鉄鉱石 中国CFR ($/dmt, 月次)",
+        "hint": "中立",
+        "pctile": 0.444,
+        "yoy": 0.004,
+        "stale": false
+      },
+      {
+        "key": "coal_aus",
+        "label": "石炭 豪州 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.786,
+        "yoy": 0.207,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": null,
+    "price_drawdown_10y": null
+  },
+  "structural": {
+    "sales_cagr": 0.047,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.494,
+    "min_equity_ratio": 0.494,
+    "net_debt": 85172000000.0,
+    "net_debt_to_equity": 0.24,
+    "survive_years_if_loss": 16.5
+  },
+  "valuation": {
+    "shares_outstanding": 428904000.0,
+    "normalized_sales": 469948000000.0,
+    "normalized_margin": 0.0495,
+    "normalized_ordinary": 21431394316.5,
+    "normalized_eps": 34.98,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": 419.7,
+    "expected_return_x": null,
+    "pbr": null
+  },
+  "liquidation": {
+    "value": -51762500000.0,
+    "per_share": -120.7,
+    "downside_to_liquidation": null
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +4.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 49%（最低 49%） / ネットD/E 0.24"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 43.6,
+  "passes": {
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

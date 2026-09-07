@@ -1,0 +1,184 @@
+{
+  "code": "7911",
+  "name": "TOPPANホールディングス株式会社",
+  "sector33": "その他製品",
+  "market": "",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 5212.0,
+  "market_cap_oku": 15360.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      1431595000000.0,
+      1452751000000.0,
+      1464755000000.0,
+      1486007000000.0,
+      1466935000000.0,
+      1547533000000.0,
+      1638833000000.0,
+      1678249000000.0,
+      1719512000000.0,
+      1805033000000.0
+    ],
+    "ordinary": [
+      49698000000.0,
+      54638000000.0,
+      49115000000.0,
+      66719000000.0,
+      58053000000.0,
+      76318000000.0,
+      81172000000.0,
+      82500000000.0,
+      89578000000.0,
+      75724000000.0
+    ],
+    "ordinary_margin": [
+      0.0347,
+      0.0376,
+      0.0335,
+      0.0449,
+      0.0396,
+      0.0493,
+      0.0495,
+      0.0492,
+      0.0521,
+      0.042
+    ],
+    "equity_ratio": [
+      0.51,
+      0.529,
+      0.532,
+      0.552,
+      0.56,
+      0.597,
+      0.592,
+      0.582,
+      0.514,
+      0.523
+    ],
+    "ocf": [
+      90826000000.0,
+      71816000000.0,
+      76759000000.0,
+      92134000000.0,
+      76858000000.0,
+      64748000000.0,
+      106080000000.0,
+      157127000000.0,
+      66330000000.0,
+      86122000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9068,
+    "fixed_cost": 77849599561.9,
+    "contribution_margin": 0.0932,
+    "breakeven_sales": 835529878950.8,
+    "dol": 2.22,
+    "r2": 0.995,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 7.63,
+    "margin_stdev": 0.0067,
+    "has_loss_year": false,
+    "median_margin": 0.0434
+  },
+  "trough": {
+    "score": 0.26,
+    "latest_margin": 0.042,
+    "margin_pctile": 0.5,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.022
+  },
+  "structural": {
+    "sales_cagr": 0.0261,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.523,
+    "min_equity_ratio": 0.51,
+    "net_debt": 52053000000.0,
+    "net_debt_to_equity": 0.04,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 294706000.0,
+    "normalized_sales": 1516770000000.0,
+    "normalized_margin": 0.0434,
+    "normalized_ordinary": 64689460223.1,
+    "normalized_eps": 153.65,
+    "normalized_per": 33.9,
+    "midcycle_per": 12.0,
+    "fair_value": 1843.8,
+    "expected_return_x": 0.35,
+    "pbr": 1.1
+  },
+  "liquidation": {
+    "value": 485334300000.0,
+    "per_share": 1646.8,
+    "downside_to_liquidation": 0.684
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 52%（最低 51%） / ネットD/E 0.04"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.22 / 期待リターン 0.4倍"
+    }
+  },
+  "auto_score": 41.5,
+  "passes": {
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

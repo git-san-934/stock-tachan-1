@@ -1,0 +1,67 @@
+name: update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 21 1,15 * *"   # 毎月1日・15日 06:00 JST 頃
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: EDINET 書類一覧キャッシュ
+        uses: actions/cache@v4
+        with:
+          path: cache/doclist
+          key: doclist-${{ github.run_id }}
+          restore-keys: doclist-
+
+      # 株価(Yahoo)は CI だと 429 になりやすいのでローカルで取得・コミットしておく。
+      # ユニバースはコミット済み data/universe.json を使う（J-Quants 不要）。
+      - name: 財務・市況・ランキングを更新
+        continue-on-error: true
+        env:
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+        run: python scripts/update_all.py --skip-prices
+
+      - name: サイト生成
+        run: python site/build.py
+
+      - name: data/ をコミット
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "chore: スクリーニング更新 ($(date -u +%Y-%m-%d))"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

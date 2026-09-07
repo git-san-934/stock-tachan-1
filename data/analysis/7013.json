@@ -1,0 +1,192 @@
+{
+  "code": "7013",
+  "name": "株式会社ＩＨＩ",
+  "sector33": "機械",
+  "market": "",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2706.0,
+  "market_cap_oku": 29299.5,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      1486332000000.0,
+      1590333000000.0,
+      1483442000000.0,
+      1386503000000.0,
+      1115077000000.0,
+      423640000000.0,
+      535285000000.0,
+      428548000000.0,
+      664985000000.0,
+      752401000000.0
+    ],
+    "ordinary": [
+      22011000000.0,
+      21425000000.0,
+      65749000000.0,
+      32251000000.0,
+      5078000000.0,
+      8377000000.0,
+      57025000000.0,
+      -89906000000.0,
+      110012000000.0,
+      115169000000.0
+    ],
+    "ordinary_margin": [
+      0.0148,
+      0.0135,
+      0.0443,
+      0.0233,
+      0.0046,
+      0.0198,
+      0.1065,
+      -0.2098,
+      0.1654,
+      0.1531
+    ],
+    "equity_ratio": [
+      0.1879,
+      0.1987,
+      0.2098,
+      0.1875,
+      0.2106,
+      0.2434,
+      0.2678,
+      0.1834,
+      0.2207,
+      0.2727
+    ],
+    "ocf": [
+      65373000000.0,
+      99018000000.0,
+      46402000000.0,
+      14510000000.0,
+      22841000000.0,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9864,
+    "fixed_cost": -21339585246.6,
+    "contribution_margin": 0.0136,
+    "breakeven_sales": -1573659458791.8,
+    "dol": 0.09,
+    "r2": 0.985,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 7.63,
+    "margin_stdev": 0.1045,
+    "has_loss_year": true,
+    "median_margin": 0.0215
+  },
+  "trough": {
+    "score": 0.11,
+    "latest_margin": 0.1531,
+    "margin_pctile": 0.9,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.909,
+    "price_drawdown_10y": 0.369
+  },
+  "structural": {
+    "sales_cagr": -0.0729,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.2727,
+    "min_equity_ratio": 0.1834,
+    "net_debt": 357775000000.0,
+    "net_debt_to_equity": 0.8,
+    "survive_years_if_loss": 1.5
+  },
+  "valuation": {
+    "shares_outstanding": 1082759000.0,
+    "normalized_sales": 933739000000.0,
+    "normalized_margin": 0.0215,
+    "normalized_ordinary": 20091515444.9,
+    "normalized_eps": 12.99,
+    "normalized_per": 208.3,
+    "midcycle_per": 12.0,
+    "fair_value": 155.9,
+    "expected_return_x": 0.06,
+    "pbr": 6.44
+  },
+  "liquidation": {
+    "value": -679277100000.0,
+    "per_share": -627.4,
+    "downside_to_liquidation": 1.232
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -7.3% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 27%（最低 18%） / ネットD/E 0.8"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.09 / 期待リターン 0.1倍"
+    }
+  },
+  "auto_score": 20.7,
+  "passes": {
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "code": "6326",
+  "name": "株式会社クボタ",
+  "edinet_code": "E01267",
+  "latest_doc_id": "S100XR0M",
+  "latest_period_end": "2025-12-31",
+  "shares_outstanding": 1138716000.0,
+  "annual": [
+    {
+      "fy": 2016,
+      "sales": 754753000000.0,
+      "ordinary": 68049000000.0,
+      "net_income": 51704000000.0,
+      "equity": 570276000000.0,
+      "assets": 1084391000000.0,
+      "equity_ratio": 0.526,
+      "roe": 0.092,
+      "eps": 41.58,
+      "bps": 459.49
+    },
+    {
+      "fy": 2017,
+      "sales": 844115000000.0,
+      "ordinary": 127401000000.0,
+      "net_income": 95431000000.0,
+      "equity": 619055000000.0,
+      "assets": 1181552000000.0,
+      "equity_ratio": 0.524,
+      "roe": 0.16,
+      "eps": 77.12,
+      "bps": 501.66
+    },
+    {
+      "fy": 2018,
+      "sales": 885385000000.0,
+      "ordinary": 90702000000.0,
+      "net_income": 73890000000.0,
+      "equity": 626716000000.0,
+      "assets": 1171285000000.0,
+      "equity_ratio": 0.535,
+      "roe": 0.119,
+      "eps": 59.92,
+      "bps": 508.51
+    },
+    {
+      "fy": 2019,
+      "sales": 897574000000.0,
+      "ordinary": 57049000000.0,
+      "net_income": 58261000000.0,
+      "equity": 622537000000.0,
+      "assets": 1166239000000.0,
+      "equity_ratio": 0.534,
+      "roe": 0.093,
+      "eps": 47.51,
+      "bps": 510.16
+    },
+    {
+      "fy": 2020,
+      "sales": 865585000000.0,
+      "ordinary": 53785000000.0,
+      "net_income": 69043000000.0,
+      "equity": 609747000000.0,
+      "assets": 1238811000000.0,
+      "equity_ratio": 0.492,
+      "roe": 0.112,
+      "eps": 56.84,
+      "bps": 504.64
+    },
+    {
+      "fy": 2021,
+      "sales": 1075018000000.0,
+      "ordinary": 118521000000.0,
+      "net_income": 95638000000.0,
+      "equity": 645981000000.0,
+      "assets": 1416740000000.0,
+      "equity_ratio": 0.456,
+      "roe": 0.152,
+      "eps": 79.21,
+      "bps": 538.2
+    },
+    {
+      "fy": 2022,
+      "sales": 1159920000000.0,
+      "ordinary": 90689000000.0,
+      "net_income": 73779000000.0,
+      "equity": 631545000000.0,
+      "assets": 1644815000000.0,
+      "equity_ratio": 0.384,
+      "roe": 0.116,
+      "eps": 61.78,
+      "bps": 530.93
+    },
+    {
+      "fy": 2023,
+      "sales": 1223415000000.0,
+      "ordinary": 109238000000.0,
+      "net_income": 123773000000.0,
+      "equity": 679596000000.0,
+      "assets": 1711527000000.0,
+      "equity_ratio": 0.397,
+      "roe": 0.189,
+      "eps": 104.68,
+      "bps": 578.22
+    },
+    {
+      "fy": 2024,
+      "sales": 1189605000000.0,
+      "ordinary": 176659000000.0,
+      "net_income": 177968000000.0,
+      "equity": 749260000000.0,
+      "assets": 1793705000000.0,
+      "equity_ratio": 0.418,
+      "roe": 0.249,
+      "eps": 152.57,
+      "bps": 651.67
+    },
+    {
+      "fy": 2025,
+      "sales": 1235834000000.0,
+      "ordinary": 251073000000.0,
+      "net_income": 233632000000.0,
+      "equity": 906276000000.0,
+      "assets": 1903221000000.0,
+      "equity_ratio": 0.476,
+      "roe": 0.282,
+      "eps": 204.48,
+      "bps": 796.79
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 104647000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 413089000000.0,
+    "intangibles": 70158000000.0,
+    "investments_other": 608995000000.0,
+    "total_assets": 1903221000000.0,
+    "total_liabilities": 996944000000.0,
+    "net_assets_bs": 906276000000.0,
+    "short_loans": 75000000000.0,
+    "current_lt_loans": null,
+    "long_loans": 110000000000.0,
+    "bonds": 270000000000.0,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XR0M",
+    "S100KYRY"
+  ]
+}

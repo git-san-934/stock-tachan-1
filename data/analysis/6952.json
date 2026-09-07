@@ -1,0 +1,192 @@
+{
+  "code": "6952",
+  "name": "カシオ計算機株式会社",
+  "sector33": "電気機器",
+  "market": "",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2294.0,
+  "market_cap_oku": 5453.3,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      321213000000.0,
+      314790000000.0,
+      298161000000.0,
+      280750000000.0,
+      227440000000.0,
+      252322000000.0,
+      263831000000.0,
+      268828000000.0,
+      261757000000.0,
+      276267000000.0
+    ],
+    "ordinary": [
+      26239000000.0,
+      28726000000.0,
+      29894000000.0,
+      28481000000.0,
+      16321000000.0,
+      22174000000.0,
+      19570000000.0,
+      17920000000.0,
+      14131000000.0,
+      25684000000.0
+    ],
+    "ordinary_margin": [
+      0.0817,
+      0.0913,
+      0.1003,
+      0.1014,
+      0.0718,
+      0.0879,
+      0.0742,
+      0.0667,
+      0.054,
+      0.093
+    ],
+    "equity_ratio": [
+      0.559,
+      0.568,
+      0.592,
+      0.606,
+      0.638,
+      0.649,
+      0.661,
+      0.661,
+      0.66,
+      0.669
+    ],
+    "ocf": [
+      27920000000.0,
+      34553000000.0,
+      20738000000.0,
+      33047000000.0,
+      24587000000.0,
+      16419000000.0,
+      11339000000.0,
+      30516000000.0,
+      16144000000.0,
+      30153000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8514,
+    "fixed_cost": 18184331459.0,
+    "contribution_margin": 0.1486,
+    "breakeven_sales": 122355830209.9,
+    "dol": 1.6,
+    "r2": 0.977,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 4.18,
+    "margin_stdev": 0.0154,
+    "has_loss_year": false,
+    "median_margin": 0.0848
+  },
+  "trough": {
+    "score": 0.083,
+    "latest_margin": 0.093,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.087
+  },
+  "structural": {
+    "sales_cagr": -0.0166,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.669,
+    "min_equity_ratio": 0.559,
+    "net_debt": -52333000000.0,
+    "net_debt_to_equity": -0.22,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 237720914.0,
+    "normalized_sales": 272547500000.0,
+    "normalized_margin": 0.0848,
+    "normalized_ordinary": 22711879141.1,
+    "normalized_eps": 66.88,
+    "normalized_per": 34.3,
+    "midcycle_per": 12.0,
+    "fair_value": 802.5,
+    "expected_return_x": 0.35,
+    "pbr": 2.19
+  },
+  "liquidation": {
+    "value": 46538000000.0,
+    "per_share": 195.8,
+    "downside_to_liquidation": 0.915
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -1.7% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 67%（最低 56%） / ネットD/E -0.22"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.6 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 37.1,
+  "passes": {
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

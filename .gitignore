@@ -1,0 +1,24 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 取得キャッシュ（再生成可能・Git 管理外）
+cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# editor
+*.lnk
+
+# 生成サイト（CI でビルドして Pages へ。リポジトリには置かない）
+docs/
+
+# ローカル確認用
+preview.html

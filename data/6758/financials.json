@@ -1,0 +1,143 @@
+{
+  "code": "6758",
+  "name": "ソニーグループ株式会社",
+  "edinet_code": "E01777",
+  "latest_doc_id": "S100YE2C",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 6149811000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 1246460000000.0,
+      "ordinary": 215619000000.0,
+      "equity": 2587308000000.0,
+      "assets": 3735737000000.0,
+      "equity_ratio": 0.689,
+      "roe": 0.051,
+      "bps": 2039.88
+    },
+    {
+      "fy": 2018,
+      "sales": 536686000000.0,
+      "ordinary": 117819000000.0,
+      "equity": 2687044000000.0,
+      "assets": 3561251000000.0,
+      "equity_ratio": 0.752,
+      "roe": 0.047,
+      "bps": 2115.12
+    },
+    {
+      "fy": 2019,
+      "sales": 373436000000.0,
+      "ordinary": 157462000000.0,
+      "equity": 2591685000000.0,
+      "assets": 3241916000000.0,
+      "equity_ratio": 0.796,
+      "roe": 0.006,
+      "bps": 2062.91
+    },
+    {
+      "fy": 2020,
+      "sales": 569092000000.0,
+      "ordinary": 339288000000.0,
+      "equity": 2706537000000.0,
+      "assets": 3391804000000.0,
+      "equity_ratio": 0.794,
+      "roe": 0.148,
+      "bps": 2207.21
+    },
+    {
+      "fy": 2021,
+      "sales": 314611000000.0,
+      "ordinary": 118884000000.0,
+      "equity": 2940987000000.0,
+      "assets": 3777312000000.0,
+      "equity_ratio": 0.775,
+      "roe": 0.07,
+      "bps": 2361.33
+    },
+    {
+      "fy": 2022,
+      "sales": 406247000000.0,
+      "ordinary": 226660000000.0,
+      "net_income": 882178000000.0,
+      "equity": 3060824000000.0,
+      "assets": 5417832000000.0,
+      "equity_ratio": 0.561,
+      "roe": 0.08,
+      "eps": 142.37,
+      "bps": 491.53
+    },
+    {
+      "fy": 2023,
+      "sales": 490890000000.0,
+      "ordinary": 312705000000.0,
+      "net_income": 1005277000000.0,
+      "equity": 3240662000000.0,
+      "assets": 5225223000000.0,
+      "equity_ratio": 0.614,
+      "roe": 0.101,
+      "eps": 162.71,
+      "bps": 520.06
+    },
+    {
+      "fy": 2024,
+      "sales": 473255000000.0,
+      "ordinary": 303611000000.0,
+      "net_income": 970573000000.0,
+      "equity": 3289233000000.0,
+      "assets": 4965082000000.0,
+      "equity_ratio": 0.655,
+      "roe": 0.098,
+      "eps": 157.66,
+      "bps": 532.34
+    },
+    {
+      "fy": 2025,
+      "sales": 480922000000.0,
+      "ordinary": 322865000000.0,
+      "net_income": 1141600000000.0,
+      "equity": 3295554000000.0,
+      "assets": 5281630000000.0,
+      "equity_ratio": 0.617,
+      "roe": 0.111,
+      "eps": 188.71,
+      "bps": 540.61
+    },
+    {
+      "fy": 2026,
+      "sales": 802132000000.0,
+      "ordinary": 650743000000.0,
+      "net_income": -326865000000.0,
+      "equity": 2755258000000.0,
+      "assets": 5169609000000.0,
+      "equity_ratio": 0.518,
+      "roe": 0.156,
+      "eps": -54.7,
+      "bps": 453.15
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 464270000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 58885000000.0,
+    "intangibles": 12882000000.0,
+    "investments_other": 2667466000000.0,
+    "total_assets": 5169609000000.0,
+    "total_liabilities": 2414351000000.0,
+    "net_assets_bs": 2755258000000.0,
+    "short_loans": 1375495000000.0,
+    "current_lt_loans": null,
+    "long_loans": 317820000000.0,
+    "bonds": 350000000000.0,
+    "current_bonds": 125000000000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YE2C",
+    "S100LM4N"
+  ]
+}
