@@ -1,0 +1,186 @@
+{
+  "code": "7760",
+  "name": "ＩＭＶ株式会社",
+  "sector33": "精密機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2033.0,
+  "market_cap_oku": 344.7,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      10374651000.0,
+      10898345000.0,
+      11044926000.0,
+      12348007000.0,
+      11338176000.0,
+      11576000000.0,
+      11888000000.0,
+      13727000000.0,
+      15340000000.0,
+      17941000000.0
+    ],
+    "ordinary": [
+      954895000.0,
+      1389441000.0,
+      918227000.0,
+      652146000.0,
+      462592000.0,
+      1310000000.0,
+      1237000000.0,
+      1574000000.0,
+      1853000000.0,
+      2569000000.0
+    ],
+    "ordinary_margin": [
+      0.092,
+      0.1275,
+      0.0831,
+      0.0528,
+      0.0408,
+      0.1132,
+      0.1041,
+      0.1147,
+      0.1208,
+      0.1432
+    ],
+    "equity_ratio": [
+      0.435,
+      0.446,
+      0.407,
+      0.428,
+      0.413,
+      0.439,
+      0.488,
+      0.535,
+      0.53,
+      0.51
+    ],
+    "ocf": [
+      784631000.0,
+      1201250000.0,
+      -34020000.0,
+      798296000.0,
+      500378000.0,
+      2098000000.0,
+      742000000.0,
+      103000000.0,
+      2006000000.0,
+      3848000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7819,
+    "fixed_cost": 1466185516.0,
+    "contribution_margin": 0.2181,
+    "breakeven_sales": 6723094169.9,
+    "dol": 1.52,
+    "r2": 0.97,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 8.28,
+    "margin_stdev": 0.0325,
+    "has_loss_year": false,
+    "median_margin": 0.1086
+  },
+  "trough": {
+    "score": 0.145,
+    "latest_margin": 0.1432,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.917,
+    "price_drawdown_10y": 0.503
+  },
+  "structural": {
+    "sales_cagr": 0.0627,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.51,
+    "min_equity_ratio": 0.407,
+    "net_debt": -1521000000.0,
+    "net_debt_to_equity": -0.13,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 16957016.0,
+    "normalized_sales": 11732000000.0,
+    "normalized_margin": 0.1086,
+    "normalized_ordinary": 1183387157.8,
+    "normalized_eps": 48.85,
+    "normalized_per": 41.6,
+    "midcycle_per": 12.0,
+    "fair_value": 586.2,
+    "expected_return_x": 0.29,
+    "pbr": 2.72
+  },
+  "liquidation": {
+    "value": 1310100000.0,
+    "per_share": 77.3,
+    "downside_to_liquidation": 0.962
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +6.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 51%（最低 41%） / ネットD/E -0.13"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.52 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 38.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

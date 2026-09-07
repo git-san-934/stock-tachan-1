@@ -1,0 +1,112 @@
+{
+  "code": "280A",
+  "name": "株式会社ＴＭＨ",
+  "edinet_code": "E40175",
+  "latest_doc_id": "S100XNNH",
+  "latest_period_end": "2025-11-30",
+  "shares_outstanding": 3698100.0,
+  "annual": [
+    {
+      "fy": 2020,
+      "sales": 1003879000.0,
+      "ordinary": -89348000.0,
+      "net_income": -98977000.0,
+      "equity": 76371000.0,
+      "assets": 483332000.0,
+      "equity_ratio": 0.158,
+      "eps": -7566.52,
+      "bps": -26292.24
+    },
+    {
+      "fy": 2021,
+      "sales": 1110173000.0,
+      "ordinary": 9127000.0,
+      "net_income": 5698000.0,
+      "equity": 82069000.0,
+      "assets": 765929000.0,
+      "equity_ratio": 0.1072,
+      "roe": 0.0719,
+      "eps": 435.61,
+      "bps": -25856.62
+    },
+    {
+      "fy": 2022,
+      "sales": 1698753000.0,
+      "ordinary": 246079000.0,
+      "net_income": 216695000.0,
+      "equity": 368684000.0,
+      "assets": 2766402000.0,
+      "equity_ratio": 0.1333,
+      "roe": 0.9615,
+      "eps": 65.4,
+      "bps": -36.65,
+      "ocf": 1405823000.0,
+      "cash": 2115668000.0
+    },
+    {
+      "fy": 2023,
+      "sales": 1747118000.0,
+      "ordinary": -353508000.0,
+      "net_income": 116577000.0,
+      "equity": 509262000.0,
+      "assets": 1697287000.0,
+      "equity_ratio": 0.3,
+      "roe": 0.2656,
+      "eps": 34.89,
+      "bps": 5.66,
+      "ocf": -1085659000.0,
+      "cash": 1074636000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 6017239000.0,
+      "ordinary": 306043000.0,
+      "net_income": 272504000.0,
+      "equity": 781766000.0,
+      "assets": 3817184000.0,
+      "equity_ratio": 0.2048,
+      "roe": 0.4222,
+      "eps": 80.95,
+      "bps": 232.24,
+      "ocf": 1546326000.0,
+      "cash": 2532456000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 8628372000.0,
+      "ordinary": 338459000.0,
+      "net_income": 249244000.0,
+      "equity": 1424266000.0,
+      "assets": 2770148000.0,
+      "equity_ratio": 0.5141,
+      "roe": 0.175,
+      "eps": 67.73,
+      "bps": 385.13,
+      "ocf": -2369693000.0,
+      "cash": 633871000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 633871000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 213183000.0,
+    "intangibles": 23985000.0,
+    "investments_other": 48865000.0,
+    "total_assets": 2770148000.0,
+    "total_liabilities": 1345881000.0,
+    "net_assets_bs": 1424266000.0,
+    "short_loans": 200000000.0,
+    "current_lt_loans": 31288000.0,
+    "long_loans": 142436000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XNNH",
+    "S100VB6E"
+  ]
+}

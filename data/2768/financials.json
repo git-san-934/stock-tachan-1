@@ -1,0 +1,153 @@
+{
+  "code": "2768",
+  "name": "双日株式会社",
+  "edinet_code": "E02958",
+  "latest_doc_id": "S100Y9EI",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 210000000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 2297451000000.0,
+      "ordinary": 19519000000.0,
+      "net_income": 11448000000.0,
+      "equity": 368931000000.0,
+      "assets": 1483021000000.0,
+      "equity_ratio": 0.249,
+      "roe": 0.032,
+      "eps": 9.15,
+      "bps": 294.91
+    },
+    {
+      "fy": 2018,
+      "sales": 2626996000000.0,
+      "ordinary": 36652000000.0,
+      "net_income": 23326000000.0,
+      "equity": 392402000000.0,
+      "assets": 1642773000000.0,
+      "equity_ratio": 0.239,
+      "roe": 0.061,
+      "eps": 18.65,
+      "bps": 313.68
+    },
+    {
+      "fy": 2019,
+      "sales": 2515998000000.0,
+      "ordinary": 34633000000.0,
+      "net_income": 36883000000.0,
+      "equity": 407073000000.0,
+      "assets": 1545974000000.0,
+      "equity_ratio": 0.263,
+      "roe": 0.092,
+      "eps": 29.51,
+      "bps": 325.86
+    },
+    {
+      "fy": 2020,
+      "sales": 2411526000000.0,
+      "ordinary": 37474000000.0,
+      "net_income": 32116000000.0,
+      "equity": 391634000000.0,
+      "assets": 1492438000000.0,
+      "equity_ratio": 0.262,
+      "roe": 0.08,
+      "eps": 25.82,
+      "bps": 321.2
+    },
+    {
+      "fy": 2021,
+      "sales": 2334428000000.0,
+      "ordinary": 35345000000.0,
+      "net_income": 39462000000.0,
+      "equity": 420405000000.0,
+      "assets": 1500259000000.0,
+      "equity_ratio": 0.28,
+      "roe": 0.097,
+      "eps": 32.89,
+      "bps": 350.6
+    },
+    {
+      "fy": 2022,
+      "sales": 2100752000000.0,
+      "ordinary": 55543000000.0,
+      "net_income": 50389000000.0,
+      "equity": 460636000000.0,
+      "assets": 1683267000000.0,
+      "equity_ratio": 0.274,
+      "roe": 0.114,
+      "eps": 215.83,
+      "bps": 1995.57
+    },
+    {
+      "fy": 2023,
+      "sales": 2479840000000.0,
+      "ordinary": 91799000000.0,
+      "net_income": 81927000000.0,
+      "equity": 481583000000.0,
+      "assets": 1588873000000.0,
+      "equity_ratio": 0.303,
+      "roe": 0.174,
+      "eps": 354.92,
+      "bps": 2086.43
+    },
+    {
+      "fy": 2024,
+      "sales": 2414649000000.0,
+      "ordinary": 77155000000.0,
+      "net_income": 80888000000.0,
+      "equity": 493734000000.0,
+      "assets": 1688744000000.0,
+      "equity_ratio": 0.292,
+      "roe": 0.166,
+      "eps": 362.01,
+      "bps": 2264.8
+    },
+    {
+      "fy": 2025,
+      "sales": 2509714000000.0,
+      "ordinary": 68656000000.0,
+      "net_income": 72993000000.0,
+      "equity": 505807000000.0,
+      "assets": 1845911000000.0,
+      "equity_ratio": 0.274,
+      "roe": 0.146,
+      "eps": 338.94,
+      "bps": 2399.13
+    },
+    {
+      "fy": 2026,
+      "sales": 2757350000000.0,
+      "ordinary": 80205000000.0,
+      "net_income": 99090000000.0,
+      "equity": 581660000000.0,
+      "assets": 2130558000000.0,
+      "equity_ratio": 0.273,
+      "roe": 0.182,
+      "eps": 473.35,
+      "bps": 2795.64
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 43943000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 14769000000.0,
+    "intangibles": 10169000000.0,
+    "investments_other": 1284863000000.0,
+    "total_assets": 2130558000000.0,
+    "total_liabilities": 1548897000000.0,
+    "net_assets_bs": 581660000000.0,
+    "short_loans": 334228000000.0,
+    "current_lt_loans": null,
+    "long_loans": 567833000000.0,
+    "bonds": 60000000000.0,
+    "current_bonds": null,
+    "commercial_papers": 70000000000.0,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100Y9EI",
+    "S100LJNH"
+  ]
+}

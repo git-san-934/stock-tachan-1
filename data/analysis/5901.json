@@ -2,7 +2,7 @@
   "code": "5901",
   "name": "東洋製罐グループホールディングス株式会社",
   "sector33": "金属製品",
-  "market": "",
+  "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
   "as_of_price": "2026-09-07",
   "price": 4525.0,
@@ -174,11 +174,13 @@
   },
   "auto_score": 35.0,
   "passes": {
+    "s0_size": true,
     "s1_cheap": true,
     "s2_cyclical": true,
     "s3_trough": false,
     "s4_structural_ok": true,
     "s5_survivable": true,
+    "s6_upside": false,
     "pass_all": false
   },
   "catalyst": {

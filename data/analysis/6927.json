@@ -1,0 +1,194 @@
+{
+  "code": "6927",
+  "name": "ヘリオス テクノ ホールディング株式会社",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 997.0,
+  "market_cap_oku": 227.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      17117009000.0,
+      23483498000.0,
+      23090183000.0,
+      13996345000.0,
+      8079675000.0,
+      8952482000.0,
+      7987547000.0,
+      10871072000.0,
+      9869997000.0,
+      14188768000.0
+    ],
+    "ordinary": [
+      1375916000.0,
+      2983979000.0,
+      2371022000.0,
+      369054000.0,
+      630243000.0,
+      577496000.0,
+      492198000.0,
+      1485566000.0,
+      944759000.0,
+      2306804000.0
+    ],
+    "ordinary_margin": [
+      0.0804,
+      0.1271,
+      0.1027,
+      0.0264,
+      0.078,
+      0.0645,
+      0.0616,
+      0.1367,
+      0.0957,
+      0.1626
+    ],
+    "equity_ratio": [
+      0.577,
+      0.622,
+      0.694,
+      0.864,
+      0.866,
+      0.862,
+      0.851,
+      0.775,
+      0.761,
+      0.818
+    ],
+    "ocf": [
+      1727495000.0,
+      385432000.0,
+      1154611000.0,
+      -545936000.0,
+      2921337000.0,
+      1743894000.0,
+      589823000.0,
+      2532895000.0,
+      878184000.0,
+      1861116000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8702,
+    "fixed_cost": 432467102.9,
+    "contribution_margin": 0.1298,
+    "breakeven_sales": 3332452371.0,
+    "dol": 0.8,
+    "r2": 0.989,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 3.01,
+    "margin_stdev": 0.0403,
+    "has_loss_year": false,
+    "median_margin": 0.0881
+  },
+  "trough": {
+    "score": 0.043,
+    "latest_margin": 0.1626,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.975,
+    "price_drawdown_10y": 0.227
+  },
+  "structural": {
+    "sales_cagr": -0.0206,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.818,
+    "min_equity_ratio": 0.577,
+    "net_debt": -12266879000.0,
+    "net_debt_to_equity": -0.71,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 22806900.0,
+    "normalized_sales": 12433708500.0,
+    "normalized_margin": 0.0881,
+    "normalized_ordinary": 1138118284.4,
+    "normalized_eps": 34.93,
+    "normalized_per": 28.5,
+    "midcycle_per": 12.0,
+    "fair_value": 419.2,
+    "expected_return_x": 0.42,
+    "pbr": 1.05
+  },
+  "liquidation": {
+    "value": 13006106900.0,
+    "per_share": 570.3,
+    "downside_to_liquidation": 0.428
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -2.1% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 82%（最低 58%） / ネットD/E -0.71"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.8 / 期待リターン 0.4倍"
+    }
+  },
+  "auto_score": 36.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

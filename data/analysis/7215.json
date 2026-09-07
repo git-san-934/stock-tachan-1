@@ -1,0 +1,194 @@
+{
+  "code": "7215",
+  "name": "株式会社ファルテック",
+  "sector33": "輸送用機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 426.0,
+  "market_cap_oku": 40.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      83575000000.0,
+      87535000000.0,
+      90701000000.0,
+      85312000000.0,
+      69799000000.0,
+      69122000000.0,
+      74102000000.0,
+      81886000000.0,
+      79114000000.0,
+      73202000000.0
+    ],
+    "ordinary": [
+      1424000000.0,
+      1686000000.0,
+      2225000000.0,
+      2101000000.0,
+      2835000000.0,
+      1761000000.0,
+      -498000000.0,
+      1781000000.0,
+      2861000000.0,
+      1591000000.0
+    ],
+    "ordinary_margin": [
+      0.017,
+      0.0193,
+      0.0245,
+      0.0246,
+      0.0406,
+      0.0255,
+      -0.0067,
+      0.0217,
+      0.0362,
+      0.0217
+    ],
+    "equity_ratio": [
+      0.279,
+      0.241,
+      0.237,
+      0.258,
+      0.274,
+      0.29,
+      0.242,
+      0.238,
+      0.278,
+      0.29
+    ],
+    "ocf": [
+      5241000000.0,
+      5492000000.0,
+      1821000000.0,
+      6621000000.0,
+      4256000000.0,
+      2186000000.0,
+      3041000000.0,
+      6573000000.0,
+      4658000000.0,
+      3846000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9851,
+    "fixed_cost": -596810662.7,
+    "contribution_margin": 0.0149,
+    "breakeven_sales": -40179645780.7,
+    "dol": 0.68,
+    "r2": 0.985,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 18.15,
+    "margin_stdev": 0.0126,
+    "has_loss_year": true,
+    "median_margin": 0.0231
+  },
+  "trough": {
+    "score": 0.45,
+    "latest_margin": 0.0217,
+    "margin_pctile": 0.4,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.149,
+    "price_drawdown_10y": 0.654
+  },
+  "structural": {
+    "sales_cagr": -0.0146,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.29,
+    "min_equity_ratio": 0.237,
+    "net_debt": 7707000000.0,
+    "net_debt_to_equity": 0.36,
+    "survive_years_if_loss": 40.6
+  },
+  "valuation": {
+    "shares_outstanding": 9378600.0,
+    "normalized_sales": 80500000000.0,
+    "normalized_margin": 0.0231,
+    "normalized_ordinary": 1862806283.7,
+    "normalized_eps": 139.04,
+    "normalized_per": 3.1,
+    "midcycle_per": 12.0,
+    "fair_value": 1668.4,
+    "expected_return_x": 3.92,
+    "pbr": 0.21
+  },
+  "liquidation": {
+    "value": -10418800000.0,
+    "per_share": -1110.9,
+    "downside_to_liquidation": 3.608
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR -1.5% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 29%（最低 24%） / ネットD/E 0.36"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "○",
+      "note": "DOL 0.68 / 期待リターン 3.9倍"
+    }
+  },
+  "auto_score": 74.1,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

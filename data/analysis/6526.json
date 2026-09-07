@@ -1,0 +1,182 @@
+{
+  "code": "6526",
+  "name": "株式会社ソシオネクスト",
+  "sector33": "電気機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2002.0,
+  "market_cap_oku": 3603.0,
+  "fy_range": [
+    2019,
+    2026
+  ],
+  "n_years": 8,
+  "series": {
+    "fy": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      108942000000.0,
+      102680000000.0,
+      99746000000.0,
+      117009000000.0,
+      192767000000.0,
+      221246000000.0,
+      188535000000.0,
+      200834000000.0
+    ],
+    "ordinary": [
+      771000000.0,
+      2278000000.0,
+      1969000000.0,
+      9050000000.0,
+      23440000000.0,
+      37122000000.0,
+      25118000000.0,
+      11756000000.0
+    ],
+    "ordinary_margin": [
+      0.0071,
+      0.0222,
+      0.0197,
+      0.0773,
+      0.1216,
+      0.1678,
+      0.1332,
+      0.0585
+    ],
+    "equity_ratio": [
+      0.796,
+      0.8177,
+      0.7825,
+      0.7566,
+      0.5664,
+      0.7012,
+      0.8047,
+      0.7938
+    ],
+    "ocf": [
+      null,
+      null,
+      10704000000.0,
+      16355000000.0,
+      18019000000.0,
+      52882000000.0,
+      31866000000.0,
+      7693000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7698,
+    "fixed_cost": 21510179692.0,
+    "contribution_margin": 0.2302,
+    "breakeven_sales": 93429894205.7,
+    "dol": 3.93,
+    "r2": 0.977,
+    "n_points": 8
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 5.75,
+    "margin_stdev": 0.0596,
+    "has_loss_year": false,
+    "median_margin": 0.0679
+  },
+  "trough": {
+    "score": 0.377,
+    "latest_margin": 0.0585,
+    "margin_pctile": 0.5,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.292,
+    "price_drawdown_10y": 0.555
+  },
+  "structural": {
+    "sales_cagr": 0.0913,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.7938,
+    "min_equity_ratio": 0.5664,
+    "net_debt": -39541000000.0,
+    "net_debt_to_equity": -0.3,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 179968630.0,
+    "normalized_sales": 152772000000.0,
+    "normalized_margin": 0.0679,
+    "normalized_ordinary": 12018646823.8,
+    "normalized_eps": 46.75,
+    "normalized_per": 42.8,
+    "midcycle_per": 12.0,
+    "fair_value": 561.0,
+    "expected_return_x": 0.28,
+    "pbr": 2.64
+  },
+  "liquidation": {
+    "value": 25737400000.0,
+    "per_share": 143.0,
+    "downside_to_liquidation": 0.929
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +9.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 79%（最低 57%） / ネットD/E -0.3"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 3.93 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 44.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

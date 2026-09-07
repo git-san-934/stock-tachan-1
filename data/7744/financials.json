@@ -1,0 +1,153 @@
+{
+  "code": "7744",
+  "name": "ノーリツ鋼機株式会社",
+  "edinet_code": "E02322",
+  "latest_doc_id": "S100XS3C",
+  "latest_period_end": "2025-12-31",
+  "shares_outstanding": 108818916.0,
+  "annual": [
+    {
+      "fy": 2016,
+      "sales": 50045000000.0,
+      "ordinary": -246000000.0,
+      "net_income": -414000000.0,
+      "equity": 48560000000.0,
+      "assets": 48657000000.0,
+      "equity_ratio": 0.998,
+      "roe": -0.009,
+      "eps": -11.65,
+      "bps": 1362.54
+    },
+    {
+      "fy": 2017,
+      "sales": 56035000000.0,
+      "ordinary": 59000000.0,
+      "net_income": 2349000000.0,
+      "equity": 50460000000.0,
+      "assets": 88742000000.0,
+      "equity_ratio": 0.568,
+      "roe": 0.047,
+      "eps": 65.97,
+      "bps": 1415.81
+    },
+    {
+      "fy": 2018,
+      "sales": 63527000000.0,
+      "ordinary": -252000000.0,
+      "net_income": 1188000000.0,
+      "equity": 62258000000.0,
+      "assets": 101821000000.0,
+      "equity_ratio": 0.611,
+      "roe": 0.019,
+      "eps": 33.36,
+      "bps": 1747.08
+    },
+    {
+      "fy": 2019,
+      "sales": 26147000000.0,
+      "ordinary": 663000000.0,
+      "net_income": 13070000000.0,
+      "equity": 63456000000.0,
+      "assets": 97944000000.0,
+      "equity_ratio": 0.648,
+      "roe": 0.208,
+      "eps": 367.01,
+      "bps": 1781.55
+    },
+    {
+      "fy": 2020,
+      "sales": 41148000000.0,
+      "ordinary": 806000000.0,
+      "net_income": 20236000000.0,
+      "equity": 83090000000.0,
+      "assets": 123035000000.0,
+      "equity_ratio": 0.675,
+      "roe": 0.276,
+      "eps": 568.23,
+      "bps": 2332.85
+    },
+    {
+      "fy": 2021,
+      "sales": 54481000000.0,
+      "ordinary": 1028000000.0,
+      "net_income": 791000000.0,
+      "equity": 83145000000.0,
+      "assets": 131783000000.0,
+      "equity_ratio": 0.631,
+      "roe": 0.01,
+      "eps": 22.2,
+      "bps": 2333.08
+    },
+    {
+      "fy": 2022,
+      "sales": 73515000000.0,
+      "ordinary": 6195000000.0,
+      "net_income": 77780000000.0,
+      "equity": 176393000000.0,
+      "assets": 265218000000.0,
+      "equity_ratio": 0.665,
+      "roe": 0.599,
+      "eps": 2181.68,
+      "bps": 4946.63
+    },
+    {
+      "fy": 2023,
+      "sales": 90052000000.0,
+      "ordinary": -815000000.0,
+      "net_income": 17385000000.0,
+      "equity": 178159000000.0,
+      "assets": 223742000000.0,
+      "equity_ratio": 0.796,
+      "roe": 0.098,
+      "eps": 487.3,
+      "bps": 4992.57
+    },
+    {
+      "fy": 2024,
+      "sales": 106539000000.0,
+      "ordinary": 4608000000.0,
+      "net_income": 6246000000.0,
+      "equity": 178074000000.0,
+      "assets": 217389000000.0,
+      "equity_ratio": 0.819,
+      "roe": 0.035,
+      "eps": 58.33,
+      "bps": 1662.59
+    },
+    {
+      "fy": 2025,
+      "sales": 119223000000.0,
+      "ordinary": -888000000.0,
+      "net_income": 1939000000.0,
+      "equity": 168390000000.0,
+      "assets": 210533000000.0,
+      "equity_ratio": 0.8,
+      "roe": 0.011,
+      "eps": 18.23,
+      "bps": 1567.92
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 54086000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 25000000.0,
+    "intangibles": 73697000000.0,
+    "investments_other": 149258000000.0,
+    "total_assets": 210533000000.0,
+    "total_liabilities": 42142000000.0,
+    "net_assets_bs": 168390000000.0,
+    "short_loans": 18000000000.0,
+    "current_lt_loans": 4520000000.0,
+    "long_loans": 14995000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XS3C",
+    "S100L25H"
+  ]
+}

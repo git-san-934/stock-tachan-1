@@ -1,0 +1,210 @@
+{
+  "code": "5753",
+  "name": "日本伸銅株式会社",
+  "sector33": "非鉄金属",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2550.0,
+  "market_cap_oku": 60.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      15806000000.0,
+      19064000000.0,
+      20660000000.0,
+      17218000000.0,
+      15618000000.0,
+      26137000000.0,
+      27242000000.0,
+      23338000000.0,
+      26122000000.0,
+      30145000000.0
+    ],
+    "ordinary": [
+      763000000.0,
+      1200000000.0,
+      1254000000.0,
+      1492000000.0,
+      606000000.0,
+      1503000000.0,
+      1505000000.0,
+      801000000.0,
+      1413000000.0,
+      1028000000.0
+    ],
+    "ordinary_margin": [
+      0.0483,
+      0.0629,
+      0.0607,
+      0.0867,
+      0.0388,
+      0.0575,
+      0.0552,
+      0.0343,
+      0.0541,
+      0.0341
+    ],
+    "equity_ratio": [
+      0.502,
+      0.514,
+      0.584,
+      0.711,
+      0.672,
+      0.613,
+      0.672,
+      0.73,
+      0.723,
+      0.687
+    ],
+    "ocf": [
+      -460000000.0,
+      -908000000.0,
+      1142000000.0,
+      2640000000.0,
+      -1095000000.0,
+      -106000000.0,
+      157000000.0,
+      841000000.0,
+      299000000.0,
+      -975000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9715,
+    "fixed_cost": -526684664.1,
+    "contribution_margin": 0.0285,
+    "breakeven_sales": -18510449610.4,
+    "dol": 0.83,
+    "r2": 0.996,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.59,
+    "margin_stdev": 0.0158,
+    "has_loss_year": false,
+    "median_margin": 0.0547
+  },
+  "trough": {
+    "score": 0.368,
+    "latest_margin": 0.0341,
+    "margin_pctile": 0.1,
+    "market_phase_score": 0.12,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      },
+      {
+        "key": "nickel",
+        "label": "ニッケル ($/mt, 月次)",
+        "hint": "中立",
+        "pctile": 0.594,
+        "yoy": 0.106,
+        "stale": false
+      },
+      {
+        "key": "zinc",
+        "label": "亜鉛 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.968,
+        "yoy": 0.301,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.137
+  },
+  "structural": {
+    "sales_cagr": 0.0744,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.687,
+    "min_equity_ratio": 0.502,
+    "net_debt": 2364000000.0,
+    "net_debt_to_equity": 0.19,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 2370000.0,
+    "normalized_sales": 21999000000.0,
+    "normalized_margin": 0.0547,
+    "normalized_ordinary": 1202662370.1,
+    "normalized_eps": 355.22,
+    "normalized_per": 7.2,
+    "midcycle_per": 12.0,
+    "fair_value": 4262.6,
+    "expected_return_x": 1.67,
+    "pbr": 0.43
+  },
+  "liquidation": {
+    "value": -2645900000.0,
+    "per_share": -1116.4,
+    "downside_to_liquidation": 1.438
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +7.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 69%（最低 50%） / ネットD/E 0.19"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "△",
+      "note": "DOL 0.83 / 期待リターン 1.7倍"
+    }
+  },
+  "auto_score": 57.6,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

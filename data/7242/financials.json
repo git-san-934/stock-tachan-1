@@ -1,0 +1,153 @@
+{
+  "code": "7242",
+  "name": "カヤバ株式会社",
+  "edinet_code": "E02147",
+  "latest_doc_id": "S100YHB1",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 50468000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 186505000000.0,
+      "ordinary": 6608000000.0,
+      "net_income": 4316000000.0,
+      "equity": 109659000000.0,
+      "assets": 242781000000.0,
+      "equity_ratio": 0.452,
+      "roe": 0.04,
+      "eps": 168.96,
+      "bps": 4292.64
+    },
+    {
+      "fy": 2018,
+      "sales": 203034000000.0,
+      "ordinary": 11186000000.0,
+      "net_income": 8113000000.0,
+      "equity": 115381000000.0,
+      "assets": 265008000000.0,
+      "equity_ratio": 0.435,
+      "roe": 0.072,
+      "eps": 317.6,
+      "bps": 4516.93
+    },
+    {
+      "fy": 2019,
+      "sales": 214250000000.0,
+      "ordinary": 9756000000.0,
+      "net_income": -24235000000.0,
+      "equity": 86792000000.0,
+      "assets": 281624000000.0,
+      "equity_ratio": 0.308,
+      "roe": -0.24,
+      "eps": -948.78,
+      "bps": 3397.8
+    },
+    {
+      "fy": 2020,
+      "sales": 197106000000.0,
+      "ordinary": 5011000000.0,
+      "net_income": -61251000000.0,
+      "equity": 20828000000.0,
+      "assets": 236171000000.0,
+      "equity_ratio": 0.088,
+      "roe": -1.138,
+      "eps": -2397.93,
+      "bps": 815.41
+    },
+    {
+      "fy": 2021,
+      "sales": 162391000000.0,
+      "ordinary": 22247000000.0,
+      "net_income": 36932000000.0,
+      "equity": 59536000000.0,
+      "assets": 258269000000.0,
+      "equity_ratio": 0.231,
+      "roe": 0.919,
+      "eps": 1445.89,
+      "bps": 2330.87
+    },
+    {
+      "fy": 2022,
+      "sales": 202406000000.0,
+      "ordinary": 14012000000.0,
+      "net_income": 18357000000.0,
+      "equity": 86299000000.0,
+      "assets": 248252000000.0,
+      "equity_ratio": 0.348,
+      "roe": 0.252,
+      "eps": 345.42,
+      "bps": 1435.51
+    },
+    {
+      "fy": 2023,
+      "sales": 220061000000.0,
+      "ordinary": 16189000000.0,
+      "net_income": 21468000000.0,
+      "equity": 104470000000.0,
+      "assets": 250578000000.0,
+      "equity_ratio": 0.417,
+      "roe": 0.225,
+      "eps": 401.82,
+      "bps": 1790.2
+    },
+    {
+      "fy": 2024,
+      "sales": 241578000000.0,
+      "ordinary": 23412000000.0,
+      "net_income": 26075000000.0,
+      "equity": 124966000000.0,
+      "assets": 278742000000.0,
+      "equity_ratio": 0.448,
+      "roe": 0.227,
+      "eps": 497.99,
+      "bps": 2235.93
+    },
+    {
+      "fy": 2025,
+      "sales": 224184000000.0,
+      "ordinary": 15369000000.0,
+      "net_income": 23345000000.0,
+      "equity": 136756000000.0,
+      "assets": 283894000000.0,
+      "equity_ratio": 0.482,
+      "roe": 0.178,
+      "eps": 451.2,
+      "bps": 2583.62
+    },
+    {
+      "fy": 2026,
+      "sales": 239768000000.0,
+      "ordinary": 19440000000.0,
+      "net_income": 21619000000.0,
+      "equity": 134218000000.0,
+      "assets": 291190000000.0,
+      "equity_ratio": 0.461,
+      "roe": 0.16,
+      "eps": 461.04,
+      "bps": 2808.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 8321000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 72775000000.0,
+    "intangibles": 127000000.0,
+    "investments_other": 91262000000.0,
+    "total_assets": 291190000000.0,
+    "total_liabilities": 156972000000.0,
+    "net_assets_bs": 134218000000.0,
+    "short_loans": 16200000000.0,
+    "current_lt_loans": 4134000000.0,
+    "long_loans": 46793000000.0,
+    "bonds": 10000000000.0,
+    "current_bonds": 7000000000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YHB1",
+    "S100LQ0A"
+  ]
+}

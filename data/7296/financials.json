@@ -1,0 +1,152 @@
+{
+  "code": "7296",
+  "name": "株式会社エフ・シー・シー",
+  "edinet_code": "E02221",
+  "latest_doc_id": "S100YFKQ",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 52056530.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 36756000000.0,
+      "ordinary": 4259000000.0,
+      "net_income": 2905000000.0,
+      "equity": 68527000000.0,
+      "assets": 95458000000.0,
+      "equity_ratio": 0.7179,
+      "roe": 0.0428,
+      "eps": 57.9,
+      "bps": 1365.4
+    },
+    {
+      "fy": 2018,
+      "sales": 39663000000.0,
+      "ordinary": 5897000000.0,
+      "net_income": 2278000000.0,
+      "equity": 69385000000.0,
+      "assets": 94394000000.0,
+      "equity_ratio": 0.7351,
+      "roe": 0.033,
+      "eps": 45.39,
+      "bps": 1382.5
+    },
+    {
+      "fy": 2019,
+      "sales": 40850000000.0,
+      "ordinary": 6295000000.0,
+      "net_income": 5237000000.0,
+      "equity": 70041000000.0,
+      "assets": 90681000000.0,
+      "equity_ratio": 0.7724,
+      "roe": 0.0751,
+      "eps": 104.52,
+      "bps": 1409.63
+    },
+    {
+      "fy": 2020,
+      "sales": 38337000000.0,
+      "ordinary": 2503000000.0,
+      "net_income": -179000000.0,
+      "equity": 65953000000.0,
+      "assets": 82768000000.0,
+      "equity_ratio": 0.7968,
+      "eps": -3.61,
+      "bps": 1327.36
+    },
+    {
+      "fy": 2021,
+      "sales": 34224000000.0,
+      "ordinary": 3175000000.0,
+      "net_income": 1050000000.0,
+      "equity": 66153000000.0,
+      "assets": 80133000000.0,
+      "equity_ratio": 0.8255,
+      "roe": 0.0159,
+      "eps": 21.15,
+      "bps": 1331.38
+    },
+    {
+      "fy": 2022,
+      "sales": 39256000000.0,
+      "ordinary": 5575000000.0,
+      "net_income": 4292000000.0,
+      "equity": 68283000000.0,
+      "assets": 82921000000.0,
+      "equity_ratio": 0.8235,
+      "roe": 0.0639,
+      "eps": 86.37,
+      "bps": 1373.85
+    },
+    {
+      "fy": 2023,
+      "sales": 38705000000.0,
+      "ordinary": 4395000000.0,
+      "net_income": 3184000000.0,
+      "equity": 69149000000.0,
+      "assets": 84762000000.0,
+      "equity_ratio": 0.8158,
+      "roe": 0.0463,
+      "eps": 64.04,
+      "bps": 1390.57
+    },
+    {
+      "fy": 2024,
+      "sales": 41308000000.0,
+      "ordinary": 9050000000.0,
+      "net_income": 6140000000.0,
+      "equity": 75722000000.0,
+      "assets": 99659000000.0,
+      "equity_ratio": 0.7598,
+      "roe": 0.0848,
+      "eps": 123.45,
+      "bps": 1522.19
+    },
+    {
+      "fy": 2025,
+      "sales": 43753000000.0,
+      "ordinary": 12426000000.0,
+      "net_income": 11582000000.0,
+      "equity": 74471000000.0,
+      "assets": 100634000000.0,
+      "equity_ratio": 0.74,
+      "roe": 0.1542,
+      "eps": 236.45,
+      "bps": 1537.91
+    },
+    {
+      "fy": 2026,
+      "sales": 44496000000.0,
+      "ordinary": 16453000000.0,
+      "net_income": 17789000000.0,
+      "equity": 85061000000.0,
+      "assets": 107148000000.0,
+      "equity_ratio": 0.7939,
+      "roe": 0.223,
+      "eps": 367.31,
+      "bps": 1756.22
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 9527000000.0,
+    "receivables": null,
+    "inventories": 971000000.0,
+    "ppe": 27402000000.0,
+    "intangibles": 244000000.0,
+    "investments_other": 47853000000.0,
+    "total_assets": 107148000000.0,
+    "total_liabilities": 22086000000.0,
+    "net_assets_bs": 85061000000.0,
+    "short_loans": 3000000000.0,
+    "current_lt_loans": null,
+    "long_loans": null,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YFKQ",
+    "S100LNDZ"
+  ]
+}

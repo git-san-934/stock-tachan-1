@@ -1,0 +1,186 @@
+{
+  "code": "7976",
+  "name": "三菱鉛筆株式会社",
+  "sector33": "その他製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3165.0,
+  "market_cap_oku": 1900.3,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      64716000000.0,
+      67247000000.0,
+      62498000000.0,
+      62034000000.0,
+      55180000000.0,
+      61894000000.0,
+      68997000000.0,
+      74801000000.0,
+      88820000000.0,
+      89814000000.0
+    ],
+    "ordinary": [
+      9953000000.0,
+      12308000000.0,
+      9283000000.0,
+      7580000000.0,
+      5988000000.0,
+      8309000000.0,
+      10128000000.0,
+      12889000000.0,
+      12952000000.0,
+      10028000000.0
+    ],
+    "ordinary_margin": [
+      0.1538,
+      0.183,
+      0.1485,
+      0.1222,
+      0.1085,
+      0.1342,
+      0.1468,
+      0.1723,
+      0.1458,
+      0.1117
+    ],
+    "equity_ratio": [
+      0.745,
+      0.723,
+      0.749,
+      0.752,
+      0.784,
+      0.775,
+      0.788,
+      0.785,
+      0.726,
+      0.757
+    ],
+    "ocf": [
+      7719000000.0,
+      10544000000.0,
+      6102000000.0,
+      10030000000.0,
+      4735000000.0,
+      8369000000.0,
+      7281000000.0,
+      11763000000.0,
+      6467000000.0,
+      2413000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8666,
+    "fixed_cost": -660219360.4,
+    "contribution_margin": 0.1334,
+    "breakeven_sales": -4950809058.6,
+    "dol": 1.19,
+    "r2": 0.972,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.63,
+    "margin_stdev": 0.0243,
+    "has_loss_year": false,
+    "median_margin": 0.1463
+  },
+  "trough": {
+    "score": 0.405,
+    "latest_margin": 0.1117,
+    "margin_pctile": 0.2,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.003
+  },
+  "structural": {
+    "sales_cagr": 0.0371,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.757,
+    "min_equity_ratio": 0.723,
+    "net_debt": -22166000000.0,
+    "net_debt_to_equity": -0.16,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 60042592.0,
+    "normalized_sales": 65981500000.0,
+    "normalized_margin": 0.1463,
+    "normalized_ordinary": 9653489459.8,
+    "normalized_eps": 112.54,
+    "normalized_per": 28.1,
+    "midcycle_per": 12.0,
+    "fair_value": 1350.5,
+    "expected_return_x": 0.43,
+    "pbr": 1.24
+  },
+  "liquidation": {
+    "value": 81057600000.0,
+    "per_share": 1350.0,
+    "downside_to_liquidation": 0.573
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 76%（最低 72%） / ネットD/E -0.16"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.19 / 期待リターン 0.4倍"
+    }
+  },
+  "auto_score": 45.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

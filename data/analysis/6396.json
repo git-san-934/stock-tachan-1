@@ -1,0 +1,194 @@
+{
+  "code": "6396",
+  "name": "株式会社宇野澤組鐵工所",
+  "sector33": "機械",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4745.0,
+  "market_cap_oku": 53.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      5278436000.0,
+      5233099000.0,
+      4979912000.0,
+      4585620000.0,
+      4042277000.0,
+      4380657000.0,
+      5105174000.0,
+      5517104000.0,
+      4954532000.0,
+      4917526000.0
+    ],
+    "ordinary": [
+      84256000.0,
+      420904000.0,
+      172249000.0,
+      97502000.0,
+      219682000.0,
+      269219000.0,
+      468935000.0,
+      653315000.0,
+      618976000.0,
+      607662000.0
+    ],
+    "ordinary_margin": [
+      0.016,
+      0.0804,
+      0.0346,
+      0.0213,
+      0.0543,
+      0.0615,
+      0.0919,
+      0.1184,
+      0.1249,
+      0.1236
+    ],
+    "equity_ratio": [
+      0.232,
+      0.252,
+      0.258,
+      0.266,
+      0.293,
+      0.3,
+      0.321,
+      0.35,
+      0.399,
+      0.453
+    ],
+    "ocf": [
+      -1883000.0,
+      810567000.0,
+      109968000.0,
+      336571000.0,
+      452031000.0,
+      509389000.0,
+      457503000.0,
+      445236000.0,
+      761731000.0,
+      440275000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7919,
+    "fixed_cost": 658518155.5,
+    "contribution_margin": 0.2081,
+    "breakeven_sales": 3163761047.5,
+    "dol": 1.68,
+    "r2": 0.757,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 14.46,
+    "margin_stdev": 0.0417,
+    "has_loss_year": false,
+    "median_margin": 0.0709
+  },
+  "trough": {
+    "score": 0.037,
+    "latest_margin": 0.1236,
+    "margin_pctile": 0.9,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.014
+  },
+  "structural": {
+    "sales_cagr": -0.0078,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.453,
+    "min_equity_ratio": 0.232,
+    "net_debt": -530448000.0,
+    "net_debt_to_equity": -0.14,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 1120000.0,
+    "normalized_sales": 4967222000.0,
+    "normalized_margin": 0.0709,
+    "normalized_ordinary": 363776954.9,
+    "normalized_eps": 227.36,
+    "normalized_per": 20.9,
+    "midcycle_per": 12.0,
+    "fair_value": 2728.3,
+    "expected_return_x": 0.57,
+    "pbr": 1.38
+  },
+  "liquidation": {
+    "value": 398773300.0,
+    "per_share": 356.0,
+    "downside_to_liquidation": 0.925
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR -0.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 45%（最低 23%） / ネットD/E -0.14"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.68 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 33.9,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

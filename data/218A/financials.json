@@ -1,0 +1,108 @@
+{
+  "code": "218A",
+  "name": "株式会社Liberaware",
+  "edinet_code": "E39788",
+  "latest_doc_id": "S100WY33",
+  "latest_period_end": "2025-07-31",
+  "shares_outstanding": 18896600.0,
+  "annual": [
+    {
+      "fy": 2020,
+      "sales": 85202000.0,
+      "ordinary": -152405000.0,
+      "net_income": -155453000.0,
+      "equity": 272105000.0,
+      "assets": 430255000.0,
+      "equity_ratio": 0.632,
+      "eps": -160611.87,
+      "bps": -266884.48
+    },
+    {
+      "fy": 2021,
+      "sales": 161384000.0,
+      "ordinary": -316671000.0,
+      "net_income": -322086000.0,
+      "equity": 238919000.0,
+      "assets": 463207000.0,
+      "equity_ratio": 0.516,
+      "eps": -305031.33,
+      "bps": -521684.57
+    },
+    {
+      "fy": 2022,
+      "sales": 260461000.0,
+      "ordinary": -455735000.0,
+      "net_income": -456073000.0,
+      "equity": 304426000.0,
+      "assets": 639916000.0,
+      "equity_ratio": 0.476,
+      "eps": -36.2,
+      "bps": -79.46,
+      "ocf": -470784000.0,
+      "cash": 349183000.0
+    },
+    {
+      "fy": 2023,
+      "sales": 379604000.0,
+      "ordinary": -635861000.0,
+      "net_income": -641105000.0,
+      "equity": 563290000.0,
+      "assets": 1074305000.0,
+      "equity_ratio": 0.524,
+      "eps": -46.74,
+      "bps": -104.16,
+      "ocf": -637967000.0,
+      "cash": 608673000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 815308000.0,
+      "ordinary": -434732000.0,
+      "net_income": -437972000.0,
+      "equity": 865629000.0,
+      "assets": 1517392000.0,
+      "equity_ratio": 0.567,
+      "eps": -25.53,
+      "bps": 45.66,
+      "ocf": -253351000.0,
+      "cash": 1061245000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 1406949000.0,
+      "ordinary": 46978000.0,
+      "net_income": 46081000.0,
+      "equity": 932603000.0,
+      "assets": 1700752000.0,
+      "equity_ratio": 0.536,
+      "roe": 0.051,
+      "eps": 2.44,
+      "bps": 48.28,
+      "ocf": -363332000.0,
+      "cash": 751988000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 751988000.0,
+    "receivables": 323009000.0,
+    "inventories": 40023000.0,
+    "ppe": 129397000.0,
+    "intangibles": 4263000.0,
+    "investments_other": 105382000.0,
+    "total_assets": 1700752000.0,
+    "total_liabilities": 768149000.0,
+    "net_assets_bs": 932603000.0,
+    "short_loans": 200000000.0,
+    "current_lt_loans": 80840000.0,
+    "long_loans": 211850000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100WY33",
+    "S100ULX5"
+  ]
+}

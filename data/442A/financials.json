@@ -1,0 +1,95 @@
+{
+  "code": "442A",
+  "name": "クラシコ株式会社",
+  "edinet_code": "E41030",
+  "latest_doc_id": "S100XI7V",
+  "latest_period_end": "2025-10-31",
+  "shares_outstanding": 1748390.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 1338953000.0,
+      "ordinary": -56437000.0,
+      "net_income": -57510000.0,
+      "equity": 394895000.0,
+      "assets": 1107529000.0,
+      "equity_ratio": 0.357,
+      "eps": -244.72,
+      "bps": 1680.41
+    },
+    {
+      "fy": 2022,
+      "sales": 1705951000.0,
+      "ordinary": -360084000.0,
+      "net_income": -336116000.0,
+      "equity": 59079000.0,
+      "assets": 941273000.0,
+      "equity_ratio": 0.063,
+      "eps": -1430.28,
+      "bps": 251.4
+    },
+    {
+      "fy": 2023,
+      "sales": 2434486000.0,
+      "ordinary": -175035000.0,
+      "net_income": -119286000.0,
+      "equity": 541092000.0,
+      "assets": 1742139000.0,
+      "equity_ratio": 0.311,
+      "eps": -101.52,
+      "bps": -51.5,
+      "ocf": -692743000.0,
+      "cash": 249575000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 3086141000.0,
+      "ordinary": 54589000.0,
+      "net_income": 28357000.0,
+      "equity": 569449000.0,
+      "assets": 1917630000.0,
+      "equity_ratio": 0.297,
+      "roe": 0.051,
+      "eps": 24.13,
+      "bps": -27.36,
+      "ocf": -106710000.0,
+      "cash": 213453000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 3631916000.0,
+      "ordinary": 138632000.0,
+      "net_income": 169892000.0,
+      "equity": 1413804000.0,
+      "assets": 2405861000.0,
+      "equity_ratio": 0.588,
+      "roe": 0.171,
+      "eps": 129.24,
+      "bps": 808.63,
+      "ocf": -137121000.0,
+      "cash": 398734000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 398734000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 13243000.0,
+    "intangibles": 5673000.0,
+    "investments_other": 206771000.0,
+    "total_assets": 2405861000.0,
+    "total_liabilities": 992056000.0,
+    "net_assets_bs": 1413804000.0,
+    "short_loans": 100000000.0,
+    "current_lt_loans": 106748000.0,
+    "long_loans": 267618000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XI7V"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "code": "5187",
+  "name": "クリエートメディック株式会社",
+  "sector33": "精密機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1150.0,
+  "market_cap_oku": 111.1,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      10003003000.0,
+      10393563000.0,
+      10796964000.0,
+      10843961000.0,
+      10830471000.0,
+      11698682000.0,
+      12326542000.0,
+      12585449000.0,
+      13030322000.0,
+      13617561000.0
+    ],
+    "ordinary": [
+      821198000.0,
+      880568000.0,
+      999827000.0,
+      1065827000.0,
+      952747000.0,
+      1009977000.0,
+      834889000.0,
+      872825000.0,
+      750129000.0,
+      988091000.0
+    ],
+    "ordinary_margin": [
+      0.0821,
+      0.0847,
+      0.0926,
+      0.0983,
+      0.088,
+      0.0863,
+      0.0677,
+      0.0694,
+      0.0576,
+      0.0726
+    ],
+    "equity_ratio": [
+      0.716,
+      0.746,
+      0.748,
+      0.768,
+      0.774,
+      0.787,
+      0.78,
+      0.776,
+      0.786,
+      0.811
+    ],
+    "ocf": [
+      1443976000.0,
+      524432000.0,
+      797921000.0,
+      880331000.0,
+      1249020000.0,
+      1248681000.0,
+      478576000.0,
+      698839000.0,
+      2249762000.0,
+      530120000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.0148,
+    "fixed_cost": -1089517681.3,
+    "contribution_margin": -0.0148,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.994,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 6.13,
+    "margin_stdev": 0.0127,
+    "has_loss_year": false,
+    "median_margin": 0.0834
+  },
+  "trough": {
+    "score": 0.315,
+    "latest_margin": 0.0726,
+    "margin_pctile": 0.4,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.042
+  },
+  "structural": {
+    "sales_cagr": 0.0349,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.811,
+    "min_equity_ratio": 0.716,
+    "net_debt": -5830922000.0,
+    "net_debt_to_equity": -0.36,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 9664327.0,
+    "normalized_sales": 11271321500.0,
+    "normalized_margin": 0.0834,
+    "normalized_ordinary": 940127316.9,
+    "normalized_eps": 68.09,
+    "normalized_per": 16.9,
+    "midcycle_per": 12.0,
+    "fair_value": 817.1,
+    "expected_return_x": 0.71,
+    "pbr": 0.59
+  },
+  "liquidation": {
+    "value": 7062114500.0,
+    "per_share": 730.7,
+    "downside_to_liquidation": 0.365
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.5% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 81%（最低 72%） / ネットD/E -0.36"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.7倍"
+    }
+  },
+  "auto_score": 42.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

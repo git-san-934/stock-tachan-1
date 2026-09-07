@@ -1,0 +1,176 @@
+{
+  "code": "2962",
+  "name": "株式会社テクニスコ",
+  "sector33": "金属製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1600.0,
+  "market_cap_oku": 146.8,
+  "fy_range": [
+    2019,
+    2025
+  ],
+  "n_years": 7,
+  "series": {
+    "fy": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      799586000.0,
+      3342242000.0,
+      4346629000.0,
+      5480794000.0,
+      5347037000.0,
+      4683182000.0,
+      3362209000.0
+    ],
+    "ordinary": [
+      36708000.0,
+      182552000.0,
+      353696000.0,
+      887583000.0,
+      329351000.0,
+      -318634000.0,
+      -1629152000.0
+    ],
+    "ordinary_margin": [
+      0.0459,
+      0.0546,
+      0.0814,
+      0.1619,
+      0.0616,
+      -0.068,
+      -0.4845
+    ],
+    "equity_ratio": [
+      0.5035,
+      0.4692,
+      0.3699,
+      0.4322,
+      0.4521,
+      0.493,
+      0.2473
+    ],
+    "ocf": [
+      null,
+      null,
+      837108000.0,
+      1042504000.0,
+      361148000.0,
+      -386636000.0,
+      -256771000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8431,
+    "fixed_cost": 635731376.0,
+    "contribution_margin": 0.1569,
+    "breakeven_sales": 4052602877.1,
+    "dol": null,
+    "r2": 0.764,
+    "n_points": 7
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 1.86,
+    "margin_stdev": 0.2153,
+    "has_loss_year": true,
+    "median_margin": 0.0546
+  },
+  "trough": {
+    "score": 0.494,
+    "latest_margin": -0.4845,
+    "margin_pctile": 0.143,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.949,
+    "price_drawdown_10y": 0.196
+  },
+  "structural": {
+    "sales_cagr": 0.2705,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.2473,
+    "min_equity_ratio": 0.2473,
+    "net_debt": 2245306000.0,
+    "net_debt_to_equity": 1.38,
+    "survive_years_if_loss": 1.4
+  },
+  "valuation": {
+    "shares_outstanding": 9174714.0,
+    "normalized_sales": 4346629000.0,
+    "normalized_margin": 0.0546,
+    "normalized_ordinary": 141832977.0,
+    "normalized_eps": 10.82,
+    "normalized_per": 147.9,
+    "midcycle_per": 12.0,
+    "fair_value": 129.9,
+    "expected_return_x": 0.08,
+    "pbr": 9.04
+  },
+  "liquidation": {
+    "value": -1440216700.0,
+    "per_share": -157.0,
+    "downside_to_liquidation": 1.098
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +27.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 25%（最低 25%） / ネットD/E 1.38"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.1倍"
+    }
+  },
+  "auto_score": 23.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

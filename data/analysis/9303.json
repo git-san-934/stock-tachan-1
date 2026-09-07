@@ -1,0 +1,186 @@
+{
+  "code": "9303",
+  "name": "株式会社住友倉庫",
+  "sector33": "倉庫・運輸関連業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4135.0,
+  "market_cap_oku": 3168.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      165256000000.0,
+      175756000000.0,
+      186172000000.0,
+      191721000000.0,
+      192024000000.0,
+      231461000000.0,
+      223948000000.0,
+      184661000000.0,
+      193398000000.0,
+      196244000000.0
+    ],
+    "ordinary": [
+      11327000000.0,
+      12684000000.0,
+      11295000000.0,
+      13596000000.0,
+      13552000000.0,
+      30421000000.0,
+      29115000000.0,
+      16880000000.0,
+      17497000000.0,
+      15808000000.0
+    ],
+    "ordinary_margin": [
+      0.0685,
+      0.0722,
+      0.0607,
+      0.0709,
+      0.0706,
+      0.1314,
+      0.13,
+      0.0914,
+      0.0905,
+      0.0806
+    ],
+    "equity_ratio": [
+      0.561,
+      0.542,
+      0.562,
+      0.519,
+      0.541,
+      0.544,
+      0.563,
+      0.584,
+      0.6,
+      0.612
+    ],
+    "ocf": [
+      16629000000.0,
+      16639000000.0,
+      13999000000.0,
+      14975000000.0,
+      20605000000.0,
+      31418000000.0,
+      29816000000.0,
+      22034000000.0,
+      31733000000.0,
+      28162000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.6785,
+    "fixed_cost": 45178559711.4,
+    "contribution_margin": 0.3215,
+    "breakeven_sales": 140514265968.7,
+    "dol": 3.99,
+    "r2": 0.965,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 4.63,
+    "margin_stdev": 0.0251,
+    "has_loss_year": false,
+    "median_margin": 0.0764
+  },
+  "trough": {
+    "score": 0.303,
+    "latest_margin": 0.0806,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.021
+  },
+  "structural": {
+    "sales_cagr": 0.0193,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.612,
+    "min_equity_ratio": 0.519,
+    "net_debt": 41118000000.0,
+    "net_debt_to_equity": 0.13,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 76614215.0,
+    "normalized_sales": 191872500000.0,
+    "normalized_margin": 0.0764,
+    "normalized_ordinary": 15579965231.2,
+    "normalized_eps": 142.35,
+    "normalized_per": 29.0,
+    "midcycle_per": 12.0,
+    "fair_value": 1708.2,
+    "expected_return_x": 0.41,
+    "pbr": 1.0
+  },
+  "liquidation": {
+    "value": 154544600000.0,
+    "per_share": 2017.2,
+    "downside_to_liquidation": 0.512
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 61%（最低 52%） / ネットD/E 0.13"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 3.99 / 期待リターン 0.4倍"
+    }
+  },
+  "auto_score": 42.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

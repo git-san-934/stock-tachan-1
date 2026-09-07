@@ -1,0 +1,177 @@
+{
+  "code": "8078",
+  "name": "阪和興業株式会社",
+  "sector33": "卸売業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1922.0,
+  "market_cap_oku": 813.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      1514037000000.0,
+      1791118000000.0,
+      2074600000000.0,
+      1907493000000.0,
+      1745501000000.0,
+      2164049000000.0,
+      2668228000000.0,
+      2431980000000.0,
+      2554514000000.0,
+      2662669000000.0
+    ],
+    "ordinary": [
+      22907000000.0,
+      25502000000.0,
+      23395000000.0,
+      -12598000000.0,
+      28821000000.0,
+      62718000000.0,
+      64272000000.0,
+      48276000000.0,
+      59746000000.0,
+      52262000000.0
+    ],
+    "ordinary_margin": [
+      0.0151,
+      0.0142,
+      0.0113,
+      -0.0066,
+      0.0165,
+      0.029,
+      0.0241,
+      0.0199,
+      0.0234,
+      0.0196
+    ],
+    "equity_ratio": [
+      0.245,
+      0.218,
+      0.202,
+      0.205,
+      0.229,
+      0.138,
+      0.262,
+      0.301,
+      0.329,
+      0.353
+    ],
+    "ocf": [
+      3959000000.0,
+      -19755000000.0,
+      15417000000.0,
+      74261000000.0,
+      19004000000.0,
+      -280752000000.0,
+      284226000000.0,
+      18187000000.0,
+      10131000000.0,
+      74331000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9582,
+    "fixed_cost": 52308606282.1,
+    "contribution_margin": 0.0418,
+    "breakeven_sales": 1252664122684.7,
+    "dol": 2.13,
+    "r2": 0.998,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 9.41,
+    "margin_stdev": 0.0097,
+    "has_loss_year": true,
+    "median_margin": 0.0181
+  },
+  "trough": {
+    "score": 0.2,
+    "latest_margin": 0.0196,
+    "margin_pctile": 0.6,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.001
+  },
+  "structural": {
+    "sales_cagr": 0.0647,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.353,
+    "min_equity_ratio": 0.138,
+    "net_debt": 266203000000.0,
+    "net_debt_to_equity": 0.61,
+    "survive_years_if_loss": 8.4
+  },
+  "valuation": {
+    "shares_outstanding": 42332640.0,
+    "normalized_sales": 2119324500000.0,
+    "normalized_margin": 0.0181,
+    "normalized_ordinary": 37287286943.6,
+    "normalized_eps": 616.57,
+    "normalized_per": 3.1,
+    "midcycle_per": 12.0,
+    "fair_value": 7398.9,
+    "expected_return_x": 3.85,
+    "pbr": 0.87
+  },
+  "liquidation": {
+    "value": -32095700000.0,
+    "per_share": -758.2,
+    "downside_to_liquidation": 1.394
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +6.5% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 35%（最低 14%） / ネットD/E 0.61"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "○",
+      "note": "DOL 2.13 / 期待リターン 3.8倍"
+    }
+  },
+  "auto_score": 68.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

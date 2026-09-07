@@ -1,0 +1,194 @@
+{
+  "code": "6249",
+  "name": "株式会社ゲームカードホールディングス",
+  "sector33": "機械",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2817.0,
+  "market_cap_oku": 413.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      20405000000.0,
+      16928000000.0,
+      17375000000.0,
+      16561000000.0,
+      10562000000.0,
+      11447000000.0,
+      21691000000.0,
+      36289000000.0,
+      37946000000.0,
+      25385000000.0
+    ],
+    "ordinary": [
+      1945000000.0,
+      3594000000.0,
+      2419000000.0,
+      2027000000.0,
+      1258000000.0,
+      1270000000.0,
+      4639000000.0,
+      10774000000.0,
+      9388000000.0,
+      5083000000.0
+    ],
+    "ordinary_margin": [
+      0.0953,
+      0.2123,
+      0.1392,
+      0.1224,
+      0.1191,
+      0.1109,
+      0.2139,
+      0.2969,
+      0.2474,
+      0.2002
+    ],
+    "equity_ratio": [
+      0.747,
+      0.798,
+      0.806,
+      0.837,
+      0.859,
+      0.875,
+      0.843,
+      0.829,
+      0.874,
+      0.91
+    ],
+    "ocf": [
+      2264000000.0,
+      3466000000.0,
+      1952000000.0,
+      784000000.0,
+      514000000.0,
+      1513000000.0,
+      1706000000.0,
+      6196000000.0,
+      6801000000.0,
+      3512000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.6563,
+    "fixed_cost": 3136198483.3,
+    "contribution_margin": 0.3437,
+    "breakeven_sales": 9124226666.9,
+    "dol": 1.72,
+    "r2": 0.976,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 2.45,
+    "margin_stdev": 0.0677,
+    "has_loss_year": false,
+    "median_margin": 0.1697
+  },
+  "trough": {
+    "score": 0.217,
+    "latest_margin": 0.2002,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.851,
+    "price_drawdown_10y": 0.351
+  },
+  "structural": {
+    "sales_cagr": 0.0246,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.91,
+    "min_equity_ratio": 0.747,
+    "net_debt": -11327000000.0,
+    "net_debt_to_equity": -0.19,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 14681400.0,
+    "normalized_sales": 18890000000.0,
+    "normalized_margin": 0.1697,
+    "normalized_ordinary": 3281244188.1,
+    "normalized_eps": 156.45,
+    "normalized_per": 18.0,
+    "midcycle_per": 12.0,
+    "fair_value": 1877.4,
+    "expected_return_x": 0.67,
+    "pbr": 0.65
+  },
+  "liquidation": {
+    "value": 19943300000.0,
+    "per_share": 1358.4,
+    "downside_to_liquidation": 0.518
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.5% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 91%（最低 75%） / ネットD/E -0.19"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.72 / 期待リターン 0.7倍"
+    }
+  },
+  "auto_score": 40.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

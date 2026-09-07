@@ -1,0 +1,194 @@
+{
+  "code": "6324",
+  "name": "株式会社ハーモニック・ドライブ・システムズ",
+  "sector33": "機械",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 5950.0,
+  "market_cap_oku": 5730.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      30069057000.0,
+      54339573000.0,
+      67809268000.0,
+      37487753000.0,
+      37034042000.0,
+      57087914000.0,
+      71527316000.0,
+      55796455000.0,
+      55645940000.0,
+      59557877000.0
+    ],
+    "ordinary": [
+      7958872000.0,
+      11946320000.0,
+      17185194000.0,
+      236398000.0,
+      1366803000.0,
+      9108243000.0,
+      10757728000.0,
+      570333000.0,
+      151197000.0,
+      2539620000.0
+    ],
+    "ordinary_margin": [
+      0.2647,
+      0.2198,
+      0.2534,
+      0.0063,
+      0.0369,
+      0.1595,
+      0.1504,
+      0.0102,
+      0.0027,
+      0.0426
+    ],
+    "equity_ratio": [
+      0.54,
+      0.717,
+      0.725,
+      0.733,
+      0.735,
+      0.69,
+      0.674,
+      0.666,
+      0.695,
+      0.722
+    ],
+    "ocf": [
+      7225701000.0,
+      9233727000.0,
+      15121877000.0,
+      10950184000.0,
+      9555003000.0,
+      9881633000.0,
+      10850473000.0,
+      12728600000.0,
+      7516235000.0,
+      6425287000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7949,
+    "fixed_cost": 4613036323.4,
+    "contribution_margin": 0.2051,
+    "breakeven_sales": 22492557098.3,
+    "dol": 4.81,
+    "r2": 0.803,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 14.41,
+    "margin_stdev": 0.1067,
+    "has_loss_year": false,
+    "median_margin": 0.0965
+  },
+  "trough": {
+    "score": 0.243,
+    "latest_margin": 0.0426,
+    "margin_pctile": 0.5,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.868,
+    "price_drawdown_10y": 0.335
+  },
+  "structural": {
+    "sales_cagr": 0.0789,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.722,
+    "min_equity_ratio": 0.54,
+    "net_debt": -8345179000.0,
+    "net_debt_to_equity": -0.1,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 96315400.0,
+    "normalized_sales": 55721197500.0,
+    "normalized_margin": 0.0965,
+    "normalized_ordinary": 6096816334.4,
+    "normalized_eps": 44.31,
+    "normalized_per": 134.3,
+    "midcycle_per": 12.0,
+    "fair_value": 531.7,
+    "expected_return_x": 0.09,
+    "pbr": 7.01
+  },
+  "liquidation": {
+    "value": 24928673700.0,
+    "per_share": 258.8,
+    "downside_to_liquidation": 0.957
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +7.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 72%（最低 54%） / ネットD/E -0.1"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 4.81 / 期待リターン 0.1倍"
+    }
+  },
+  "auto_score": 41.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

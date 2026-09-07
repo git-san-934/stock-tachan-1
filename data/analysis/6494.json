@@ -1,0 +1,194 @@
+{
+  "code": "6494",
+  "name": "株式会社ＮＦＫホールディングス",
+  "sector33": "機械",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 97.0,
+  "market_cap_oku": 47.3,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      2590466000.0,
+      2369203000.0,
+      2502618000.0,
+      2667952000.0,
+      2309458000.0,
+      1945994000.0,
+      2157306000.0,
+      2127566000.0,
+      2082243000.0,
+      3683444000.0
+    ],
+    "ordinary": [
+      -142945000.0,
+      2070000.0,
+      134887000.0,
+      38937000.0,
+      221932000.0,
+      149932000.0,
+      138123000.0,
+      135610000.0,
+      153956000.0,
+      278516000.0
+    ],
+    "ordinary_margin": [
+      -0.0552,
+      0.0009,
+      0.0539,
+      0.0146,
+      0.0961,
+      0.077,
+      0.064,
+      0.0637,
+      0.0739,
+      0.0756
+    ],
+    "equity_ratio": [
+      0.728,
+      0.717,
+      0.689,
+      0.728,
+      0.755,
+      0.808,
+      0.805,
+      0.893,
+      0.898,
+      0.714
+    ],
+    "ocf": [
+      -372642000.0,
+      -51143000.0,
+      1381000.0,
+      -379146000.0,
+      435336000.0,
+      300551000.0,
+      -3568000.0,
+      483592000.0,
+      4338000.0,
+      270333000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9552,
+    "fixed_cost": -1585681.9,
+    "contribution_margin": 0.0448,
+    "breakeven_sales": -35381203.4,
+    "dol": 0.59,
+    "r2": 0.942,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 76.36,
+    "margin_stdev": 0.0461,
+    "has_loss_year": true,
+    "median_margin": 0.0639
+  },
+  "trough": {
+    "score": 0.267,
+    "latest_margin": 0.0756,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.421,
+    "price_drawdown_10y": 0.618
+  },
+  "structural": {
+    "sales_cagr": 0.0399,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.714,
+    "min_equity_ratio": 0.689,
+    "net_debt": -3254432000.0,
+    "net_debt_to_equity": -0.5,
+    "survive_years_if_loss": 27.4
+  },
+  "valuation": {
+    "shares_outstanding": 48744000.0,
+    "normalized_sales": 2339330500.0,
+    "normalized_margin": 0.0639,
+    "normalized_ordinary": 149442503.9,
+    "normalized_eps": 2.15,
+    "normalized_per": 45.2,
+    "midcycle_per": 12.0,
+    "fair_value": 25.8,
+    "expected_return_x": 0.27,
+    "pbr": 0.81
+  },
+  "liquidation": {
+    "value": 4252291700.0,
+    "per_share": 87.2,
+    "downside_to_liquidation": 0.101
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +4.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 71%（最低 69%） / ネットD/E -0.5"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.59 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 41.7,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

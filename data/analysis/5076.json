@@ -1,0 +1,156 @@
+{
+  "code": "5076",
+  "name": "インフロニア・ホールディングス株式会社",
+  "sector33": "建設業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2760.5,
+  "market_cap_oku": 7587.1,
+  "fy_range": [
+    2022,
+    2026
+  ],
+  "n_years": 5,
+  "series": {
+    "fy": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      682912000000.0,
+      709641000000.0,
+      786509000000.0,
+      21720000000.0,
+      26246000000.0
+    ],
+    "ordinary": [
+      38036000000.0,
+      41768000000.0,
+      42979000000.0,
+      12395000000.0,
+      13745000000.0
+    ],
+    "ordinary_margin": [
+      0.0557,
+      0.0589,
+      0.0546,
+      0.5707,
+      0.5237
+    ],
+    "equity_ratio": [
+      0.374,
+      0.381,
+      0.283,
+      0.493,
+      0.389
+    ],
+    "ocf": [
+      -16333000000.0,
+      70954000000.0,
+      11372000000.0,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9603,
+    "fixed_cost": -12112691551.9,
+    "contribution_margin": 0.0397,
+    "breakeven_sales": -305290210400.3,
+    "dol": 0.08,
+    "r2": 1.0,
+    "n_points": 5
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 0.72,
+    "margin_stdev": 0.2693,
+    "has_loss_year": false,
+    "median_margin": 0.0589
+  },
+  "trough": {
+    "score": 0.11,
+    "latest_margin": 0.5237,
+    "margin_pctile": 0.8,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.984,
+    "price_drawdown_10y": 0.033
+  },
+  "structural": {
+    "sales_cagr": -0.5572,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.389,
+    "min_equity_ratio": 0.283,
+    "net_debt": 346075000000.0,
+    "net_debt_to_equity": 0.94,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 274845000.0,
+    "normalized_sales": 39369000000.0,
+    "normalized_margin": 0.0589,
+    "normalized_ordinary": 2317177829.4,
+    "normalized_eps": 5.9,
+    "normalized_per": 467.8,
+    "midcycle_per": 12.0,
+    "fair_value": 70.8,
+    "expected_return_x": 0.03,
+    "pbr": 2.64
+  },
+  "liquidation": {
+    "value": 93615400000.0,
+    "per_share": 340.6,
+    "downside_to_liquidation": 0.877
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -55.7% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 39%（最低 28%） / ネットD/E 0.94"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.08 / 期待リターン 0.0倍"
+    }
+  },
+  "auto_score": 24.3,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

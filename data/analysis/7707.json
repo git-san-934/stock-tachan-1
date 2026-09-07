@@ -1,0 +1,186 @@
+{
+  "code": "7707",
+  "name": "プレシジョン・システム・サイエンス株式会社",
+  "sector33": "精密機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 211.0,
+  "market_cap_oku": 58.4,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      4458411000.0,
+      3847021000.0,
+      3641164000.0,
+      4381442000.0,
+      5067231000.0,
+      9298741000.0,
+      7434287000.0,
+      5278321000.0,
+      3979954000.0,
+      4692629000.0
+    ],
+    "ordinary": [
+      -821206000.0,
+      -428453000.0,
+      -385178000.0,
+      139272000.0,
+      -91143000.0,
+      770932000.0,
+      175774000.0,
+      -1141540000.0,
+      -1010441000.0,
+      -139339000.0
+    ],
+    "ordinary_margin": [
+      -0.1842,
+      -0.1114,
+      -0.1058,
+      0.0318,
+      -0.018,
+      0.0829,
+      0.0236,
+      -0.2163,
+      -0.2539,
+      -0.0297
+    ],
+    "equity_ratio": [
+      0.583,
+      0.646,
+      0.642,
+      0.722,
+      0.671,
+      0.569,
+      0.571,
+      0.535,
+      0.648,
+      0.762
+    ],
+    "ocf": [
+      72149000.0,
+      -802766000.0,
+      -32812000.0,
+      -403711000.0,
+      -21452000.0,
+      -280966000.0,
+      869161000.0,
+      -6746000.0,
+      -106801000.0,
+      95828000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.777,
+    "fixed_cost": 1454655137.5,
+    "contribution_margin": 0.223,
+    "breakeven_sales": 6522236870.7,
+    "dol": null,
+    "r2": 0.912,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 9.93,
+    "margin_stdev": 0.1142,
+    "has_loss_year": true,
+    "median_margin": -0.0677
+  },
+  "trough": {
+    "score": 0.76,
+    "latest_margin": -0.0297,
+    "margin_pctile": 0.6,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.157,
+    "price_drawdown_10y": 0.913
+  },
+  "structural": {
+    "sales_cagr": 0.0057,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.762,
+    "min_equity_ratio": 0.535,
+    "net_debt": -472198000.0,
+    "net_debt_to_equity": -0.13,
+    "survive_years_if_loss": 0.9
+  },
+  "valuation": {
+    "shares_outstanding": 27666900.0,
+    "normalized_sales": 4575520000.0,
+    "normalized_margin": -0.0677,
+    "normalized_ordinary": -372127054.4,
+    "normalized_eps": -9.42,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 1.53
+  },
+  "liquidation": {
+    "value": 1740780300.0,
+    "per_share": 62.9,
+    "downside_to_liquidation": 0.702
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +0.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 76%（最低 54%） / ネットD/E -0.13"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 60.0,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

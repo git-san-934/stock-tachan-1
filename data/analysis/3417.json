@@ -1,0 +1,177 @@
+{
+  "code": "3417",
+  "name": "大木ヘルスケアホールディングス株式会社",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1022.0,
+  "market_cap_oku": 143.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      222342000000.0,
+      239531000000.0,
+      258481000000.0,
+      277260000000.0,
+      286173000000.0,
+      278162000000.0,
+      304445000000.0,
+      334661000000.0,
+      349452000000.0,
+      360358000000.0
+    ],
+    "ordinary": [
+      2208000000.0,
+      3295000000.0,
+      3124000000.0,
+      3203000000.0,
+      4106000000.0,
+      1583000000.0,
+      3153000000.0,
+      3259000000.0,
+      3991000000.0,
+      1964000000.0
+    ],
+    "ordinary_margin": [
+      0.0099,
+      0.0138,
+      0.0121,
+      0.0116,
+      0.0143,
+      0.0057,
+      0.0104,
+      0.0097,
+      0.0114,
+      0.0055
+    ],
+    "equity_ratio": [
+      0.1625,
+      0.1739,
+      0.1743,
+      0.1887,
+      0.2071,
+      0.1925,
+      0.1968,
+      0.2008,
+      0.2224,
+      0.2302
+    ],
+    "ocf": [
+      -636000000.0,
+      5593000000.0,
+      2730000000.0,
+      -901000000.0,
+      -4273000000.0,
+      1309000000.0,
+      96000000.0,
+      7548000000.0,
+      -9184000000.0,
+      -1415000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9977,
+    "fixed_cost": -2308215435.3,
+    "contribution_margin": 0.0023,
+    "breakeven_sales": null,
+    "dol": 0.43,
+    "r2": 1.0,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 12.13,
+    "margin_stdev": 0.003,
+    "has_loss_year": false,
+    "median_margin": 0.0109
+  },
+  "trough": {
+    "score": 0.675,
+    "latest_margin": 0.0055,
+    "margin_pctile": 0.1,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.628,
+    "price_drawdown_10y": 0.521
+  },
+  "structural": {
+    "sales_cagr": 0.0551,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.2302,
+    "min_equity_ratio": 0.1625,
+    "net_debt": 13909000000.0,
+    "net_debt_to_equity": 0.41,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 14072100.0,
+    "normalized_sales": 282167500000.0,
+    "normalized_margin": 0.0109,
+    "normalized_ordinary": 3072421625.3,
+    "normalized_eps": 152.83,
+    "normalized_per": 6.7,
+    "midcycle_per": 12.0,
+    "fair_value": 1834.0,
+    "expected_return_x": 1.79,
+    "pbr": 0.41
+  },
+  "liquidation": {
+    "value": -17460400000.0,
+    "per_share": -1240.8,
+    "downside_to_liquidation": 2.214
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.5% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 23%（最低 16%） / ネットD/E 0.41"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "△",
+      "note": "DOL 0.43 / 期待リターン 1.8倍"
+    }
+  },
+  "auto_score": 52.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

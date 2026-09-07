@@ -238,7 +238,7 @@ def analyze(code: str) -> dict | None:
         return max(0.0, min(1.0, x))
 
     cheap_c = clamp01((exp_return_x - 1) / 2) if exp_return_x else (
-        0.5 if (pbr and pbr < 1) else 0.2)
+        0.3 if (pbr and pbr < 0.7) else 0.15)
     trough_c = clamp01(trough_score) if trough_score is not None else 0.3
     surv_c = clamp01(
         (latest_er or 0) / 0.5 * 0.6
@@ -246,6 +246,7 @@ def analyze(code: str) -> dict | None:
     auto_score = round(100 * (0.40 * cheap_c + 0.25 * trough_c + 0.35 * surv_c), 1)
 
     passes = {
+        "s0_size": bool(market_cap and market_cap >= 100e8),
         "s1_cheap": bool((pbr and pbr < 1.0) or (norm_per and norm_per < 8)
                          or (exp_return_x and exp_return_x >= 2)),
         "s2_cyclical": cyclicality_score >= 0.4,
@@ -256,11 +257,14 @@ def analyze(code: str) -> dict | None:
         "s5_survivable": survival_ok or bool(
             latest_er and latest_er >= 0.15
             and (nd_to_equity is None or nd_to_equity <= 1.6)),
+        # 山で跳ねる根拠 = ミッドサイクル利益がプラスで試算できること
+        "s6_upside": bool(exp_return_x and exp_return_x >= 1.0),
     }
     passes["pass_all"] = bool(
-        passes["s2_cyclical"] and passes["s3_trough"] and passes["s4_structural_ok"]
+        passes["s0_size"] and passes["s6_upside"]
+        and passes["s2_cyclical"] and passes["s3_trough"] and passes["s4_structural_ok"]
         and passes["s5_survivable"]
-        and (passes["s1_cheap"] or (exp_return_x and exp_return_x >= 1.5)))
+        and (passes["s1_cheap"] or exp_return_x >= 1.5))
 
     out = {
         "code": code, "name": fin.get("name", ""), "sector33": uni.get("sector33", ""),

@@ -1,0 +1,186 @@
+{
+  "code": "1964",
+  "name": "中外炉工業株式会社",
+  "sector33": "建設業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3995.0,
+  "market_cap_oku": 311.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      31146000000.0,
+      30830000000.0,
+      37090000000.0,
+      38090000000.0,
+      24718000000.0,
+      26317000000.0,
+      27977000000.0,
+      29283000000.0,
+      36247000000.0,
+      37332000000.0
+    ],
+    "ordinary": [
+      919000000.0,
+      1287000000.0,
+      1157000000.0,
+      1875000000.0,
+      565000000.0,
+      1493000000.0,
+      1575000000.0,
+      1714000000.0,
+      3003000000.0,
+      3110000000.0
+    ],
+    "ordinary_margin": [
+      0.0295,
+      0.0417,
+      0.0312,
+      0.0492,
+      0.0229,
+      0.0567,
+      0.0563,
+      0.0585,
+      0.0828,
+      0.0833
+    ],
+    "equity_ratio": [
+      0.527,
+      0.511,
+      0.489,
+      0.441,
+      0.562,
+      0.605,
+      0.579,
+      0.564,
+      0.581,
+      0.608
+    ],
+    "ocf": [
+      1033000000.0,
+      377000000.0,
+      -1348000000.0,
+      -580000000.0,
+      3300000000.0,
+      6090000000.0,
+      -2500000000.0,
+      -891000000.0,
+      -3696000000.0,
+      6427000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8984,
+    "fixed_cost": 1570477337.4,
+    "contribution_margin": 0.1016,
+    "breakeven_sales": 15462546343.2,
+    "dol": 1.22,
+    "r2": 0.979,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 3.94,
+    "margin_stdev": 0.0208,
+    "has_loss_year": false,
+    "median_margin": 0.0528
+  },
+  "trough": {
+    "score": 0.07,
+    "latest_margin": 0.0833,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.909,
+    "price_drawdown_10y": 0.197
+  },
+  "structural": {
+    "sales_cagr": 0.0203,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.608,
+    "min_equity_ratio": 0.441,
+    "net_debt": -6012000000.0,
+    "net_debt_to_equity": -0.19,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 7800000.0,
+    "normalized_sales": 30988000000.0,
+    "normalized_margin": 0.0528,
+    "normalized_ordinary": 1606428820.4,
+    "normalized_eps": 144.17,
+    "normalized_per": 27.7,
+    "midcycle_per": 12.0,
+    "fair_value": 1730.0,
+    "expected_return_x": 0.43,
+    "pbr": 0.93
+  },
+  "liquidation": {
+    "value": 20449100000.0,
+    "per_share": 2621.7,
+    "downside_to_liquidation": 0.344
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 61%（最低 44%） / ネットD/E -0.19"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.22 / 期待リターン 0.4倍"
+    }
+  },
+  "auto_score": 36.8,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

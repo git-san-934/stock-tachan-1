@@ -1,0 +1,177 @@
+{
+  "code": "8136",
+  "name": "株式会社サンリオ",
+  "sector33": "卸売業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1260.0,
+  "market_cap_oku": 3218.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      62695000000.0,
+      60220000000.0,
+      59120000000.0,
+      55261000000.0,
+      41053000000.0,
+      52763000000.0,
+      72624000000.0,
+      99981000000.0,
+      144904000000.0,
+      194088000000.0
+    ],
+    "ordinary": [
+      7255000000.0,
+      6020000000.0,
+      5836000000.0,
+      3274000000.0,
+      -1731000000.0,
+      3318000000.0,
+      13724000000.0,
+      28265000000.0,
+      53453000000.0,
+      79335000000.0
+    ],
+    "ordinary_margin": [
+      0.1157,
+      0.1,
+      0.0987,
+      0.0592,
+      -0.0422,
+      0.0629,
+      0.189,
+      0.2827,
+      0.3689,
+      0.4088
+    ],
+    "equity_ratio": [
+      0.522,
+      0.534,
+      0.547,
+      0.515,
+      0.437,
+      0.521,
+      0.556,
+      0.414,
+      0.529,
+      0.664
+    ],
+    "ocf": [
+      7037000000.0,
+      3936000000.0,
+      4868000000.0,
+      834000000.0,
+      -2287000000.0,
+      5064000000.0,
+      11525000000.0,
+      22173000000.0,
+      40816000000.0,
+      52554000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.4574,
+    "fixed_cost": 25851805510.1,
+    "contribution_margin": 0.5426,
+    "breakeven_sales": 47642945028.7,
+    "dol": 1.33,
+    "r2": 0.999,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 6.64,
+    "margin_stdev": 0.1457,
+    "has_loss_year": true,
+    "median_margin": 0.1078
+  },
+  "trough": {
+    "score": 0.06,
+    "latest_margin": 0.4088,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.934,
+    "price_drawdown_10y": 0.173
+  },
+  "structural": {
+    "sales_cagr": 0.1338,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.664,
+    "min_equity_ratio": 0.414,
+    "net_debt": -118747000000.0,
+    "net_debt_to_equity": -0.76,
+    "survive_years_if_loss": 80.9
+  },
+  "valuation": {
+    "shares_outstanding": 255408303.0,
+    "normalized_sales": 116452800000.0,
+    "normalized_margin": 0.1078,
+    "normalized_ordinary": 24947044124.9,
+    "normalized_eps": 68.37,
+    "normalized_per": 18.4,
+    "midcycle_per": 12.0,
+    "fair_value": 820.5,
+    "expected_return_x": 0.65,
+    "pbr": 9.81
+  },
+  "liquidation": {
+    "value": 93980900000.0,
+    "per_share": 368.0,
+    "downside_to_liquidation": 0.708
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +13.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 66%（最低 41%） / ネットD/E -0.76"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.33 / 期待リターン 0.7倍"
+    }
+  },
+  "auto_score": 36.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

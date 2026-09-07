@@ -1,0 +1,90 @@
+{
+  "code": "523A",
+  "name": "株式会社セイワホールディングス",
+  "edinet_code": "E41409",
+  "latest_doc_id": "S100YYKB",
+  "latest_period_end": "2026-05-31",
+  "shares_outstanding": 19106700.0,
+  "annual": [
+    {
+      "fy": 2022,
+      "sales": 66000000.0,
+      "ordinary": -68000000.0,
+      "net_income": -209000000.0,
+      "equity": 256000000.0,
+      "assets": 2989000000.0,
+      "equity_ratio": 0.086,
+      "eps": -1698.46,
+      "bps": 1904.64
+    },
+    {
+      "fy": 2023,
+      "sales": 365000000.0,
+      "ordinary": -12000000.0,
+      "net_income": -13000000.0,
+      "equity": 248000000.0,
+      "assets": 4744000000.0,
+      "equity_ratio": 0.051,
+      "eps": -97.82,
+      "bps": 1806.81
+    },
+    {
+      "fy": 2024,
+      "sales": 7276000000.0,
+      "ordinary": 19000000.0,
+      "net_income": 18000000.0,
+      "equity": 303000000.0,
+      "assets": 4834000000.0,
+      "equity_ratio": 0.054,
+      "roe": 0.075,
+      "eps": 1.4,
+      "bps": 19.47
+    },
+    {
+      "fy": 2025,
+      "sales": 7769000000.0,
+      "ordinary": 222000000.0,
+      "net_income": 221000000.0,
+      "equity": 1175000000.0,
+      "assets": 6178000000.0,
+      "equity_ratio": 0.184,
+      "roe": 0.318,
+      "eps": 15.81,
+      "bps": 75.2
+    },
+    {
+      "fy": 2026,
+      "sales": 8011000000.0,
+      "ordinary": 65000000.0,
+      "net_income": 62000000.0,
+      "equity": 5535000000.0,
+      "assets": 11353000000.0,
+      "equity_ratio": 0.485,
+      "roe": 0.019,
+      "eps": 3.98,
+      "bps": 288.21
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 4168000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 7000000.0,
+    "intangibles": 226000000.0,
+    "investments_other": 6676000000.0,
+    "total_assets": 11353000000.0,
+    "total_liabilities": 5818000000.0,
+    "net_assets_bs": 5535000000.0,
+    "short_loans": 1000000000.0,
+    "current_lt_loans": 556000000.0,
+    "long_loans": 2306000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YYKB"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "code": "7296",
+  "name": "株式会社エフ・シー・シー",
+  "sector33": "輸送用機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4160.0,
+  "market_cap_oku": 2165.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      36756000000.0,
+      39663000000.0,
+      40850000000.0,
+      38337000000.0,
+      34224000000.0,
+      39256000000.0,
+      38705000000.0,
+      41308000000.0,
+      43753000000.0,
+      44496000000.0
+    ],
+    "ordinary": [
+      4259000000.0,
+      5897000000.0,
+      6295000000.0,
+      2503000000.0,
+      3175000000.0,
+      5575000000.0,
+      4395000000.0,
+      9050000000.0,
+      12426000000.0,
+      16453000000.0
+    ],
+    "ordinary_margin": [
+      0.1159,
+      0.1487,
+      0.1541,
+      0.0653,
+      0.0928,
+      0.142,
+      0.1136,
+      0.2191,
+      0.284,
+      0.3698
+    ],
+    "equity_ratio": [
+      0.7179,
+      0.7351,
+      0.7724,
+      0.7968,
+      0.8255,
+      0.8235,
+      0.8158,
+      0.7598,
+      0.74,
+      0.7939
+    ],
+    "ocf": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.0,
+    "fixed_cost": 43573416333.1,
+    "contribution_margin": 1.0,
+    "breakeven_sales": 43573416333.1,
+    "dol": 2.7,
+    "r2": 0.142,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 6.37,
+    "margin_stdev": 0.0942,
+    "has_loss_year": false,
+    "median_margin": 0.1453
+  },
+  "trough": {
+    "score": 0.003,
+    "latest_margin": 0.3698,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.005
+  },
+  "structural": {
+    "sales_cagr": 0.0215,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.7939,
+    "min_equity_ratio": 0.7179,
+    "net_debt": -6527000000.0,
+    "net_debt_to_equity": -0.08,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 52056530.0,
+    "normalized_sales": 39459500000.0,
+    "normalized_margin": 0.1453,
+    "normalized_ordinary": 5735322232.9,
+    "normalized_eps": 77.12,
+    "normalized_per": 53.9,
+    "midcycle_per": 12.0,
+    "fair_value": 925.5,
+    "expected_return_x": 0.22,
+    "pbr": 2.37
+  },
+  "liquidation": {
+    "value": 40605000000.0,
+    "per_share": 780.0,
+    "downside_to_liquidation": 0.812
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 79%（最低 72%） / ネットD/E -0.08"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.7 / 期待リターン 0.2倍"
+    }
+  },
+  "auto_score": 35.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

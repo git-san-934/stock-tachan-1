@@ -1,0 +1,177 @@
+{
+  "code": "7685",
+  "name": "株式会社ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
+  "sector33": "卸売業",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3150.0,
+  "market_cap_oku": 972.7,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      7559880000.0,
+      8917779000.0,
+      10118751000.0,
+      12828896000.0,
+      14764844000.0,
+      24789126000.0,
+      33724535000.0,
+      42574902000.0,
+      59973669000.0,
+      100614584000.0
+    ],
+    "ordinary": [
+      225569000.0,
+      319125000.0,
+      472996000.0,
+      817279000.0,
+      922687000.0,
+      2295436000.0,
+      3672955000.0,
+      2754428000.0,
+      4198134000.0,
+      8487395000.0
+    ],
+    "ordinary_margin": [
+      0.0298,
+      0.0358,
+      0.0467,
+      0.0637,
+      0.0625,
+      0.0926,
+      0.1089,
+      0.0647,
+      0.07,
+      0.0844
+    ],
+    "equity_ratio": [
+      0.1004,
+      0.1887,
+      0.2287,
+      0.4919,
+      0.3658,
+      0.4397,
+      0.462,
+      0.395,
+      0.2623,
+      0.382
+    ],
+    "ocf": [
+      null,
+      222073000.0,
+      326221000.0,
+      1116326000.0,
+      425499000.0,
+      2081451000.0,
+      2969823000.0,
+      1238830000.0,
+      2126922000.0,
+      7518191000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.915,
+    "fixed_cost": 267968201.0,
+    "contribution_margin": 0.085,
+    "breakeven_sales": 3152920085.2,
+    "dol": 1.01,
+    "r2": 1.0,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 2.38,
+    "margin_stdev": 0.0247,
+    "has_loss_year": false,
+    "median_margin": 0.0642
+  },
+  "trough": {
+    "score": 0.175,
+    "latest_margin": 0.0844,
+    "margin_pctile": 0.8,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.939,
+    "price_drawdown_10y": 0.229
+  },
+  "structural": {
+    "sales_cagr": 0.3332,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.382,
+    "min_equity_ratio": 0.1004,
+    "net_debt": 4018817000.0,
+    "net_debt_to_equity": 0.19,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 30877880.0,
+    "normalized_sales": 60368750400.0,
+    "normalized_margin": 0.0642,
+    "normalized_ordinary": 4369557212.2,
+    "normalized_eps": 99.06,
+    "normalized_per": 31.8,
+    "midcycle_per": 12.0,
+    "fair_value": 1188.7,
+    "expected_return_x": 0.38,
+    "pbr": 4.65
+  },
+  "liquidation": {
+    "value": -10244953300.0,
+    "per_share": -331.8,
+    "downside_to_liquidation": 1.105
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +33.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 38%（最低 10%） / ネットD/E 0.19"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.01 / 期待リターン 0.4倍"
+    }
+  },
+  "auto_score": 32.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "code": "6824",
+  "name": "新コスモス電機株式会社",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4245.0,
+  "market_cap_oku": 533.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      24062925000.0,
+      27198893000.0,
+      28501458000.0,
+      27773693000.0,
+      29576806000.0,
+      34335851000.0,
+      37206881000.0,
+      38546304000.0,
+      42153556000.0,
+      50091543000.0
+    ],
+    "ordinary": [
+      1905137000.0,
+      2633398000.0,
+      2958716000.0,
+      2343278000.0,
+      3712134000.0,
+      6045000000.0,
+      6269768000.0,
+      4809381000.0,
+      5451411000.0,
+      7921295000.0
+    ],
+    "ordinary_margin": [
+      0.0792,
+      0.0968,
+      0.1038,
+      0.0844,
+      0.1255,
+      0.1761,
+      0.1685,
+      0.1248,
+      0.1293,
+      0.1581
+    ],
+    "equity_ratio": [
+      0.731,
+      0.724,
+      0.71,
+      0.736,
+      0.728,
+      0.728,
+      0.731,
+      0.664,
+      0.708,
+      0.727
+    ],
+    "ocf": [
+      1872846000.0,
+      2536719000.0,
+      2880444000.0,
+      1880210000.0,
+      3734849000.0,
+      3303264000.0,
+      2619833000.0,
+      2549125000.0,
+      4887965000.0,
+      5959989000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7725,
+    "fixed_cost": 3317411308.2,
+    "contribution_margin": 0.2275,
+    "breakeven_sales": 14582172832.3,
+    "dol": 1.44,
+    "r2": 0.985,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 4.84,
+    "margin_stdev": 0.0343,
+    "has_loss_year": false,
+    "median_margin": 0.1251
+  },
+  "trough": {
+    "score": 0.123,
+    "latest_margin": 0.1581,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.926,
+    "price_drawdown_10y": 0.266
+  },
+  "structural": {
+    "sales_cagr": 0.0849,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.727,
+    "min_equity_ratio": 0.664,
+    "net_debt": -18249334000.0,
+    "net_debt_to_equity": -0.32,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 12561000.0,
+    "normalized_sales": 31956328500.0,
+    "normalized_margin": 0.1251,
+    "normalized_ordinary": 3975811862.4,
+    "normalized_eps": 221.56,
+    "normalized_per": 19.2,
+    "midcycle_per": 12.0,
+    "fair_value": 2658.8,
+    "expected_return_x": 0.63,
+    "pbr": 0.97
+  },
+  "liquidation": {
+    "value": 32232180800.0,
+    "per_share": 2566.1,
+    "downside_to_liquidation": 0.396
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +8.5% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 73%（最低 66%） / ネットD/E -0.32"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.44 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 38.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

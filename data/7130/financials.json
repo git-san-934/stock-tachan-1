@@ -1,0 +1,103 @@
+{
+  "code": "7130",
+  "name": "ヤマエグループホールディングス株式会社",
+  "edinet_code": "E36756",
+  "latest_doc_id": "S100YE2O",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 27766000.0,
+  "annual": [
+    {
+      "fy": 2022,
+      "sales": 503635000000.0,
+      "ordinary": 7894000000.0,
+      "net_income": 6721000000.0,
+      "equity": 60535000000.0,
+      "assets": 180890000000.0,
+      "equity_ratio": 0.3208,
+      "roe": 0.1218,
+      "eps": 283.79,
+      "bps": 2449.66,
+      "ocf": 8317000000.0,
+      "cash": 15477000000.0
+    },
+    {
+      "fy": 2023,
+      "sales": 587982000000.0,
+      "ordinary": 12156000000.0,
+      "net_income": 7868000000.0,
+      "equity": 66946000000.0,
+      "assets": 225766000000.0,
+      "equity_ratio": 0.2854,
+      "roe": 0.1285,
+      "eps": 332.57,
+      "bps": 2719.94,
+      "ocf": 13750000000.0,
+      "cash": 19738000000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 712717000000.0,
+      "ordinary": 14757000000.0,
+      "net_income": 8456000000.0,
+      "equity": 94289000000.0,
+      "assets": 407641000000.0,
+      "equity_ratio": 0.2219,
+      "roe": 0.1092,
+      "eps": 347.26,
+      "bps": 3267.3,
+      "ocf": 23936000000.0,
+      "cash": 44969000000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 1006914000000.0,
+      "ordinary": 17569000000.0,
+      "net_income": 8540000000.0,
+      "equity": 91654000000.0,
+      "assets": 399360000000.0,
+      "equity_ratio": 0.2233,
+      "roe": 0.0951,
+      "eps": 308.19,
+      "bps": 3215.78,
+      "ocf": 25932000000.0,
+      "cash": 43535000000.0
+    },
+    {
+      "fy": 2026,
+      "sales": 1085219000000.0,
+      "ordinary": 18669000000.0,
+      "net_income": 11082000000.0,
+      "equity": 118200000000.0,
+      "assets": 454068000000.0,
+      "equity_ratio": 0.2374,
+      "roe": 0.1125,
+      "eps": 399.34,
+      "bps": 3882.44,
+      "ocf": 24150000000.0,
+      "cash": 49991000000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 51470000000.0,
+    "receivables": 107225000000.0,
+    "inventories": 31745000000.0,
+    "ppe": 125640000000.0,
+    "intangibles": 39247000000.0,
+    "investments_other": 41176000000.0,
+    "total_assets": 454068000000.0,
+    "total_liabilities": 335867000000.0,
+    "net_assets_bs": 118200000000.0,
+    "short_loans": 23273000000.0,
+    "current_lt_loans": 17933000000.0,
+    "long_loans": 69139000000.0,
+    "bonds": null,
+    "current_bonds": 207000000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YE2O",
+    "S100OFBI"
+  ]
+}

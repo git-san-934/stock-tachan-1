@@ -1,0 +1,186 @@
+{
+  "code": "7975",
+  "name": "株式会社リヒトラブ",
+  "sector33": "その他製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1167.0,
+  "market_cap_oku": 44.5,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      9620255000.0,
+      10034474000.0,
+      10080467000.0,
+      9816166000.0,
+      8564585000.0,
+      8693475000.0,
+      8514113000.0,
+      8803462000.0,
+      9220521000.0,
+      9124181000.0
+    ],
+    "ordinary": [
+      347531000.0,
+      653598000.0,
+      740016000.0,
+      493418000.0,
+      504781000.0,
+      407943000.0,
+      -30517000.0,
+      -211815000.0,
+      207478000.0,
+      114084000.0
+    ],
+    "ordinary_margin": [
+      0.0361,
+      0.0651,
+      0.0734,
+      0.0503,
+      0.0589,
+      0.0469,
+      -0.0036,
+      -0.0241,
+      0.0225,
+      0.0125
+    ],
+    "equity_ratio": [
+      0.664,
+      0.662,
+      0.694,
+      0.712,
+      0.748,
+      0.758,
+      0.803,
+      0.781,
+      0.792,
+      0.812
+    ],
+    "ocf": [
+      908344000.0,
+      1001825000.0,
+      -3117000.0,
+      858696000.0,
+      726370000.0,
+      720736000.0,
+      -745699000.0,
+      663332000.0,
+      290493000.0,
+      47728000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.6763,
+    "fixed_cost": 2670302397.3,
+    "contribution_margin": 0.3237,
+    "breakeven_sales": 8250290231.5,
+    "dol": 25.89,
+    "r2": 0.76,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 1.0,
+    "elasticity": 42.18,
+    "margin_stdev": 0.0315,
+    "has_loss_year": true,
+    "median_margin": 0.0415
+  },
+  "trough": {
+    "score": 0.385,
+    "latest_margin": 0.0125,
+    "margin_pctile": 0.3,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.917,
+    "price_drawdown_10y": 0.06
+  },
+  "structural": {
+    "sales_cagr": -0.0059,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.812,
+    "min_equity_ratio": 0.662,
+    "net_debt": -446513000.0,
+    "net_debt_to_equity": -0.04,
+    "survive_years_if_loss": 5.5
+  },
+  "valuation": {
+    "shares_outstanding": 3815700.0,
+    "normalized_sales": 9172351000.0,
+    "normalized_margin": 0.0415,
+    "normalized_ordinary": 339835023.3,
+    "normalized_eps": 62.34,
+    "normalized_per": 18.7,
+    "midcycle_per": 12.0,
+    "fair_value": 748.1,
+    "expected_return_x": 0.64,
+    "pbr": 0.36
+  },
+  "liquidation": {
+    "value": 4575022800.0,
+    "per_share": 1199.0,
+    "downside_to_liquidation": -0.027
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR -0.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 81%（最低 66%） / ネットD/E -0.04"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 25.89 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 44.6,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

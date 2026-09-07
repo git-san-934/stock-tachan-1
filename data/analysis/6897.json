@@ -1,0 +1,194 @@
+{
+  "code": "6897",
+  "name": "株式会社ツインバード",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 683.0,
+  "market_cap_oku": 74.5,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      13406362000.0,
+      13164010000.0,
+      11625804000.0,
+      12159089000.0,
+      12505802000.0,
+      12869925000.0,
+      10930171000.0,
+      10303099000.0,
+      10056718000.0,
+      8998865000.0
+    ],
+    "ordinary": [
+      256322000.0,
+      105227000.0,
+      57036000.0,
+      66589000.0,
+      484055000.0,
+      610123000.0,
+      143749000.0,
+      166693000.0,
+      42803000.0,
+      -896396000.0
+    ],
+    "ordinary_margin": [
+      0.0191,
+      0.008,
+      0.0049,
+      0.0055,
+      0.0387,
+      0.0474,
+      0.0132,
+      0.0162,
+      0.0043,
+      -0.0996
+    ],
+    "equity_ratio": [
+      0.518,
+      0.522,
+      0.519,
+      0.546,
+      0.622,
+      0.782,
+      0.745,
+      0.73,
+      0.712,
+      0.661
+    ],
+    "ocf": [
+      -162655000.0,
+      724117000.0,
+      -1784000.0,
+      1535007000.0,
+      887296000.0,
+      1517606000.0,
+      118862000.0,
+      463512000.0,
+      -213244000.0,
+      738389000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8059,
+    "fixed_cost": 2148504164.8,
+    "contribution_margin": 0.1941,
+    "breakeven_sales": 11068177901.1,
+    "dol": null,
+    "r2": 0.949,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 110.05,
+    "margin_stdev": 0.0398,
+    "has_loss_year": true,
+    "median_margin": 0.0106
+  },
+  "trough": {
+    "score": 0.565,
+    "latest_margin": -0.0996,
+    "margin_pctile": 0.1,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.876,
+    "price_drawdown_10y": 0.6
+  },
+  "structural": {
+    "sales_cagr": -0.0433,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.661,
+    "min_equity_ratio": 0.518,
+    "net_debt": 1017396000.0,
+    "net_debt_to_equity": 0.15,
+    "survive_years_if_loss": 1.8
+  },
+  "valuation": {
+    "shares_outstanding": 10906000.0,
+    "normalized_sales": 11892446500.0,
+    "normalized_margin": 0.0106,
+    "normalized_ordinary": 142776638.4,
+    "normalized_eps": 9.16,
+    "normalized_per": 74.5,
+    "midcycle_per": 12.0,
+    "fair_value": 110.0,
+    "expected_return_x": 0.16,
+    "pbr": 1.11
+  },
+  "liquidation": {
+    "value": 1440430000.0,
+    "per_share": 132.1,
+    "downside_to_liquidation": 0.807
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -4.3% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 66%（最低 52%） / ネットD/E 0.15"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.2倍"
+    }
+  },
+  "auto_score": 49.1,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

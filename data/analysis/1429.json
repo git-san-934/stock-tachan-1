@@ -1,0 +1,186 @@
+{
+  "code": "1429",
+  "name": "株式会社日本アクア",
+  "sector33": "建設業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 813.0,
+  "market_cap_oku": 282.6,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      15608255000.0,
+      18052875000.0,
+      19417166000.0,
+      21366509000.0,
+      21872218000.0,
+      23903421000.0,
+      25670205000.0,
+      28341797000.0,
+      30265345000.0,
+      33670846000.0
+    ],
+    "ordinary": [
+      1404154000.0,
+      1419350000.0,
+      764693000.0,
+      1909431000.0,
+      1911938000.0,
+      1429232000.0,
+      2359918000.0,
+      2917047000.0,
+      2604134000.0,
+      2794127000.0
+    ],
+    "ordinary_margin": [
+      0.09,
+      0.0786,
+      0.0394,
+      0.0894,
+      0.0874,
+      0.0598,
+      0.0919,
+      0.1029,
+      0.086,
+      0.083
+    ],
+    "equity_ratio": [
+      0.529,
+      0.43,
+      0.409,
+      0.445,
+      0.477,
+      0.435,
+      0.363,
+      0.456,
+      0.438,
+      0.451
+    ],
+    "ocf": [
+      1502787000.0,
+      447013000.0,
+      -359164000.0,
+      1657289000.0,
+      694189000.0,
+      520501000.0,
+      -297738000.0,
+      4022059000.0,
+      -516518000.0,
+      1510471000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8955,
+    "fixed_cost": 537774309.2,
+    "contribution_margin": 0.1045,
+    "breakeven_sales": 5145515534.2,
+    "dol": 1.26,
+    "r2": 0.994,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 15.98,
+    "margin_stdev": 0.0183,
+    "has_loss_year": false,
+    "median_margin": 0.0867
+  },
+  "trough": {
+    "score": 0.39,
+    "latest_margin": 0.083,
+    "margin_pctile": 0.4,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.818,
+    "price_drawdown_10y": 0.171
+  },
+  "structural": {
+    "sales_cagr": 0.0892,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.451,
+    "min_equity_ratio": 0.363,
+    "net_debt": 2384840000.0,
+    "net_debt_to_equity": 0.2,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 34760000.0,
+    "normalized_sales": 22887819500.0,
+    "normalized_margin": 0.0867,
+    "normalized_ordinary": 1919516966.9,
+    "normalized_eps": 38.66,
+    "normalized_per": 21.0,
+    "midcycle_per": 12.0,
+    "fair_value": 463.9,
+    "expected_return_x": 0.57,
+    "pbr": 2.25
+  },
+  "liquidation": {
+    "value": -1385168000.0,
+    "per_share": -39.8,
+    "downside_to_liquidation": 1.049
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +8.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 45%（最低 36%） / ネットD/E 0.2"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.26 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 40.8,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

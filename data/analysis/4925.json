@@ -1,0 +1,194 @@
+{
+  "code": "4925",
+  "name": "株式会社ハーバー研究所",
+  "sector33": "化学",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1736.0,
+  "market_cap_oku": 68.3,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      16135567000.0,
+      17885688000.0,
+      19253557000.0,
+      18369640000.0,
+      14307709000.0,
+      12908861000.0,
+      12038052000.0,
+      12324210000.0,
+      12061829000.0,
+      12141299000.0
+    ],
+    "ordinary": [
+      1748148000.0,
+      2390194000.0,
+      3100722000.0,
+      1975966000.0,
+      250688000.0,
+      -292579000.0,
+      -582623000.0,
+      -191493000.0,
+      608993000.0,
+      708204000.0
+    ],
+    "ordinary_margin": [
+      0.1083,
+      0.1336,
+      0.161,
+      0.1076,
+      0.0175,
+      -0.0227,
+      -0.0484,
+      -0.0155,
+      0.0505,
+      0.0583
+    ],
+    "equity_ratio": [
+      0.629,
+      0.655,
+      0.725,
+      0.701,
+      0.69,
+      0.742,
+      0.735,
+      0.684,
+      0.723,
+      0.762
+    ],
+    "ocf": [
+      1495317000.0,
+      2670956000.0,
+      1921810000.0,
+      675509000.0,
+      534710000.0,
+      1714447000.0,
+      55956000.0,
+      -587921000.0,
+      1621011000.0,
+      1237182000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.604,
+    "fixed_cost": 4866505424.1,
+    "contribution_margin": 0.396,
+    "breakeven_sales": 12289067735.9,
+    "dol": 6.79,
+    "r2": 0.923,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 1.0,
+    "elasticity": 16.12,
+    "margin_stdev": 0.0716,
+    "has_loss_year": true,
+    "median_margin": 0.0544
+  },
+  "trough": {
+    "score": 0.493,
+    "latest_margin": 0.0583,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      },
+      {
+        "key": "lng_japan",
+        "label": "LNG 日本 ($/mmbtu, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.893,
+        "yoy": 0.595,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.174,
+    "price_drawdown_10y": 0.833
+  },
+  "structural": {
+    "sales_cagr": -0.0311,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.762,
+    "min_equity_ratio": 0.629,
+    "net_debt": -4596869000.0,
+    "net_debt_to_equity": -0.48,
+    "survive_years_if_loss": 11.9
+  },
+  "valuation": {
+    "shares_outstanding": 3935000.0,
+    "normalized_sales": 13608285000.0,
+    "normalized_margin": 0.0544,
+    "normalized_ordinary": 631399213.1,
+    "normalized_eps": 112.32,
+    "normalized_per": 15.5,
+    "midcycle_per": 12.0,
+    "fair_value": 1347.8,
+    "expected_return_x": 0.78,
+    "pbr": 0.69
+  },
+  "liquidation": {
+    "value": 5323686100.0,
+    "per_share": 1352.9,
+    "downside_to_liquidation": 0.221
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -3.1% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 76%（最低 63%） / ネットD/E -0.48"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 6.79 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 47.3,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

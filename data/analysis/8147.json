@@ -1,0 +1,177 @@
+{
+  "code": "8147",
+  "name": "株式会社トミタ",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1389.0,
+  "market_cap_oku": 85.5,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      21917193000.0,
+      23862270000.0,
+      25886840000.0,
+      24305981000.0,
+      17319480000.0,
+      19397350000.0,
+      20195897000.0,
+      21313799000.0,
+      21676665000.0,
+      22935113000.0
+    ],
+    "ordinary": [
+      968445000.0,
+      1106447000.0,
+      1252021000.0,
+      1041427000.0,
+      482501000.0,
+      722499000.0,
+      679929000.0,
+      886128000.0,
+      972383000.0,
+      908713000.0
+    ],
+    "ordinary_margin": [
+      0.0442,
+      0.0464,
+      0.0484,
+      0.0428,
+      0.0279,
+      0.0372,
+      0.0337,
+      0.0416,
+      0.0449,
+      0.0396
+    ],
+    "equity_ratio": [
+      0.513,
+      0.512,
+      0.509,
+      0.534,
+      0.593,
+      0.614,
+      0.589,
+      0.628,
+      0.638,
+      0.604
+    ],
+    "ocf": [
+      1076850000.0,
+      450907000.0,
+      235067000.0,
+      23098000.0,
+      614248000.0,
+      467188000.0,
+      932167000.0,
+      -772804000.0,
+      353996000.0,
+      1894038000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9145,
+    "fixed_cost": 967692341.9,
+    "contribution_margin": 0.0855,
+    "breakeven_sales": 11324630397.3,
+    "dol": 2.16,
+    "r2": 0.999,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.38,
+    "margin_stdev": 0.0063,
+    "has_loss_year": false,
+    "median_margin": 0.0422
+  },
+  "trough": {
+    "score": 0.35,
+    "latest_margin": 0.0396,
+    "margin_pctile": 0.4,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.901,
+    "price_drawdown_10y": 0.1
+  },
+  "structural": {
+    "sales_cagr": 0.0051,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.604,
+    "min_equity_ratio": 0.509,
+    "net_debt": -7529558000.0,
+    "net_debt_to_equity": -0.57,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 6158000.0,
+    "normalized_sales": 21796929000.0,
+    "normalized_margin": 0.0422,
+    "normalized_ordinary": 908006820.4,
+    "normalized_eps": 103.22,
+    "normalized_per": 13.5,
+    "midcycle_per": 12.0,
+    "fair_value": 1238.6,
+    "expected_return_x": 0.89,
+    "pbr": 0.56
+  },
+  "liquidation": {
+    "value": 3406528300.0,
+    "per_share": 553.2,
+    "downside_to_liquidation": 0.602
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR +0.5% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 60%（最低 51%） / ネットD/E -0.57"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.16 / 期待リターン 0.9倍"
+    }
+  },
+  "auto_score": 43.8,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

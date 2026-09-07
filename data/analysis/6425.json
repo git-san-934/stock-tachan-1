@@ -1,0 +1,194 @@
+{
+  "code": "6425",
+  "name": "株式会社ユニバーサルエンターテインメント",
+  "sector33": "機械",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 737.0,
+  "market_cap_oku": 591.0,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      111187000000.0,
+      68546000000.0,
+      93267000000.0,
+      124944000000.0,
+      90871000000.0,
+      90435000000.0,
+      140998000000.0,
+      178995000000.0,
+      126328000000.0,
+      122827000000.0
+    ],
+    "ordinary": [
+      27036000000.0,
+      -12829000000.0,
+      67232000000.0,
+      -7941000000.0,
+      -9249000000.0,
+      -2508000000.0,
+      13933000000.0,
+      38080000000.0,
+      -5599000000.0,
+      -18497000000.0
+    ],
+    "ordinary_margin": [
+      0.2432,
+      -0.1872,
+      0.7209,
+      -0.0636,
+      -0.1018,
+      -0.0277,
+      0.0988,
+      0.2127,
+      -0.0443,
+      -0.1506
+    ],
+    "equity_ratio": [
+      0.456,
+      0.426,
+      0.734,
+      0.649,
+      0.629,
+      0.592,
+      0.586,
+      0.618,
+      0.584,
+      0.347
+    ],
+    "ocf": [
+      23780000000.0,
+      -2177000000.0,
+      15280000000.0,
+      29468000000.0,
+      3112000000.0,
+      1745000000.0,
+      24461000000.0,
+      28017000000.0,
+      1518000000.0,
+      11053000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7927,
+    "fixed_cost": 14840028419.8,
+    "contribution_margin": 0.2073,
+    "breakeven_sales": 71588598626.7,
+    "dol": null,
+    "r2": 0.466,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 9.19,
+    "margin_stdev": 0.2707,
+    "has_loss_year": true,
+    "median_margin": -0.036
+  },
+  "trough": {
+    "score": 0.677,
+    "latest_margin": -0.1506,
+    "margin_pctile": 0.2,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.05,
+    "price_drawdown_10y": 0.86
+  },
+  "structural": {
+    "sales_cagr": 0.0111,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.347,
+    "min_equity_ratio": 0.347,
+    "net_debt": 101866000000.0,
+    "net_debt_to_equity": 0.79,
+    "survive_years_if_loss": 2.9
+  },
+  "valuation": {
+    "shares_outstanding": 80195000.0,
+    "normalized_sales": 117007000000.0,
+    "normalized_margin": -0.036,
+    "normalized_ordinary": -4215397027.2,
+    "normalized_eps": -36.8,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 0.44
+  },
+  "liquidation": {
+    "value": -2691500000.0,
+    "per_share": -33.6,
+    "downside_to_liquidation": 1.046
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 35%（最低 35%） / ネットD/E 0.79"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 50.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

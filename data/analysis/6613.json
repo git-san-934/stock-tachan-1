@@ -1,0 +1,194 @@
+{
+  "code": "6613",
+  "name": "株式会社QDレーザ",
+  "sector33": "電気機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2112.0,
+  "market_cap_oku": 883.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      579952000.0,
+      664017000.0,
+      960986000.0,
+      756633000.0,
+      895620000.0,
+      1101346000.0,
+      1159479000.0,
+      1247485000.0,
+      1308870000.0,
+      1372801000.0
+    ],
+    "ordinary": [
+      -808127000.0,
+      -1075219000.0,
+      -996094000.0,
+      -1225739000.0,
+      -707769000.0,
+      -893536000.0,
+      -546884000.0,
+      -600972000.0,
+      -443547000.0,
+      -305758000.0
+    ],
+    "ordinary_margin": [
+      -1.3934,
+      -1.6193,
+      -1.0365,
+      -1.62,
+      -0.7903,
+      -0.8113,
+      -0.4717,
+      -0.4817,
+      -0.3389,
+      -0.2227
+    ],
+    "equity_ratio": [
+      0.633,
+      0.205,
+      0.7105,
+      0.5925,
+      0.8147,
+      0.8886,
+      0.9011,
+      0.9211,
+      0.9479,
+      0.8786
+    ],
+    "ocf": [
+      null,
+      null,
+      -1184162000.0,
+      -1208362000.0,
+      -822982000.0,
+      -700636000.0,
+      -515315000.0,
+      -443446000.0,
+      -506823000.0,
+      -481077000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.1762,
+    "fixed_cost": 1588058844.4,
+    "contribution_margin": 0.8238,
+    "breakeven_sales": 1927707669.0,
+    "dol": null,
+    "r2": 0.066,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 1.68,
+    "margin_stdev": 0.5212,
+    "has_loss_year": true,
+    "median_margin": -0.8008
+  },
+  "trough": {
+    "score": 0.285,
+    "latest_margin": -0.2227,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.971,
+    "price_drawdown_10y": 0.246
+  },
+  "structural": {
+    "sales_cagr": 0.1005,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.8786,
+    "min_equity_ratio": 0.205,
+    "net_debt": -2411356000.0,
+    "net_debt_to_equity": -0.49,
+    "survive_years_if_loss": 2.2
+  },
+  "valuation": {
+    "shares_outstanding": 41840875.0,
+    "normalized_sales": 1031166000.0,
+    "normalized_margin": -0.8008,
+    "normalized_ordinary": -825741551.2,
+    "normalized_eps": -13.81,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 18.07
+  },
+  "liquidation": {
+    "value": 3460476400.0,
+    "per_share": 82.7,
+    "downside_to_liquidation": 0.961
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +10.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 88%（最低 20%） / ネットD/E -0.49"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 48.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

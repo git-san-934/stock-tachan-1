@@ -1,0 +1,177 @@
+{
+  "code": "8101",
+  "name": "株式会社ＧＳＩクレオス",
+  "sector33": "卸売業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2659.0,
+  "market_cap_oku": 335.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      141532000000.0,
+      133727000000.0,
+      138487000000.0,
+      115548000000.0,
+      116375000000.0,
+      111829000000.0,
+      131054000000.0,
+      146194000000.0,
+      165541000000.0,
+      188677000000.0
+    ],
+    "ordinary": [
+      1107000000.0,
+      1502000000.0,
+      1661000000.0,
+      1213000000.0,
+      3700000000.0,
+      1882000000.0,
+      1787000000.0,
+      2999000000.0,
+      2548000000.0,
+      3924000000.0
+    ],
+    "ordinary_margin": [
+      0.0078,
+      0.0112,
+      0.012,
+      0.0105,
+      0.0318,
+      0.0168,
+      0.0136,
+      0.0205,
+      0.0154,
+      0.0208
+    ],
+    "equity_ratio": [
+      0.2743,
+      0.3018,
+      0.3082,
+      0.3279,
+      0.3843,
+      0.4023,
+      0.3736,
+      0.3644,
+      0.3762,
+      0.3607
+    ],
+    "ocf": [
+      165000000.0,
+      1394000000.0,
+      2199000000.0,
+      913000000.0,
+      5379000000.0,
+      -7084000000.0,
+      -1719000000.0,
+      183000000.0,
+      2713000000.0,
+      4843000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9799,
+    "fixed_cost": 560524939.6,
+    "contribution_margin": 0.0201,
+    "breakeven_sales": 27876754863.4,
+    "dol": 0.97,
+    "r2": 0.999,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 6.76,
+    "margin_stdev": 0.007,
+    "has_loss_year": false,
+    "median_margin": 0.0145
+  },
+  "trough": {
+    "score": 0.065,
+    "latest_margin": 0.0208,
+    "margin_pctile": 0.9,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.023
+  },
+  "structural": {
+    "sales_cagr": 0.0325,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.3607,
+    "min_equity_ratio": 0.2743,
+    "net_debt": 3416000000.0,
+    "net_debt_to_equity": 0.11,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 12629000.0,
+    "normalized_sales": 136107000000.0,
+    "normalized_margin": 0.0145,
+    "normalized_ordinary": 2075326335.0,
+    "normalized_eps": 115.03,
+    "normalized_per": 23.1,
+    "midcycle_per": 12.0,
+    "fair_value": 1380.4,
+    "expected_return_x": 0.52,
+    "pbr": 1.01
+  },
+  "liquidation": {
+    "value": -32875300000.0,
+    "per_share": -2603.2,
+    "downside_to_liquidation": 1.979
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 36%（最低 27%） / ネットD/E 0.11"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.97 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 29.7,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

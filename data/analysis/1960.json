@@ -1,0 +1,186 @@
+{
+  "code": "1960",
+  "name": "株式会社サンテック",
+  "sector33": "建設業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1723.0,
+  "market_cap_oku": 275.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      46397110000.0,
+      40882058000.0,
+      45051208000.0,
+      46802976000.0,
+      41656594000.0,
+      39950000000.0,
+      38877000000.0,
+      50731000000.0,
+      67859000000.0,
+      61077000000.0
+    ],
+    "ordinary": [
+      1471707000.0,
+      1686497000.0,
+      1170852000.0,
+      1337107000.0,
+      475457000.0,
+      358000000.0,
+      -323000000.0,
+      -800000000.0,
+      2639000000.0,
+      3788000000.0
+    ],
+    "ordinary_margin": [
+      0.0317,
+      0.0413,
+      0.026,
+      0.0286,
+      0.0114,
+      0.009,
+      -0.0083,
+      -0.0158,
+      0.0389,
+      0.062
+    ],
+    "equity_ratio": [
+      0.692,
+      0.695,
+      0.643,
+      0.655,
+      0.684,
+      0.668,
+      0.656,
+      0.59,
+      0.516,
+      0.553
+    ],
+    "ocf": [
+      -987660000.0,
+      5221084000.0,
+      2349936000.0,
+      -452463000.0,
+      -1323306000.0,
+      2872000000.0,
+      1511000000.0,
+      -660000000.0,
+      -1553000000.0,
+      5831000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9051,
+    "fixed_cost": 3367929977.2,
+    "contribution_margin": 0.0949,
+    "breakeven_sales": 35490130743.9,
+    "dol": 1.53,
+    "r2": 0.987,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 9.57,
+    "margin_stdev": 0.0237,
+    "has_loss_year": true,
+    "median_margin": 0.0273
+  },
+  "trough": {
+    "score": 0.0,
+    "latest_margin": 0.062,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 1.0,
+    "price_drawdown_10y": 0.0
+  },
+  "structural": {
+    "sales_cagr": 0.031,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.553,
+    "min_equity_ratio": 0.516,
+    "net_debt": -10715000000.0,
+    "net_debt_to_equity": -0.32,
+    "survive_years_if_loss": 19.6
+  },
+  "valuation": {
+    "shares_outstanding": 16000000.0,
+    "normalized_sales": 45724159000.0,
+    "normalized_margin": 0.0273,
+    "normalized_ordinary": 1109303358.1,
+    "normalized_eps": 48.53,
+    "normalized_per": 35.5,
+    "midcycle_per": 12.0,
+    "fair_value": 582.4,
+    "expected_return_x": 0.34,
+    "pbr": 0.79
+  },
+  "liquidation": {
+    "value": 1958200000.0,
+    "per_share": 122.4,
+    "downside_to_liquidation": 0.929
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 55%（最低 52%） / ネットD/E -0.32"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.53 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 35.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

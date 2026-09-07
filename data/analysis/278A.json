@@ -1,0 +1,162 @@
+{
+  "code": "278A",
+  "name": "Terra Drone株式会社",
+  "sector33": "精密機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 22550.0,
+  "market_cap_oku": 2191.4,
+  "fy_range": [
+    2021,
+    2026
+  ],
+  "n_years": 6,
+  "series": {
+    "fy": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      1337883000.0,
+      1415364000.0,
+      1949350000.0,
+      2963323000.0,
+      4435568000.0,
+      4782585000.0
+    ],
+    "ordinary": [
+      3196000.0,
+      -492469000.0,
+      -855397000.0,
+      -111024000.0,
+      -606299000.0,
+      -1284839000.0
+    ],
+    "ordinary_margin": [
+      0.0024,
+      -0.3479,
+      -0.4388,
+      -0.0375,
+      -0.1367,
+      -0.2686
+    ],
+    "equity_ratio": [
+      0.252,
+      0.453,
+      0.431,
+      0.635,
+      0.754,
+      0.697
+    ],
+    "ocf": [
+      null,
+      null,
+      326662000.0,
+      -15638000.0,
+      -927897000.0,
+      -716459000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.1845,
+    "fixed_cost": 38568895.4,
+    "contribution_margin": -0.1845,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.955,
+    "n_points": 6
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 312.41,
+    "margin_stdev": 0.176,
+    "has_loss_year": true,
+    "median_margin": -0.2027
+  },
+  "trough": {
+    "score": 0.5,
+    "latest_margin": -0.2686,
+    "margin_pctile": 0.5,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 1.0,
+    "price_drawdown_10y": 0.0
+  },
+  "structural": {
+    "sales_cagr": 0.2902,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.697,
+    "min_equity_ratio": 0.252,
+    "net_debt": -2019003000.0,
+    "net_debt_to_equity": -0.4,
+    "survive_years_if_loss": 1.6
+  },
+  "valuation": {
+    "shares_outstanding": 9718000.0,
+    "normalized_sales": 2869551000.0,
+    "normalized_margin": -0.2027,
+    "normalized_ordinary": -574786304.7,
+    "normalized_eps": -41.4,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 45.32
+  },
+  "liquidation": {
+    "value": 1506668500.0,
+    "per_share": 155.0,
+    "downside_to_liquidation": 0.993
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +29.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 70%（最低 25%） / ネットD/E -0.4"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 53.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

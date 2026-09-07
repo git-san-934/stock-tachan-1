@@ -1,0 +1,177 @@
+{
+  "code": "8105",
+  "name": "Bitcoin Japan株式会社",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 81.0,
+  "market_cap_oku": 55.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      7488742000.0,
+      7703832000.0,
+      6665455000.0,
+      5547476000.0,
+      3779200000.0,
+      3701979000.0,
+      3867184000.0,
+      3693891000.0,
+      3098781000.0,
+      2959059000.0
+    ],
+    "ordinary": [
+      108654000.0,
+      56692000.0,
+      -419358000.0,
+      -206475000.0,
+      -530633000.0,
+      -147940000.0,
+      -69595000.0,
+      -130422000.0,
+      -300644000.0,
+      -482505000.0
+    ],
+    "ordinary_margin": [
+      0.0145,
+      0.0074,
+      -0.0629,
+      -0.0372,
+      -0.1404,
+      -0.04,
+      -0.018,
+      -0.0353,
+      -0.097,
+      -0.1631
+    ],
+    "equity_ratio": [
+      0.633,
+      0.747,
+      0.741,
+      0.798,
+      0.811,
+      0.809,
+      0.819,
+      0.805,
+      0.803,
+      0.862
+    ],
+    "ocf": [
+      120575000.0,
+      -480882000.0,
+      134899000.0,
+      -105179000.0,
+      -124055000.0,
+      -223392000.0,
+      -261300000.0,
+      74971000.0,
+      -330390000.0,
+      -414581000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.936,
+    "fixed_cost": 522867661.3,
+    "contribution_margin": 0.064,
+    "breakeven_sales": 8164304625.4,
+    "dol": null,
+    "r2": 0.989,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 26.13,
+    "margin_stdev": 0.0594,
+    "has_loss_year": true,
+    "median_margin": -0.0386
+  },
+  "trough": {
+    "score": 0.853,
+    "latest_margin": -0.1631,
+    "margin_pctile": 0.1,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.57,
+    "price_drawdown_10y": 0.884
+  },
+  "structural": {
+    "sales_cagr": -0.098,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.862,
+    "min_equity_ratio": 0.633,
+    "net_debt": -3015005000.0,
+    "net_debt_to_equity": -0.75,
+    "survive_years_if_loss": 5.7
+  },
+  "valuation": {
+    "shares_outstanding": 67850648.0,
+    "normalized_sales": 3823192000.0,
+    "normalized_margin": -0.0386,
+    "normalized_ordinary": -212862124.7,
+    "normalized_eps": -2.2,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 1.31
+  },
+  "liquidation": {
+    "value": 2983321700.0,
+    "per_share": 44.0,
+    "downside_to_liquidation": 0.457
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -9.8% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 86%（最低 63%） / ネットD/E -0.75"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 62.3,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

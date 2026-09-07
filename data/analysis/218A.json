@@ -1,0 +1,162 @@
+{
+  "code": "218A",
+  "name": "株式会社Liberaware",
+  "sector33": "精密機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1188.0,
+  "market_cap_oku": 224.5,
+  "fy_range": [
+    2020,
+    2025
+  ],
+  "n_years": 6,
+  "series": {
+    "fy": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      85202000.0,
+      161384000.0,
+      260461000.0,
+      379604000.0,
+      815308000.0,
+      1406949000.0
+    ],
+    "ordinary": [
+      -152405000.0,
+      -316671000.0,
+      -455735000.0,
+      -635861000.0,
+      -434732000.0,
+      46978000.0
+    ],
+    "ordinary_margin": [
+      -1.7887,
+      -1.9622,
+      -1.7497,
+      -1.6751,
+      -0.5332,
+      0.0334
+    ],
+    "equity_ratio": [
+      0.632,
+      0.516,
+      0.476,
+      0.524,
+      0.567,
+      0.536
+    ],
+    "ocf": [
+      null,
+      null,
+      -470784000.0,
+      -637967000.0,
+      -253351000.0,
+      -363332000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7677,
+    "fixed_cost": 445124716.1,
+    "contribution_margin": 0.2323,
+    "breakeven_sales": 1915837012.7,
+    "dol": 6.96,
+    "r2": 0.77,
+    "n_points": 6
+  },
+  "cyclicality": {
+    "score": 1.0,
+    "elasticity": 3.15,
+    "margin_stdev": 0.8226,
+    "has_loss_year": true,
+    "median_margin": -1.7124
+  },
+  "trough": {
+    "score": 0.265,
+    "latest_margin": 0.0334,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.481,
+    "price_drawdown_10y": 0.536
+  },
+  "structural": {
+    "sales_cagr": 0.7521,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.536,
+    "min_equity_ratio": 0.476,
+    "net_debt": -259298000.0,
+    "net_debt_to_equity": -0.28,
+    "survive_years_if_loss": 1.2
+  },
+  "valuation": {
+    "shares_outstanding": 18896600.0,
+    "normalized_sales": 844169400.0,
+    "normalized_margin": -1.7124,
+    "normalized_ordinary": -847287504.2,
+    "normalized_eps": -31.39,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 24.61
+  },
+  "liquidation": {
+    "value": 426603000.0,
+    "per_share": 22.6,
+    "downside_to_liquidation": 0.981
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +75.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 54%（最低 48%） / ネットD/E -0.28"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 47.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

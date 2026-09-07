@@ -1,0 +1,186 @@
+{
+  "code": "7966",
+  "name": "リンテック株式会社",
+  "sector33": "その他製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 5450.0,
+  "market_cap_oku": 3950.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      205975000000.0,
+      249030000000.0,
+      250942000000.0,
+      240727000000.0,
+      235902000000.0,
+      256836000000.0,
+      284603000000.0,
+      276321000000.0,
+      315978000000.0,
+      319385000000.0
+    ],
+    "ordinary": [
+      15684000000.0,
+      18389000000.0,
+      17993000000.0,
+      14484000000.0,
+      16770000000.0,
+      22698000000.0,
+      15602000000.0,
+      11537000000.0,
+      26090000000.0,
+      25666000000.0
+    ],
+    "ordinary_margin": [
+      0.0761,
+      0.0738,
+      0.0717,
+      0.0602,
+      0.0711,
+      0.0884,
+      0.0548,
+      0.0418,
+      0.0826,
+      0.0804
+    ],
+    "equity_ratio": [
+      0.649,
+      0.634,
+      0.653,
+      0.687,
+      0.702,
+      0.691,
+      0.742,
+      0.696,
+      0.721,
+      0.751
+    ],
+    "ocf": [
+      24361000000.0,
+      26819000000.0,
+      22858000000.0,
+      18501000000.0,
+      28824000000.0,
+      24642000000.0,
+      5936000000.0,
+      39205000000.0,
+      33715000000.0,
+      33450000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9191,
+    "fixed_cost": 2836037629.8,
+    "contribution_margin": 0.0809,
+    "breakeven_sales": 35048638862.1,
+    "dol": 1.01,
+    "r2": 0.986,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 5.45,
+    "margin_stdev": 0.0141,
+    "has_loss_year": false,
+    "median_margin": 0.0728
+  },
+  "trough": {
+    "score": 0.165,
+    "latest_margin": 0.0804,
+    "margin_pctile": 0.8,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.231
+  },
+  "structural": {
+    "sales_cagr": 0.0499,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.751,
+    "min_equity_ratio": 0.634,
+    "net_debt": -55447000000.0,
+    "net_debt_to_equity": -0.21,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 72488000.0,
+    "normalized_sales": 253889000000.0,
+    "normalized_margin": 0.0728,
+    "normalized_ordinary": 18089817744.2,
+    "normalized_eps": 174.69,
+    "normalized_per": 31.2,
+    "midcycle_per": 12.0,
+    "fair_value": 2096.3,
+    "expected_return_x": 0.38,
+    "pbr": 1.39
+  },
+  "liquidation": {
+    "value": 100749800000.0,
+    "per_share": 1389.9,
+    "downside_to_liquidation": 0.745
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 75%（最低 63%） / ネットD/E -0.21"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.01 / 期待リターン 0.4倍"
+    }
+  },
+  "auto_score": 39.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

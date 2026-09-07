@@ -1,0 +1,194 @@
+{
+  "code": "3431",
+  "name": "宮地エンジニアリンググループ株式会社",
+  "sector33": "金属製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1577.0,
+  "market_cap_oku": 436.5,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      36298417000.0,
+      47128342000.0,
+      52062540000.0,
+      63841859000.0,
+      55268380000.0,
+      58002000000.0,
+      60279000000.0,
+      69365000000.0,
+      74725000000.0,
+      56659000000.0
+    ],
+    "ordinary": [
+      2612235000.0,
+      3612221000.0,
+      4534774000.0,
+      5368985000.0,
+      5547719000.0,
+      5992000000.0,
+      5373000000.0,
+      7908000000.0,
+      9485000000.0,
+      4830000000.0
+    ],
+    "ordinary_margin": [
+      0.072,
+      0.0766,
+      0.0871,
+      0.0841,
+      0.1004,
+      0.1033,
+      0.0891,
+      0.114,
+      0.1269,
+      0.0852
+    ],
+    "equity_ratio": [
+      0.4,
+      0.389,
+      0.438,
+      0.438,
+      0.496,
+      0.54,
+      0.563,
+      0.536,
+      0.45,
+      0.522
+    ],
+    "ocf": [
+      5436207000.0,
+      7492059000.0,
+      -2456749000.0,
+      4669901000.0,
+      1094098000.0,
+      11915000000.0,
+      495000000.0,
+      8841000000.0,
+      -2652000000.0,
+      10944000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8304,
+    "fixed_cost": 4203645993.5,
+    "contribution_margin": 0.1696,
+    "breakeven_sales": 24782381773.2,
+    "dol": 1.99,
+    "r2": 0.994,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": 1.71,
+    "margin_stdev": 0.0171,
+    "has_loss_year": false,
+    "median_margin": 0.0881
+  },
+  "trough": {
+    "score": 0.29,
+    "latest_margin": 0.0852,
+    "margin_pctile": 0.4,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.752,
+    "price_drawdown_10y": 0.282
+  },
+  "structural": {
+    "sales_cagr": 0.0507,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.522,
+    "min_equity_ratio": 0.389,
+    "net_debt": -12070000000.0,
+    "net_debt_to_equity": -0.24,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 27677000.0,
+    "normalized_sales": 57330500000.0,
+    "normalized_margin": 0.0881,
+    "normalized_ordinary": 5285755918.9,
+    "normalized_eps": 133.69,
+    "normalized_per": 11.8,
+    "midcycle_per": 12.0,
+    "fair_value": 1604.2,
+    "expected_return_x": 1.02,
+    "pbr": 0.98
+  },
+  "liquidation": {
+    "value": -211100000.0,
+    "per_share": -7.6,
+    "downside_to_liquidation": 1.005
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 52%（最低 39%） / ネットD/E -0.24"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.99 / 期待リターン 1.0倍"
+    }
+  },
+  "auto_score": 42.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

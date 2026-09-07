@@ -1,0 +1,171 @@
+{
+  "code": "9265",
+  "name": "ヤマシタヘルスケアホールディングス株式会社",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3600.0,
+  "market_cap_oku": 91.9,
+  "fy_range": [
+    2018,
+    2026
+  ],
+  "n_years": 9,
+  "series": {
+    "fy": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      58692788000.0,
+      61533254000.0,
+      64658509000.0,
+      70131078000.0,
+      55145000000.0,
+      58195000000.0,
+      61555000000.0,
+      64486000000.0,
+      64149000000.0
+    ],
+    "ordinary": [
+      449514000.0,
+      617212000.0,
+      642804000.0,
+      1026585000.0,
+      1003000000.0,
+      1206000000.0,
+      1020000000.0,
+      909000000.0,
+      877000000.0
+    ],
+    "ordinary_margin": [
+      0.0077,
+      0.01,
+      0.0099,
+      0.0146,
+      0.0182,
+      0.0207,
+      0.0166,
+      0.0141,
+      0.0137
+    ],
+    "equity_ratio": [
+      0.301,
+      0.314,
+      0.324,
+      0.312,
+      0.331,
+      0.322,
+      0.322,
+      0.326,
+      0.346
+    ],
+    "ocf": [
+      1493349000.0,
+      -101469000.0,
+      817815000.0,
+      911528000.0,
+      581000000.0,
+      2166000000.0,
+      878000000.0,
+      617000000.0,
+      88000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9998,
+    "fixed_cost": -846326194.6,
+    "contribution_margin": 0.0002,
+    "breakeven_sales": null,
+    "dol": 0.02,
+    "r2": 0.997,
+    "n_points": 9
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.72,
+    "margin_stdev": 0.0042,
+    "has_loss_year": false,
+    "median_margin": 0.0141
+  },
+  "trough": {
+    "score": 0.293,
+    "latest_margin": 0.0137,
+    "margin_pctile": 0.444,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.972,
+    "price_drawdown_10y": 0.039
+  },
+  "structural": {
+    "sales_cagr": 0.0112,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.346,
+    "min_equity_ratio": 0.301,
+    "net_debt": -4127000000.0,
+    "net_debt_to_equity": -0.44,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 2553000.0,
+    "normalized_sales": 61555000000.0,
+    "normalized_margin": 0.0141,
+    "normalized_ordinary": 867684381.1,
+    "normalized_eps": 237.91,
+    "normalized_per": 15.1,
+    "midcycle_per": 12.0,
+    "fair_value": 2854.9,
+    "expected_return_x": 0.79,
+    "pbr": 0.98
+  },
+  "liquidation": {
+    "value": 479500000.0,
+    "per_share": 187.8,
+    "downside_to_liquidation": 0.948
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 35%（最低 30%） / ネットD/E -0.44"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.02 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 35.9,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

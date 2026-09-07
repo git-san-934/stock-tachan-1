@@ -1,0 +1,177 @@
+{
+  "code": "8089",
+  "name": "ナイス株式会社",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2005.0,
+  "market_cap_oku": 245.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      250179000000.0,
+      241688000000.0,
+      244183000000.0,
+      251475000000.0,
+      214069000000.0,
+      229514000000.0,
+      236329000000.0,
+      225869000000.0,
+      243054000000.0,
+      259154000000.0
+    ],
+    "ordinary": [
+      795000000.0,
+      -167000000.0,
+      784000000.0,
+      357000000.0,
+      3942000000.0,
+      9589000000.0,
+      4949000000.0,
+      4332000000.0,
+      4305000000.0,
+      5162000000.0
+    ],
+    "ordinary_margin": [
+      0.0032,
+      -0.0007,
+      0.0032,
+      0.0014,
+      0.0184,
+      0.0418,
+      0.0209,
+      0.0192,
+      0.0177,
+      0.0199
+    ],
+    "equity_ratio": [
+      0.231,
+      0.232,
+      0.225,
+      0.219,
+      0.252,
+      0.288,
+      0.306,
+      0.328,
+      0.329,
+      0.343
+    ],
+    "ocf": [
+      -54000000.0,
+      1520000000.0,
+      2125000000.0,
+      14654000000.0,
+      15828000000.0,
+      1734000000.0,
+      12956000000.0,
+      10103000000.0,
+      -4931000000.0,
+      -3202000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.0859,
+    "fixed_cost": -23990279402.7,
+    "contribution_margin": -0.0859,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.965,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 56.8,
+    "margin_stdev": 0.013,
+    "has_loss_year": true,
+    "median_margin": 0.0181
+  },
+  "trough": {
+    "score": 0.125,
+    "latest_margin": 0.0199,
+    "margin_pctile": 0.8,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.084
+  },
+  "structural": {
+    "sales_cagr": 0.0039,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.343,
+    "min_equity_ratio": 0.219,
+    "net_debt": 22567000000.0,
+    "net_debt_to_equity": 0.35,
+    "survive_years_if_loss": 158.7
+  },
+  "valuation": {
+    "shares_outstanding": 12247639.0,
+    "normalized_sales": 242371000000.0,
+    "normalized_margin": 0.0181,
+    "normalized_ordinary": 4378036647.9,
+    "normalized_eps": 250.22,
+    "normalized_per": 8.0,
+    "midcycle_per": 12.0,
+    "fair_value": 3002.7,
+    "expected_return_x": 1.5,
+    "pbr": 0.39
+  },
+  "liquidation": {
+    "value": -17990800000.0,
+    "per_share": -1468.9,
+    "downside_to_liquidation": 1.733
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +0.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 34%（最低 22%） / ネットD/E 0.35"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 1.5倍"
+    }
+  },
+  "auto_score": 38.2,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

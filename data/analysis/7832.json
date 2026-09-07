@@ -1,0 +1,186 @@
+{
+  "code": "7832",
+  "name": "株式会社バンダイナムコホールディングス",
+  "sector33": "その他製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 5357.0,
+  "market_cap_oku": 34820.5,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      620061000000.0,
+      678312000000.0,
+      732347000000.0,
+      723989000000.0,
+      740903000000.0,
+      889270000000.0,
+      990089000000.0,
+      1050210000000.0,
+      1241513000000.0,
+      1348246000000.0
+    ],
+    "ordinary": [
+      63290000000.0,
+      75380000000.0,
+      86863000000.0,
+      79797000000.0,
+      87612000000.0,
+      133608000000.0,
+      128006000000.0,
+      104164000000.0,
+      186470000000.0,
+      201923000000.0
+    ],
+    "ordinary_margin": [
+      0.1021,
+      0.1111,
+      0.1186,
+      0.1102,
+      0.1183,
+      0.1502,
+      0.1293,
+      0.0992,
+      0.1502,
+      0.1498
+    ],
+    "equity_ratio": [
+      0.713,
+      0.715,
+      0.7,
+      0.725,
+      0.697,
+      0.677,
+      0.704,
+      0.72,
+      0.719,
+      0.723
+    ],
+    "ocf": [
+      64136000000.0,
+      55138000000.0,
+      79811000000.0,
+      43131000000.0,
+      60483000000.0,
+      121212000000.0,
+      95625000000.0,
+      88906000000.0,
+      187337000000.0,
+      164719000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8193,
+    "fixed_cost": 48211350754.4,
+    "contribution_margin": 0.1807,
+    "breakeven_sales": 266766120215.7,
+    "dol": 1.21,
+    "r2": 0.995,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 4.54,
+    "margin_stdev": 0.0199,
+    "has_loss_year": false,
+    "median_margin": 0.1184
+  },
+  "trough": {
+    "score": 0.12,
+    "latest_margin": 0.1498,
+    "margin_pctile": 0.8,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.063
+  },
+  "structural": {
+    "sales_cagr": 0.0901,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.723,
+    "min_equity_ratio": 0.677,
+    "net_debt": -433262000000.0,
+    "net_debt_to_equity": -0.5,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 650000000.0,
+    "normalized_sales": 815086500000.0,
+    "normalized_margin": 0.1184,
+    "normalized_ordinary": 97802609012.9,
+    "normalized_eps": 105.33,
+    "normalized_per": 50.9,
+    "midcycle_per": 12.0,
+    "fair_value": 1263.9,
+    "expected_return_x": 0.24,
+    "pbr": 3.99
+  },
+  "liquidation": {
+    "value": 516406800000.0,
+    "per_share": 794.5,
+    "downside_to_liquidation": 0.852
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +9.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 72%（最低 68%） / ネットD/E -0.5"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.21 / 期待リターン 0.2倍"
+    }
+  },
+  "auto_score": 38.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

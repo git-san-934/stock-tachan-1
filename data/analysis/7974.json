@@ -1,0 +1,186 @@
+{
+  "code": "7974",
+  "name": "任天堂株式会社",
+  "sector33": "その他製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 8742.0,
+  "market_cap_oku": 112532.3,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      489095000000.0,
+      1055682000000.0,
+      1200560000000.0,
+      1308519000000.0,
+      1758910000000.0,
+      1695344000000.0,
+      1601677000000.0,
+      1671865000000.0,
+      1164922000000.0,
+      2313051000000.0
+    ],
+    "ordinary": [
+      50364000000.0,
+      199356000000.0,
+      277355000000.0,
+      360461000000.0,
+      678996000000.0,
+      670813000000.0,
+      601070000000.0,
+      680497000000.0,
+      372316000000.0,
+      542196000000.0
+    ],
+    "ordinary_margin": [
+      0.103,
+      0.1888,
+      0.231,
+      0.2755,
+      0.386,
+      0.3957,
+      0.3753,
+      0.407,
+      0.3196,
+      0.2344
+    ],
+    "equity_ratio": [
+      0.8515,
+      0.8075,
+      0.834,
+      0.7966,
+      0.766,
+      0.7771,
+      0.794,
+      0.8262,
+      0.8016,
+      0.7763
+    ],
+    "ocf": [
+      19101000000.0,
+      152208000000.0,
+      170529000000.0,
+      347753000000.0,
+      612106000000.0,
+      289661000000.0,
+      322843000000.0,
+      462097000000.0,
+      12069000000.0,
+      289789000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.6208,
+    "fixed_cost": 97324405413.0,
+    "contribution_margin": 0.3792,
+    "breakeven_sales": 256684803032.7,
+    "dol": 1.62,
+    "r2": 0.864,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 2.02,
+    "margin_stdev": 0.1023,
+    "has_loss_year": false,
+    "median_margin": 0.2975
+  },
+  "trough": {
+    "score": 0.425,
+    "latest_margin": 0.2344,
+    "margin_pctile": 0.4,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.851,
+    "price_drawdown_10y": 0.356
+  },
+  "structural": {
+    "sales_cagr": 0.1884,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.7763,
+    "min_equity_ratio": 0.766,
+    "net_debt": -1791802000000.0,
+    "net_debt_to_equity": -0.61,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 1287260000.0,
+    "normalized_sales": 1455098000000.0,
+    "normalized_margin": 0.2975,
+    "normalized_ordinary": 443698742863.5,
+    "normalized_eps": 241.28,
+    "normalized_per": 36.2,
+    "midcycle_per": 12.0,
+    "fair_value": 2895.4,
+    "expected_return_x": 0.33,
+    "pbr": 3.41
+  },
+  "liquidation": {
+    "value": 1855176700000.0,
+    "per_share": 1441.2,
+    "downside_to_liquidation": 0.835
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +18.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 78%（最低 77%） / ネットD/E -0.61"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.62 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 45.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

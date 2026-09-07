@@ -1,0 +1,186 @@
+{
+  "code": "7827",
+  "name": "株式会社オービス",
+  "sector33": "その他製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1748.0,
+  "market_cap_oku": 31.0,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      8957429000.0,
+      8118178000.0,
+      8481671000.0,
+      9566913000.0,
+      9022690000.0,
+      9425085000.0,
+      11338276000.0,
+      11596175000.0,
+      11444108000.0,
+      12639125000.0
+    ],
+    "ordinary": [
+      547200000.0,
+      163096000.0,
+      9500000.0,
+      19913000.0,
+      271645000.0,
+      238288000.0,
+      792236000.0,
+      673849000.0,
+      578096000.0,
+      643425000.0
+    ],
+    "ordinary_margin": [
+      0.0611,
+      0.0201,
+      0.0011,
+      0.0021,
+      0.0301,
+      0.0253,
+      0.0699,
+      0.0581,
+      0.0505,
+      0.0509
+    ],
+    "equity_ratio": [
+      0.229,
+      0.182,
+      0.221,
+      0.248,
+      0.262,
+      0.276,
+      0.333,
+      0.413,
+      0.434,
+      0.454
+    ],
+    "ocf": [
+      1623567000.0,
+      -69707000.0,
+      548246000.0,
+      -89567000.0,
+      980614000.0,
+      703090000.0,
+      1605324000.0,
+      977893000.0,
+      519929000.0,
+      678059000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.856,
+    "fixed_cost": 1054774013.4,
+    "contribution_margin": 0.144,
+    "breakeven_sales": 7324779824.1,
+    "dol": 2.83,
+    "r2": 0.982,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 46.02,
+    "margin_stdev": 0.0246,
+    "has_loss_year": false,
+    "median_margin": 0.0403
+  },
+  "trough": {
+    "score": 0.155,
+    "latest_margin": 0.0509,
+    "margin_pctile": 0.7,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.012
+  },
+  "structural": {
+    "sales_cagr": 0.039,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.454,
+    "min_equity_ratio": 0.182,
+    "net_debt": 3415137000.0,
+    "net_debt_to_equity": 0.6,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 1775469.0,
+    "normalized_sales": 9495999000.0,
+    "normalized_margin": 0.0403,
+    "normalized_ordinary": 347720586.1,
+    "normalized_eps": 137.09,
+    "normalized_per": 12.8,
+    "midcycle_per": 12.0,
+    "fair_value": 1645.1,
+    "expected_return_x": 0.94,
+    "pbr": 0.54
+  },
+  "liquidation": {
+    "value": -1705810500.0,
+    "per_share": -960.8,
+    "downside_to_liquidation": 1.55
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 45%（最低 18%） / ネットD/E 0.6"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.83 / 期待リターン 0.9倍"
+    }
+  },
+  "auto_score": 31.3,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

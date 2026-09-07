@@ -1,0 +1,153 @@
+{
+  "code": "6988",
+  "name": "日東電工株式会社",
+  "edinet_code": "E01888",
+  "latest_doc_id": "S100YCAR",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 678659000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 476325000000.0,
+      "ordinary": 70332000000.0,
+      "net_income": 53974000000.0,
+      "equity": 418558000000.0,
+      "assets": 614825000000.0,
+      "equity_ratio": 0.679,
+      "roe": 0.134,
+      "eps": 332.54,
+      "bps": 2573.28
+    },
+    {
+      "fy": 2018,
+      "sales": 524008000000.0,
+      "ordinary": 95679000000.0,
+      "net_income": 75434000000.0,
+      "equity": 449998000000.0,
+      "assets": 662416000000.0,
+      "equity_ratio": 0.678,
+      "roe": 0.174,
+      "eps": 465.32,
+      "bps": 2805.35
+    },
+    {
+      "fy": 2019,
+      "sales": 490626000000.0,
+      "ordinary": 86621000000.0,
+      "net_income": 71894000000.0,
+      "equity": 466075000000.0,
+      "assets": 663139000000.0,
+      "equity_ratio": 0.702,
+      "roe": 0.157,
+      "eps": 457.45,
+      "bps": 2966.81
+    },
+    {
+      "fy": 2020,
+      "sales": 470701000000.0,
+      "ordinary": 59356000000.0,
+      "net_income": 46093000000.0,
+      "equity": 464800000000.0,
+      "assets": 679932000000.0,
+      "equity_ratio": 0.683,
+      "roe": 0.099,
+      "eps": 294.52,
+      "bps": 3015.27
+    },
+    {
+      "fy": 2021,
+      "sales": 481473000000.0,
+      "ordinary": 69522000000.0,
+      "net_income": 51855000000.0,
+      "equity": 454160000000.0,
+      "assets": 681499000000.0,
+      "equity_ratio": 0.666,
+      "roe": 0.113,
+      "eps": 349.01,
+      "bps": 3066.03
+    },
+    {
+      "fy": 2022,
+      "sales": 517458000000.0,
+      "ordinary": 85963000000.0,
+      "net_income": 65815000000.0,
+      "equity": 487646000000.0,
+      "assets": 729581000000.0,
+      "equity_ratio": 0.668,
+      "roe": 0.14,
+      "eps": 88.94,
+      "bps": 658.43
+    },
+    {
+      "fy": 2023,
+      "sales": 544158000000.0,
+      "ordinary": 113735000000.0,
+      "net_income": 91368000000.0,
+      "equity": 523833000000.0,
+      "assets": 760758000000.0,
+      "equity_ratio": 0.688,
+      "roe": 0.181,
+      "eps": 123.66,
+      "bps": 717.52
+    },
+    {
+      "fy": 2024,
+      "sales": 518626000000.0,
+      "ordinary": 94261000000.0,
+      "net_income": 74874000000.0,
+      "equity": 515511000000.0,
+      "assets": 782752000000.0,
+      "equity_ratio": 0.658,
+      "roe": 0.144,
+      "eps": 104.94,
+      "bps": 728.49
+    },
+    {
+      "fy": 2025,
+      "sales": 598416000000.0,
+      "ordinary": 131046000000.0,
+      "net_income": 94998000000.0,
+      "equity": 537478000000.0,
+      "assets": 824328000000.0,
+      "equity_ratio": 0.652,
+      "roe": 0.181,
+      "eps": 135.5,
+      "bps": 773.0
+    },
+    {
+      "fy": 2026,
+      "sales": 576097000000.0,
+      "ordinary": 125083000000.0,
+      "net_income": 95589000000.0,
+      "equity": 533980000000.0,
+      "assets": 840085000000.0,
+      "equity_ratio": 0.635,
+      "roe": 0.179,
+      "eps": 141.2,
+      "bps": 792.22
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 173111000000.0,
+    "receivables": null,
+    "inventories": 10175000000.0,
+    "ppe": 208588000000.0,
+    "intangibles": 8473000000.0,
+    "investments_other": 250930000000.0,
+    "total_assets": 840085000000.0,
+    "total_liabilities": 306104000000.0,
+    "net_assets_bs": 533980000000.0,
+    "short_loans": 26045000000.0,
+    "current_lt_loans": null,
+    "long_loans": null,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YCAR",
+    "S100LK3M"
+  ]
+}

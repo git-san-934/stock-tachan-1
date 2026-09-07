@@ -1,0 +1,194 @@
+{
+  "code": "5363",
+  "name": "東京窯業株式会社",
+  "sector33": "ガラス・土石製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 686.0,
+  "market_cap_oku": 312.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      19590000000.0,
+      22682000000.0,
+      27195000000.0,
+      28026000000.0,
+      22914000000.0,
+      25907000000.0,
+      28680000000.0,
+      30011000000.0,
+      31933000000.0,
+      31484000000.0
+    ],
+    "ordinary": [
+      1491000000.0,
+      2942000000.0,
+      3670000000.0,
+      3496000000.0,
+      2557000000.0,
+      3555000000.0,
+      3797000000.0,
+      4051000000.0,
+      5032000000.0,
+      4268000000.0
+    ],
+    "ordinary_margin": [
+      0.0761,
+      0.1297,
+      0.135,
+      0.1247,
+      0.1116,
+      0.1372,
+      0.1324,
+      0.135,
+      0.1576,
+      0.1356
+    ],
+    "equity_ratio": [
+      0.665,
+      0.681,
+      0.662,
+      0.665,
+      0.675,
+      0.673,
+      0.687,
+      0.689,
+      0.691,
+      0.704
+    ],
+    "ocf": [
+      2673000000.0,
+      1250000000.0,
+      1572000000.0,
+      4685000000.0,
+      4530000000.0,
+      1401000000.0,
+      1962000000.0,
+      4016000000.0,
+      3297000000.0,
+      3063000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7695,
+    "fixed_cost": 2701122836.9,
+    "contribution_margin": 0.2305,
+    "breakeven_sales": 11718734733.1,
+    "dol": 1.7,
+    "r2": 0.992,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 3.25,
+    "margin_stdev": 0.0214,
+    "has_loss_year": false,
+    "median_margin": 0.1337
+  },
+  "trough": {
+    "score": 0.163,
+    "latest_margin": 0.1356,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      },
+      {
+        "key": "lng_japan",
+        "label": "LNG 日本 ($/mmbtu, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.893,
+        "yoy": 0.595,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.041
+  },
+  "structural": {
+    "sales_cagr": 0.0541,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.704,
+    "min_equity_ratio": 0.662,
+    "net_debt": -13988274000.0,
+    "net_debt_to_equity": -0.26,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 45477000.0,
+    "normalized_sales": 27610500000.0,
+    "normalized_margin": 0.1337,
+    "normalized_ordinary": 3676918483.4,
+    "normalized_eps": 56.6,
+    "normalized_per": 12.1,
+    "midcycle_per": 12.0,
+    "fair_value": 679.2,
+    "expected_return_x": 0.99,
+    "pbr": 0.65
+  },
+  "liquidation": {
+    "value": 24326049800.0,
+    "per_share": 534.9,
+    "downside_to_liquidation": 0.22
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 70%（最低 66%） / ネットD/E -0.26"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.7 / 期待リターン 1.0倍"
+    }
+  },
+  "auto_score": 39.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "code": "3945",
+  "name": "スーパーバッグ株式会社",
+  "sector33": "パルプ・紙",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2198.0,
+  "market_cap_oku": 37.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      33495000000.0,
+      33082000000.0,
+      32995000000.0,
+      31895000000.0,
+      26253000000.0,
+      25134000000.0,
+      25253000000.0,
+      26837000000.0,
+      27579000000.0,
+      28162000000.0
+    ],
+    "ordinary": [
+      800000000.0,
+      350000000.0,
+      -164000000.0,
+      476000000.0,
+      -150000000.0,
+      -503000000.0,
+      472000000.0,
+      1076000000.0,
+      1022000000.0,
+      828000000.0
+    ],
+    "ordinary_margin": [
+      0.0239,
+      0.0106,
+      -0.005,
+      0.0149,
+      -0.0057,
+      -0.02,
+      0.0187,
+      0.0401,
+      0.0371,
+      0.0294
+    ],
+    "equity_ratio": [
+      0.228,
+      0.246,
+      0.183,
+      0.19,
+      0.2,
+      0.177,
+      0.21,
+      0.265,
+      0.323,
+      0.403
+    ],
+    "ocf": [
+      1376000000.0,
+      -118000000.0,
+      -0.0,
+      1779000000.0,
+      -118000000.0,
+      500000000.0,
+      60000000.0,
+      1042000000.0,
+      801000000.0,
+      -91000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.985,
+    "fixed_cost": 14636545.8,
+    "contribution_margin": 0.015,
+    "breakeven_sales": 977318434.6,
+    "dol": 0.51,
+    "r2": 0.975,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 26.85,
+    "margin_stdev": 0.0197,
+    "has_loss_year": true,
+    "median_margin": 0.0168
+  },
+  "trough": {
+    "score": 0.297,
+    "latest_margin": 0.0294,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.802,
+    "price_drawdown_10y": 0.182
+  },
+  "structural": {
+    "sales_cagr": -0.0191,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.403,
+    "min_equity_ratio": 0.177,
+    "net_debt": 786000000.0,
+    "net_debt_to_equity": 0.14,
+    "survive_years_if_loss": 4.3
+  },
+  "valuation": {
+    "shares_outstanding": 1686154.0,
+    "normalized_sales": 27870500000.0,
+    "normalized_margin": 0.0168,
+    "normalized_ordinary": 435925922.6,
+    "normalized_eps": 180.97,
+    "normalized_per": 12.1,
+    "midcycle_per": 12.0,
+    "fair_value": 2171.7,
+    "expected_return_x": 0.99,
+    "pbr": 0.59
+  },
+  "liquidation": {
+    "value": -2162300000.0,
+    "per_share": -1282.4,
+    "downside_to_liquidation": 1.583
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -1.9% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 40%（最低 18%） / ネットD/E 0.14"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.51 / 期待リターン 1.0倍"
+    }
+  },
+  "auto_score": 37.0,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

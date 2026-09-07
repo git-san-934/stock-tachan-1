@@ -1,0 +1,165 @@
+{
+  "code": "7120",
+  "name": "株式会社ＳＨＩＮＫＯ",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1003.0,
+  "market_cap_oku": 55.2,
+  "fy_range": [
+    2019,
+    2026
+  ],
+  "n_years": 8,
+  "series": {
+    "fy": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      12169072000.0,
+      13356800000.0,
+      12684076000.0,
+      13886281000.0,
+      15948715000.0,
+      16145670000.0,
+      16904476000.0,
+      19383783000.0
+    ],
+    "ordinary": [
+      417190000.0,
+      635770000.0,
+      477946000.0,
+      612539000.0,
+      762418000.0,
+      634787000.0,
+      691573000.0,
+      926342000.0
+    ],
+    "ordinary_margin": [
+      0.0343,
+      0.0476,
+      0.0377,
+      0.0441,
+      0.0478,
+      0.0393,
+      0.0409,
+      0.0478
+    ],
+    "equity_ratio": [
+      0.135,
+      0.22,
+      0.202,
+      0.179,
+      0.251,
+      0.294,
+      0.275,
+      0.259
+    ],
+    "ocf": [
+      null,
+      null,
+      -290151000.0,
+      978093000.0,
+      -401526000.0,
+      1134931000.0,
+      921745000.0,
+      -435933000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9408,
+    "fixed_cost": 246017161.2,
+    "contribution_margin": 0.0592,
+    "breakeven_sales": 4158988142.9,
+    "dol": 1.24,
+    "r2": 0.999,
+    "n_points": 8
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 3.83,
+    "margin_stdev": 0.0052,
+    "has_loss_year": false,
+    "median_margin": 0.0425
+  },
+  "trough": {
+    "score": 0.072,
+    "latest_margin": 0.0478,
+    "margin_pctile": 0.875,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.977,
+    "price_drawdown_10y": 0.025
+  },
+  "structural": {
+    "sales_cagr": 0.0688,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.259,
+    "min_equity_ratio": 0.135,
+    "net_debt": -795527000.0,
+    "net_debt_to_equity": -0.35,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 5502000.0,
+    "normalized_sales": 14917498000.0,
+    "normalized_margin": 0.0425,
+    "normalized_ordinary": 635627249.4,
+    "normalized_eps": 80.87,
+    "normalized_per": 12.4,
+    "midcycle_per": 12.0,
+    "fair_value": 970.4,
+    "expected_return_x": 0.97,
+    "pbr": 2.07
+  },
+  "liquidation": {
+    "value": -3872057300.0,
+    "per_share": -703.8,
+    "downside_to_liquidation": 1.702
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +6.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 26%（最低 14%） / ネットD/E -0.35"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.24 / 期待リターン 1.0倍"
+    }
+  },
+  "auto_score": 26.7,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

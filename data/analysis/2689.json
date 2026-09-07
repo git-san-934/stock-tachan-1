@@ -1,0 +1,177 @@
+{
+  "code": "2689",
+  "name": "オルバヘルスケアホールディングス株式会社",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1937.0,
+  "market_cap_oku": 121.1,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      101460896000.0,
+      105778686000.0,
+      107663554000.0,
+      107428432000.0,
+      107896793000.0,
+      102072033000.0,
+      107959426000.0,
+      110472640000.0,
+      118564924000.0,
+      122702463000.0
+    ],
+    "ordinary": [
+      556872000.0,
+      1112763000.0,
+      1235888000.0,
+      1309908000.0,
+      905633000.0,
+      1542325000.0,
+      2119844000.0,
+      2158041000.0,
+      2244420000.0,
+      1962447000.0
+    ],
+    "ordinary_margin": [
+      0.0055,
+      0.0105,
+      0.0115,
+      0.0122,
+      0.0084,
+      0.0151,
+      0.0196,
+      0.0195,
+      0.0189,
+      0.016
+    ],
+    "equity_ratio": [
+      0.148,
+      0.166,
+      0.188,
+      0.198,
+      0.216,
+      0.222,
+      0.228,
+      0.253,
+      0.263,
+      0.267
+    ],
+    "ocf": [
+      710079000.0,
+      871610000.0,
+      -314298000.0,
+      136723000.0,
+      862564000.0,
+      3126307000.0,
+      2420642000.0,
+      -659519000.0,
+      2084226000.0,
+      1626920000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9426,
+    "fixed_cost": 4754272541.3,
+    "contribution_margin": 0.0574,
+    "breakeven_sales": 82813736430.0,
+    "dol": 3.59,
+    "r2": 0.995,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 11.08,
+    "margin_stdev": 0.0049,
+    "has_loss_year": false,
+    "median_margin": 0.0137
+  },
+  "trough": {
+    "score": 0.2,
+    "latest_margin": 0.016,
+    "margin_pctile": 0.7,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.876,
+    "price_drawdown_10y": 0.07
+  },
+  "structural": {
+    "sales_cagr": 0.0213,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.267,
+    "min_equity_ratio": 0.148,
+    "net_debt": 1057780000.0,
+    "net_debt_to_equity": 0.09,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 6250000.0,
+    "normalized_sales": 107780173500.0,
+    "normalized_margin": 0.0137,
+    "normalized_ordinary": 1451847914.5,
+    "normalized_eps": 162.61,
+    "normalized_per": 11.9,
+    "midcycle_per": 12.0,
+    "fair_value": 1951.3,
+    "expected_return_x": 1.01,
+    "pbr": 0.94
+  },
+  "liquidation": {
+    "value": -5792589200.0,
+    "per_share": -926.8,
+    "downside_to_liquidation": 1.478
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 27%（最低 15%） / ネットD/E 0.09"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 3.59 / 期待リターン 1.0倍"
+    }
+  },
+  "auto_score": 29.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

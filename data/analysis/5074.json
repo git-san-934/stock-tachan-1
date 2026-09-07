@@ -1,0 +1,180 @@
+{
+  "code": "5074",
+  "name": "テスホールディングス株式会社",
+  "sector33": "建設業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 612.0,
+  "market_cap_oku": 432.4,
+  "fy_range": [
+    2017,
+    2025
+  ],
+  "n_years": 9,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      209000000.0,
+      272000000.0,
+      29638000000.0,
+      28415000000.0,
+      34249000000.0,
+      34945000000.0,
+      34415000000.0,
+      30643000000.0,
+      36684000000.0
+    ],
+    "ordinary": [
+      69000000.0,
+      95000000.0,
+      775000000.0,
+      2534000000.0,
+      3836000000.0,
+      4654000000.0,
+      5518000000.0,
+      7660000000.0,
+      -641000000.0
+    ],
+    "ordinary_margin": [
+      0.3301,
+      0.3493,
+      0.0261,
+      0.0892,
+      0.112,
+      0.1332,
+      0.1603,
+      0.25,
+      -0.0175
+    ],
+    "equity_ratio": [
+      0.1151,
+      0.6661,
+      0.1174,
+      0.0956,
+      0.226,
+      0.2674,
+      0.3002,
+      0.3485,
+      0.2813
+    ],
+    "ocf": [
+      null,
+      null,
+      1181000000.0,
+      -1608000000.0,
+      431000000.0,
+      14646000000.0,
+      13827000000.0,
+      -42000000.0,
+      7806000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9026,
+    "fixed_cost": -238243888.5,
+    "contribution_margin": 0.0974,
+    "breakeven_sales": -2445442026.9,
+    "dol": null,
+    "r2": 0.965,
+    "n_points": 9
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 0.07,
+    "margin_stdev": 0.1276,
+    "has_loss_year": true,
+    "median_margin": 0.1332
+  },
+  "trough": {
+    "score": 0.826,
+    "latest_margin": -0.0175,
+    "margin_pctile": 0.111,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.53,
+    "price_drawdown_10y": 0.719
+  },
+  "structural": {
+    "sales_cagr": 0.9078,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.2813,
+    "min_equity_ratio": 0.0956,
+    "net_debt": 64615000000.0,
+    "net_debt_to_equity": 1.51,
+    "survive_years_if_loss": 43.8
+  },
+  "valuation": {
+    "shares_outstanding": 70646130.0,
+    "normalized_sales": 30643000000.0,
+    "normalized_margin": 0.1332,
+    "normalized_ordinary": 4081056574.6,
+    "normalized_eps": 40.44,
+    "normalized_per": 15.1,
+    "midcycle_per": 12.0,
+    "fair_value": 485.2,
+    "expected_return_x": 0.79,
+    "pbr": 1.01
+  },
+  "liquidation": {
+    "value": -19650300000.0,
+    "per_share": -278.2,
+    "downside_to_liquidation": 1.454
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +90.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 28%（最低 10%） / ネットD/E 1.51"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 32.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

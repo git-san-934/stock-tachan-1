@@ -1,0 +1,194 @@
+{
+  "code": "6840",
+  "name": "株式会社AKIBAホールディングス",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 822.0,
+  "market_cap_oku": 75.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      6529882000.0,
+      8914279000.0,
+      11420732000.0,
+      12574151000.0,
+      14742554000.0,
+      16166841000.0,
+      15007149000.0,
+      15848974000.0,
+      18272045000.0,
+      26782643000.0
+    ],
+    "ordinary": [
+      -13544000.0,
+      175861000.0,
+      426518000.0,
+      636377000.0,
+      682843000.0,
+      711268000.0,
+      1031089000.0,
+      844773000.0,
+      662301000.0,
+      1372658000.0
+    ],
+    "ordinary_margin": [
+      -0.0021,
+      0.0197,
+      0.0373,
+      0.0506,
+      0.0463,
+      0.044,
+      0.0687,
+      0.0533,
+      0.0362,
+      0.0513
+    ],
+    "equity_ratio": [
+      0.307,
+      0.232,
+      0.204,
+      0.244,
+      0.244,
+      0.265,
+      0.308,
+      0.298,
+      0.259,
+      0.249
+    ],
+    "ocf": [
+      -199512000.0,
+      -333652000.0,
+      -393404000.0,
+      -246303000.0,
+      948655000.0,
+      -147249000.0,
+      -20468000.0,
+      -40663000.0,
+      -374342000.0,
+      -30808000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9347,
+    "fixed_cost": 301973734.6,
+    "contribution_margin": 0.0653,
+    "breakeven_sales": 4624816827.2,
+    "dol": 1.27,
+    "r2": 0.999,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 29.17,
+    "margin_stdev": 0.0197,
+    "has_loss_year": true,
+    "median_margin": 0.0452
+  },
+  "trough": {
+    "score": 0.113,
+    "latest_margin": 0.0513,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.278
+  },
+  "structural": {
+    "sales_cagr": 0.1698,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.249,
+    "min_equity_ratio": 0.204,
+    "net_debt": 2048498000.0,
+    "net_debt_to_equity": 0.41,
+    "survive_years_if_loss": 440.1
+  },
+  "valuation": {
+    "shares_outstanding": 9192560.0,
+    "normalized_sales": 16069585800.0,
+    "normalized_margin": 0.0452,
+    "normalized_ordinary": 736509467.5,
+    "normalized_eps": 56.08,
+    "normalized_per": 14.7,
+    "midcycle_per": 12.0,
+    "fair_value": 673.0,
+    "expected_return_x": 0.82,
+    "pbr": 1.71
+  },
+  "liquidation": {
+    "value": 144985000.0,
+    "per_share": 15.8,
+    "downside_to_liquidation": 0.981
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +17.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 25%（最低 20%） / ネットD/E 0.41"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.27 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 23.5,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

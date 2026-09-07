@@ -1,0 +1,177 @@
+{
+  "code": "3359",
+  "name": "株式会社ｃｏｔｔａ",
+  "sector33": "卸売業",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 527.0,
+  "market_cap_oku": 59.1,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      4853765000.0,
+      6034188000.0,
+      6278023000.0,
+      6399923000.0,
+      7860026000.0,
+      9258198000.0,
+      8843952000.0,
+      8615805000.0,
+      8951833000.0,
+      13675545000.0
+    ],
+    "ordinary": [
+      202317000.0,
+      330051000.0,
+      378619000.0,
+      350018000.0,
+      320538000.0,
+      485231000.0,
+      584202000.0,
+      830898000.0,
+      534504000.0,
+      771840000.0
+    ],
+    "ordinary_margin": [
+      0.0417,
+      0.0547,
+      0.0603,
+      0.0547,
+      0.0408,
+      0.0524,
+      0.0661,
+      0.0964,
+      0.0597,
+      0.0564
+    ],
+    "equity_ratio": [
+      0.473,
+      0.5064,
+      0.5869,
+      0.6015,
+      0.5332,
+      0.5319,
+      0.5579,
+      0.6083,
+      0.6506,
+      0.4311
+    ],
+    "ocf": [
+      203142000.0,
+      177577000.0,
+      354492000.0,
+      144165000.0,
+      534092000.0,
+      -106973000.0,
+      447038000.0,
+      445581000.0,
+      280469000.0,
+      868914000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9347,
+    "fixed_cost": 48448307.8,
+    "contribution_margin": 0.0653,
+    "breakeven_sales": 742168143.3,
+    "dol": 1.16,
+    "r2": 0.997,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": 1.8,
+    "margin_stdev": 0.0155,
+    "has_loss_year": false,
+    "median_margin": 0.0556
+  },
+  "trough": {
+    "score": 0.39,
+    "latest_margin": 0.0564,
+    "margin_pctile": 0.6,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.752,
+    "price_drawdown_10y": 0.517
+  },
+  "structural": {
+    "sales_cagr": 0.122,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.4311,
+    "min_equity_ratio": 0.4311,
+    "net_debt": 1355254000.0,
+    "net_debt_to_equity": 0.3,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 11223513.0,
+    "normalized_sales": 8237915500.0,
+    "normalized_margin": 0.0556,
+    "normalized_ordinary": 473626587.5,
+    "normalized_eps": 29.54,
+    "normalized_per": 17.8,
+    "midcycle_per": 12.0,
+    "fair_value": 354.5,
+    "expected_return_x": 0.67,
+    "pbr": 1.25
+  },
+  "liquidation": {
+    "value": -177941000.0,
+    "per_share": -15.9,
+    "downside_to_liquidation": 1.03
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +12.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 43%（最低 43%） / ネットD/E 0.3"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.16 / 期待リターン 0.7倍"
+    }
+  },
+  "auto_score": 39.1,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

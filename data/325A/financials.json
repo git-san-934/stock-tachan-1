@@ -1,0 +1,99 @@
+{
+  "code": "325A",
+  "name": "株式会社TENTIAL",
+  "edinet_code": "E40398",
+  "latest_doc_id": "S100X6TZ",
+  "latest_period_end": "2025-08-31",
+  "shares_outstanding": 7576500.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 846725000.0,
+      "ordinary": -350024000.0,
+      "net_income": -350722000.0,
+      "equity": 120941000.0,
+      "assets": 507144000.0,
+      "equity_ratio": 0.238,
+      "eps": -13203.57,
+      "bps": -20530.67
+    },
+    {
+      "fy": 2022,
+      "sales": 2033705000.0,
+      "ordinary": 38889000.0,
+      "net_income": -12592000.0,
+      "equity": 608445000.0,
+      "assets": 1310458000.0,
+      "equity_ratio": 0.464,
+      "eps": -2.16,
+      "bps": -92.15,
+      "ocf": -42904000.0,
+      "cash": 834281000.0
+    },
+    {
+      "fy": 2023,
+      "sales": 5409051000.0,
+      "ordinary": 477079000.0,
+      "net_income": 506653000.0,
+      "equity": 1215001000.0,
+      "assets": 2489453000.0,
+      "equity_ratio": 0.488,
+      "roe": 0.556,
+      "eps": 76.56,
+      "bps": -13.5,
+      "ocf": 237263000.0,
+      "cash": 1393960000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 12837419000.0,
+      "ordinary": 1438613000.0,
+      "net_income": 1061168000.0,
+      "equity": 2291075000.0,
+      "assets": 6262448000.0,
+      "equity_ratio": 0.366,
+      "roe": 0.605,
+      "eps": 160.11,
+      "bps": 344.2,
+      "ocf": 2607712000.0,
+      "cash": 4158898000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 11134485000.0,
+      "ordinary": 1157798000.0,
+      "net_income": 817461000.0,
+      "equity": 4654275000.0,
+      "assets": 7538293000.0,
+      "equity_ratio": 0.617,
+      "roe": 0.235,
+      "eps": 111.18,
+      "bps": 614.28,
+      "ocf": -225411000.0,
+      "cash": 4329207000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 4329207000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 302441000.0,
+    "intangibles": 88833000.0,
+    "investments_other": 443963000.0,
+    "total_assets": 7538293000.0,
+    "total_liabilities": 2884017000.0,
+    "net_assets_bs": 4654275000.0,
+    "short_loans": null,
+    "current_lt_loans": 101935000.0,
+    "long_loans": 295465000.0,
+    "bonds": null,
+    "current_bonds": 11500000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100X6TZ",
+    "S100VOWS"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "code": "6267",
+  "name": "ゼネラルパッカー株式会社",
+  "sector33": "機械",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4050.0,
+  "market_cap_oku": 72.9,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      5044673000.0,
+      6651233000.0,
+      7098094000.0,
+      8327291000.0,
+      8522729000.0,
+      8787265000.0,
+      8643663000.0,
+      9054715000.0,
+      9853840000.0,
+      10108411000.0
+    ],
+    "ordinary": [
+      332432000.0,
+      297479000.0,
+      376557000.0,
+      745276000.0,
+      839601000.0,
+      1042438000.0,
+      1135767000.0,
+      939722000.0,
+      1019931000.0,
+      1067479000.0
+    ],
+    "ordinary_margin": [
+      0.0659,
+      0.0447,
+      0.0531,
+      0.0895,
+      0.0985,
+      0.1186,
+      0.1314,
+      0.1038,
+      0.1035,
+      0.1056
+    ],
+    "equity_ratio": [
+      0.564,
+      0.492,
+      0.434,
+      0.424,
+      0.491,
+      0.519,
+      0.529,
+      0.573,
+      0.578,
+      0.681
+    ],
+    "ocf": [
+      200964000.0,
+      -53362000.0,
+      359985000.0,
+      835734000.0,
+      35697000.0,
+      1447332000.0,
+      551966000.0,
+      -311128000.0,
+      1144263000.0,
+      408184000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8119,
+    "fixed_cost": 764166306.9,
+    "contribution_margin": 0.1881,
+    "breakeven_sales": 4063380787.8,
+    "dol": 1.78,
+    "r2": 0.985,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 3.25,
+    "margin_stdev": 0.0283,
+    "has_loss_year": false,
+    "median_margin": 0.101
+  },
+  "trough": {
+    "score": 0.07,
+    "latest_margin": 0.1056,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.002
+  },
+  "structural": {
+    "sales_cagr": 0.0803,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.681,
+    "min_equity_ratio": 0.424,
+    "net_debt": -2958036000.0,
+    "net_debt_to_equity": -0.4,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 1798800.0,
+    "normalized_sales": 8583196000.0,
+    "normalized_margin": 0.101,
+    "normalized_ordinary": 858658827.9,
+    "normalized_eps": 334.15,
+    "normalized_per": 12.1,
+    "midcycle_per": 12.0,
+    "fair_value": 4009.7,
+    "expected_return_x": 0.99,
+    "pbr": 0.95
+  },
+  "liquidation": {
+    "value": 2241472600.0,
+    "per_share": 1246.1,
+    "downside_to_liquidation": 0.692
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +8.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 68%（最低 42%） / ネットD/E -0.4"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.78 / 期待リターン 1.0倍"
+    }
+  },
+  "auto_score": 36.8,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

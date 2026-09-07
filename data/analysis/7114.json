@@ -1,0 +1,165 @@
+{
+  "code": "7114",
+  "name": "株式会社フーディソン",
+  "sector33": "卸売業",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 780.0,
+  "market_cap_oku": 36.2,
+  "fy_range": [
+    2019,
+    2026
+  ],
+  "n_years": 8,
+  "series": {
+    "fy": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      2180677000.0,
+      2870765000.0,
+      2955671000.0,
+      3592211000.0,
+      5279487000.0,
+      6351673000.0,
+      6866324000.0,
+      7820013000.0
+    ],
+    "ordinary": [
+      -112820000.0,
+      -11155000.0,
+      -58610000.0,
+      -8197000.0,
+      139693000.0,
+      196373000.0,
+      169042000.0,
+      186428000.0
+    ],
+    "ordinary_margin": [
+      -0.0517,
+      -0.0039,
+      -0.0198,
+      -0.0023,
+      0.0265,
+      0.0309,
+      0.0246,
+      0.0238
+    ],
+    "equity_ratio": [
+      0.227,
+      0.422,
+      0.279,
+      0.253,
+      0.644,
+      0.645,
+      0.712,
+      0.712
+    ],
+    "ocf": [
+      null,
+      null,
+      -219650000.0,
+      -96067000.0,
+      296084000.0,
+      127716000.0,
+      74119000.0,
+      103076000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9444,
+    "fixed_cost": 201095484.8,
+    "contribution_margin": 0.0556,
+    "breakeven_sales": 3614523289.6,
+    "dol": 2.33,
+    "r2": 1.0,
+    "n_points": 8
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 48.46,
+    "margin_stdev": 0.0288,
+    "has_loss_year": true,
+    "median_margin": 0.0108
+  },
+  "trough": {
+    "score": 0.593,
+    "latest_margin": 0.0238,
+    "margin_pctile": 0.625,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.109,
+    "price_drawdown_10y": 0.726
+  },
+  "structural": {
+    "sales_cagr": 0.2001,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.712,
+    "min_equity_ratio": 0.227,
+    "net_debt": -1852734000.0,
+    "net_debt_to_equity": -0.79,
+    "survive_years_if_loss": 18.2
+  },
+  "valuation": {
+    "shares_outstanding": 4642240.0,
+    "normalized_sales": 4692007800.0,
+    "normalized_margin": 0.0108,
+    "normalized_ordinary": 55177622.9,
+    "normalized_eps": 8.32,
+    "normalized_per": 93.7,
+    "midcycle_per": 12.0,
+    "fair_value": 99.8,
+    "expected_return_x": 0.13,
+    "pbr": 1.47
+  },
+  "liquidation": {
+    "value": 1270662200.0,
+    "per_share": 273.7,
+    "downside_to_liquidation": 0.649
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +20.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 71%（最低 23%） / ネットD/E -0.79"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.33 / 期待リターン 0.1倍"
+    }
+  },
+  "auto_score": 49.8,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

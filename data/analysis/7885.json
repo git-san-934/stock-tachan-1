@@ -1,0 +1,186 @@
+{
+  "code": "7885",
+  "name": "タカノ株式会社",
+  "sector33": "その他製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1135.0,
+  "market_cap_oku": 178.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      21897405000.0,
+      21696437000.0,
+      23657329000.0,
+      22346257000.0,
+      20050029000.0,
+      22748244000.0,
+      23037238000.0,
+      25173414000.0,
+      23969636000.0,
+      24802753000.0
+    ],
+    "ordinary": [
+      1192943000.0,
+      1209393000.0,
+      1291970000.0,
+      858082000.0,
+      147547000.0,
+      1237550000.0,
+      1103364000.0,
+      1023757000.0,
+      528805000.0,
+      1000436000.0
+    ],
+    "ordinary_margin": [
+      0.0545,
+      0.0557,
+      0.0546,
+      0.0384,
+      0.0074,
+      0.0544,
+      0.0479,
+      0.0407,
+      0.0221,
+      0.0403
+    ],
+    "equity_ratio": [
+      0.789,
+      0.748,
+      0.762,
+      0.808,
+      0.825,
+      0.795,
+      0.778,
+      0.795,
+      0.829,
+      0.857
+    ],
+    "ocf": [
+      2947443000.0,
+      1271514000.0,
+      1149256000.0,
+      724451000.0,
+      1526080000.0,
+      670548000.0,
+      733056000.0,
+      1685443000.0,
+      836127000.0,
+      1111132000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9146,
+    "fixed_cost": 998507982.3,
+    "contribution_margin": 0.0854,
+    "breakeven_sales": 11698113330.2,
+    "dol": 2.12,
+    "r2": 0.946,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 32.23,
+    "margin_stdev": 0.016,
+    "has_loss_year": false,
+    "median_margin": 0.0443
+  },
+  "trough": {
+    "score": 0.355,
+    "latest_margin": 0.0403,
+    "margin_pctile": 0.4,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.975,
+    "price_drawdown_10y": 0.201
+  },
+  "structural": {
+    "sales_cagr": 0.0139,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.857,
+    "min_equity_ratio": 0.748,
+    "net_debt": -8668940000.0,
+    "net_debt_to_equity": -0.27,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 15721000.0,
+    "normalized_sales": 22892741000.0,
+    "normalized_margin": 0.0443,
+    "normalized_ordinary": 985128429.1,
+    "normalized_eps": 43.86,
+    "normalized_per": 25.9,
+    "midcycle_per": 12.0,
+    "fair_value": 526.4,
+    "expected_return_x": 0.46,
+    "pbr": 0.53
+  },
+  "liquidation": {
+    "value": 13243093800.0,
+    "per_share": 842.4,
+    "downside_to_liquidation": 0.258
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 86%（最低 75%） / ネットD/E -0.27"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.12 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 43.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

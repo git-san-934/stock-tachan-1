@@ -1,0 +1,186 @@
+{
+  "code": "3551",
+  "name": "ダイニック株式会社",
+  "sector33": "繊維製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1596.0,
+  "market_cap_oku": 135.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      40088161000.0,
+      40020512000.0,
+      40426182000.0,
+      40866115000.0,
+      35865045000.0,
+      38945850000.0,
+      41552514000.0,
+      42101242000.0,
+      44072956000.0,
+      44227158000.0
+    ],
+    "ordinary": [
+      1370301000.0,
+      1131230000.0,
+      1073159000.0,
+      1152521000.0,
+      967922000.0,
+      1614438000.0,
+      1043028000.0,
+      1488363000.0,
+      2241803000.0,
+      2457891000.0
+    ],
+    "ordinary_margin": [
+      0.0342,
+      0.0283,
+      0.0265,
+      0.0282,
+      0.027,
+      0.0415,
+      0.0251,
+      0.0354,
+      0.0509,
+      0.0556
+    ],
+    "equity_ratio": [
+      0.347,
+      0.368,
+      0.365,
+      0.358,
+      0.389,
+      0.393,
+      0.398,
+      0.407,
+      0.435,
+      0.483
+    ],
+    "ocf": [
+      1657253000.0,
+      2161192000.0,
+      895051000.0,
+      478898000.0,
+      1882019000.0,
+      2338870000.0,
+      574793000.0,
+      3028725000.0,
+      1264549000.0,
+      2465035000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8458,
+    "fixed_cost": 4838938649.2,
+    "contribution_margin": 0.1542,
+    "breakeven_sales": 31385469835.3,
+    "dol": 2.77,
+    "r2": 0.971,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 5.87,
+    "margin_stdev": 0.0108,
+    "has_loss_year": false,
+    "median_margin": 0.0312
+  },
+  "trough": {
+    "score": 0.17,
+    "latest_margin": 0.0556,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "cotton",
+        "label": "綿花 ($/kg, 月次)",
+        "hint": "中立",
+        "pctile": 0.578,
+        "yoy": 0.125,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.011
+  },
+  "structural": {
+    "sales_cagr": 0.011,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.483,
+    "min_equity_ratio": 0.347,
+    "net_debt": 17007158000.0,
+    "net_debt_to_equity": 0.57,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 8505000.0,
+    "normalized_sales": 40646148500.0,
+    "normalized_margin": 0.0312,
+    "normalized_ordinary": 1348920883.2,
+    "normalized_eps": 111.02,
+    "normalized_per": 14.4,
+    "midcycle_per": 12.0,
+    "fair_value": 1332.3,
+    "expected_return_x": 0.83,
+    "pbr": 0.44
+  },
+  "liquidation": {
+    "value": 5607796900.0,
+    "per_share": 659.4,
+    "downside_to_liquidation": 0.587
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 48%（最低 35%） / ネットD/E 0.57"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.77 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 33.2,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

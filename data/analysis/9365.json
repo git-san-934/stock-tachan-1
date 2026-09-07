@@ -1,0 +1,186 @@
+{
+  "code": "9365",
+  "name": "トレーディア株式会社",
+  "sector33": "倉庫・運輸関連業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1640.0,
+  "market_cap_oku": 24.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      13406000000.0,
+      13997000000.0,
+      14974000000.0,
+      14484000000.0,
+      14937000000.0,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "ordinary": [
+      80000000.0,
+      214000000.0,
+      199000000.0,
+      90000000.0,
+      156000000.0,
+      444000000.0,
+      619000000.0,
+      363000000.0,
+      398000000.0,
+      488000000.0
+    ],
+    "ordinary_margin": [
+      0.006,
+      0.0153,
+      0.0133,
+      0.0062,
+      0.0104,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "equity_ratio": [
+      0.268,
+      0.289,
+      0.299,
+      0.304,
+      0.313,
+      0.319,
+      0.353,
+      0.423,
+      0.431,
+      0.444
+    ],
+    "ocf": [
+      192000000.0,
+      527000000.0,
+      355000000.0,
+      184000000.0,
+      -32000000.0,
+      -56000000.0,
+      985000000.0,
+      264000000.0,
+      461000000.0,
+      500000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9606,
+    "fixed_cost": 418167344.8,
+    "contribution_margin": 0.0394,
+    "breakeven_sales": 10609650644.1,
+    "dol": null,
+    "r2": 0.993,
+    "n_points": 5
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 19.39,
+    "margin_stdev": 0.0042,
+    "has_loss_year": false,
+    "median_margin": 0.0104
+  },
+  "trough": {
+    "score": 0.26,
+    "latest_margin": null,
+    "margin_pctile": null,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.027
+  },
+  "structural": {
+    "sales_cagr": 0.0121,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.444,
+    "min_equity_ratio": 0.268,
+    "net_debt": 3889518000.0,
+    "net_debt_to_equity": 0.66,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 1470000.0,
+    "normalized_sales": 14484000000.0,
+    "normalized_margin": 0.0104,
+    "normalized_ordinary": 151885592.4,
+    "normalized_eps": 72.33,
+    "normalized_per": 22.7,
+    "midcycle_per": 12.0,
+    "fair_value": 867.9,
+    "expected_return_x": 0.53,
+    "pbr": 0.41
+  },
+  "liquidation": {
+    "value": 1641049200.0,
+    "per_share": 1116.4,
+    "downside_to_liquidation": 0.319
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR +1.2% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 44%（最低 27%） / ネットD/E 0.66"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 33.0,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

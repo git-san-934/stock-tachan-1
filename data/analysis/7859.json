@@ -1,0 +1,186 @@
+{
+  "code": "7859",
+  "name": "株式会社アルメディオ",
+  "sector33": "その他製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 271.0,
+  "market_cap_oku": 56.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      3121759000.0,
+      3541599000.0,
+      3109040000.0,
+      2751684000.0,
+      2681463000.0,
+      3266337000.0,
+      4940625000.0,
+      11557357000.0,
+      5800748000.0,
+      2372446000.0
+    ],
+    "ordinary": [
+      33136000.0,
+      -97866000.0,
+      -50624000.0,
+      48021000.0,
+      -3934000.0,
+      97807000.0,
+      569801000.0,
+      3443108000.0,
+      877166000.0,
+      -786563000.0
+    ],
+    "ordinary_margin": [
+      0.0106,
+      -0.0276,
+      -0.0163,
+      0.0175,
+      -0.0015,
+      0.0299,
+      0.1153,
+      0.2979,
+      0.1512,
+      -0.3315
+    ],
+    "equity_ratio": [
+      0.705,
+      0.58,
+      0.578,
+      0.765,
+      0.717,
+      0.627,
+      0.582,
+      0.774,
+      0.847,
+      0.936
+    ],
+    "ocf": [
+      -58729000.0,
+      50160000.0,
+      -105390000.0,
+      182686000.0,
+      45216000.0,
+      -280717000.0,
+      447850000.0,
+      2249768000.0,
+      866454000.0,
+      501150000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.5905,
+    "fixed_cost": 1353506056.7,
+    "contribution_margin": 0.4095,
+    "breakeven_sales": 3305633637.2,
+    "dol": null,
+    "r2": 0.984,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 15.81,
+    "margin_stdev": 0.1603,
+    "has_loss_year": true,
+    "median_margin": 0.014
+  },
+  "trough": {
+    "score": 0.81,
+    "latest_margin": -0.3315,
+    "margin_pctile": 0.1,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.719,
+    "price_drawdown_10y": 0.77
+  },
+  "structural": {
+    "sales_cagr": -0.03,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.936,
+    "min_equity_ratio": 0.578,
+    "net_debt": -3586338000.0,
+    "net_debt_to_equity": -0.45,
+    "survive_years_if_loss": 5.3
+  },
+  "valuation": {
+    "shares_outstanding": 20806316.0,
+    "normalized_sales": 3194048000.0,
+    "normalized_margin": 0.014,
+    "normalized_ordinary": -360643.6,
+    "normalized_eps": -0.01,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 0.69
+  },
+  "liquidation": {
+    "value": 5027472600.0,
+    "per_share": 241.6,
+    "downside_to_liquidation": 0.108
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -3.0% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 94%（最低 58%） / ネットD/E -0.45"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 67.2,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

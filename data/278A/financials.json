@@ -1,0 +1,108 @@
+{
+  "code": "278A",
+  "name": "Terra Drone株式会社",
+  "edinet_code": "E40060",
+  "latest_doc_id": "S100XY8O",
+  "latest_period_end": "2026-01-31",
+  "shares_outstanding": 9718000.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 1337883000.0,
+      "ordinary": 3196000.0,
+      "net_income": -74463000.0,
+      "equity": 407119000.0,
+      "assets": 1611519000.0,
+      "equity_ratio": 0.252,
+      "eps": -1306.84,
+      "bps": 7122.28
+    },
+    {
+      "fy": 2022,
+      "sales": 1415364000.0,
+      "ordinary": -492469000.0,
+      "net_income": -591538000.0,
+      "equity": 849661000.0,
+      "assets": 1862552000.0,
+      "equity_ratio": 0.453,
+      "eps": -9682.62,
+      "bps": -2197.15
+    },
+    {
+      "fy": 2023,
+      "sales": 1949350000.0,
+      "ordinary": -855397000.0,
+      "net_income": -1111632000.0,
+      "equity": 4516362000.0,
+      "assets": 6125671000.0,
+      "equity_ratio": 0.431,
+      "roe": 0.043,
+      "eps": -148.42,
+      "bps": -167.81,
+      "ocf": 326662000.0,
+      "cash": 4173363000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 2963323000.0,
+      "ordinary": -111024000.0,
+      "net_income": -353868000.0,
+      "equity": 5045016000.0,
+      "assets": 7132845000.0,
+      "equity_ratio": 0.635,
+      "eps": -46.6,
+      "bps": -233.76,
+      "ocf": -15638000.0,
+      "cash": 5008666000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 4435568000.0,
+      "ordinary": -606299000.0,
+      "net_income": -474800000.0,
+      "equity": 7144980000.0,
+      "assets": 8930662000.0,
+      "equity_ratio": 0.754,
+      "eps": -56.73,
+      "bps": 722.61,
+      "ocf": -927897000.0,
+      "cash": 4145633000.0
+    },
+    {
+      "fy": 2026,
+      "sales": 4782585000.0,
+      "ordinary": -1284839000.0,
+      "net_income": -2497915000.0,
+      "equity": 5008622000.0,
+      "assets": 6934968000.0,
+      "equity_ratio": 0.697,
+      "eps": -260.22,
+      "bps": 497.57,
+      "ocf": -716459000.0,
+      "cash": 1788633000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 2019003000.0,
+    "receivables": null,
+    "inventories": 294240000.0,
+    "ppe": 744787000.0,
+    "intangibles": 499329000.0,
+    "investments_other": 1065058000.0,
+    "total_assets": 6934968000.0,
+    "total_liabilities": 1926346000.0,
+    "net_assets_bs": 5008622000.0,
+    "short_loans": null,
+    "current_lt_loans": null,
+    "long_loans": null,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XY8O",
+    "S100VOQD"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "code": "9130",
+  "name": "共栄タンカー株式会社",
+  "sector33": "海運業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1624.0,
+  "market_cap_oku": 124.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      13099045000.0,
+      12501271000.0,
+      13406886000.0,
+      12505182000.0,
+      11670148000.0,
+      12141402000.0,
+      14270994000.0,
+      14178014000.0,
+      15160070000.0,
+      15509566000.0
+    ],
+    "ordinary": [
+      1331948000.0,
+      649538000.0,
+      838354000.0,
+      1023400000.0,
+      303624000.0,
+      17540000.0,
+      267680000.0,
+      186738000.0,
+      1030296000.0,
+      886680000.0
+    ],
+    "ordinary_margin": [
+      0.1017,
+      0.052,
+      0.0625,
+      0.0818,
+      0.026,
+      0.0014,
+      0.0188,
+      0.0132,
+      0.068,
+      0.0572
+    ],
+    "equity_ratio": [
+      0.151,
+      0.16,
+      0.207,
+      0.205,
+      0.202,
+      0.206,
+      0.253,
+      0.275,
+      0.324,
+      0.337
+    ],
+    "ocf": [
+      7406479000.0,
+      4726739000.0,
+      5392699000.0,
+      6098168000.0,
+      4332273000.0,
+      6025311000.0,
+      4922122000.0,
+      6038231000.0,
+      4710007000.0,
+      5542469000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9122,
+    "fixed_cost": 526320572.9,
+    "contribution_margin": 0.0878,
+    "breakeven_sales": 5997107578.2,
+    "dol": 1.54,
+    "r2": 0.887,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 62.48,
+    "margin_stdev": 0.0324,
+    "has_loss_year": false,
+    "median_margin": 0.0546
+  },
+  "trough": {
+    "score": 0.257,
+    "latest_margin": 0.0572,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "coal_aus",
+        "label": "石炭 豪州 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.786,
+        "yoy": 0.207,
+        "stale": false
+      },
+      {
+        "key": "iron_ore",
+        "label": "鉄鉱石 中国CFR ($/dmt, 月次)",
+        "hint": "中立",
+        "pctile": 0.444,
+        "yoy": 0.004,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.22
+  },
+  "structural": {
+    "sales_cagr": 0.0189,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.337,
+    "min_equity_ratio": 0.151,
+    "net_debt": 38046633000.0,
+    "net_debt_to_equity": 1.46,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 7650000.0,
+    "normalized_sales": 13252965500.0,
+    "normalized_margin": 0.0546,
+    "normalized_ordinary": 680211095.1,
+    "normalized_eps": 62.24,
+    "normalized_per": 26.1,
+    "midcycle_per": 12.0,
+    "fair_value": 746.9,
+    "expected_return_x": 0.46,
+    "pbr": 0.48
+  },
+  "liquidation": {
+    "value": 2915306700.0,
+    "per_share": 381.1,
+    "downside_to_liquidation": 0.765
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 34%（最低 15%） / ネットD/E 1.46"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.54 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 20.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

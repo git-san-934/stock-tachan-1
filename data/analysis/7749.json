@@ -1,0 +1,186 @@
+{
+  "code": "7749",
+  "name": "メディキット株式会社",
+  "sector33": "精密機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2960.0,
+  "market_cap_oku": 470.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      16850582000.0,
+      17445214000.0,
+      18501799000.0,
+      19893197000.0,
+      19312663000.0,
+      20130697000.0,
+      21607233000.0,
+      21850545000.0,
+      22553238000.0,
+      23781456000.0
+    ],
+    "ordinary": [
+      3560169000.0,
+      3695740000.0,
+      3959993000.0,
+      4383289000.0,
+      3871909000.0,
+      4548922000.0,
+      4177707000.0,
+      4781660000.0,
+      4658447000.0,
+      4484198000.0
+    ],
+    "ordinary_margin": [
+      0.2113,
+      0.2118,
+      0.214,
+      0.2203,
+      0.2005,
+      0.226,
+      0.1933,
+      0.2188,
+      0.2066,
+      0.1886
+    ],
+    "equity_ratio": [
+      0.86,
+      0.862,
+      0.865,
+      0.86,
+      0.874,
+      0.896,
+      0.889,
+      0.865,
+      0.861,
+      0.878
+    ],
+    "ocf": [
+      2926659000.0,
+      3114407000.0,
+      3796120000.0,
+      3540671000.0,
+      3629606000.0,
+      3153557000.0,
+      4480319000.0,
+      4834465000.0,
+      3561573000.0,
+      4734751000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8428,
+    "fixed_cost": -1037408620.7,
+    "contribution_margin": 0.1572,
+    "breakeven_sales": -6598235005.8,
+    "dol": 0.83,
+    "r2": 0.985,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 3.1,
+    "margin_stdev": 0.012,
+    "has_loss_year": false,
+    "median_margin": 0.2116
+  },
+  "trough": {
+    "score": 0.475,
+    "latest_margin": 0.1886,
+    "margin_pctile": 0.1,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.06
+  },
+  "structural": {
+    "sales_cagr": 0.039,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.878,
+    "min_equity_ratio": 0.86,
+    "net_debt": -20952613000.0,
+    "net_debt_to_equity": -0.45,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 15880000.0,
+    "normalized_sales": 20011947000.0,
+    "normalized_margin": 0.2116,
+    "normalized_ordinary": 4233798128.2,
+    "normalized_eps": 186.63,
+    "normalized_per": 15.9,
+    "midcycle_per": 12.0,
+    "fair_value": 2239.5,
+    "expected_return_x": 0.76,
+    "pbr": 0.92
+  },
+  "liquidation": {
+    "value": 27389522400.0,
+    "per_share": 1724.8,
+    "downside_to_liquidation": 0.417
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 88%（最低 86%） / ネットD/E -0.45"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.83 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 46.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

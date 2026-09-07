@@ -1,0 +1,194 @@
+{
+  "code": "5951",
+  "name": "ダイニチ工業株式会社",
+  "sector33": "金属製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1199.0,
+  "market_cap_oku": 228.5,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      18246454000.0,
+      20108566000.0,
+      19007708000.0,
+      18826074000.0,
+      22884860000.0,
+      21087889000.0,
+      21212828000.0,
+      19650950000.0,
+      19902665000.0,
+      20084595000.0
+    ],
+    "ordinary": [
+      818919000.0,
+      939409000.0,
+      618608000.0,
+      222042000.0,
+      2047935000.0,
+      1543955000.0,
+      1657322000.0,
+      1294305000.0,
+      1572099000.0,
+      2081158000.0
+    ],
+    "ordinary_margin": [
+      0.0449,
+      0.0467,
+      0.0325,
+      0.0118,
+      0.0895,
+      0.0732,
+      0.0781,
+      0.0659,
+      0.079,
+      0.1036
+    ],
+    "equity_ratio": [
+      0.848,
+      0.846,
+      0.838,
+      0.842,
+      0.834,
+      0.866,
+      0.863,
+      0.869,
+      0.876,
+      0.866
+    ],
+    "ocf": [
+      3498313000.0,
+      1444112000.0,
+      -734814000.0,
+      -86360000.0,
+      5527601000.0,
+      546388000.0,
+      2024957000.0,
+      111101000.0,
+      2821947000.0,
+      2039023000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.6559,
+    "fixed_cost": 5637377604.5,
+    "contribution_margin": 0.3441,
+    "breakeven_sales": 16382703474.8,
+    "dol": 3.32,
+    "r2": 0.829,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 29.79,
+    "margin_stdev": 0.0281,
+    "has_loss_year": false,
+    "median_margin": 0.0695
+  },
+  "trough": {
+    "score": 0.007,
+    "latest_margin": 0.1036,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.03
+  },
+  "structural": {
+    "sales_cagr": 0.0107,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.866,
+    "min_equity_ratio": 0.834,
+    "net_debt": -3813278000.0,
+    "net_debt_to_equity": -0.13,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 19058587.0,
+    "normalized_sales": 19993630000.0,
+    "normalized_margin": 0.0695,
+    "normalized_ordinary": 1316393762.1,
+    "normalized_eps": 48.35,
+    "normalized_per": 24.8,
+    "midcycle_per": 12.0,
+    "fair_value": 580.2,
+    "expected_return_x": 0.48,
+    "pbr": 0.65
+  },
+  "liquidation": {
+    "value": 8334685200.0,
+    "per_share": 437.3,
+    "downside_to_liquidation": 0.635
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 87%（最低 83%） / ネットD/E -0.13"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 3.32 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 35.2,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

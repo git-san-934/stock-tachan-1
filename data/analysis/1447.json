@@ -1,0 +1,174 @@
+{
+  "code": "1447",
+  "name": "SAAFホールディングス株式会社",
+  "sector33": "建設業",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 391.0,
+  "market_cap_oku": 95.6,
+  "fy_range": [
+    2019,
+    2026
+  ],
+  "n_years": 8,
+  "series": {
+    "fy": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      11272407000.0,
+      21224761000.0,
+      22830151000.0,
+      26346996000.0,
+      30528153000.0,
+      29270215000.0,
+      28855658000.0,
+      29580675000.0
+    ],
+    "ordinary": [
+      60185000.0,
+      140737000.0,
+      196887000.0,
+      157244000.0,
+      708457000.0,
+      767760000.0,
+      142814000.0,
+      1001811000.0
+    ],
+    "ordinary_margin": [
+      0.0053,
+      0.0066,
+      0.0086,
+      0.006,
+      0.0232,
+      0.0262,
+      0.0049,
+      0.0339
+    ],
+    "equity_ratio": [
+      0.2224,
+      0.1845,
+      0.184,
+      0.1011,
+      0.1565,
+      0.1604,
+      0.156,
+      0.1423
+    ],
+    "ocf": [
+      190677000.0,
+      717853000.0,
+      -795546000.0,
+      129304000.0,
+      369398000.0,
+      572269000.0,
+      305192000.0,
+      2069349000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9633,
+    "fixed_cost": 521195736.7,
+    "contribution_margin": 0.0367,
+    "breakeven_sales": 14184505013.4,
+    "dol": 1.08,
+    "r2": 0.998,
+    "n_points": 8
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 7.63,
+    "margin_stdev": 0.0115,
+    "has_loss_year": false,
+    "median_margin": 0.0076
+  },
+  "trough": {
+    "score": 0.225,
+    "latest_margin": 0.0339,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.598,
+    "price_drawdown_10y": 0.503
+  },
+  "structural": {
+    "sales_cagr": 0.1478,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.1423,
+    "min_equity_ratio": 0.1011,
+    "net_debt": 6003240000.0,
+    "net_debt_to_equity": 2.31,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 24446958.0,
+    "normalized_sales": 27601327000.0,
+    "normalized_margin": 0.0076,
+    "normalized_ordinary": 351149548.5,
+    "normalized_eps": 10.05,
+    "normalized_per": 38.9,
+    "midcycle_per": 12.0,
+    "fair_value": 120.7,
+    "expected_return_x": 0.31,
+    "pbr": 3.9
+  },
+  "liquidation": {
+    "value": -3168430300.0,
+    "per_share": -129.6,
+    "downside_to_liquidation": 1.331
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +14.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "×",
+      "note": "自己資本比率 14%（最低 10%） / ネットD/E 2.31"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.08 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 11.6,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": false,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

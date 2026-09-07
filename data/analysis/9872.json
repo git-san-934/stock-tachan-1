@@ -1,0 +1,177 @@
+{
+  "code": "9872",
+  "name": "北恵株式会社",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 958.0,
+  "market_cap_oku": 95.9,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      50827744000.0,
+      55704376000.0,
+      57003746000.0,
+      56557177000.0,
+      53762794000.0,
+      57225000000.0,
+      60874000000.0,
+      62368000000.0,
+      61286000000.0,
+      58977000000.0
+    ],
+    "ordinary": [
+      734826000.0,
+      888445000.0,
+      856287000.0,
+      933759000.0,
+      651691000.0,
+      920000000.0,
+      1005000000.0,
+      1172000000.0,
+      1096000000.0,
+      906000000.0
+    ],
+    "ordinary_margin": [
+      0.0145,
+      0.0159,
+      0.015,
+      0.0165,
+      0.0121,
+      0.0161,
+      0.0165,
+      0.0188,
+      0.0179,
+      0.0154
+    ],
+    "equity_ratio": [
+      0.448,
+      0.441,
+      0.438,
+      0.456,
+      0.469,
+      0.453,
+      0.447,
+      0.46,
+      0.473,
+      0.505
+    ],
+    "ocf": [
+      -185224000.0,
+      1602791000.0,
+      959320000.0,
+      997911000.0,
+      643511000.0,
+      -92000000.0,
+      353000000.0,
+      1825000000.0,
+      603000000.0,
+      -471000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9609,
+    "fixed_cost": 1327366522.4,
+    "contribution_margin": 0.0391,
+    "breakeven_sales": 33991314369.5,
+    "dol": 2.54,
+    "r2": 1.0,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 4.29,
+    "margin_stdev": 0.0018,
+    "has_loss_year": false,
+    "median_margin": 0.016
+  },
+  "trough": {
+    "score": 0.315,
+    "latest_margin": 0.0154,
+    "margin_pctile": 0.4,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.975,
+    "price_drawdown_10y": 0.041
+  },
+  "structural": {
+    "sales_cagr": 0.0167,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.505,
+    "min_equity_ratio": 0.438,
+    "net_debt": -11103000000.0,
+    "net_debt_to_equity": -0.79,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 10011841.0,
+    "normalized_sales": 57114373000.0,
+    "normalized_margin": 0.016,
+    "normalized_ordinary": 910191457.6,
+    "normalized_eps": 63.64,
+    "normalized_per": 15.1,
+    "midcycle_per": 12.0,
+    "fair_value": 763.7,
+    "expected_return_x": 0.8,
+    "pbr": 0.63
+  },
+  "liquidation": {
+    "value": -293000000.0,
+    "per_share": -29.3,
+    "downside_to_liquidation": 1.031
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 50%（最低 44%） / ネットD/E -0.79"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.54 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 42.9,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

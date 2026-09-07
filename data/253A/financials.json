@@ -1,0 +1,46 @@
+{
+  "code": "253A",
+  "name": "株式会社ＥＴＳグループ",
+  "edinet_code": "E39677",
+  "latest_doc_id": "S100XCCN",
+  "latest_period_end": "2025-09-30",
+  "shares_outstanding": 6368000.0,
+  "annual": [
+    {
+      "fy": 2025,
+      "sales": 11261178000.0,
+      "ordinary": 690568000.0,
+      "net_income": 466351000.0,
+      "equity": 3444731000.0,
+      "assets": 9269330000.0,
+      "equity_ratio": 0.372,
+      "roe": 0.145,
+      "eps": 73.22,
+      "bps": 540.87,
+      "ocf": -1061378000.0,
+      "cash": 1610640000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 1673115000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 1957495000.0,
+    "intangibles": 3721000.0,
+    "investments_other": 399589000.0,
+    "total_assets": 9269330000.0,
+    "total_liabilities": 5824598000.0,
+    "net_assets_bs": 3444731000.0,
+    "short_loans": 1600000000.0,
+    "current_lt_loans": 248832000.0,
+    "long_loans": 277954000.0,
+    "bonds": 830000000.0,
+    "current_bonds": 20000000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XCCN"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "code": "1407",
+  "name": "株式会社ウエストホールディングス",
+  "sector33": "建設業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2379.0,
+  "market_cap_oku": 1095.0,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      36997000000.0,
+      32753000000.0,
+      52509000000.0,
+      63904000000.0,
+      61947000000.0,
+      67938000000.0,
+      67169000000.0,
+      43734000000.0,
+      50390000000.0,
+      47250000000.0
+    ],
+    "ordinary": [
+      4787000000.0,
+      2323000000.0,
+      4557000000.0,
+      5425000000.0,
+      6615000000.0,
+      9648000000.0,
+      7293000000.0,
+      7972000000.0,
+      9956000000.0,
+      7961000000.0
+    ],
+    "ordinary_margin": [
+      0.1294,
+      0.0709,
+      0.0868,
+      0.0849,
+      0.1068,
+      0.142,
+      0.1086,
+      0.1823,
+      0.1976,
+      0.1685
+    ],
+    "equity_ratio": [
+      0.232,
+      0.217,
+      0.216,
+      0.214,
+      0.247,
+      0.26,
+      0.272,
+      0.254,
+      0.264,
+      0.244
+    ],
+    "ocf": [
+      4845000000.0,
+      -1448000000.0,
+      5225000000.0,
+      -7436000000.0,
+      1333000000.0,
+      5127000000.0,
+      -4858000000.0,
+      7345000000.0,
+      495000000.0,
+      3263000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9077,
+    "fixed_cost": -1813359437.4,
+    "contribution_margin": 0.0923,
+    "breakeven_sales": -19652998137.4,
+    "dol": 0.55,
+    "r2": 0.967,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 1.64,
+    "margin_stdev": 0.0438,
+    "has_loss_year": false,
+    "median_margin": 0.119
+  },
+  "trough": {
+    "score": 0.35,
+    "latest_margin": 0.1685,
+    "margin_pctile": 0.8,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.595,
+    "price_drawdown_10y": 0.587
+  },
+  "structural": {
+    "sales_cagr": 0.0276,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.244,
+    "min_equity_ratio": 0.214,
+    "net_debt": 58557000000.0,
+    "net_debt_to_equity": 1.6,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 46027488.0,
+    "normalized_sales": 51449500000.0,
+    "normalized_margin": 0.119,
+    "normalized_ordinary": 6121609237.7,
+    "normalized_eps": 93.1,
+    "normalized_per": 25.6,
+    "midcycle_per": 12.0,
+    "fair_value": 1117.2,
+    "expected_return_x": 0.47,
+    "pbr": 2.6
+  },
+  "liquidation": {
+    "value": -38466900000.0,
+    "per_share": -835.7,
+    "downside_to_liquidation": 1.351
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 24%（最低 21%） / ネットD/E 1.6"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.55 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 19.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

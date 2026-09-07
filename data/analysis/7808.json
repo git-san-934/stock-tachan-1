@@ -1,0 +1,186 @@
+{
+  "code": "7808",
+  "name": "株式会社シー・エス・ランバー",
+  "sector33": "その他製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2776.0,
+  "market_cap_oku": 51.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      14702149000.0,
+      15049241000.0,
+      7803966000.0,
+      15565454000.0,
+      16269700000.0,
+      25126225000.0,
+      24547152000.0,
+      21132906000.0,
+      20673104000.0,
+      20381927000.0
+    ],
+    "ordinary": [
+      544704000.0,
+      572020000.0,
+      362300000.0,
+      1026229000.0,
+      1343836000.0,
+      4029041000.0,
+      3182304000.0,
+      2082293000.0,
+      1680656000.0,
+      1002206000.0
+    ],
+    "ordinary_margin": [
+      0.037,
+      0.038,
+      0.0464,
+      0.0659,
+      0.0826,
+      0.1604,
+      0.1296,
+      0.0985,
+      0.0813,
+      0.0492
+    ],
+    "equity_ratio": [
+      0.209,
+      0.208,
+      0.204,
+      0.228,
+      0.261,
+      0.327,
+      0.402,
+      0.437,
+      0.419,
+      0.392
+    ],
+    "ocf": [
+      542350000.0,
+      875675000.0,
+      503788000.0,
+      1401957000.0,
+      1113849000.0,
+      3375998000.0,
+      2093122000.0,
+      2005253000.0,
+      2155778000.0,
+      1835111000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.803,
+    "fixed_cost": 1987760042.6,
+    "contribution_margin": 0.197,
+    "breakeven_sales": 10091119006.0,
+    "dol": 4.01,
+    "r2": 0.979,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 2.23,
+    "margin_stdev": 0.041,
+    "has_loss_year": false,
+    "median_margin": 0.0736
+  },
+  "trough": {
+    "score": 0.415,
+    "latest_margin": 0.0492,
+    "margin_pctile": 0.4,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.72,
+    "price_drawdown_10y": 0.18
+  },
+  "structural": {
+    "sales_cagr": 0.037,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.392,
+    "min_equity_ratio": 0.204,
+    "net_debt": 7180852000.0,
+    "net_debt_to_equity": 0.6,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 1850100.0,
+    "normalized_sales": 18325813500.0,
+    "normalized_margin": 0.0736,
+    "normalized_ordinary": 1485724655.1,
+    "normalized_eps": 562.14,
+    "normalized_per": 4.9,
+    "midcycle_per": 12.0,
+    "fair_value": 6745.6,
+    "expected_return_x": 2.43,
+    "pbr": 0.43
+  },
+  "liquidation": {
+    "value": 3517880000.0,
+    "per_share": 1901.5,
+    "downside_to_liquidation": 0.315
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 39%（最低 20%） / ネットD/E 0.6"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "○",
+      "note": "DOL 4.01 / 期待リターン 2.4倍"
+    }
+  },
+  "auto_score": 63.8,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

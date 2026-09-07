@@ -1,0 +1,186 @@
+{
+  "code": "1969",
+  "name": "高砂熱学工業株式会社",
+  "sector33": "建設業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4457.0,
+  "market_cap_oku": 6261.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      260204000000.0,
+      289933000000.0,
+      319834000000.0,
+      320893000000.0,
+      275181000000.0,
+      302746000000.0,
+      338831000000.0,
+      363366000000.0,
+      381661000000.0,
+      423923000000.0
+    ],
+    "ordinary": [
+      13427000000.0,
+      17461000000.0,
+      18359000000.0,
+      19286000000.0,
+      13902000000.0,
+      15639000000.0,
+      16685000000.0,
+      26150000000.0,
+      34970000000.0,
+      50642000000.0
+    ],
+    "ordinary_margin": [
+      0.0516,
+      0.0602,
+      0.0574,
+      0.0601,
+      0.0505,
+      0.0517,
+      0.0492,
+      0.072,
+      0.0916,
+      0.1195
+    ],
+    "equity_ratio": [
+      0.469,
+      0.457,
+      0.436,
+      0.46,
+      0.487,
+      0.442,
+      0.455,
+      0.483,
+      0.539,
+      0.55
+    ],
+    "ocf": [
+      23528000000.0,
+      6170000000.0,
+      14892000000.0,
+      -6369000000.0,
+      22568000000.0,
+      1186000000.0,
+      25826000000.0,
+      -13100000000.0,
+      5885000000.0,
+      29725000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7862,
+    "fixed_cost": 47411731897.6,
+    "contribution_margin": 0.2138,
+    "breakeven_sales": 221723461306.4,
+    "dol": 1.79,
+    "r2": 0.986,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 3.02,
+    "margin_stdev": 0.0227,
+    "has_loss_year": false,
+    "median_margin": 0.0588
+  },
+  "trough": {
+    "score": 0.045,
+    "latest_margin": 0.1195,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.95,
+    "price_drawdown_10y": 0.136
+  },
+  "structural": {
+    "sales_cagr": 0.0557,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.55,
+    "min_equity_ratio": 0.436,
+    "net_debt": -5822000000.0,
+    "net_debt_to_equity": -0.03,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 140478804.0,
+    "normalized_sales": 320363500000.0,
+    "normalized_margin": 0.0588,
+    "normalized_ordinary": 19951884871.0,
+    "normalized_eps": 99.42,
+    "normalized_per": 44.8,
+    "midcycle_per": 12.0,
+    "fair_value": 1193.0,
+    "expected_return_x": 0.27,
+    "pbr": 2.78
+  },
+  "liquidation": {
+    "value": -42034900000.0,
+    "per_share": -299.2,
+    "downside_to_liquidation": 1.067
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 55%（最低 44%） / ネットD/E -0.03"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.79 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 36.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

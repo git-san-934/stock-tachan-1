@@ -1,0 +1,194 @@
+{
+  "code": "7224",
+  "name": "新明和工業株式会社",
+  "sector33": "輸送用機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1960.0,
+  "market_cap_oku": 1372.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      201204000000.0,
+      207335000000.0,
+      217297000000.0,
+      227231000000.0,
+      209226000000.0,
+      216823000000.0,
+      225175000000.0,
+      257060000000.0,
+      266441000000.0,
+      285024000000.0
+    ],
+    "ordinary": [
+      13244000000.0,
+      10752000000.0,
+      10437000000.0,
+      12375000000.0,
+      11182000000.0,
+      11821000000.0,
+      9902000000.0,
+      12106000000.0,
+      13536000000.0,
+      16324000000.0
+    ],
+    "ordinary_margin": [
+      0.0658,
+      0.0519,
+      0.048,
+      0.0545,
+      0.0534,
+      0.0545,
+      0.044,
+      0.0471,
+      0.0508,
+      0.0573
+    ],
+    "equity_ratio": [
+      0.627,
+      0.657,
+      0.394,
+      0.387,
+      0.415,
+      0.418,
+      0.435,
+      0.411,
+      0.42,
+      0.422
+    ],
+    "ocf": [
+      14342000000.0,
+      8699000000.0,
+      13452000000.0,
+      8509000000.0,
+      18120000000.0,
+      15998000000.0,
+      6404000000.0,
+      14065000000.0,
+      20499000000.0,
+      24364000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9535,
+    "fixed_cost": -1412707198.0,
+    "contribution_margin": 0.0465,
+    "breakeven_sales": -30379109617.9,
+    "dol": 0.81,
+    "r2": 0.998,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.83,
+    "margin_stdev": 0.0061,
+    "has_loss_year": false,
+    "median_margin": 0.0527
+  },
+  "trough": {
+    "score": 0.09,
+    "latest_margin": 0.0573,
+    "margin_pctile": 0.9,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.926,
+    "price_drawdown_10y": 0.272
+  },
+  "structural": {
+    "sales_cagr": 0.0395,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.422,
+    "min_equity_ratio": 0.387,
+    "net_debt": 12903000000.0,
+    "net_debt_to_equity": 0.1,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 70000000.0,
+    "normalized_sales": 221236000000.0,
+    "normalized_margin": 0.0527,
+    "normalized_ordinary": 11648374578.5,
+    "normalized_eps": 116.48,
+    "normalized_per": 16.8,
+    "midcycle_per": 12.0,
+    "fair_value": 1397.8,
+    "expected_return_x": 0.71,
+    "pbr": 1.04
+  },
+  "liquidation": {
+    "value": -2303500000.0,
+    "per_share": -32.9,
+    "downside_to_liquidation": 1.017
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 42%（最低 39%） / ネットD/E 0.1"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.81 / 期待リターン 0.7倍"
+    }
+  },
+  "auto_score": 33.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

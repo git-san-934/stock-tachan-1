@@ -1,0 +1,194 @@
+{
+  "code": "5194",
+  "name": "相模ゴム工業株式会社",
+  "sector33": "ゴム製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 642.0,
+  "market_cap_oku": 70.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      5710305000.0,
+      5909351000.0,
+      6258056000.0,
+      6563313000.0,
+      5586476000.0,
+      5414759000.0,
+      5984735000.0,
+      6112570000.0,
+      5687899000.0,
+      5911127000.0
+    ],
+    "ordinary": [
+      1549464000.0,
+      1771075000.0,
+      916512000.0,
+      1337560000.0,
+      1025503000.0,
+      1466336000.0,
+      1055718000.0,
+      389330000.0,
+      522789000.0,
+      587948000.0
+    ],
+    "ordinary_margin": [
+      0.2713,
+      0.2997,
+      0.1465,
+      0.2038,
+      0.1836,
+      0.2708,
+      0.1764,
+      0.0637,
+      0.0919,
+      0.0995
+    ],
+    "equity_ratio": [
+      0.459,
+      0.394,
+      0.443,
+      0.431,
+      0.467,
+      0.508,
+      0.532,
+      0.556,
+      0.582,
+      0.606
+    ],
+    "ocf": [
+      1146139000.0,
+      793271000.0,
+      981332000.0,
+      1229026000.0,
+      1406642000.0,
+      905316000.0,
+      898874000.0,
+      373598000.0,
+      790283000.0,
+      587340000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.1687,
+    "fixed_cost": -2059912744.1,
+    "contribution_margin": -0.1687,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.421,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 5.24,
+    "margin_stdev": 0.0819,
+    "has_loss_year": false,
+    "median_margin": 0.18
+  },
+  "trough": {
+    "score": 0.6,
+    "latest_margin": 0.0995,
+    "margin_pctile": 0.3,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "rubber",
+        "label": "天然ゴム ($/kg, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.845,
+        "yoy": 0.266,
+        "stale": false
+      },
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.033,
+    "price_drawdown_10y": 0.729
+  },
+  "structural": {
+    "sales_cagr": 0.0038,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.606,
+    "min_equity_ratio": 0.394,
+    "net_debt": 3511424000.0,
+    "net_debt_to_equity": 0.3,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 10937000.0,
+    "normalized_sales": 5910239000.0,
+    "normalized_margin": 0.18,
+    "normalized_ordinary": 1063756287.4,
+    "normalized_eps": 68.08,
+    "normalized_per": 9.4,
+    "midcycle_per": 12.0,
+    "fair_value": 817.0,
+    "expected_return_x": 1.27,
+    "pbr": 0.6
+  },
+  "liquidation": {
+    "value": 4836547700.0,
+    "per_share": 442.2,
+    "downside_to_liquidation": 0.311
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +0.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 61%（最低 39%） / ネットD/E 0.3"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 1.3倍"
+    }
+  },
+  "auto_score": 55.5,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

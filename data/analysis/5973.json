@@ -1,0 +1,194 @@
+{
+  "code": "5973",
+  "name": "株式会社トーアミ",
+  "sector33": "金属製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 612.0,
+  "market_cap_oku": 39.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      11192599000.0,
+      11808568000.0,
+      12696687000.0,
+      13079664000.0,
+      11784859000.0,
+      12265384000.0,
+      15414519000.0,
+      17628035000.0,
+      18104665000.0,
+      18391836000.0
+    ],
+    "ordinary": [
+      351530000.0,
+      -31724000.0,
+      39352000.0,
+      247152000.0,
+      454590000.0,
+      133139000.0,
+      -95901000.0,
+      337823000.0,
+      -30468000.0,
+      275554000.0
+    ],
+    "ordinary_margin": [
+      0.0314,
+      -0.0027,
+      0.0031,
+      0.0189,
+      0.0386,
+      0.0109,
+      -0.0062,
+      0.0192,
+      -0.0017,
+      0.015
+    ],
+    "equity_ratio": [
+      0.755,
+      0.723,
+      0.691,
+      0.702,
+      0.777,
+      0.691,
+      0.586,
+      0.562,
+      0.564,
+      0.587
+    ],
+    "ocf": [
+      673300000.0,
+      -350246000.0,
+      172790000.0,
+      1120614000.0,
+      848186000.0,
+      -1324830000.0,
+      -674657000.0,
+      1337851000.0,
+      903073000.0,
+      1577274000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.0089,
+    "fixed_cost": -294662854.9,
+    "contribution_margin": -0.0089,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.996,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 42.25,
+    "margin_stdev": 0.0149,
+    "has_loss_year": true,
+    "median_margin": 0.0129
+  },
+  "trough": {
+    "score": 0.143,
+    "latest_margin": 0.015,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.029
+  },
+  "structural": {
+    "sales_cagr": 0.0567,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.587,
+    "min_equity_ratio": 0.562,
+    "net_debt": 2106131000.0,
+    "net_debt_to_equity": 0.19,
+    "survive_years_if_loss": 25.3
+  },
+  "valuation": {
+    "shares_outstanding": 6400000.0,
+    "normalized_sales": 12888175500.0,
+    "normalized_margin": 0.0129,
+    "normalized_ordinary": 166497611.7,
+    "normalized_eps": 18.21,
+    "normalized_per": 33.6,
+    "midcycle_per": 12.0,
+    "fair_value": 218.5,
+    "expected_return_x": 0.36,
+    "pbr": 0.31
+  },
+  "liquidation": {
+    "value": 1336747300.0,
+    "per_share": 208.9,
+    "downside_to_liquidation": 0.659
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 59%（最低 56%） / ネットD/E 0.19"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.4倍"
+    }
+  },
+  "auto_score": 38.6,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

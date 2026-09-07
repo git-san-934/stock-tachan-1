@@ -1,0 +1,194 @@
+{
+  "code": "6668",
+  "name": "株式会社アドテック　プラズマ　テクノロジー",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4140.0,
+  "market_cap_oku": 355.5,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      5313621000.0,
+      7218536000.0,
+      8499922000.0,
+      6055700000.0,
+      7136822000.0,
+      8003000000.0,
+      12337000000.0,
+      12498000000.0,
+      11298000000.0,
+      12680000000.0
+    ],
+    "ordinary": [
+      129789000.0,
+      1512474000.0,
+      1845480000.0,
+      515071000.0,
+      889094000.0,
+      1160000000.0,
+      3051000000.0,
+      2293000000.0,
+      1612000000.0,
+      1897000000.0
+    ],
+    "ordinary_margin": [
+      0.0244,
+      0.2095,
+      0.2171,
+      0.0851,
+      0.1246,
+      0.1449,
+      0.2473,
+      0.1835,
+      0.1427,
+      0.1496
+    ],
+    "equity_ratio": [
+      0.444,
+      0.514,
+      0.536,
+      0.556,
+      0.527,
+      0.529,
+      0.439,
+      0.399,
+      0.454,
+      0.484
+    ],
+    "ocf": [
+      290762000.0,
+      852406000.0,
+      -428029000.0,
+      630294000.0,
+      -66508000.0,
+      -185000000.0,
+      -1583000000.0,
+      -1501000000.0,
+      3032000000.0,
+      3364000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7382,
+    "fixed_cost": 892984121.6,
+    "contribution_margin": 0.2618,
+    "breakeven_sales": 3410894336.6,
+    "dol": 1.75,
+    "r2": 0.958,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 14.68,
+    "margin_stdev": 0.0661,
+    "has_loss_year": false,
+    "median_margin": 0.1473
+  },
+  "trough": {
+    "score": 0.14,
+    "latest_margin": 0.1496,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.024
+  },
+  "structural": {
+    "sales_cagr": 0.1015,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.484,
+    "min_equity_ratio": 0.399,
+    "net_debt": 4010000000.0,
+    "net_debt_to_equity": 0.3,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 8586000.0,
+    "normalized_sales": 8251461000.0,
+    "normalized_margin": 0.1473,
+    "normalized_ordinary": 1241243873.9,
+    "normalized_eps": 101.2,
+    "normalized_per": 40.9,
+    "midcycle_per": 12.0,
+    "fair_value": 1214.4,
+    "expected_return_x": 0.29,
+    "pbr": 2.69
+  },
+  "liquidation": {
+    "value": 399900000.0,
+    "per_share": 46.6,
+    "downside_to_liquidation": 0.989
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +10.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 48%（最低 40%） / ネットD/E 0.3"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.75 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 35.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

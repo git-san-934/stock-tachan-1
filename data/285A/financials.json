@@ -1,0 +1,110 @@
+{
+  "code": "285A",
+  "name": "キオクシアホールディングス株式会社",
+  "edinet_code": "E35948",
+  "latest_doc_id": "S100YJ18",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 546086290.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 5409000000.0,
+      "ordinary": 1542000000.0,
+      "net_income": 967000000.0,
+      "equity": 1176384000000.0,
+      "assets": 2094980000000.0,
+      "equity_ratio": 0.561,
+      "roe": 0.001,
+      "eps": -19.38,
+      "bps": 1667.03
+    },
+    {
+      "fy": 2022,
+      "sales": 1526495000000.0,
+      "ordinary": 1474000000.0,
+      "operating": 216228000000.0,
+      "net_income": 950000000.0,
+      "equity": 1164491000000.0,
+      "assets": 2006554000000.0,
+      "equity_ratio": 0.58,
+      "roe": 0.001,
+      "eps": 1.84,
+      "bps": 1643.71
+    },
+    {
+      "fy": 2023,
+      "sales": 1282101000000.0,
+      "ordinary": 1224000000.0,
+      "operating": -99015000000.0,
+      "net_income": 611000000.0,
+      "equity": 1152166000000.0,
+      "assets": 1880666000000.0,
+      "equity_ratio": 0.612,
+      "roe": 0.001,
+      "eps": 1.18,
+      "bps": 1644.89
+    },
+    {
+      "fy": 2024,
+      "sales": 1076584000000.0,
+      "ordinary": 1169000000.0,
+      "operating": -252698000000.0,
+      "net_income": 892000000.0,
+      "equity": 1153019000000.0,
+      "assets": 1871091000000.0,
+      "equity_ratio": 0.616,
+      "roe": 0.001,
+      "eps": -0.89,
+      "bps": 1620.4
+    },
+    {
+      "fy": 2025,
+      "sales": 1706460000000.0,
+      "ordinary": 763000000.0,
+      "operating": 451748000000.0,
+      "net_income": 499000000.0,
+      "equity": 1170389000000.0,
+      "assets": 1618948000000.0,
+      "equity_ratio": 0.722,
+      "roe": 0.0,
+      "eps": 519.96,
+      "bps": 1568.12
+    },
+    {
+      "fy": 2026,
+      "sales": 2337628000000.0,
+      "ordinary": 92855000000.0,
+      "operating": 870369000000.0,
+      "net_income": 90754000000.0,
+      "equity": 918602000000.0,
+      "assets": 1667459000000.0,
+      "equity_ratio": 0.551,
+      "roe": 0.099,
+      "eps": 167.61,
+      "bps": 1681.47
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 754000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 1000000.0,
+    "intangibles": 3000000.0,
+    "investments_other": 1538727000000.0,
+    "total_assets": 1667459000000.0,
+    "total_liabilities": 748856000000.0,
+    "net_assets_bs": 918602000000.0,
+    "short_loans": null,
+    "current_lt_loans": 80000000000.0,
+    "long_loans": 327500000000.0,
+    "bonds": 326656000000.0,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YJ18",
+    "S100W440"
+  ]
+}

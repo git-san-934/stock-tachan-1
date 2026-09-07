@@ -1,0 +1,130 @@
+{
+  "code": "256A",
+  "name": "飛島ホールディングス株式会社",
+  "sector33": "建設業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2207.0,
+  "market_cap_oku": 424.3,
+  "fy_range": [
+    2025,
+    2026
+  ],
+  "n_years": 2,
+  "series": {
+    "fy": [
+      2025,
+      2026
+    ],
+    "sales": [
+      138259000000.0,
+      139255000000.0
+    ],
+    "ordinary": [
+      5730000000.0,
+      5968000000.0
+    ],
+    "ordinary_margin": [
+      0.0414,
+      0.0429
+    ],
+    "equity_ratio": [
+      0.32,
+      0.333
+    ],
+    "ocf": [
+      2806000000.0,
+      3531000000.0
+    ]
+  },
+  "cost_structure": {},
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": null,
+    "margin_stdev": 0.001,
+    "has_loss_year": false,
+    "median_margin": 0.0422
+  },
+  "trough": {
+    "score": 0.035,
+    "latest_margin": 0.0429,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.104
+  },
+  "structural": {
+    "sales_cagr": 0.0072,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.333,
+    "min_equity_ratio": 0.32,
+    "net_debt": 15080000000.0,
+    "net_debt_to_equity": 0.28,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 19225000.0,
+    "normalized_sales": 138757000000.0,
+    "normalized_margin": 0.0422,
+    "normalized_ordinary": 5848648244.4,
+    "normalized_eps": 212.95,
+    "normalized_per": 10.4,
+    "midcycle_per": 12.0,
+    "fair_value": 2555.5,
+    "expected_return_x": 1.16,
+    "pbr": 0.78
+  },
+  "liquidation": {
+    "value": -62148000000.0,
+    "per_share": -3232.7,
+    "downside_to_liquidation": 2.465
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +0.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 33%（最低 32%） / ネットD/E 0.28"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 1.2倍"
+    }
+  },
+  "auto_score": 29.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

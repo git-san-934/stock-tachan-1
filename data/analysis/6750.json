@@ -1,0 +1,194 @@
+{
+  "code": "6750",
+  "name": "エレコム株式会社",
+  "sector33": "電気機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2023.0,
+  "market_cap_oku": 1865.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      81842000000.0,
+      93546000000.0,
+      99362000000.0,
+      100861000000.0,
+      108053000000.0,
+      107358000000.0,
+      103727000000.0,
+      110169000000.0,
+      118007000000.0,
+      132132000000.0
+    ],
+    "ordinary": [
+      8872000000.0,
+      9808000000.0,
+      12074000000.0,
+      13598000000.0,
+      15207000000.0,
+      14398000000.0,
+      11376000000.0,
+      13360000000.0,
+      13190000000.0,
+      16605000000.0
+    ],
+    "ordinary_margin": [
+      0.1084,
+      0.1048,
+      0.1215,
+      0.1348,
+      0.1407,
+      0.1341,
+      0.1097,
+      0.1213,
+      0.1118,
+      0.1257
+    ],
+    "equity_ratio": [
+      0.442,
+      0.498,
+      0.656,
+      0.713,
+      0.725,
+      0.734,
+      0.758,
+      0.736,
+      0.719,
+      0.744
+    ],
+    "ocf": [
+      9090000000.0,
+      8212000000.0,
+      8848000000.0,
+      12823000000.0,
+      14797000000.0,
+      9665000000.0,
+      9161000000.0,
+      9669000000.0,
+      17354000000.0,
+      9877000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8497,
+    "fixed_cost": 3012162201.3,
+    "contribution_margin": 0.1503,
+    "breakeven_sales": 20036633183.4,
+    "dol": 1.2,
+    "r2": 0.989,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.63,
+    "margin_stdev": 0.0125,
+    "has_loss_year": false,
+    "median_margin": 0.1214
+  },
+  "trough": {
+    "score": 0.137,
+    "latest_margin": 0.1257,
+    "margin_pctile": 0.7,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.901,
+    "price_drawdown_10y": 0.12
+  },
+  "structural": {
+    "sales_cagr": 0.0547,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.744,
+    "min_equity_ratio": 0.442,
+    "net_debt": -57997000000.0,
+    "net_debt_to_equity": -0.54,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 92221000.0,
+    "normalized_sales": 105542500000.0,
+    "normalized_margin": 0.1214,
+    "normalized_ordinary": 12831432181.5,
+    "normalized_eps": 97.4,
+    "normalized_per": 20.8,
+    "midcycle_per": 12.0,
+    "fair_value": 1168.8,
+    "expected_return_x": 0.58,
+    "pbr": 1.51
+  },
+  "liquidation": {
+    "value": 65914200000.0,
+    "per_share": 714.7,
+    "downside_to_liquidation": 0.647
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.5% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 74%（最低 44%） / ネットD/E -0.54"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.2 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 38.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

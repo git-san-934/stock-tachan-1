@@ -1,0 +1,186 @@
+{
+  "code": "3597",
+  "name": "株式会社自重堂",
+  "sector33": "繊維製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 9040.0,
+  "market_cap_oku": 260.6,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      16601519000.0,
+      17089383000.0,
+      17359152000.0,
+      19359599000.0,
+      18467308000.0,
+      17882029000.0,
+      16983490000.0,
+      17742268000.0,
+      16863582000.0,
+      14936315000.0
+    ],
+    "ordinary": [
+      1003548000.0,
+      3871322000.0,
+      3163324000.0,
+      2744398000.0,
+      2279780000.0,
+      2245619000.0,
+      3016566000.0,
+      3591752000.0,
+      2947782000.0,
+      1627112000.0
+    ],
+    "ordinary_margin": [
+      0.0604,
+      0.2265,
+      0.1822,
+      0.1418,
+      0.1234,
+      0.1256,
+      0.1776,
+      0.2024,
+      0.1748,
+      0.1089
+    ],
+    "equity_ratio": [
+      0.816,
+      0.853,
+      0.83,
+      0.81,
+      0.837,
+      0.849,
+      0.875,
+      0.877,
+      0.921,
+      0.909
+    ],
+    "ocf": [
+      -784591000.0,
+      4372981000.0,
+      897623000.0,
+      -3899797000.0,
+      -176401000.0,
+      5906479000.0,
+      3620838000.0,
+      313680000.0,
+      3817643000.0,
+      3978110000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7578,
+    "fixed_cost": 1548396987.8,
+    "contribution_margin": 0.2422,
+    "breakeven_sales": 6392193383.6,
+    "dol": 2.22,
+    "r2": 0.538,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 14.82,
+    "margin_stdev": 0.0495,
+    "has_loss_year": false,
+    "median_margin": 0.1583
+  },
+  "trough": {
+    "score": 0.497,
+    "latest_margin": 0.1089,
+    "margin_pctile": 0.2,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "cotton",
+        "label": "綿花 ($/kg, 月次)",
+        "hint": "中立",
+        "pctile": 0.578,
+        "yoy": 0.125,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.843,
+    "price_drawdown_10y": 0.225
+  },
+  "structural": {
+    "sales_cagr": -0.0117,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.909,
+    "min_equity_ratio": 0.81,
+    "net_debt": -13390925000.0,
+    "net_debt_to_equity": -0.35,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 2882848.0,
+    "normalized_sales": 17224267500.0,
+    "normalized_margin": 0.1583,
+    "normalized_ordinary": 2726262948.3,
+    "normalized_eps": 661.98,
+    "normalized_per": 13.7,
+    "midcycle_per": 12.0,
+    "fair_value": 7943.7,
+    "expected_return_x": 0.88,
+    "pbr": 0.68
+  },
+  "liquidation": {
+    "value": 22893042300.0,
+    "per_share": 7941.1,
+    "downside_to_liquidation": 0.122
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR -1.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 91%（最低 81%） / ネットD/E -0.35"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.22 / 期待リターン 0.9倍"
+    }
+  },
+  "auto_score": 47.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

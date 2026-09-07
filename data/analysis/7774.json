@@ -1,0 +1,186 @@
+{
+  "code": "7774",
+  "name": "株式会社ジャパン・ティッシュエンジニアリング",
+  "sector33": "精密機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 864.0,
+  "market_cap_oku": 350.9,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      2135149000.0,
+      2271507000.0,
+      2357918000.0,
+      2309851000.0,
+      2257609000.0,
+      2103443000.0,
+      2032448000.0,
+      2514190000.0,
+      2455474000.0,
+      2182745000.0
+    ],
+    "ordinary": [
+      309951000.0,
+      213334000.0,
+      -339631000.0,
+      -229777000.0,
+      -462782000.0,
+      -494049000.0,
+      -725477000.0,
+      147009000.0,
+      -234487000.0,
+      -537443000.0
+    ],
+    "ordinary_margin": [
+      0.1452,
+      0.0939,
+      -0.144,
+      -0.0995,
+      -0.205,
+      -0.2349,
+      -0.3569,
+      0.0585,
+      -0.0955,
+      -0.2462
+    ],
+    "equity_ratio": [
+      0.937,
+      0.914,
+      0.905,
+      0.903,
+      0.882,
+      0.877,
+      0.863,
+      0.87,
+      0.894,
+      0.896
+    ],
+    "ocf": [
+      54950000.0,
+      632006000.0,
+      -396110000.0,
+      -84584000.0,
+      -399586000.0,
+      -225248000.0,
+      -622600000.0,
+      274138000.0,
+      -148365000.0,
+      -488020000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.0583,
+    "fixed_cost": 2365397379.2,
+    "contribution_margin": 0.9417,
+    "breakeven_sales": 2511949147.9,
+    "dol": null,
+    "r2": 0.001,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 14.1,
+    "margin_stdev": 0.1635,
+    "has_loss_year": true,
+    "median_margin": -0.1218
+  },
+  "trough": {
+    "score": 0.737,
+    "latest_margin": -0.2462,
+    "margin_pctile": 0.2,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.694,
+    "price_drawdown_10y": 0.522
+  },
+  "structural": {
+    "sales_cagr": 0.0025,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.896,
+    "min_equity_ratio": 0.863,
+    "net_debt": -3250465000.0,
+    "net_debt_to_equity": -0.64,
+    "survive_years_if_loss": 4.5
+  },
+  "valuation": {
+    "shares_outstanding": 40610200.0,
+    "normalized_sales": 2264558000.0,
+    "normalized_margin": -0.1218,
+    "normalized_ordinary": -275727476.9,
+    "normalized_eps": -4.75,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 6.89
+  },
+  "liquidation": {
+    "value": 3673469000.0,
+    "per_share": 90.5,
+    "downside_to_liquidation": 0.895
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +0.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 90%（最低 86%） / ネットD/E -0.64"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 59.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

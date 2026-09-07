@@ -1,0 +1,186 @@
+{
+  "code": "9311",
+  "name": "アサガミ株式会社",
+  "sector33": "倉庫・運輸関連業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-01",
+  "price": 7740.0,
+  "market_cap_oku": 109.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      45449968000.0,
+      46696115000.0,
+      45839151000.0,
+      44894318000.0,
+      38781736000.0,
+      41526221000.0,
+      41091546000.0,
+      39634023000.0,
+      38943782000.0,
+      39123081000.0
+    ],
+    "ordinary": [
+      2049894000.0,
+      1911928000.0,
+      1622193000.0,
+      1776894000.0,
+      972559000.0,
+      2160216000.0,
+      1872459000.0,
+      1636774000.0,
+      2056821000.0,
+      2667768000.0
+    ],
+    "ordinary_margin": [
+      0.0451,
+      0.0409,
+      0.0354,
+      0.0396,
+      0.0251,
+      0.052,
+      0.0456,
+      0.0413,
+      0.0528,
+      0.0682
+    ],
+    "equity_ratio": [
+      0.297,
+      0.315,
+      0.336,
+      0.349,
+      0.358,
+      0.387,
+      0.418,
+      0.442,
+      0.479,
+      0.516
+    ],
+    "ocf": [
+      3567781000.0,
+      2688726000.0,
+      2540389000.0,
+      2868811000.0,
+      2910818000.0,
+      2555208000.0,
+      2008708000.0,
+      2839163000.0,
+      3126469000.0,
+      3729459000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9997,
+    "fixed_cost": -1860996401.0,
+    "contribution_margin": 0.0003,
+    "breakeven_sales": null,
+    "dol": 0.0,
+    "r2": 0.982,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 8.59,
+    "margin_stdev": 0.0115,
+    "has_loss_year": false,
+    "median_margin": 0.0432
+  },
+  "trough": {
+    "score": 0.2,
+    "latest_margin": 0.0682,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.95,
+    "price_drawdown_10y": 0.159
+  },
+  "structural": {
+    "sales_cagr": -0.0165,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.516,
+    "min_equity_ratio": 0.297,
+    "net_debt": 3794663000.0,
+    "net_debt_to_equity": 0.16,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 1418000.0,
+    "normalized_sales": 41308883500.0,
+    "normalized_margin": 0.0432,
+    "normalized_ordinary": 1784531489.5,
+    "normalized_eps": 880.94,
+    "normalized_per": 8.8,
+    "midcycle_per": 12.0,
+    "fair_value": 10571.3,
+    "expected_return_x": 1.37,
+    "pbr": 0.47
+  },
+  "liquidation": {
+    "value": 9807208800.0,
+    "per_share": 6916.2,
+    "downside_to_liquidation": 0.106
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -1.7% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 52%（最低 30%） / ネットD/E 0.16"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.0 / 期待リターン 1.4倍"
+    }
+  },
+  "auto_score": 46.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

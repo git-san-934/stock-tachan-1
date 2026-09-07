@@ -1,0 +1,177 @@
+{
+  "code": "3360",
+  "name": "シップヘルスケアホールディングス株式会社",
+  "sector33": "卸売業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2391.5,
+  "market_cap_oku": 2256.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      408487000000.0,
+      425566000000.0,
+      444048000000.0,
+      484395000000.0,
+      497156000000.0,
+      514353000000.0,
+      572285000000.0,
+      630988000000.0,
+      678229000000.0,
+      718163000000.0
+    ],
+    "ordinary": [
+      16478000000.0,
+      18935000000.0,
+      18532000000.0,
+      19931000000.0,
+      21761000000.0,
+      21287000000.0,
+      20607000000.0,
+      25219000000.0,
+      26023000000.0,
+      26331000000.0
+    ],
+    "ordinary_margin": [
+      0.0403,
+      0.0445,
+      0.0417,
+      0.0411,
+      0.0438,
+      0.0414,
+      0.036,
+      0.04,
+      0.0384,
+      0.0367
+    ],
+    "equity_ratio": [
+      0.347,
+      0.35,
+      0.319,
+      0.33,
+      0.333,
+      0.353,
+      0.335,
+      0.36,
+      0.391,
+      0.392
+    ],
+    "ocf": [
+      15311000000.0,
+      20204000000.0,
+      10534000000.0,
+      24010000000.0,
+      19772000000.0,
+      12428000000.0,
+      14105000000.0,
+      31609000000.0,
+      20384000000.0,
+      22078000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9704,
+    "fixed_cost": -5606235384.6,
+    "contribution_margin": 0.0296,
+    "breakeven_sales": -189422453975.9,
+    "dol": 0.81,
+    "r2": 1.0,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.77,
+    "margin_stdev": 0.0028,
+    "has_loss_year": false,
+    "median_margin": 0.0407
+  },
+  "trough": {
+    "score": 0.48,
+    "latest_margin": 0.0367,
+    "margin_pctile": 0.2,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.826,
+    "price_drawdown_10y": 0.139
+  },
+  "structural": {
+    "sales_cagr": 0.0647,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.392,
+    "min_equity_ratio": 0.319,
+    "net_debt": -50198000000.0,
+    "net_debt_to_equity": -0.33,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 94350134.0,
+    "normalized_sales": 505754500000.0,
+    "normalized_margin": 0.0407,
+    "normalized_ordinary": 20605772780.4,
+    "normalized_eps": 152.88,
+    "normalized_per": 15.6,
+    "midcycle_per": 12.0,
+    "fair_value": 1834.5,
+    "expected_return_x": 0.77,
+    "pbr": 1.46
+  },
+  "liquidation": {
+    "value": -67891400000.0,
+    "per_share": -719.6,
+    "downside_to_liquidation": 1.301
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +6.5% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 39%（最低 32%） / ネットD/E -0.33"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.81 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 42.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

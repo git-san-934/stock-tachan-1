@@ -1,0 +1,186 @@
+{
+  "code": "7992",
+  "name": "セーラー万年筆株式会社",
+  "sector33": "その他製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 106.0,
+  "market_cap_oku": 31.4,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      5978000000.0,
+      5694000000.0,
+      5400000000.0,
+      5325000000.0,
+      4798000000.0,
+      5389000000.0,
+      5029000000.0,
+      4558000000.0,
+      4677000000.0,
+      4300000000.0
+    ],
+    "ordinary": [
+      28000000.0,
+      16000000.0,
+      -97000000.0,
+      -44000000.0,
+      -124000000.0,
+      102000000.0,
+      -148000000.0,
+      -329000000.0,
+      -216000000.0,
+      -189000000.0
+    ],
+    "ordinary_margin": [
+      0.0047,
+      0.0028,
+      -0.018,
+      -0.0083,
+      -0.0258,
+      0.0189,
+      -0.0294,
+      -0.0722,
+      -0.0462,
+      -0.044
+    ],
+    "equity_ratio": [
+      0.347,
+      0.381,
+      0.45,
+      0.438,
+      0.295,
+      0.294,
+      0.543,
+      0.43,
+      0.264,
+      0.24
+    ],
+    "ocf": [
+      -143000000.0,
+      -33000000.0,
+      -164000000.0,
+      112000000.0,
+      -179000000.0,
+      166000000.0,
+      -279000000.0,
+      -435000000.0,
+      -405000000.0,
+      34000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8011,
+    "fixed_cost": 1117654270.2,
+    "contribution_margin": 0.1989,
+    "breakeven_sales": 5617958892.8,
+    "dol": null,
+    "r2": 0.971,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 36.66,
+    "margin_stdev": 0.0276,
+    "has_loss_year": true,
+    "median_margin": -0.0219
+  },
+  "trough": {
+    "score": 0.83,
+    "latest_margin": -0.044,
+    "margin_pctile": 0.3,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.099,
+    "price_drawdown_10y": 0.687
+  },
+  "structural": {
+    "sales_cagr": -0.0359,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.24,
+    "min_equity_ratio": 0.24,
+    "net_debt": 840905000.0,
+    "net_debt_to_equity": 0.8,
+    "survive_years_if_loss": 1.6
+  },
+  "valuation": {
+    "shares_outstanding": 29659554.0,
+    "normalized_sales": 5177000000.0,
+    "normalized_margin": -0.0219,
+    "normalized_ordinary": -100671778.6,
+    "normalized_eps": -2.38,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 3.02
+  },
+  "liquidation": {
+    "value": -975948100.0,
+    "per_share": -32.9,
+    "downside_to_liquidation": 1.31
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -3.6% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 24%（最低 24%） / ネットD/E 0.8"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 43.4,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

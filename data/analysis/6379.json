@@ -1,0 +1,178 @@
+{
+  "code": "6379",
+  "name": "レイズネクスト株式会社",
+  "sector33": "建設業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2974.0,
+  "market_cap_oku": 1611.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "ordinary": [
+      7934294000.0,
+      6634617000.0,
+      7939369000.0,
+      10239365000.0,
+      10657268000.0,
+      11270000000.0,
+      11243000000.0,
+      10261000000.0,
+      11094000000.0,
+      14920000000.0
+    ],
+    "ordinary_margin": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "equity_ratio": [
+      0.532,
+      0.602,
+      0.588,
+      0.673,
+      0.75,
+      0.78,
+      0.722,
+      0.752,
+      0.738,
+      0.755
+    ],
+    "ocf": [
+      -7141022000.0,
+      1856545000.0,
+      9842906000.0,
+      -6384779000.0,
+      8591185000.0,
+      11157000000.0,
+      10069000000.0,
+      3565000000.0,
+      -107000000.0,
+      14388000000.0
+    ]
+  },
+  "cost_structure": {},
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": null,
+    "margin_stdev": null,
+    "has_loss_year": false,
+    "median_margin": null
+  },
+  "trough": {
+    "score": 0.02,
+    "latest_margin": null,
+    "margin_pctile": null,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.034
+  },
+  "structural": {
+    "sales_cagr": null,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.755,
+    "min_equity_ratio": 0.532,
+    "net_debt": -2897000000.0,
+    "net_debt_to_equity": -0.03,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 54168053.0,
+    "normalized_sales": null,
+    "normalized_margin": null,
+    "normalized_ordinary": null,
+    "normalized_eps": null,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 1.76
+  },
+  "liquidation": {
+    "value": -1214700000.0,
+    "per_share": -22.4,
+    "downside_to_liquidation": 1.008
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上履歴不足"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 76%（最低 53%） / ネットD/E -0.03"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 41.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

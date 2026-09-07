@@ -2,7 +2,7 @@
   "code": "1803",
   "name": "清水建設株式会社",
   "sector33": "建設業",
-  "market": "",
+  "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
   "as_of_price": "2026-09-07",
   "price": 2401.5,
@@ -166,11 +166,13 @@
   },
   "auto_score": 35.2,
   "passes": {
+    "s0_size": true,
     "s1_cheap": false,
     "s2_cyclical": true,
     "s3_trough": false,
     "s4_structural_ok": true,
     "s5_survivable": true,
+    "s6_upside": false,
     "pass_all": false
   },
   "catalyst": {

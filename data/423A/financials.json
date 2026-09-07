@@ -1,0 +1,102 @@
+{
+  "code": "423A",
+  "name": "株式会社ライオン事務器",
+  "edinet_code": "E02604",
+  "latest_doc_id": "S100XCRL",
+  "latest_period_end": "2025-09-30",
+  "shares_outstanding": 29900000.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 47924000000.0,
+      "ordinary": 1646000000.0,
+      "net_income": 1342000000.0,
+      "equity": 9214000000.0,
+      "assets": 25950000000.0,
+      "equity_ratio": 0.354,
+      "roe": 0.158,
+      "eps": 44.95,
+      "bps": 307.91,
+      "ocf": 6204000000.0,
+      "cash": 9242000000.0
+    },
+    {
+      "fy": 2022,
+      "sales": 33945000000.0,
+      "ordinary": 1046000000.0,
+      "net_income": 718000000.0,
+      "equity": 9865000000.0,
+      "assets": 23551000000.0,
+      "equity_ratio": 0.419,
+      "roe": 0.075,
+      "eps": 24.06,
+      "bps": 330.26,
+      "ocf": -3258000000.0,
+      "cash": 5763000000.0
+    },
+    {
+      "fy": 2023,
+      "sales": 33021000000.0,
+      "ordinary": 1110000000.0,
+      "net_income": 809000000.0,
+      "equity": 10666000000.0,
+      "assets": 23344000000.0,
+      "equity_ratio": 0.457,
+      "roe": 0.079,
+      "eps": 27.11,
+      "bps": 357.11,
+      "ocf": -497000000.0,
+      "cash": 4879000000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 34894000000.0,
+      "ordinary": 1168000000.0,
+      "net_income": 762000000.0,
+      "equity": 11424000000.0,
+      "assets": 23275000000.0,
+      "equity_ratio": 0.491,
+      "roe": 0.069,
+      "eps": 25.52,
+      "bps": 382.49,
+      "ocf": 1753000000.0,
+      "cash": 6358000000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 37022000000.0,
+      "ordinary": 1275000000.0,
+      "net_income": 912000000.0,
+      "equity": 12226000000.0,
+      "assets": 25056000000.0,
+      "equity_ratio": 0.488,
+      "roe": 0.077,
+      "eps": 30.55,
+      "bps": 409.36,
+      "ocf": -6000000.0,
+      "cash": 5915000000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 5945000000.0,
+    "receivables": 6508000000.0,
+    "inventories": 5609000000.0,
+    "ppe": 5378000000.0,
+    "intangibles": 448000000.0,
+    "investments_other": 890000000.0,
+    "total_assets": 25056000000.0,
+    "total_liabilities": 12829000000.0,
+    "net_assets_bs": 12226000000.0,
+    "short_loans": 720000000.0,
+    "current_lt_loans": 89000000.0,
+    "long_loans": 351000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XCRL"
+  ]
+}

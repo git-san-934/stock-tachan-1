@@ -1,0 +1,153 @@
+{
+  "code": "3543",
+  "name": "株式会社コメダホールディングス",
+  "edinet_code": "E32427",
+  "latest_doc_id": "S100Y6O9",
+  "latest_period_end": "2026-02-28",
+  "shares_outstanding": 46271400.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 24052000000.0,
+      "ordinary": 2321000000.0,
+      "net_income": 2227000000.0,
+      "equity": 15467000000.0,
+      "assets": 18044000000.0,
+      "equity_ratio": 0.851,
+      "roe": 0.151,
+      "eps": 50.69,
+      "bps": 347.55
+    },
+    {
+      "fy": 2018,
+      "sales": 25984000000.0,
+      "ordinary": 2529000000.0,
+      "net_income": 2424000000.0,
+      "equity": 16058000000.0,
+      "assets": 17350000000.0,
+      "equity_ratio": 0.922,
+      "roe": 0.155,
+      "eps": 54.24,
+      "bps": 354.38
+    },
+    {
+      "fy": 2019,
+      "sales": 30335000000.0,
+      "ordinary": 2922000000.0,
+      "net_income": 2832000000.0,
+      "equity": 15963000000.0,
+      "assets": 18997000000.0,
+      "equity_ratio": 0.839,
+      "roe": 0.177,
+      "eps": 62.73,
+      "bps": 347.37
+    },
+    {
+      "fy": 2020,
+      "sales": 31219000000.0,
+      "ordinary": 3183000000.0,
+      "net_income": 3067000000.0,
+      "equity": 17762000000.0,
+      "assets": 19544000000.0,
+      "equity_ratio": 0.908,
+      "roe": 0.182,
+      "eps": 66.92,
+      "bps": 385.15
+    },
+    {
+      "fy": 2021,
+      "sales": 28836000000.0,
+      "ordinary": 3503000000.0,
+      "net_income": 3362000000.0,
+      "equity": 19117000000.0,
+      "assets": 20320000000.0,
+      "equity_ratio": 0.94,
+      "roe": 0.182,
+      "eps": 72.94,
+      "bps": 414.32
+    },
+    {
+      "fy": 2022,
+      "sales": 33317000000.0,
+      "ordinary": 1888000000.0,
+      "net_income": 1772000000.0,
+      "equity": 18762000000.0,
+      "assets": 19292000000.0,
+      "equity_ratio": 0.972,
+      "roe": 0.094,
+      "eps": 38.44,
+      "bps": 406.4
+    },
+    {
+      "fy": 2023,
+      "sales": 37836000000.0,
+      "ordinary": 3123000000.0,
+      "net_income": 2925000000.0,
+      "equity": 19260000000.0,
+      "assets": 19706000000.0,
+      "equity_ratio": 0.977,
+      "roe": 0.154,
+      "eps": 63.41,
+      "bps": 417.14
+    },
+    {
+      "fy": 2024,
+      "sales": 43236000000.0,
+      "ordinary": 3231000000.0,
+      "net_income": 3048000000.0,
+      "equity": 18980000000.0,
+      "assets": 19416000000.0,
+      "equity_ratio": 0.977,
+      "roe": 0.159,
+      "eps": 66.42,
+      "bps": 414.13
+    },
+    {
+      "fy": 2025,
+      "sales": 47057000000.0,
+      "ordinary": 3340000000.0,
+      "net_income": 3130000000.0,
+      "equity": 18723000000.0,
+      "assets": 21930000000.0,
+      "equity_ratio": 0.854,
+      "roe": 0.167,
+      "eps": 68.72,
+      "bps": 411.54
+    },
+    {
+      "fy": 2026,
+      "sales": 57225000000.0,
+      "ordinary": 4029000000.0,
+      "net_income": 3817000000.0,
+      "equity": 19999000000.0,
+      "assets": 23152000000.0,
+      "equity_ratio": 0.864,
+      "roe": 0.191,
+      "eps": 83.89,
+      "bps": 439.44
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 3463000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 2095000000.0,
+    "intangibles": 10000000.0,
+    "investments_other": 17060000000.0,
+    "total_assets": 23152000000.0,
+    "total_liabilities": 3153000000.0,
+    "net_assets_bs": 19999000000.0,
+    "short_loans": null,
+    "current_lt_loans": null,
+    "long_loans": null,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100Y6O9",
+    "S100LFEF"
+  ]
+}

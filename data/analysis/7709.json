@@ -1,0 +1,186 @@
+{
+  "code": "7709",
+  "name": "クボテック株式会社",
+  "sector33": "精密機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 48.0,
+  "market_cap_oku": 6.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      2731063000.0,
+      3263260000.0,
+      1637850000.0,
+      1881111000.0,
+      1074720000.0,
+      1017673000.0,
+      1217776000.0,
+      1306352000.0,
+      1662057000.0,
+      2102020000.0
+    ],
+    "ordinary": [
+      12271000.0,
+      183427000.0,
+      -632402000.0,
+      -38742000.0,
+      -140014000.0,
+      -169979000.0,
+      -179604000.0,
+      -219636000.0,
+      -126569000.0,
+      -114413000.0
+    ],
+    "ordinary_margin": [
+      0.0045,
+      0.0562,
+      -0.3861,
+      -0.0206,
+      -0.1303,
+      -0.167,
+      -0.1475,
+      -0.1681,
+      -0.0762,
+      -0.0544
+    ],
+    "equity_ratio": [
+      0.325,
+      0.319,
+      0.369,
+      0.436,
+      0.441,
+      0.467,
+      0.455,
+      0.185,
+      0.117,
+      0.07
+    ],
+    "ocf": [
+      43200000.0,
+      43327000.0,
+      -23928000.0,
+      240811000.0,
+      232429000.0,
+      51276000.0,
+      -146231000.0,
+      455880000.0,
+      -195417000.0,
+      -25493000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8369,
+    "fixed_cost": 434454746.3,
+    "contribution_margin": 0.1631,
+    "breakeven_sales": 2663372509.8,
+    "dol": null,
+    "r2": 0.929,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 17.52,
+    "margin_stdev": 0.1237,
+    "has_loss_year": true,
+    "median_margin": -0.1032
+  },
+  "trough": {
+    "score": 0.753,
+    "latest_margin": -0.0544,
+    "margin_pctile": 0.7,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.017,
+    "price_drawdown_10y": 0.927
+  },
+  "structural": {
+    "sales_cagr": -0.0287,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.07,
+    "min_equity_ratio": 0.07,
+    "net_debt": 71072000.0,
+    "net_debt_to_equity": 1.27,
+    "survive_years_if_loss": 0.4
+  },
+  "valuation": {
+    "shares_outstanding": 13830000.0,
+    "normalized_sales": 1649953500.0,
+    "normalized_margin": -0.1032,
+    "normalized_ordinary": -167824274.0,
+    "normalized_eps": -8.49,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 11.79
+  },
+  "liquidation": {
+    "value": -559865800.0,
+    "per_share": -40.5,
+    "downside_to_liquidation": 1.843
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -2.9% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "×",
+      "note": "自己資本比率 7%（最低 7%） / ネットD/E 1.27"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 29.9,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": false,
+    "s5_survivable": false,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

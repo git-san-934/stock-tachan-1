@@ -1,0 +1,186 @@
+{
+  "code": "7713",
+  "name": "シグマ光機株式会社",
+  "sector33": "精密機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2400.0,
+  "market_cap_oku": 181.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      7846973000.0,
+      8956314000.0,
+      9047115000.0,
+      8493261000.0,
+      8765878000.0,
+      10354103000.0,
+      11367532000.0,
+      11213162000.0,
+      11580528000.0,
+      11439434000.0
+    ],
+    "ordinary": [
+      1036290000.0,
+      1518169000.0,
+      1246289000.0,
+      840103000.0,
+      1152999000.0,
+      1614776000.0,
+      1690228000.0,
+      1349032000.0,
+      1269324000.0,
+      1304651000.0
+    ],
+    "ordinary_margin": [
+      0.1321,
+      0.1695,
+      0.1378,
+      0.0989,
+      0.1315,
+      0.156,
+      0.1487,
+      0.1203,
+      0.1096,
+      0.114
+    ],
+    "equity_ratio": [
+      0.805,
+      0.794,
+      0.808,
+      0.802,
+      0.8,
+      0.804,
+      0.787,
+      0.814,
+      0.869,
+      0.878
+    ],
+    "ocf": [
+      826688000.0,
+      986252000.0,
+      869383000.0,
+      1144247000.0,
+      1577290000.0,
+      942748000.0,
+      982998000.0,
+      1410457000.0,
+      379921000.0,
+      909058000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8949,
+    "fixed_cost": -261471660.9,
+    "contribution_margin": 0.1051,
+    "breakeven_sales": -2488915891.6,
+    "dol": 0.92,
+    "r2": 0.973,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 3.65,
+    "margin_stdev": 0.022,
+    "has_loss_year": false,
+    "median_margin": 0.1318
+  },
+  "trough": {
+    "score": 0.36,
+    "latest_margin": 0.114,
+    "margin_pctile": 0.3,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.031
+  },
+  "structural": {
+    "sales_cagr": 0.0428,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.878,
+    "min_equity_ratio": 0.787,
+    "net_debt": -3346157000.0,
+    "net_debt_to_equity": -0.18,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 7552000.0,
+    "normalized_sales": 9700609000.0,
+    "normalized_margin": 0.1318,
+    "normalized_ordinary": 1278516113.2,
+    "normalized_eps": 118.51,
+    "normalized_per": 20.3,
+    "midcycle_per": 12.0,
+    "fair_value": 1422.1,
+    "expected_return_x": 0.59,
+    "pbr": 0.91
+  },
+  "liquidation": {
+    "value": 7696913000.0,
+    "per_share": 1019.2,
+    "downside_to_liquidation": 0.575
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +4.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 88%（最低 79%） / ネットD/E -0.18"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.92 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 44.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

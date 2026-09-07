@@ -1,0 +1,176 @@
+{
+  "code": "6223",
+  "name": "株式会社西部技研",
+  "sector33": "機械",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1953.0,
+  "market_cap_oku": 400.4,
+  "fy_range": [
+    2019,
+    2025
+  ],
+  "n_years": 7,
+  "series": {
+    "fy": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      11170000000.0,
+      9509000000.0,
+      17403000000.0,
+      24890000000.0,
+      28725000000.0,
+      32069000000.0,
+      34322000000.0
+    ],
+    "ordinary": [
+      1194000000.0,
+      661000000.0,
+      2063000000.0,
+      4783000000.0,
+      4361000000.0,
+      4190000000.0,
+      4494000000.0
+    ],
+    "ordinary_margin": [
+      0.1069,
+      0.0695,
+      0.1185,
+      0.1922,
+      0.1518,
+      0.1307,
+      0.1309
+    ],
+    "equity_ratio": [
+      0.437,
+      0.45,
+      0.55,
+      0.571,
+      0.681,
+      0.699,
+      0.666
+    ],
+    "ocf": [
+      null,
+      null,
+      3396000000.0,
+      3349000000.0,
+      2000000000.0,
+      6568000000.0,
+      3464000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8374,
+    "fixed_cost": 564470764.8,
+    "contribution_margin": 0.1626,
+    "breakeven_sales": 3472585462.4,
+    "dol": 1.24,
+    "r2": 0.994,
+    "n_points": 7
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 2.92,
+    "margin_stdev": 0.038,
+    "has_loss_year": false,
+    "median_margin": 0.1307
+  },
+  "trough": {
+    "score": 0.162,
+    "latest_margin": 0.1309,
+    "margin_pctile": 0.714,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.833,
+    "price_drawdown_10y": 0.23
+  },
+  "structural": {
+    "sales_cagr": 0.2057,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.666,
+    "min_equity_ratio": 0.437,
+    "net_debt": -11489000000.0,
+    "net_debt_to_equity": -0.36,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 20500000.0,
+    "normalized_sales": 24890000000.0,
+    "normalized_margin": 0.1307,
+    "normalized_ordinary": 3367332718.7,
+    "normalized_eps": 114.98,
+    "normalized_per": 17.0,
+    "midcycle_per": 12.0,
+    "fair_value": 1379.8,
+    "expected_return_x": 0.71,
+    "pbr": 1.21
+  },
+  "liquidation": {
+    "value": 17965700000.0,
+    "per_share": 876.4,
+    "downside_to_liquidation": 0.551
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +20.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 67%（最低 44%） / ネットD/E -0.36"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.24 / 期待リターン 0.7倍"
+    }
+  },
+  "auto_score": 39.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

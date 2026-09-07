@@ -1,0 +1,186 @@
+{
+  "code": "1418",
+  "name": "インターライフホールディングス株式会社",
+  "sector33": "建設業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 582.0,
+  "market_cap_oku": 99.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      19082556000.0,
+      20737818000.0,
+      19387178000.0,
+      19053081000.0,
+      14823365000.0,
+      11794387000.0,
+      11460884000.0,
+      12626084000.0,
+      16940669000.0,
+      16336273000.0
+    ],
+    "ordinary": [
+      222102000.0,
+      63598000.0,
+      151667000.0,
+      340291000.0,
+      286217000.0,
+      48548000.0,
+      177294000.0,
+      245793000.0,
+      875135000.0,
+      1156037000.0
+    ],
+    "ordinary_margin": [
+      0.0116,
+      0.0031,
+      0.0078,
+      0.0179,
+      0.0193,
+      0.0041,
+      0.0155,
+      0.0195,
+      0.0517,
+      0.0708
+    ],
+    "equity_ratio": [
+      0.364,
+      0.399,
+      0.375,
+      0.365,
+      0.462,
+      0.518,
+      0.45,
+      0.447,
+      0.447,
+      0.504
+    ],
+    "ocf": [
+      843603000.0,
+      1436858000.0,
+      134034000.0,
+      614081000.0,
+      633196000.0,
+      -794105000.0,
+      161415000.0,
+      -622689000.0,
+      484878000.0,
+      2228928000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9926,
+    "fixed_cost": -235982043.3,
+    "contribution_margin": 0.0074,
+    "breakeven_sales": null,
+    "dol": 0.11,
+    "r2": 0.989,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 7.58,
+    "margin_stdev": 0.0219,
+    "has_loss_year": false,
+    "median_margin": 0.0167
+  },
+  "trough": {
+    "score": 0.04,
+    "latest_margin": 0.0708,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.975,
+    "price_drawdown_10y": 0.13
+  },
+  "structural": {
+    "sales_cagr": -0.0171,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.504,
+    "min_equity_ratio": 0.364,
+    "net_debt": -1184168000.0,
+    "net_debt_to_equity": -0.25,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 17010000.0,
+    "normalized_sales": 16638471000.0,
+    "normalized_margin": 0.0167,
+    "normalized_ordinary": 277277152.6,
+    "normalized_eps": 11.41,
+    "normalized_per": 51.0,
+    "midcycle_per": 12.0,
+    "fair_value": 136.9,
+    "expected_return_x": 0.24,
+    "pbr": 1.9
+  },
+  "liquidation": {
+    "value": -402815800.0,
+    "per_share": -23.7,
+    "downside_to_liquidation": 1.041
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -1.7% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 50%（最低 36%） / ネットD/E -0.25"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.11 / 期待リターン 0.2倍"
+    }
+  },
+  "auto_score": 36.0,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

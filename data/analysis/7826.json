@@ -1,0 +1,186 @@
+{
+  "code": "7826",
+  "name": "株式会社フルヤ金属",
+  "sector33": "その他製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 10820.0,
+  "market_cap_oku": 2747.2,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      17382000000.0,
+      14742000000.0,
+      21201000000.0,
+      21451000000.0,
+      22826000000.0,
+      33840000000.0,
+      45321000000.0,
+      48115000000.0,
+      47527000000.0,
+      57379000000.0
+    ],
+    "ordinary": [
+      817000000.0,
+      937000000.0,
+      3450000000.0,
+      4484000000.0,
+      3756000000.0,
+      10557000000.0,
+      13297000000.0,
+      12383000000.0,
+      10690000000.0,
+      9389000000.0
+    ],
+    "ordinary_margin": [
+      0.047,
+      0.0636,
+      0.1627,
+      0.209,
+      0.1645,
+      0.312,
+      0.2934,
+      0.2574,
+      0.2249,
+      0.1636
+    ],
+    "equity_ratio": [
+      0.777,
+      0.752,
+      0.772,
+      0.468,
+      0.45,
+      0.507,
+      0.502,
+      0.504,
+      0.535,
+      0.52
+    ],
+    "ocf": [
+      1044000000.0,
+      423000000.0,
+      3053000000.0,
+      -2465000000.0,
+      664000000.0,
+      -3450000000.0,
+      -1225000000.0,
+      -461000000.0,
+      3213000000.0,
+      921000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7266,
+    "fixed_cost": 2040146161.2,
+    "contribution_margin": 0.2734,
+    "breakeven_sales": 7462252159.7,
+    "dol": 1.67,
+    "r2": 0.962,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 4.64,
+    "margin_stdev": 0.0883,
+    "has_loss_year": false,
+    "median_margin": 0.1868
+  },
+  "trough": {
+    "score": 0.3,
+    "latest_margin": 0.1636,
+    "margin_pctile": 0.4,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 1.0,
+    "price_drawdown_10y": 0.0
+  },
+  "structural": {
+    "sales_cagr": 0.1419,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.52,
+    "min_equity_ratio": 0.45,
+    "net_debt": 15553000000.0,
+    "net_debt_to_equity": 0.24,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 25389636.0,
+    "normalized_sales": 34427400000.0,
+    "normalized_margin": 0.1868,
+    "normalized_ordinary": 6901531730.3,
+    "normalized_eps": 190.28,
+    "normalized_per": 56.9,
+    "midcycle_per": 12.0,
+    "fair_value": 2283.3,
+    "expected_return_x": 0.21,
+    "pbr": 4.13
+  },
+  "liquidation": {
+    "value": -29354800000.0,
+    "per_share": -1156.2,
+    "downside_to_liquidation": 1.107
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +14.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 52%（最低 45%） / ネットD/E 0.24"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.67 / 期待リターン 0.2倍"
+    }
+  },
+  "auto_score": 41.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

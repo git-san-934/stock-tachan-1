@@ -1,0 +1,95 @@
+{
+  "code": "485A",
+  "name": "株式会社パワーエックス",
+  "edinet_code": "E40934",
+  "latest_doc_id": "S100XSEW",
+  "latest_period_end": "2025-12-31",
+  "shares_outstanding": 36353600.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "ordinary": -272000000.0,
+      "net_income": -272000000.0,
+      "equity": 1387000000.0,
+      "assets": 1501000000.0,
+      "equity_ratio": -0.115,
+      "eps": -27292.8,
+      "bps": -17292.9
+    },
+    {
+      "fy": 2022,
+      "ordinary": -2004000000.0,
+      "net_income": -2255000000.0,
+      "equity": 5967000000.0,
+      "assets": 7884000000.0,
+      "equity_ratio": 0.413,
+      "roe": -1.461,
+      "eps": -136083.01,
+      "bps": -112013.97
+    },
+    {
+      "fy": 2023,
+      "sales": 327000000.0,
+      "ordinary": -5737000000.0,
+      "net_income": -6166000000.0,
+      "equity": 5244000000.0,
+      "assets": 8499000000.0,
+      "equity_ratio": 0.608,
+      "roe": -1.192,
+      "eps": -253.78,
+      "bps": -306.64,
+      "ocf": -5469000000.0,
+      "cash": 1004000000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 6161000000.0,
+      "ordinary": -5702000000.0,
+      "net_income": -8013000000.0,
+      "equity": 1670000000.0,
+      "assets": 10830000000.0,
+      "equity_ratio": 0.132,
+      "roe": -0.02427,
+      "eps": -280.07,
+      "bps": -535.46,
+      "ocf": -6971000000.0,
+      "cash": 1244000000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 19306000000.0,
+      "ordinary": -1796000000.0,
+      "net_income": -1646000000.0,
+      "equity": 6648000000.0,
+      "assets": 26236000000.0,
+      "equity_ratio": 0.237,
+      "roe": -0.43,
+      "eps": -51.4,
+      "bps": 171.38,
+      "ocf": 1369000000.0,
+      "cash": 7454000000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 7454000000.0,
+    "receivables": null,
+    "inventories": 2613000000.0,
+    "ppe": 4948000000.0,
+    "intangibles": 74000000.0,
+    "investments_other": 1016000000.0,
+    "total_assets": 26236000000.0,
+    "total_liabilities": 19587000000.0,
+    "net_assets_bs": 6648000000.0,
+    "short_loans": 4000000000.0,
+    "current_lt_loans": 750000000.0,
+    "long_loans": 2000000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XSEW"
+  ]
+}

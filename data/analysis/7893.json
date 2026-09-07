@@ -1,0 +1,186 @@
+{
+  "code": "7893",
+  "name": "株式会社プロネクサス",
+  "sector33": "その他製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1106.0,
+  "market_cap_oku": 306.5,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      21556446000.0,
+      22454801000.0,
+      23157864000.0,
+      24446337000.0,
+      23784671000.0,
+      24449518000.0,
+      25154506000.0,
+      25890877000.0,
+      26828383000.0,
+      27109488000.0
+    ],
+    "ordinary": [
+      2548811000.0,
+      2889426000.0,
+      2772515000.0,
+      2717834000.0,
+      2337893000.0,
+      2594629000.0,
+      2289517000.0,
+      1743656000.0,
+      2237343000.0,
+      1898409000.0
+    ],
+    "ordinary_margin": [
+      0.1182,
+      0.1287,
+      0.1197,
+      0.1112,
+      0.0983,
+      0.1061,
+      0.091,
+      0.0673,
+      0.0834,
+      0.07
+    ],
+    "equity_ratio": [
+      0.755,
+      0.744,
+      0.758,
+      0.743,
+      0.771,
+      0.778,
+      0.782,
+      0.774,
+      0.747,
+      0.799
+    ],
+    "ocf": [
+      2397244000.0,
+      3326807000.0,
+      2263568000.0,
+      3437592000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.1544,
+    "fixed_cost": -6182660540.4,
+    "contribution_margin": -0.1544,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.986,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 7.15,
+    "margin_stdev": 0.0212,
+    "has_loss_year": false,
+    "median_margin": 0.1022
+  },
+  "trough": {
+    "score": 0.485,
+    "latest_margin": 0.07,
+    "margin_pctile": 0.2,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.785,
+    "price_drawdown_10y": 0.122
+  },
+  "structural": {
+    "sales_cagr": 0.0258,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.799,
+    "min_equity_ratio": 0.743,
+    "net_debt": -1867074000.0,
+    "net_debt_to_equity": -0.09,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 27716688.0,
+    "normalized_sales": 24447927500.0,
+    "normalized_margin": 0.1022,
+    "normalized_ordinary": 2498773709.3,
+    "normalized_eps": 63.11,
+    "normalized_per": 17.5,
+    "midcycle_per": 12.0,
+    "fair_value": 757.3,
+    "expected_return_x": 0.68,
+    "pbr": 1.27
+  },
+  "liquidation": {
+    "value": 8925263400.0,
+    "per_share": 322.0,
+    "downside_to_liquidation": 0.709
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 80%（最低 74%） / ネットD/E -0.09"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.7倍"
+    }
+  },
+  "auto_score": 47.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

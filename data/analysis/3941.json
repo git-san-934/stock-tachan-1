@@ -1,0 +1,194 @@
+{
+  "code": "3941",
+  "name": "レンゴー株式会社",
+  "sector33": "パルプ・紙",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1554.5,
+  "market_cap_oku": 4213.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      545489000000.0,
+      605712000000.0,
+      653107000000.0,
+      683780000000.0,
+      680714000000.0,
+      746926000000.0,
+      846080000000.0,
+      900791000000.0,
+      993251000000.0,
+      1008337000000.0
+    ],
+    "ordinary": [
+      25214000000.0,
+      23168000000.0,
+      27454000000.0,
+      43199000000.0,
+      43200000000.0,
+      36641000000.0,
+      28682000000.0,
+      47984000000.0,
+      39178000000.0,
+      37419000000.0
+    ],
+    "ordinary_margin": [
+      0.0462,
+      0.0382,
+      0.042,
+      0.0632,
+      0.0635,
+      0.0491,
+      0.0339,
+      0.0533,
+      0.0394,
+      0.0371
+    ],
+    "equity_ratio": [
+      0.332,
+      0.341,
+      0.343,
+      0.339,
+      0.36,
+      0.366,
+      0.354,
+      0.363,
+      0.373,
+      0.373
+    ],
+    "ocf": [
+      42003000000.0,
+      31249000000.0,
+      50857000000.0,
+      61079000000.0,
+      66000000000.0,
+      57893000000.0,
+      46066000000.0,
+      89628000000.0,
+      77008000000.0,
+      78164000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9734,
+    "fixed_cost": -14853013946.0,
+    "contribution_margin": 0.0266,
+    "breakeven_sales": -559092939735.4,
+    "dol": 0.72,
+    "r2": 0.998,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 7.23,
+    "margin_stdev": 0.0106,
+    "has_loss_year": false,
+    "median_margin": 0.0441
+  },
+  "trough": {
+    "score": 0.443,
+    "latest_margin": 0.0371,
+    "margin_pctile": 0.2,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.046
+  },
+  "structural": {
+    "sales_cagr": 0.0706,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.373,
+    "min_equity_ratio": 0.332,
+    "net_debt": 395070000000.0,
+    "net_debt_to_equity": 0.75,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 271056000.0,
+    "normalized_sales": 715353000000.0,
+    "normalized_margin": 0.0441,
+    "normalized_ordinary": 31568076491.4,
+    "normalized_eps": 81.52,
+    "normalized_per": 19.1,
+    "midcycle_per": 12.0,
+    "fair_value": 978.3,
+    "expected_return_x": 0.63,
+    "pbr": 0.79
+  },
+  "liquidation": {
+    "value": 105151200000.0,
+    "per_share": 387.9,
+    "downside_to_liquidation": 0.75
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +7.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 37%（最低 33%） / ネットD/E 0.75"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.72 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 33.7,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

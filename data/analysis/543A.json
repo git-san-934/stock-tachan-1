@@ -1,0 +1,132 @@
+{
+  "code": "543A",
+  "name": "ARCHION株式会社",
+  "sector33": "輸送用機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 274.0,
+  "market_cap_oku": 0.0,
+  "fy_range": [
+    2026,
+    2026
+  ],
+  "n_years": 1,
+  "series": {
+    "fy": [
+      2026
+    ],
+    "sales": [
+      null
+    ],
+    "ordinary": [
+      -407000000.0
+    ],
+    "ordinary_margin": [
+      null
+    ],
+    "equity_ratio": [
+      -4075826.16
+    ],
+    "ocf": [
+      null
+    ]
+  },
+  "cost_structure": {},
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": null,
+    "margin_stdev": null,
+    "has_loss_year": true,
+    "median_margin": null
+  },
+  "trough": {
+    "score": 0.445,
+    "latest_margin": null,
+    "margin_pctile": null,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.017,
+    "price_drawdown_10y": 0.796
+  },
+  "structural": {
+    "sales_cagr": null,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": -4075826.16,
+    "min_equity_ratio": -4075826.16,
+    "net_debt": 0,
+    "net_debt_to_equity": -0.0,
+    "survive_years_if_loss": 0.0
+  },
+  "valuation": {
+    "shares_outstanding": 1.0,
+    "normalized_sales": null,
+    "normalized_margin": null,
+    "normalized_ordinary": null,
+    "normalized_eps": null,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": -0.0
+  },
+  "liquidation": {
+    "value": -407000000.0,
+    "per_share": -407000000.0,
+    "downside_to_liquidation": 1485402.46
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上履歴不足"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "×",
+      "note": "自己資本比率 -407582616%（最低 -407582616%） / ネットD/E -0.0"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 23.1,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": false,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

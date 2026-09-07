@@ -1,0 +1,194 @@
+{
+  "code": "6408",
+  "name": "小倉クラッチ株式会社",
+  "sector33": "機械",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-04",
+  "price": 4295.0,
+  "market_cap_oku": 66.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      37845000000.0,
+      40482000000.0,
+      41024000000.0,
+      40658000000.0,
+      33609000000.0,
+      38914000000.0,
+      44201000000.0,
+      43491000000.0,
+      43907000000.0,
+      41664000000.0
+    ],
+    "ordinary": [
+      648000000.0,
+      1211000000.0,
+      963000000.0,
+      532000000.0,
+      -255000000.0,
+      -752000000.0,
+      791000000.0,
+      -229000000.0,
+      749000000.0,
+      1405000000.0
+    ],
+    "ordinary_margin": [
+      0.0171,
+      0.0299,
+      0.0235,
+      0.0131,
+      -0.0076,
+      -0.0193,
+      0.0179,
+      -0.0053,
+      0.0171,
+      0.0337
+    ],
+    "equity_ratio": [
+      0.3815,
+      0.4029,
+      0.3881,
+      0.3794,
+      0.3543,
+      0.3005,
+      0.3112,
+      0.316,
+      0.3765,
+      0.4199
+    ],
+    "ocf": [
+      2125000000.0,
+      1322000000.0,
+      1768000000.0,
+      2344000000.0,
+      1160000000.0,
+      -2717000000.0,
+      1164000000.0,
+      2932000000.0,
+      2794000000.0,
+      1614000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9158,
+    "fixed_cost": 2911377935.8,
+    "contribution_margin": 0.0842,
+    "breakeven_sales": 34567991240.0,
+    "dol": 2.5,
+    "r2": 0.954,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 18.71,
+    "margin_stdev": 0.0172,
+    "has_loss_year": true,
+    "median_margin": 0.0171
+  },
+  "trough": {
+    "score": 0.05,
+    "latest_margin": 0.0337,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.934,
+    "price_drawdown_10y": 0.243
+  },
+  "structural": {
+    "sales_cagr": 0.0107,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.4199,
+    "min_equity_ratio": 0.3005,
+    "net_debt": 10906000000.0,
+    "net_debt_to_equity": 0.55,
+    "survive_years_if_loss": 13.3
+  },
+  "valuation": {
+    "shares_outstanding": 1553323.0,
+    "normalized_sales": 40841000000.0,
+    "normalized_margin": 0.0171,
+    "normalized_ordinary": 612716307.1,
+    "normalized_eps": 276.12,
+    "normalized_per": 15.6,
+    "midcycle_per": 12.0,
+    "fair_value": 3313.4,
+    "expected_return_x": 0.77,
+    "pbr": 0.32
+  },
+  "liquidation": {
+    "value": 583800000.0,
+    "per_share": 375.8,
+    "downside_to_liquidation": 0.912
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 42%（最低 30%） / ネットD/E 0.55"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.5 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 27.8,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

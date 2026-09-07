@@ -1,0 +1,177 @@
+{
+  "code": "7634",
+  "name": "株式会社星医療酸器",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-04",
+  "price": 5040.0,
+  "market_cap_oku": 172.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      10133726000.0,
+      10434576000.0,
+      10826673000.0,
+      10878661000.0,
+      11809283000.0,
+      12771787000.0,
+      13779777000.0,
+      14778211000.0,
+      15102329000.0,
+      15520127000.0
+    ],
+    "ordinary": [
+      1269976000.0,
+      1269573000.0,
+      1319840000.0,
+      1075247000.0,
+      1462987000.0,
+      1620980000.0,
+      1817768000.0,
+      2038153000.0,
+      2052980000.0,
+      2000922000.0
+    ],
+    "ordinary_margin": [
+      0.1253,
+      0.1217,
+      0.1219,
+      0.0988,
+      0.1239,
+      0.1269,
+      0.1319,
+      0.1379,
+      0.1359,
+      0.1289
+    ],
+    "equity_ratio": [
+      0.727,
+      0.732,
+      0.74,
+      0.737,
+      0.698,
+      0.706,
+      0.723,
+      0.742,
+      0.749,
+      0.748
+    ],
+    "ocf": [
+      1195369000.0,
+      1428035000.0,
+      1870431000.0,
+      1462977000.0,
+      2479641000.0,
+      1974706000.0,
+      2288045000.0,
+      2395450000.0,
+      2189777000.0,
+      2477008000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8295,
+    "fixed_cost": 556057055.9,
+    "contribution_margin": 0.1705,
+    "breakeven_sales": 3261331177.4,
+    "dol": 1.32,
+    "r2": 0.997,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 4.83,
+    "margin_stdev": 0.0108,
+    "has_loss_year": false,
+    "median_margin": 0.1261
+  },
+  "trough": {
+    "score": 0.18,
+    "latest_margin": 0.1289,
+    "margin_pctile": 0.7,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.934,
+    "price_drawdown_10y": 0.049
+  },
+  "structural": {
+    "sales_cagr": 0.0485,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.748,
+    "min_equity_ratio": 0.698,
+    "net_debt": -11210930000.0,
+    "net_debt_to_equity": -0.55,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 3420000.0,
+    "normalized_sales": 12290535000.0,
+    "normalized_margin": 0.1261,
+    "normalized_ordinary": 1544782353.0,
+    "normalized_eps": 316.18,
+    "normalized_per": 15.9,
+    "midcycle_per": 12.0,
+    "fair_value": 3794.2,
+    "expected_return_x": 0.75,
+    "pbr": 0.79
+  },
+  "liquidation": {
+    "value": 15680039900.0,
+    "per_share": 4584.8,
+    "downside_to_liquidation": 0.09
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +4.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 75%（最低 70%） / ネットD/E -0.55"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.32 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 39.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

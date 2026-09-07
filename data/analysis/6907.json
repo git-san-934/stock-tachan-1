@@ -1,0 +1,194 @@
+{
+  "code": "6907",
+  "name": "ジオマテック株式会社",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 791.0,
+  "market_cap_oku": 72.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      8598543000.0,
+      7046280000.0,
+      6286890000.0,
+      5449419000.0,
+      6306481000.0,
+      6259383000.0,
+      5812063000.0,
+      4605542000.0,
+      5280866000.0,
+      6008753000.0
+    ],
+    "ordinary": [
+      224630000.0,
+      98905000.0,
+      -428148000.0,
+      -1159463000.0,
+      -17980000.0,
+      -1533000.0,
+      140932000.0,
+      -552829000.0,
+      366071000.0,
+      429289000.0
+    ],
+    "ordinary_margin": [
+      0.0261,
+      0.014,
+      -0.0681,
+      -0.2128,
+      -0.0029,
+      -0.0002,
+      0.0242,
+      -0.12,
+      0.0693,
+      0.0714
+    ],
+    "equity_ratio": [
+      0.527,
+      0.682,
+      0.652,
+      0.715,
+      0.653,
+      0.552,
+      0.582,
+      0.57,
+      0.557,
+      0.61
+    ],
+    "ocf": [
+      1231317000.0,
+      992213000.0,
+      121991000.0,
+      14248000.0,
+      -537490000.0,
+      289524000.0,
+      306532000.0,
+      -959737000.0,
+      478299000.0,
+      1256385000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8276,
+    "fixed_cost": 1153071123.6,
+    "contribution_margin": 0.1724,
+    "breakeven_sales": 6687468201.6,
+    "dol": 2.41,
+    "r2": 0.798,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 211.03,
+    "margin_stdev": 0.0893,
+    "has_loss_year": true,
+    "median_margin": 0.0069
+  },
+  "trough": {
+    "score": 0.127,
+    "latest_margin": 0.0714,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.694,
+    "price_drawdown_10y": 0.446
+  },
+  "structural": {
+    "sales_cagr": -0.039,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.61,
+    "min_equity_ratio": 0.527,
+    "net_debt": -1992496000.0,
+    "net_debt_to_equity": -0.2,
+    "survive_years_if_loss": 3.5
+  },
+  "valuation": {
+    "shares_outstanding": 9152000.0,
+    "normalized_sales": 6134068000.0,
+    "normalized_margin": 0.0069,
+    "normalized_ordinary": -26629289.8,
+    "normalized_eps": -2.04,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 0.62
+  },
+  "liquidation": {
+    "value": 1385039000.0,
+    "per_share": 151.3,
+    "downside_to_liquidation": 0.809
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -3.9% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 61%（最低 53%） / ネットD/E -0.2"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 50.2,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

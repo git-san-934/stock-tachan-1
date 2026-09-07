@@ -1,0 +1,194 @@
+{
+  "code": "7241",
+  "name": "フタバ産業株式会社",
+  "sector33": "輸送用機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1118.0,
+  "market_cap_oku": 1001.5,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      412383000000.0,
+      440446000000.0,
+      461705000000.0,
+      476165000000.0,
+      466809000000.0,
+      572118000000.0,
+      708072000000.0,
+      795802000000.0,
+      707104000000.0,
+      677919000000.0
+    ],
+    "ordinary": [
+      7542000000.0,
+      10955000000.0,
+      6449000000.0,
+      9968000000.0,
+      7962000000.0,
+      7807000000.0,
+      7768000000.0,
+      18489000000.0,
+      13281000000.0,
+      20840000000.0
+    ],
+    "ordinary_margin": [
+      0.0183,
+      0.0249,
+      0.014,
+      0.0209,
+      0.0171,
+      0.0136,
+      0.011,
+      0.0232,
+      0.0188,
+      0.0307
+    ],
+    "equity_ratio": [
+      0.224,
+      0.258,
+      0.264,
+      0.266,
+      0.268,
+      0.272,
+      0.294,
+      0.372,
+      0.375,
+      0.415
+    ],
+    "ocf": [
+      26178000000.0,
+      24960000000.0,
+      25410000000.0,
+      34020000000.0,
+      22792000000.0,
+      35468000000.0,
+      47743000000.0,
+      57370000000.0,
+      24785000000.0,
+      38287000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9765,
+    "fixed_cost": 2308812769.6,
+    "contribution_margin": 0.0235,
+    "breakeven_sales": 98420311428.0,
+    "dol": 0.76,
+    "r2": 0.999,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 4.83,
+    "margin_stdev": 0.0059,
+    "has_loss_year": false,
+    "median_margin": 0.0185
+  },
+  "trough": {
+    "score": 0.007,
+    "latest_margin": 0.0307,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.975,
+    "price_drawdown_10y": 0.024
+  },
+  "structural": {
+    "sales_cagr": 0.0568,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.415,
+    "min_equity_ratio": 0.224,
+    "net_debt": 32267000000.0,
+    "net_debt_to_equity": 0.22,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 89580000.0,
+    "normalized_sales": 524141500000.0,
+    "normalized_margin": 0.0185,
+    "normalized_ordinary": 9861877528.7,
+    "normalized_eps": 77.06,
+    "normalized_per": 14.5,
+    "midcycle_per": 12.0,
+    "fair_value": 924.8,
+    "expected_return_x": 0.83,
+    "pbr": 0.72
+  },
+  "liquidation": {
+    "value": -41736100000.0,
+    "per_share": -465.9,
+    "downside_to_liquidation": 1.417
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 42%（最低 22%） / ネットD/E 0.22"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.76 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 29.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

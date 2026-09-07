@@ -1,0 +1,210 @@
+{
+  "code": "5721",
+  "name": "エスクリプトエナジー株式会社",
+  "sector33": "非鉄金属",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 57.0,
+  "market_cap_oku": 99.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      1306781000.0,
+      1045567000.0,
+      1084271000.0,
+      587700000.0,
+      1081458000.0,
+      1155682000.0,
+      1360625000.0,
+      1544385000.0,
+      634428000.0,
+      1441465000.0
+    ],
+    "ordinary": [
+      25118000.0,
+      -267273000.0,
+      -118282000.0,
+      -293156000.0,
+      -172529000.0,
+      -230542000.0,
+      -93423000.0,
+      282397000.0,
+      -295954000.0,
+      -2524493000.0
+    ],
+    "ordinary_margin": [
+      0.0192,
+      -0.2556,
+      -0.1091,
+      -0.4988,
+      -0.1595,
+      -0.1995,
+      -0.0687,
+      0.1829,
+      -0.4665,
+      -1.7513
+    ],
+    "equity_ratio": [
+      0.942,
+      0.924,
+      0.931,
+      0.932,
+      0.891,
+      0.915,
+      0.893,
+      0.919,
+      0.955,
+      0.826
+    ],
+    "ocf": [
+      -90210000.0,
+      -100433000.0,
+      -318719000.0,
+      -129622000.0,
+      -76126000.0,
+      -214955000.0,
+      -142414000.0,
+      -149738000.0,
+      -253412000.0,
+      81207000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.2,
+    "fixed_cost": -92882522.6,
+    "contribution_margin": -0.2,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.254,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 8.56,
+    "margin_stdev": 0.5397,
+    "has_loss_year": true,
+    "median_margin": -0.1795
+  },
+  "trough": {
+    "score": 0.651,
+    "latest_margin": -1.7513,
+    "margin_pctile": 0.1,
+    "market_phase_score": 0.12,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      },
+      {
+        "key": "nickel",
+        "label": "ニッケル ($/mt, 月次)",
+        "hint": "中立",
+        "pctile": 0.594,
+        "yoy": 0.106,
+        "stale": false
+      },
+      {
+        "key": "zinc",
+        "label": "亜鉛 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.968,
+        "yoy": 0.301,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.653,
+    "price_drawdown_10y": 0.819
+  },
+  "structural": {
+    "sales_cagr": 0.011,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.826,
+    "min_equity_ratio": 0.826,
+    "net_debt": -746640000.0,
+    "net_debt_to_equity": -0.16,
+    "survive_years_if_loss": 0.6
+  },
+  "valuation": {
+    "shares_outstanding": 175145749.0,
+    "normalized_sales": 1119976500.0,
+    "normalized_margin": -0.1795,
+    "normalized_ordinary": -201046631.7,
+    "normalized_eps": -0.8,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 2.12
+  },
+  "liquidation": {
+    "value": 2944603900.0,
+    "per_share": 16.8,
+    "downside_to_liquidation": 0.705
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 83%（最低 83%） / ネットD/E -0.16"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 57.3,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

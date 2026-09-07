@@ -1,0 +1,194 @@
+{
+  "code": "6929",
+  "name": "日本セラミック株式会社",
+  "sector33": "電気機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3725.0,
+  "market_cap_oku": 1014.4,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      19525000000.0,
+      19765000000.0,
+      19509000000.0,
+      18575000000.0,
+      17116000000.0,
+      21358000000.0,
+      23258000000.0,
+      24449000000.0,
+      25037000000.0,
+      27325000000.0
+    ],
+    "ordinary": [
+      3140000000.0,
+      3430000000.0,
+      4114000000.0,
+      3570000000.0,
+      3008000000.0,
+      3940000000.0,
+      4946000000.0,
+      5313000000.0,
+      5844000000.0,
+      7047000000.0
+    ],
+    "ordinary_margin": [
+      0.1608,
+      0.1735,
+      0.2109,
+      0.1922,
+      0.1757,
+      0.1845,
+      0.2127,
+      0.2173,
+      0.2334,
+      0.2579
+    ],
+    "equity_ratio": [
+      0.837,
+      0.887,
+      0.894,
+      0.897,
+      0.892,
+      0.866,
+      0.827,
+      0.871,
+      0.855,
+      0.844
+    ],
+    "ocf": [
+      3725000000.0,
+      4896000000.0,
+      3536000000.0,
+      4073000000.0,
+      2918000000.0,
+      3716000000.0,
+      5087000000.0,
+      5192000000.0,
+      6545000000.0,
+      4888000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.6128,
+    "fixed_cost": 3924264892.0,
+    "contribution_margin": 0.3872,
+    "breakeven_sales": 10136001689.5,
+    "dol": 1.5,
+    "r2": 0.969,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 1.69,
+    "margin_stdev": 0.0301,
+    "has_loss_year": false,
+    "median_margin": 0.2015
+  },
+  "trough": {
+    "score": 0.02,
+    "latest_margin": 0.2579,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.942,
+    "price_drawdown_10y": 0.065
+  },
+  "structural": {
+    "sales_cagr": 0.0381,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.844,
+    "min_equity_ratio": 0.827,
+    "net_debt": -29938000000.0,
+    "net_debt_to_equity": -0.6,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 27231000.0,
+    "normalized_sales": 20561500000.0,
+    "normalized_margin": 0.2015,
+    "normalized_ordinary": 4090509223.1,
+    "normalized_eps": 105.15,
+    "normalized_per": 35.4,
+    "midcycle_per": 12.0,
+    "fair_value": 1261.8,
+    "expected_return_x": 0.34,
+    "pbr": 1.66
+  },
+  "liquidation": {
+    "value": 38264200000.0,
+    "per_share": 1405.2,
+    "downside_to_liquidation": 0.623
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 84%（最低 83%） / ネットD/E -0.6"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.5 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 35.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

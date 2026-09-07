@@ -1,0 +1,91 @@
+{
+  "code": "268A",
+  "name": "リガク・ホールディングス株式会社",
+  "edinet_code": "E39892",
+  "latest_doc_id": "S100XTB1",
+  "latest_period_end": "2025-12-31",
+  "shares_outstanding": 230375000.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 916000000.0,
+      "ordinary": -4424000000.0,
+      "net_income": -3410000000.0,
+      "equity": 52202000000.0,
+      "assets": 117177000000.0,
+      "equity_ratio": 0.445,
+      "eps": -3950.84,
+      "bps": 46567.29
+    },
+    {
+      "fy": 2022,
+      "sales": 3448000000.0,
+      "ordinary": -1494000000.0,
+      "net_income": -4789000000.0,
+      "equity": 47646000000.0,
+      "assets": 108952000000.0,
+      "equity_ratio": 0.437,
+      "eps": -21.35,
+      "bps": 211.78
+    },
+    {
+      "fy": 2023,
+      "sales": 4360000000.0,
+      "ordinary": 1971000000.0,
+      "net_income": 1966000000.0,
+      "equity": 49761000000.0,
+      "assets": 107614000000.0,
+      "equity_ratio": 0.462,
+      "roe": 0.04,
+      "eps": 8.74,
+      "bps": 220.83
+    },
+    {
+      "fy": 2024,
+      "sales": 90652000000.0,
+      "ordinary": 3014000000.0,
+      "net_income": 2526000000.0,
+      "equity": 52283000000.0,
+      "assets": 109521000000.0,
+      "equity_ratio": 0.477,
+      "roe": 0.05,
+      "eps": 11.22,
+      "bps": 232.04
+    },
+    {
+      "fy": 2025,
+      "sales": 94193000000.0,
+      "ordinary": 7548000000.0,
+      "net_income": 7133000000.0,
+      "equity": 53910000000.0,
+      "assets": 115417000000.0,
+      "equity_ratio": 0.467,
+      "roe": 0.134,
+      "eps": 31.4,
+      "bps": 238.45
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 549000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 22619000000.0,
+    "intangibles": 26542000000.0,
+    "investments_other": 111443000000.0,
+    "total_assets": 115417000000.0,
+    "total_liabilities": 61507000000.0,
+    "net_assets_bs": 53910000000.0,
+    "short_loans": 6383000000.0,
+    "current_lt_loans": 4855000000.0,
+    "long_loans": 48700000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XTB1",
+    "S100VHDH"
+  ]
+}

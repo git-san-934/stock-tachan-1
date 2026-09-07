@@ -1,0 +1,115 @@
+{
+  "code": "416A",
+  "name": "富士ユナイトホールディングス株式会社",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1290.0,
+  "market_cap_oku": 85.4,
+  "fy_range": [
+    2026,
+    2026
+  ],
+  "n_years": 1,
+  "series": {
+    "fy": [
+      2026
+    ],
+    "sales": [
+      75057000000.0
+    ],
+    "ordinary": [
+      1187000000.0
+    ],
+    "ordinary_margin": [
+      0.0158
+    ],
+    "equity_ratio": [
+      0.438
+    ],
+    "ocf": [
+      2028000000.0
+    ]
+  },
+  "cost_structure": {},
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": null,
+    "margin_stdev": null,
+    "has_loss_year": false,
+    "median_margin": 0.0158
+  },
+  "trough": {
+    "score": 0.125,
+    "latest_margin": 0.0158,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.802,
+    "price_drawdown_10y": 0.303
+  },
+  "structural": {
+    "sales_cagr": null,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.438,
+    "min_equity_ratio": 0.438,
+    "net_debt": -2581000000.0,
+    "net_debt_to_equity": -0.26,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 6620000.0,
+    "normalized_sales": 75057000000.0,
+    "normalized_margin": 0.0158,
+    "normalized_ordinary": 1187000000.0,
+    "normalized_eps": 125.51,
+    "normalized_per": 10.3,
+    "midcycle_per": 12.0,
+    "fair_value": 1506.2,
+    "expected_return_x": 1.17,
+    "pbr": 0.87
+  },
+  "liquidation": {
+    "value": -2851500000.0,
+    "per_share": -430.7,
+    "downside_to_liquidation": 1.334
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上履歴不足"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 44%（最低 44%） / ネットD/E -0.26"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 1.2倍"
+    }
+  },
+  "auto_score": 38.9,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

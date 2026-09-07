@@ -1,0 +1,194 @@
+{
+  "code": "6626",
+  "name": "SEMITEC株式会社",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2439.0,
+  "market_cap_oku": 277.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      13132825000.0,
+      14466831000.0,
+      15266665000.0,
+      14890312000.0,
+      17870948000.0,
+      21072202000.0,
+      23232119000.0,
+      22675589000.0,
+      25334323000.0,
+      25458430000.0
+    ],
+    "ordinary": [
+      781581000.0,
+      897457000.0,
+      1474791000.0,
+      1127139000.0,
+      2751658000.0,
+      3479875000.0,
+      4201547000.0,
+      3879027000.0,
+      4059431000.0,
+      3611030000.0
+    ],
+    "ordinary_margin": [
+      0.0595,
+      0.062,
+      0.0966,
+      0.0757,
+      0.154,
+      0.1651,
+      0.1809,
+      0.1711,
+      0.1602,
+      0.1418
+    ],
+    "equity_ratio": [
+      0.586,
+      0.606,
+      0.58,
+      0.542,
+      0.591,
+      0.657,
+      0.728,
+      0.757,
+      0.744,
+      0.774
+    ],
+    "ocf": [
+      1169787000.0,
+      1120132000.0,
+      738320000.0,
+      1591458000.0,
+      2674994000.0,
+      2107463000.0,
+      4803422000.0,
+      3732436000.0,
+      5190819000.0,
+      2906841000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7176,
+    "fixed_cost": 2834960100.4,
+    "contribution_margin": 0.2824,
+    "breakeven_sales": 10039378897.2,
+    "dol": 1.99,
+    "r2": 0.985,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 6.2,
+    "margin_stdev": 0.0479,
+    "has_loss_year": false,
+    "median_margin": 0.1479
+  },
+  "trough": {
+    "score": 0.217,
+    "latest_margin": 0.1418,
+    "margin_pctile": 0.5,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.959,
+    "price_drawdown_10y": 0.26
+  },
+  "structural": {
+    "sales_cagr": 0.0763,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.774,
+    "min_equity_ratio": 0.542,
+    "net_debt": -8805946000.0,
+    "net_debt_to_equity": -0.37,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 11371600.0,
+    "normalized_sales": 19471575000.0,
+    "normalized_margin": 0.1479,
+    "normalized_ordinary": 2771897752.3,
+    "normalized_eps": 170.63,
+    "normalized_per": 14.3,
+    "midcycle_per": 12.0,
+    "fair_value": 2047.6,
+    "expected_return_x": 0.84,
+    "pbr": 0.98
+  },
+  "liquidation": {
+    "value": 14091819300.0,
+    "per_share": 1239.2,
+    "downside_to_liquidation": 0.492
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +7.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 77%（最低 54%） / ネットD/E -0.37"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.99 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 40.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "code": "3501",
+  "name": "SUMINOE株式会社",
+  "sector33": "繊維製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1176.0,
+  "market_cap_oku": 180.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      96038000000.0,
+      97872000000.0,
+      98617000000.0,
+      91512000000.0,
+      79702000000.0,
+      81713000000.0,
+      94828000000.0,
+      103478000000.0,
+      104791000000.0,
+      107633000000.0
+    ],
+    "ordinary": [
+      1364000000.0,
+      2358000000.0,
+      2956000000.0,
+      1323000000.0,
+      1211000000.0,
+      950000000.0,
+      1575000000.0,
+      3668000000.0,
+      2514000000.0,
+      2764000000.0
+    ],
+    "ordinary_margin": [
+      0.0142,
+      0.0241,
+      0.03,
+      0.0145,
+      0.0152,
+      0.0116,
+      0.0166,
+      0.0354,
+      0.024,
+      0.0257
+    ],
+    "equity_ratio": [
+      0.369,
+      0.369,
+      0.348,
+      0.325,
+      0.335,
+      0.334,
+      0.327,
+      0.347,
+      0.328,
+      0.362
+    ],
+    "ocf": [
+      983000000.0,
+      3519000000.0,
+      4760000000.0,
+      5901000000.0,
+      4167000000.0,
+      375000000.0,
+      1803000000.0,
+      7450000000.0,
+      2283000000.0,
+      4999000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9211,
+    "fixed_cost": 5480419939.0,
+    "contribution_margin": 0.0789,
+    "breakeven_sales": 69419582409.8,
+    "dol": 3.07,
+    "r2": 0.996,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 7.17,
+    "margin_stdev": 0.0079,
+    "has_loss_year": false,
+    "median_margin": 0.0203
+  },
+  "trough": {
+    "score": 0.303,
+    "latest_margin": 0.0257,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "cotton",
+        "label": "綿花 ($/kg, 月次)",
+        "hint": "中立",
+        "pctile": 0.578,
+        "yoy": 0.125,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.752,
+    "price_drawdown_10y": 0.171
+  },
+  "structural": {
+    "sales_cagr": 0.0127,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.362,
+    "min_equity_ratio": 0.325,
+    "net_debt": 13604000000.0,
+    "net_debt_to_equity": 0.34,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 15364000.0,
+    "normalized_sales": 96955000000.0,
+    "normalized_margin": 0.0203,
+    "normalized_ordinary": 2068749021.3,
+    "normalized_eps": 94.25,
+    "normalized_per": 12.5,
+    "midcycle_per": 12.0,
+    "fair_value": 1131.1,
+    "expected_return_x": 0.96,
+    "pbr": 0.47
+  },
+  "liquidation": {
+    "value": 1306800000.0,
+    "per_share": 85.1,
+    "downside_to_liquidation": 0.928
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 36%（最低 32%） / ネットD/E 0.34"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 3.07 / 期待リターン 1.0倍"
+    }
+  },
+  "auto_score": 33.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

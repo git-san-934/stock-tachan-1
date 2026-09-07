@@ -1,0 +1,194 @@
+{
+  "code": "6258",
+  "name": "平田機工株式会社",
+  "sector33": "機械",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3610.0,
+  "market_cap_oku": 1164.9,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      80542366000.0,
+      94163561000.0,
+      77302745000.0,
+      65612306000.0,
+      65255919000.0,
+      67087433000.0,
+      78443846000.0,
+      82839457000.0,
+      88483792000.0,
+      94906641000.0
+    ],
+    "ordinary": [
+      8039232000.0,
+      9247284000.0,
+      6306612000.0,
+      2861384000.0,
+      5176070000.0,
+      4258127000.0,
+      5802982000.0,
+      6259377000.0,
+      6889188000.0,
+      8375183000.0
+    ],
+    "ordinary_margin": [
+      0.0998,
+      0.0982,
+      0.0816,
+      0.0436,
+      0.0793,
+      0.0635,
+      0.074,
+      0.0756,
+      0.0779,
+      0.0882
+    ],
+    "equity_ratio": [
+      0.309,
+      0.483,
+      0.509,
+      0.544,
+      0.555,
+      0.548,
+      0.517,
+      0.497,
+      0.527,
+      0.584
+    ],
+    "ocf": [
+      -5862118000.0,
+      -1932931000.0,
+      10579685000.0,
+      8094504000.0,
+      690065000.0,
+      -3444072000.0,
+      -5687502000.0,
+      -4592173000.0,
+      9427955000.0,
+      16546678000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.844,
+    "fixed_cost": 6075938602.3,
+    "contribution_margin": 0.156,
+    "breakeven_sales": 38944778499.8,
+    "dol": 1.77,
+    "r2": 0.991,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 3.23,
+    "margin_stdev": 0.0164,
+    "has_loss_year": false,
+    "median_margin": 0.0786
+  },
+  "trough": {
+    "score": 0.073,
+    "latest_margin": 0.0882,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.023
+  },
+  "structural": {
+    "sales_cagr": 0.0184,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.584,
+    "min_equity_ratio": 0.309,
+    "net_debt": 9890639000.0,
+    "net_debt_to_equity": 0.13,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 32268270.0,
+    "normalized_sales": 79493106000.0,
+    "normalized_margin": 0.0786,
+    "normalized_ordinary": 6286129638.8,
+    "normalized_eps": 136.37,
+    "normalized_per": 26.5,
+    "midcycle_per": 12.0,
+    "fair_value": 1636.4,
+    "expected_return_x": 0.45,
+    "pbr": 1.44
+  },
+  "liquidation": {
+    "value": 1119524100.0,
+    "per_share": 34.7,
+    "downside_to_liquidation": 0.99
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 58%（最低 31%） / ネットD/E 0.13"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.77 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 36.8,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

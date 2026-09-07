@@ -1,0 +1,194 @@
+{
+  "code": "7318",
+  "name": "セレンディップ・ホールディングス株式会社",
+  "sector33": "輸送用機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1391.0,
+  "market_cap_oku": 265.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      185740000.0,
+      48375000.0,
+      12961420000.0,
+      15196337000.0,
+      14460659000.0,
+      13805994000.0,
+      15195426000.0,
+      19787230000.0,
+      25124596000.0,
+      51163634000.0
+    ],
+    "ordinary": [
+      42327000.0,
+      2373000.0,
+      115903000.0,
+      215265000.0,
+      417499000.0,
+      179395000.0,
+      347378000.0,
+      595993000.0,
+      735103000.0,
+      2418495000.0
+    ],
+    "ordinary_margin": [
+      0.2279,
+      0.0491,
+      0.0089,
+      0.0142,
+      0.0289,
+      0.013,
+      0.0229,
+      0.0301,
+      0.0293,
+      0.0473
+    ],
+    "equity_ratio": [
+      0.9,
+      0.976,
+      0.148,
+      0.169,
+      0.198,
+      0.285,
+      0.277,
+      0.304,
+      0.248,
+      0.234
+    ],
+    "ocf": [
+      null,
+      null,
+      197250000.0,
+      1547061000.0,
+      992639000.0,
+      777177000.0,
+      1047925000.0,
+      2581432000.0,
+      292883000.0,
+      4526055000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9527,
+    "fixed_cost": 286718040.9,
+    "contribution_margin": 0.0473,
+    "breakeven_sales": 6066388958.6,
+    "dol": 1.0,
+    "r2": 1.0,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 0.18,
+    "margin_stdev": 0.0649,
+    "has_loss_year": false,
+    "median_margin": 0.0291
+  },
+  "trough": {
+    "score": 0.153,
+    "latest_margin": 0.0473,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.891,
+    "price_drawdown_10y": 0.407
+  },
+  "structural": {
+    "sales_cagr": 0.8669,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.234,
+    "min_equity_ratio": 0.148,
+    "net_debt": 9250523000.0,
+    "net_debt_to_equity": 0.54,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 19062316.0,
+    "normalized_sales": 30698180400.0,
+    "normalized_margin": 0.0291,
+    "normalized_ordinary": 1028771710.8,
+    "normalized_eps": 37.78,
+    "normalized_per": 36.8,
+    "midcycle_per": 12.0,
+    "fair_value": 453.3,
+    "expected_return_x": 0.33,
+    "pbr": 1.87
+  },
+  "liquidation": {
+    "value": -85347000.0,
+    "per_share": -4.5,
+    "downside_to_liquidation": 1.003
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +86.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 23%（最低 15%） / ネットD/E 0.54"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.0 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 22.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "code": "6141",
+  "name": "ＤＭＧ森精機株式会社",
+  "edinet_code": "E01502",
+  "latest_doc_id": "S100XUMY",
+  "latest_period_end": "2025-12-31",
+  "shares_outstanding": 142325000.0,
+  "annual": [
+    {
+      "fy": 2016,
+      "sales": 89094000000.0,
+      "ordinary": 4361000000.0,
+      "net_income": 8315000000.0,
+      "equity": 118621000000.0,
+      "assets": 415187000000.0,
+      "equity_ratio": 0.286,
+      "roe": 0.071,
+      "eps": 69.28,
+      "bps": 987.5
+    },
+    {
+      "fy": 2017,
+      "sales": 121194000000.0,
+      "ordinary": 4787000000.0,
+      "net_income": 9521000000.0,
+      "equity": 117303000000.0,
+      "assets": 417381000000.0,
+      "equity_ratio": 0.28,
+      "roe": 0.081,
+      "eps": 78.09,
+      "bps": 966.69
+    },
+    {
+      "fy": 2018,
+      "sales": 145157000000.0,
+      "ordinary": 6805000000.0,
+      "net_income": 6508000000.0,
+      "equity": 118415000000.0,
+      "assets": 371040000000.0,
+      "equity_ratio": 0.318,
+      "roe": 0.055,
+      "eps": 53.73,
+      "bps": 969.03
+    },
+    {
+      "fy": 2019,
+      "sales": 131996000000.0,
+      "ordinary": 3221000000.0,
+      "net_income": 1611000000.0,
+      "equity": 116069000000.0,
+      "assets": 350213000000.0,
+      "equity_ratio": 0.331,
+      "roe": 0.014,
+      "eps": 13.19,
+      "bps": 942.45
+    },
+    {
+      "fy": 2020,
+      "sales": 86165000000.0,
+      "ordinary": -5876000000.0,
+      "net_income": -1597000000.0,
+      "equity": 113062000000.0,
+      "assets": 412586000000.0,
+      "equity_ratio": 0.274,
+      "roe": -0.014,
+      "eps": -12.94,
+      "bps": 909.51
+    },
+    {
+      "fy": 2021,
+      "sales": 94065000000.0,
+      "ordinary": -2191000000.0,
+      "net_income": 2751000000.0,
+      "equity": 112159000000.0,
+      "assets": 402699000000.0,
+      "equity_ratio": 0.278,
+      "roe": 0.025,
+      "eps": 22.07,
+      "bps": 894.71
+    },
+    {
+      "fy": 2022,
+      "sales": 123984000000.0,
+      "ordinary": 20389000000.0,
+      "net_income": 19783000000.0,
+      "equity": 125603000000.0,
+      "assets": 416956000000.0,
+      "equity_ratio": 0.301,
+      "roe": 0.167,
+      "eps": 157.73,
+      "bps": 998.21
+    },
+    {
+      "fy": 2023,
+      "sales": 136614000000.0,
+      "ordinary": 25704000000.0,
+      "net_income": 28099000000.0,
+      "equity": 143463000000.0,
+      "assets": 470877000000.0,
+      "equity_ratio": 0.304,
+      "roe": 0.209,
+      "eps": 223.77,
+      "bps": 1140.45
+    },
+    {
+      "fy": 2024,
+      "sales": 106045000000.0,
+      "ordinary": 3791000000.0,
+      "net_income": 2633000000.0,
+      "equity": 172185000000.0,
+      "assets": 491158000000.0,
+      "equity_ratio": 0.351,
+      "roe": 0.017,
+      "eps": 19.15,
+      "bps": 1216.22
+    },
+    {
+      "fy": 2025,
+      "sales": 111282000000.0,
+      "ordinary": 13221000000.0,
+      "net_income": 12947000000.0,
+      "equity": 167183000000.0,
+      "assets": 505438000000.0,
+      "equity_ratio": 0.331,
+      "roe": 0.076,
+      "eps": 91.52,
+      "bps": 1198.93
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 2812000000.0,
+    "receivables": null,
+    "inventories": 8769000000.0,
+    "ppe": 84234000000.0,
+    "intangibles": 24780000000.0,
+    "investments_other": 236801000000.0,
+    "total_assets": 505438000000.0,
+    "total_liabilities": 338255000000.0,
+    "net_assets_bs": 167183000000.0,
+    "short_loans": 88957000000.0,
+    "current_lt_loans": null,
+    "long_loans": 110000000000.0,
+    "bonds": 62000000000.0,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XUMY",
+    "S100L2GU"
+  ]
+}

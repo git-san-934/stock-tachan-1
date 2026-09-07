@@ -1,0 +1,194 @@
+{
+  "code": "6770",
+  "name": "アルプスアルパイン株式会社",
+  "sector33": "電気機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2263.5,
+  "market_cap_oku": 4710.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      753262000000.0,
+      858317000000.0,
+      851332000000.0,
+      810570000000.0,
+      718013000000.0,
+      802854000000.0,
+      933114000000.0,
+      964090000000.0,
+      990407000000.0,
+      1019459000000.0
+    ],
+    "ordinary": [
+      42725000000.0,
+      66717000000.0,
+      43605000000.0,
+      18646000000.0,
+      13227000000.0,
+      40286000000.0,
+      34940000000.0,
+      24809000000.0,
+      30521000000.0,
+      49141000000.0
+    ],
+    "ordinary_margin": [
+      0.0567,
+      0.0777,
+      0.0512,
+      0.023,
+      0.0184,
+      0.0502,
+      0.0374,
+      0.0257,
+      0.0308,
+      0.0482
+    ],
+    "equity_ratio": [
+      0.422,
+      0.45,
+      0.541,
+      0.519,
+      0.497,
+      0.524,
+      0.54,
+      0.519,
+      0.559,
+      0.571
+    ],
+    "ocf": [
+      41603000000.0,
+      70387000000.0,
+      72671000000.0,
+      87210000000.0,
+      42636000000.0,
+      34304000000.0,
+      15413000000.0,
+      89173000000.0,
+      65817000000.0,
+      95926000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9673,
+    "fixed_cost": -8020722703.7,
+    "contribution_margin": 0.0327,
+    "breakeven_sales": -245391219085.5,
+    "dol": 0.68,
+    "r2": 0.977,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 8.94,
+    "margin_stdev": 0.0183,
+    "has_loss_year": false,
+    "median_margin": 0.0428
+  },
+  "trough": {
+    "score": 0.2,
+    "latest_margin": 0.0482,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.818,
+    "price_drawdown_10y": 0.225
+  },
+  "structural": {
+    "sales_cagr": 0.0342,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.571,
+    "min_equity_ratio": 0.422,
+    "net_debt": -46938000000.0,
+    "net_debt_to_equity": -0.1,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 208103000.0,
+    "normalized_sales": 854824500000.0,
+    "normalized_margin": 0.0428,
+    "normalized_ordinary": 36606804029.6,
+    "normalized_eps": 123.13,
+    "normalized_per": 18.4,
+    "midcycle_per": 12.0,
+    "fair_value": 1477.6,
+    "expected_return_x": 0.65,
+    "pbr": 0.99
+  },
+  "liquidation": {
+    "value": 164122600000.0,
+    "per_share": 788.7,
+    "downside_to_liquidation": 0.652
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 57%（最低 42%） / ネットD/E -0.1"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.68 / 期待リターン 0.7倍"
+    }
+  },
+  "auto_score": 40.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

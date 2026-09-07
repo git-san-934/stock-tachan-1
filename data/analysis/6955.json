@@ -1,0 +1,194 @@
+{
+  "code": "6955",
+  "name": "ＦＤＫ株式会社",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 412.0,
+  "market_cap_oku": 142.3,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      73682000000.0,
+      73129000000.0,
+      72113000000.0,
+      62123000000.0,
+      61543000000.0,
+      61456000000.0,
+      62784000000.0,
+      62676000000.0,
+      63171000000.0,
+      59561000000.0
+    ],
+    "ordinary": [
+      -697000000.0,
+      78000000.0,
+      718000000.0,
+      565000000.0,
+      1274000000.0,
+      1968000000.0,
+      851000000.0,
+      720000000.0,
+      1261000000.0,
+      1416000000.0
+    ],
+    "ordinary_margin": [
+      -0.0095,
+      0.0011,
+      0.01,
+      0.0091,
+      0.0207,
+      0.032,
+      0.0136,
+      0.0115,
+      0.02,
+      0.0238
+    ],
+    "equity_ratio": [
+      0.08,
+      0.084,
+      0.19,
+      0.141,
+      0.226,
+      0.266,
+      0.28,
+      0.301,
+      0.352,
+      0.402
+    ],
+    "ocf": [
+      327000000.0,
+      567000000.0,
+      1602000000.0,
+      2799000000.0,
+      1996000000.0,
+      2177000000.0,
+      2783000000.0,
+      1620000000.0,
+      3773000000.0,
+      1131000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.1073,
+    "fixed_cost": -7812739192.1,
+    "contribution_margin": -0.1073,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.994,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 57.64,
+    "margin_stdev": 0.0118,
+    "has_loss_year": true,
+    "median_margin": 0.0125
+  },
+  "trough": {
+    "score": 0.323,
+    "latest_margin": 0.0238,
+    "margin_pctile": 0.9,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.116,
+    "price_drawdown_10y": 0.858
+  },
+  "structural": {
+    "sales_cagr": -0.0234,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.402,
+    "min_equity_ratio": 0.08,
+    "net_debt": 10661000000.0,
+    "net_debt_to_equity": 0.56,
+    "survive_years_if_loss": 10.2
+  },
+  "valuation": {
+    "shares_outstanding": 34536302.0,
+    "normalized_sales": 62730000000.0,
+    "normalized_margin": 0.0125,
+    "normalized_ordinary": 785444197.5,
+    "normalized_eps": 15.92,
+    "normalized_per": 25.9,
+    "midcycle_per": 12.0,
+    "fair_value": 191.0,
+    "expected_return_x": 0.46,
+    "pbr": 0.75
+  },
+  "liquidation": {
+    "value": 77700000.0,
+    "per_share": 2.2,
+    "downside_to_liquidation": 0.995
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -2.3% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 40%（最低 8%） / ネットD/E 0.56"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 33.7,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

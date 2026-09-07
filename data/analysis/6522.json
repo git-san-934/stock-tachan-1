@@ -1,0 +1,188 @@
+{
+  "code": "6522",
+  "name": "株式会社アスタリスク",
+  "sector33": "電気機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1648.0,
+  "market_cap_oku": 128.5,
+  "fy_range": [
+    2017,
+    2025
+  ],
+  "n_years": 9,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      638295000.0,
+      1362779000.0,
+      1144765000.0,
+      1398155000.0,
+      1792912000.0,
+      2407387000.0,
+      1759851000.0,
+      1578458000.0,
+      1666306000.0
+    ],
+    "ordinary": [
+      -171945000.0,
+      202820000.0,
+      54852000.0,
+      101510000.0,
+      238850000.0,
+      473724000.0,
+      -179540000.0,
+      -176903000.0,
+      -128970000.0
+    ],
+    "ordinary_margin": [
+      -0.2694,
+      0.1488,
+      0.0479,
+      0.0726,
+      0.1332,
+      0.1968,
+      -0.102,
+      -0.1121,
+      -0.0774
+    ],
+    "equity_ratio": [
+      0.004,
+      0.245,
+      0.309,
+      0.281,
+      0.32,
+      0.822,
+      0.712,
+      0.579,
+      0.621
+    ],
+    "ocf": [
+      null,
+      null,
+      16365000.0,
+      10764000.0,
+      380379000.0,
+      300046000.0,
+      -687498000.0,
+      -74149000.0,
+      184353000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7387,
+    "fixed_cost": 353142001.9,
+    "contribution_margin": 0.2613,
+    "breakeven_sales": 1351448578.2,
+    "dol": null,
+    "r2": 0.778,
+    "n_points": 9
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 2.78,
+    "margin_stdev": 0.1531,
+    "has_loss_year": true,
+    "median_margin": 0.0479
+  },
+  "trough": {
+    "score": 0.476,
+    "latest_margin": -0.0774,
+    "margin_pctile": 0.444,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.852,
+    "price_drawdown_10y": 0.557
+  },
+  "structural": {
+    "sales_cagr": 0.1274,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.621,
+    "min_equity_ratio": 0.004,
+    "net_debt": -210580000.0,
+    "net_debt_to_equity": -0.12,
+    "survive_years_if_loss": 5.3
+  },
+  "valuation": {
+    "shares_outstanding": 7796800.0,
+    "normalized_sales": 1578458000.0,
+    "normalized_margin": 0.0479,
+    "normalized_ordinary": 67470847.6,
+    "normalized_eps": 6.06,
+    "normalized_per": 272.1,
+    "midcycle_per": 12.0,
+    "fair_value": 72.7,
+    "expected_return_x": 0.04,
+    "pbr": 7.43
+  },
+  "liquidation": {
+    "value": 803762200.0,
+    "per_share": 103.1,
+    "downside_to_liquidation": 0.937
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +12.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 62%（最低 0%） / ネットD/E -0.12"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.0倍"
+    }
+  },
+  "auto_score": 46.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "code": "365A",
+  "name": "伊澤タオル株式会社",
+  "edinet_code": "E40674",
+  "latest_doc_id": "S100Y66L",
+  "latest_period_end": "2026-02-28",
+  "shares_outstanding": 10000000.0,
+  "annual": [
+    {
+      "fy": 2022,
+      "sales": 24700000.0,
+      "ordinary": -128905000.0,
+      "net_income": -129617000.0,
+      "equity": 2609087000.0,
+      "assets": 6597603000.0,
+      "equity_ratio": 0.395,
+      "eps": -12961.77,
+      "bps": 260893.84
+    },
+    {
+      "fy": 2023,
+      "sales": 9207828000.0,
+      "ordinary": 174410000.0,
+      "net_income": 243896000.0,
+      "equity": 2852983000.0,
+      "assets": 7672328000.0,
+      "equity_ratio": 0.372,
+      "roe": 0.089,
+      "eps": 24389.67,
+      "bps": 285283.5
+    },
+    {
+      "fy": 2024,
+      "sales": 9938817000.0,
+      "ordinary": 1771877000.0,
+      "net_income": 1103069000.0,
+      "equity": 3956053000.0,
+      "assets": 9089230000.0,
+      "equity_ratio": 0.435,
+      "roe": 0.324,
+      "eps": 110.31,
+      "bps": 395.59,
+      "ocf": 1422418000.0,
+      "cash": 1884848000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 9825360000.0,
+      "ordinary": 980080000.0,
+      "net_income": 578533000.0,
+      "equity": 3882271000.0,
+      "assets": 8380076000.0,
+      "equity_ratio": 0.463,
+      "roe": 0.148,
+      "eps": 57.85,
+      "bps": 388.21,
+      "ocf": 643784000.0,
+      "cash": 1676593000.0
+    },
+    {
+      "fy": 2026,
+      "sales": 10283187000.0,
+      "ordinary": 1146865000.0,
+      "net_income": 726067000.0,
+      "equity": 4136637000.0,
+      "assets": 8476887000.0,
+      "equity_ratio": 0.488,
+      "roe": 0.181,
+      "eps": 72.65,
+      "bps": 418.45,
+      "ocf": 318317000.0,
+      "cash": 1126354000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 1126354000.0,
+    "receivables": null,
+    "inventories": 510071000.0,
+    "ppe": 722557000.0,
+    "intangibles": 3124892000.0,
+    "investments_other": 350170000.0,
+    "total_assets": 8476887000.0,
+    "total_liabilities": 4340250000.0,
+    "net_assets_bs": 4136637000.0,
+    "short_loans": null,
+    "current_lt_loans": 230000000.0,
+    "long_loans": 2835000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100Y66L"
+  ]
+}

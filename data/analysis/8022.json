@@ -1,0 +1,186 @@
+{
+  "code": "8022",
+  "name": "美津濃株式会社",
+  "sector33": "その他製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4055.0,
+  "market_cap_oku": 3233.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      188718000000.0,
+      185399000000.0,
+      178108000000.0,
+      169742000000.0,
+      150419000000.0,
+      172744000000.0,
+      212044000000.0,
+      229711000000.0,
+      240335000000.0,
+      259045000000.0
+    ],
+    "ordinary": [
+      1529000000.0,
+      8106000000.0,
+      7717000000.0,
+      6072000000.0,
+      6028000000.0,
+      10977000000.0,
+      14039000000.0,
+      19288000000.0,
+      21352000000.0,
+      23985000000.0
+    ],
+    "ordinary_margin": [
+      0.0081,
+      0.0437,
+      0.0433,
+      0.0358,
+      0.0401,
+      0.0635,
+      0.0662,
+      0.084,
+      0.0888,
+      0.0926
+    ],
+    "equity_ratio": [
+      0.566,
+      0.586,
+      0.617,
+      0.641,
+      0.66,
+      0.673,
+      0.626,
+      0.686,
+      0.716,
+      0.689
+    ],
+    "ocf": [
+      9229000000.0,
+      11301000000.0,
+      4048000000.0,
+      8214000000.0,
+      8781000000.0,
+      12041000000.0,
+      -8047000000.0,
+      21412000000.0,
+      7007000000.0,
+      17311000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8104,
+    "fixed_cost": 25752172179.7,
+    "contribution_margin": 0.1896,
+    "breakeven_sales": 135816884774.0,
+    "dol": 2.05,
+    "r2": 0.986,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 13.17,
+    "margin_stdev": 0.0271,
+    "has_loss_year": false,
+    "median_margin": 0.0536
+  },
+  "trough": {
+    "score": 0.01,
+    "latest_margin": 0.0926,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.019
+  },
+  "structural": {
+    "sales_cagr": 0.0358,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.689,
+    "min_equity_ratio": 0.566,
+    "net_debt": -23001000000.0,
+    "net_debt_to_equity": -0.13,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 79734000.0,
+    "normalized_sales": 187058500000.0,
+    "normalized_margin": 0.0536,
+    "normalized_ordinary": 9873352204.7,
+    "normalized_eps": 86.68,
+    "normalized_per": 46.8,
+    "midcycle_per": 12.0,
+    "fair_value": 1040.2,
+    "expected_return_x": 0.26,
+    "pbr": 1.78
+  },
+  "liquidation": {
+    "value": 47146900000.0,
+    "per_share": 591.3,
+    "downside_to_liquidation": 0.854
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 69%（最低 57%） / ネットD/E -0.13"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.05 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 35.2,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

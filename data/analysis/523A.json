@@ -1,0 +1,164 @@
+{
+  "code": "523A",
+  "name": "株式会社セイワホールディングス",
+  "sector33": "金属製品",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1787.0,
+  "market_cap_oku": 341.4,
+  "fy_range": [
+    2022,
+    2026
+  ],
+  "n_years": 5,
+  "series": {
+    "fy": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      66000000.0,
+      365000000.0,
+      7276000000.0,
+      7769000000.0,
+      8011000000.0
+    ],
+    "ordinary": [
+      -68000000.0,
+      -12000000.0,
+      19000000.0,
+      222000000.0,
+      65000000.0
+    ],
+    "ordinary_margin": [
+      -1.0303,
+      -0.0329,
+      0.0026,
+      0.0286,
+      0.0081
+    ],
+    "equity_ratio": [
+      0.086,
+      0.051,
+      0.054,
+      0.184,
+      0.485
+    ],
+    "ocf": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9805,
+    "fixed_cost": 46480997.6,
+    "contribution_margin": 0.0195,
+    "breakeven_sales": 2381516822.2,
+    "dol": 2.41,
+    "r2": 1.0,
+    "n_points": 5
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 0.68,
+    "margin_stdev": 0.462,
+    "has_loss_year": true,
+    "median_margin": 0.0026
+  },
+  "trough": {
+    "score": 0.163,
+    "latest_margin": 0.0081,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.571,
+    "price_drawdown_10y": 0.142
+  },
+  "structural": {
+    "sales_cagr": 2.3192,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.485,
+    "min_equity_ratio": 0.051,
+    "net_debt": -306000000.0,
+    "net_debt_to_equity": -0.06,
+    "survive_years_if_loss": 61.3
+  },
+  "valuation": {
+    "shares_outstanding": 19106700.0,
+    "normalized_sales": 7276000000.0,
+    "normalized_margin": 0.0026,
+    "normalized_ordinary": 57200501.2,
+    "normalized_eps": 2.1,
+    "normalized_per": 852.7,
+    "midcycle_per": 12.0,
+    "fair_value": 25.1,
+    "expected_return_x": 0.01,
+    "pbr": 6.2
+  },
+  "liquidation": {
+    "value": 3028100000.0,
+    "per_share": 158.5,
+    "downside_to_liquidation": 0.911
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +231.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 48%（最低 5%） / ネットD/E -0.06"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.41 / 期待リターン 0.0倍"
+    }
+  },
+  "auto_score": 38.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

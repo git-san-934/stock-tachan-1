@@ -1,0 +1,186 @@
+{
+  "code": "7711",
+  "name": "助川電気工業株式会社",
+  "sector33": "精密機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 5140.0,
+  "market_cap_oku": 301.7,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      4499677000.0,
+      4419554000.0,
+      4607036000.0,
+      4279445000.0,
+      3123645000.0,
+      3698402000.0,
+      4332140000.0,
+      4577128000.0,
+      4964940000.0,
+      5467931000.0
+    ],
+    "ordinary": [
+      319364000.0,
+      354385000.0,
+      473979000.0,
+      247469000.0,
+      -10126000.0,
+      288869000.0,
+      468825000.0,
+      596751000.0,
+      916502000.0,
+      1177513000.0
+    ],
+    "ordinary_margin": [
+      0.071,
+      0.0802,
+      0.1029,
+      0.0578,
+      -0.0032,
+      0.0781,
+      0.1082,
+      0.1304,
+      0.1846,
+      0.2153
+    ],
+    "equity_ratio": [
+      0.579,
+      0.537,
+      0.546,
+      0.554,
+      0.56,
+      0.549,
+      0.546,
+      0.554,
+      0.599,
+      0.648
+    ],
+    "ocf": [
+      169000000.0,
+      353463000.0,
+      639375000.0,
+      -241592000.0,
+      416123000.0,
+      633229000.0,
+      451044000.0,
+      65685000.0,
+      202550000.0,
+      826877000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.5166,
+    "fixed_cost": 1642039985.4,
+    "contribution_margin": 0.4834,
+    "breakeven_sales": 3397034231.7,
+    "dol": 2.24,
+    "r2": 0.829,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 70.96,
+    "margin_stdev": 0.0628,
+    "has_loss_year": true,
+    "median_margin": 0.0915
+  },
+  "trough": {
+    "score": 0.105,
+    "latest_margin": 0.2153,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.926,
+    "price_drawdown_10y": 0.346
+  },
+  "structural": {
+    "sales_cagr": 0.0219,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.648,
+    "min_equity_ratio": 0.537,
+    "net_debt": 468528000.0,
+    "net_debt_to_equity": 0.1,
+    "survive_years_if_loss": 85.4
+  },
+  "valuation": {
+    "shares_outstanding": 5870000.0,
+    "normalized_sales": 4459615500.0,
+    "normalized_margin": 0.0915,
+    "normalized_ordinary": 460971451.1,
+    "normalized_eps": 54.97,
+    "normalized_per": 93.5,
+    "midcycle_per": 12.0,
+    "fair_value": 659.7,
+    "expected_return_x": 0.13,
+    "pbr": 5.8
+  },
+  "liquidation": {
+    "value": -54057100.0,
+    "per_share": -9.2,
+    "downside_to_liquidation": 1.002
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 65%（最低 54%） / ネットD/E 0.1"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.24 / 期待リターン 0.1倍"
+    }
+  },
+  "auto_score": 37.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

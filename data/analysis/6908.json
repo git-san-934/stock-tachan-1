@@ -1,0 +1,188 @@
+{
+  "code": "6908",
+  "name": "イリソ電子工業株式会社",
+  "sector33": "電気機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2822.0,
+  "market_cap_oku": 690.3,
+  "fy_range": [
+    2017,
+    2025
+  ],
+  "n_years": 9,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      37547000000.0,
+      42248000000.0,
+      42834000000.0,
+      39614000000.0,
+      36520000000.0,
+      43863000000.0,
+      52903000000.0,
+      55271000000.0,
+      56332000000.0
+    ],
+    "ordinary": [
+      6750000000.0,
+      7872000000.0,
+      6325000000.0,
+      4668000000.0,
+      2970000000.0,
+      4838000000.0,
+      7661000000.0,
+      7189000000.0,
+      5504000000.0
+    ],
+    "ordinary_margin": [
+      0.1798,
+      0.1863,
+      0.1477,
+      0.1178,
+      0.0813,
+      0.1103,
+      0.1448,
+      0.1301,
+      0.0977
+    ],
+    "equity_ratio": [
+      0.849,
+      0.816,
+      0.83,
+      0.844,
+      0.85,
+      0.838,
+      0.817,
+      0.787,
+      0.773
+    ],
+    "ocf": [
+      6604000000.0,
+      9707000000.0,
+      6695000000.0,
+      6830000000.0,
+      6234000000.0,
+      6691000000.0,
+      11613000000.0,
+      12934000000.0,
+      12043000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9087,
+    "fixed_cost": -1847006441.7,
+    "contribution_margin": 0.0913,
+    "breakeven_sales": -20239452010.6,
+    "dol": 0.93,
+    "r2": 0.958,
+    "n_points": 9
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 3.48,
+    "margin_stdev": 0.0355,
+    "has_loss_year": false,
+    "median_margin": 0.1301
+  },
+  "trough": {
+    "score": 0.493,
+    "latest_margin": 0.0977,
+    "margin_pctile": 0.222,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.149,
+    "price_drawdown_10y": 0.544
+  },
+  "structural": {
+    "sales_cagr": 0.052,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.773,
+    "min_equity_ratio": 0.773,
+    "net_debt": -14993000000.0,
+    "net_debt_to_equity": -0.21,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 24460879.0,
+    "normalized_sales": 42834000000.0,
+    "normalized_margin": 0.1301,
+    "normalized_ordinary": 5571341680.1,
+    "normalized_eps": 159.44,
+    "normalized_per": 17.7,
+    "midcycle_per": 12.0,
+    "fair_value": 1913.2,
+    "expected_return_x": 0.68,
+    "pbr": 0.86
+  },
+  "liquidation": {
+    "value": 44290300000.0,
+    "per_share": 1810.7,
+    "downside_to_liquidation": 0.358
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 77%（最低 77%） / ネットD/E -0.21"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.93 / 期待リターン 0.7倍"
+    }
+  },
+  "auto_score": 47.3,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

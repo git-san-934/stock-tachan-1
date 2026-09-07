@@ -1,0 +1,177 @@
+{
+  "code": "8039",
+  "name": "築地魚市場株式会社",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3515.0,
+  "market_cap_oku": 79.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      78310000000.0,
+      78801000000.0,
+      76808000000.0,
+      71658000000.0,
+      66621000000.0,
+      55018000000.0,
+      57981000000.0,
+      58701000000.0,
+      62414000000.0,
+      67450000000.0
+    ],
+    "ordinary": [
+      18000000.0,
+      38000000.0,
+      -40000000.0,
+      -674000000.0,
+      189000000.0,
+      173000000.0,
+      225000000.0,
+      76000000.0,
+      330000000.0,
+      190000000.0
+    ],
+    "ordinary_margin": [
+      0.0002,
+      0.0005,
+      -0.0005,
+      -0.0094,
+      0.0028,
+      0.0031,
+      0.0039,
+      0.0013,
+      0.0053,
+      0.0028
+    ],
+    "equity_ratio": [
+      0.318,
+      0.322,
+      0.338,
+      0.339,
+      0.366,
+      0.368,
+      0.366,
+      0.373,
+      0.394,
+      0.392
+    ],
+    "ocf": [
+      17000000.0,
+      151000000.0,
+      949000000.0,
+      622000000.0,
+      379000000.0,
+      272000000.0,
+      143000000.0,
+      1199000000.0,
+      -449000000.0,
+      977000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.0133,
+    "fixed_cost": -950087323.1,
+    "contribution_margin": -0.0133,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.999,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 67.87,
+    "margin_stdev": 0.0041,
+    "has_loss_year": true,
+    "median_margin": 0.0021
+  },
+  "trough": {
+    "score": 0.26,
+    "latest_margin": 0.0028,
+    "margin_pctile": 0.6,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.893,
+    "price_drawdown_10y": 0.129
+  },
+  "structural": {
+    "sales_cagr": -0.0165,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.392,
+    "min_equity_ratio": 0.318,
+    "net_debt": 2767000000.0,
+    "net_debt_to_equity": 0.39,
+    "survive_years_if_loss": 3.3
+  },
+  "valuation": {
+    "shares_outstanding": 2253000.0,
+    "normalized_sales": 67035500000.0,
+    "normalized_margin": 0.0021,
+    "normalized_ordinary": 137811522.6,
+    "normalized_eps": 42.82,
+    "normalized_per": 82.1,
+    "midcycle_per": 12.0,
+    "fair_value": 513.8,
+    "expected_return_x": 0.15,
+    "pbr": 1.1
+  },
+  "liquidation": {
+    "value": -1607100000.0,
+    "per_share": -713.3,
+    "downside_to_liquidation": 1.203
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -1.6% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 39%（最低 32%） / ネットD/E 0.39"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.1倍"
+    }
+  },
+  "auto_score": 33.3,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

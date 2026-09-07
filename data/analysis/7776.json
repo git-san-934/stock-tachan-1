@@ -1,0 +1,186 @@
+{
+  "code": "7776",
+  "name": "株式会社セルシード",
+  "sector33": "精密機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 222.0,
+  "market_cap_oku": 78.9,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      100673000.0,
+      85061000.0,
+      1026094000.0,
+      275824000.0,
+      199466000.0,
+      161673000.0,
+      126427000.0,
+      190134000.0,
+      193277000.0,
+      83678000.0
+    ],
+    "ordinary": [
+      -1415613000.0,
+      -964184000.0,
+      140675000.0,
+      -786234000.0,
+      -744701000.0,
+      -887171000.0,
+      -754274000.0,
+      -710276000.0,
+      -847675000.0,
+      -1051813000.0
+    ],
+    "ordinary_margin": [
+      -14.0615,
+      -11.3352,
+      0.1371,
+      -2.8505,
+      -3.7335,
+      -5.4874,
+      -5.9661,
+      -3.7357,
+      -4.3858,
+      -12.5698
+    ],
+    "equity_ratio": [
+      0.854,
+      0.795,
+      0.875,
+      0.911,
+      0.832,
+      0.72,
+      0.748,
+      0.869,
+      0.885,
+      0.76
+    ],
+    "ocf": [
+      -852027000.0,
+      -747173000.0,
+      -306954000.0,
+      -577511000.0,
+      -700678000.0,
+      -817152000.0,
+      -718006000.0,
+      -779435000.0,
+      -866104000.0,
+      -988976000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.0,
+    "fixed_cost": 1106540817.2,
+    "contribution_margin": 1.0,
+    "breakeven_sales": 1106540817.2,
+    "dol": null,
+    "r2": 0.138,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 0.58,
+    "margin_stdev": 4.6636,
+    "has_loss_year": true,
+    "median_margin": -4.9366
+  },
+  "trough": {
+    "score": 0.883,
+    "latest_margin": -12.5698,
+    "margin_pctile": 0.2,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.165,
+    "price_drawdown_10y": 0.875
+  },
+  "structural": {
+    "sales_cagr": -0.0203,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.76,
+    "min_equity_ratio": 0.72,
+    "net_debt": -1185993000.0,
+    "net_debt_to_equity": -0.94,
+    "survive_years_if_loss": 0.9
+  },
+  "valuation": {
+    "shares_outstanding": 35557719.0,
+    "normalized_sales": 125517000.0,
+    "normalized_margin": -4.9366,
+    "normalized_ordinary": -619630014.5,
+    "normalized_eps": -12.2,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 6.28
+  },
+  "liquidation": {
+    "value": 1037079600.0,
+    "per_share": 29.2,
+    "downside_to_liquidation": 0.869
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -2.0% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 76%（最低 72%） / ネットD/E -0.94"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 63.1,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

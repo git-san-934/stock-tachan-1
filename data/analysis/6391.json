@@ -1,0 +1,194 @@
+{
+  "code": "6391",
+  "name": "株式会社加地テック",
+  "sector33": "機械",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4795.0,
+  "market_cap_oku": 82.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      5072003000.0,
+      4364806000.0,
+      5407014000.0,
+      6378578000.0,
+      5743183000.0,
+      4578208000.0,
+      5975649000.0,
+      7261065000.0,
+      7003943000.0,
+      7799533000.0
+    ],
+    "ordinary": [
+      360078000.0,
+      226470000.0,
+      250770000.0,
+      378289000.0,
+      420434000.0,
+      455244000.0,
+      296993000.0,
+      818325000.0,
+      769505000.0,
+      977815000.0
+    ],
+    "ordinary_margin": [
+      0.071,
+      0.0519,
+      0.0464,
+      0.0593,
+      0.0732,
+      0.0994,
+      0.0497,
+      0.1127,
+      0.1099,
+      0.1254
+    ],
+    "equity_ratio": [
+      0.73,
+      0.741,
+      0.713,
+      0.693,
+      0.743,
+      0.679,
+      0.618,
+      0.619,
+      0.676,
+      0.689
+    ],
+    "ocf": [
+      45300000.0,
+      541483000.0,
+      43108000.0,
+      11039000.0,
+      70206000.0,
+      786169000.0,
+      380691000.0,
+      842834000.0,
+      542206000.0,
+      1027001000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8075,
+    "fixed_cost": 651525456.3,
+    "contribution_margin": 0.1925,
+    "breakeven_sales": 3384765895.2,
+    "dol": 1.54,
+    "r2": 0.977,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 3.42,
+    "margin_stdev": 0.0294,
+    "has_loss_year": false,
+    "median_margin": 0.0721
+  },
+  "trough": {
+    "score": 0.08,
+    "latest_margin": 0.1254,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.884,
+    "price_drawdown_10y": 0.362
+  },
+  "structural": {
+    "sales_cagr": 0.049,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.689,
+    "min_equity_ratio": 0.618,
+    "net_debt": -1284691000.0,
+    "net_debt_to_equity": -0.15,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 1718000.0,
+    "normalized_sales": 5859416000.0,
+    "normalized_margin": 0.0721,
+    "normalized_ordinary": 449436545.6,
+    "normalized_eps": 183.12,
+    "normalized_per": 26.2,
+    "midcycle_per": 12.0,
+    "fair_value": 2197.5,
+    "expected_return_x": 0.46,
+    "pbr": 0.94
+  },
+  "liquidation": {
+    "value": 1432216400.0,
+    "per_share": 833.7,
+    "downside_to_liquidation": 0.826
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +4.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 69%（最低 62%） / ネットD/E -0.15"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.54 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 37.0,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

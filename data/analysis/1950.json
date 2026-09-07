@@ -1,0 +1,178 @@
+{
+  "code": "1950",
+  "name": "日本電設工業株式会社",
+  "sector33": "建設業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4095.0,
+  "market_cap_oku": 2519.9,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "ordinary": [
+      14723000000.0,
+      16673000000.0,
+      15826000000.0,
+      17680000000.0,
+      15390000000.0,
+      8703000000.0,
+      10903000000.0,
+      14900000000.0,
+      19400000000.0,
+      25278000000.0
+    ],
+    "ordinary_margin": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "equity_ratio": [
+      0.5959,
+      0.6134,
+      0.6145,
+      0.6237,
+      0.6457,
+      0.6689,
+      0.6781,
+      0.6574,
+      0.6603,
+      0.6464
+    ],
+    "ocf": [
+      10757000000.0,
+      9599000000.0,
+      10827000000.0,
+      4364000000.0,
+      19570000000.0,
+      9514000000.0,
+      13234000000.0,
+      7383000000.0,
+      -4341000000.0,
+      10521000000.0
+    ]
+  },
+  "cost_structure": {},
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": null,
+    "margin_stdev": null,
+    "has_loss_year": false,
+    "median_margin": null
+  },
+  "trough": {
+    "score": 0.12,
+    "latest_margin": null,
+    "margin_pctile": null,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.959,
+    "price_drawdown_10y": 0.208
+  },
+  "structural": {
+    "sales_cagr": null,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.6464,
+    "min_equity_ratio": 0.5959,
+    "net_debt": -156000000.0,
+    "net_debt_to_equity": -0.0,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 61537000.0,
+    "normalized_sales": null,
+    "normalized_margin": null,
+    "normalized_ordinary": null,
+    "normalized_eps": null,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 1.11
+  },
+  "liquidation": {
+    "value": -2329700000.0,
+    "per_share": -37.9,
+    "downside_to_liquidation": 1.009
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上履歴不足"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 65%（最低 60%） / ネットD/E -0.0"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 44.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

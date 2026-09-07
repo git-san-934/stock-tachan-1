@@ -1,0 +1,194 @@
+{
+  "code": "7877",
+  "name": "永大化工株式会社",
+  "sector33": "化学",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2240.0,
+  "market_cap_oku": 32.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      6912585000.0,
+      8101662000.0,
+      8093203000.0,
+      8097815000.0,
+      7701820000.0,
+      8288828000.0,
+      8296369000.0,
+      9088548000.0,
+      8857662000.0,
+      9220466000.0
+    ],
+    "ordinary": [
+      189780000.0,
+      235918000.0,
+      355963000.0,
+      232396000.0,
+      259520000.0,
+      185276000.0,
+      -194529000.0,
+      240562000.0,
+      281955000.0,
+      492866000.0
+    ],
+    "ordinary_margin": [
+      0.0275,
+      0.0291,
+      0.044,
+      0.0287,
+      0.0337,
+      0.0224,
+      -0.0234,
+      0.0265,
+      0.0318,
+      0.0535
+    ],
+    "equity_ratio": [
+      0.754,
+      0.735,
+      0.738,
+      0.729,
+      0.719,
+      0.717,
+      0.695,
+      0.73,
+      0.731,
+      0.732
+    ],
+    "ocf": [
+      338529000.0,
+      239085000.0,
+      593915000.0,
+      98388000.0,
+      598942000.0,
+      -57810000.0,
+      -69688000.0,
+      402769000.0,
+      888539000.0,
+      937994000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9303,
+    "fixed_cost": 348359142.5,
+    "contribution_margin": 0.0697,
+    "breakeven_sales": 4996271510.6,
+    "dol": 1.3,
+    "r2": 0.935,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 15.49,
+    "margin_stdev": 0.0201,
+    "has_loss_year": true,
+    "median_margin": 0.0289
+  },
+  "trough": {
+    "score": 0.197,
+    "latest_margin": 0.0535,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      },
+      {
+        "key": "lng_japan",
+        "label": "LNG 日本 ($/mmbtu, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.893,
+        "yoy": 0.595,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.667
+  },
+  "structural": {
+    "sales_cagr": 0.0325,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.732,
+    "min_equity_ratio": 0.695,
+    "net_debt": -1832399000.0,
+    "net_debt_to_equity": -0.25,
+    "survive_years_if_loss": 16.7
+  },
+  "valuation": {
+    "shares_outstanding": 1460000.0,
+    "normalized_sales": 8195245000.0,
+    "normalized_margin": 0.0289,
+    "normalized_ordinary": 229883520.6,
+    "normalized_eps": 110.22,
+    "normalized_per": 20.3,
+    "midcycle_per": 12.0,
+    "fair_value": 1322.6,
+    "expected_return_x": 0.59,
+    "pbr": 0.37
+  },
+  "liquidation": {
+    "value": 4337271200.0,
+    "per_share": 2970.7,
+    "downside_to_liquidation": -0.326
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 73%（最低 70%） / ネットD/E -0.25"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.3 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 39.9,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

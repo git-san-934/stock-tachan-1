@@ -1,0 +1,153 @@
+{
+  "code": "6586",
+  "name": "株式会社マキタ",
+  "edinet_code": "E01920",
+  "latest_doc_id": "S100YH4M",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 280017000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 242267000000.0,
+      "ordinary": 46897000000.0,
+      "net_income": 38344000000.0,
+      "equity": 290490000000.0,
+      "assets": 355784000000.0,
+      "equity_ratio": 0.816,
+      "roe": 0.141,
+      "eps": 141.25,
+      "bps": 1849.9
+    },
+    {
+      "fy": 2018,
+      "sales": 309647000000.0,
+      "ordinary": 60762000000.0,
+      "net_income": 49432000000.0,
+      "equity": 324755000000.0,
+      "assets": 389870000000.0,
+      "equity_ratio": 0.833,
+      "roe": 0.161,
+      "eps": 182.09,
+      "bps": 2033.2
+    },
+    {
+      "fy": 2019,
+      "sales": 326390000000.0,
+      "ordinary": 77826000000.0,
+      "net_income": 65601000000.0,
+      "equity": 365709000000.0,
+      "assets": 421387000000.0,
+      "equity_ratio": 0.868,
+      "roe": 0.19,
+      "eps": 241.65,
+      "bps": 1347.16
+    },
+    {
+      "fy": 2020,
+      "sales": 295161000000.0,
+      "ordinary": 60344000000.0,
+      "net_income": 52371000000.0,
+      "equity": 398358000000.0,
+      "assets": 437971000000.0,
+      "equity_ratio": 0.91,
+      "roe": 0.137,
+      "eps": 192.89,
+      "bps": 1467.16
+    },
+    {
+      "fy": 2021,
+      "sales": 378486000000.0,
+      "ordinary": 47574000000.0,
+      "net_income": 37077000000.0,
+      "equity": 430368000000.0,
+      "assets": 503637000000.0,
+      "equity_ratio": 0.855,
+      "roe": 0.089,
+      "eps": 136.55,
+      "bps": 1584.99
+    },
+    {
+      "fy": 2022,
+      "sales": 536677000000.0,
+      "ordinary": 38040000000.0,
+      "net_income": 32916000000.0,
+      "equity": 436519000000.0,
+      "assets": 605668000000.0,
+      "equity_ratio": 0.721,
+      "roe": 0.076,
+      "eps": 121.22,
+      "bps": 1607.61
+    },
+    {
+      "fy": 2023,
+      "sales": 414948000000.0,
+      "ordinary": 18967000000.0,
+      "net_income": 15451000000.0,
+      "equity": 434002000000.0,
+      "assets": 621657000000.0,
+      "equity_ratio": 0.698,
+      "roe": 0.035,
+      "eps": 56.9,
+      "bps": 1598.29
+    },
+    {
+      "fy": 2024,
+      "sales": 321080000000.0,
+      "ordinary": 99626000000.0,
+      "net_income": 84081000000.0,
+      "equity": 508266000000.0,
+      "assets": 602265000000.0,
+      "equity_ratio": 0.844,
+      "roe": 0.178,
+      "eps": 312.01,
+      "bps": 1889.3
+    },
+    {
+      "fy": 2025,
+      "sales": 434880000000.0,
+      "ordinary": 45945000000.0,
+      "net_income": 37269000000.0,
+      "equity": 527557000000.0,
+      "assets": 605075000000.0,
+      "equity_ratio": 0.872,
+      "roe": 0.072,
+      "eps": 138.53,
+      "bps": 1960.88
+    },
+    {
+      "fy": 2026,
+      "sales": 467662000000.0,
+      "ordinary": 75208000000.0,
+      "net_income": 62527000000.0,
+      "equity": 512766000000.0,
+      "assets": 640689000000.0,
+      "equity_ratio": 0.8,
+      "roe": 0.12,
+      "eps": 236.17,
+      "bps": 1984.27
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 106248000000.0,
+    "receivables": null,
+    "inventories": 32752000000.0,
+    "ppe": 89936000000.0,
+    "intangibles": 2420000000.0,
+    "investments_other": 301293000000.0,
+    "total_assets": 640689000000.0,
+    "total_liabilities": 127923000000.0,
+    "net_assets_bs": 512766000000.0,
+    "short_loans": 46748000000.0,
+    "current_lt_loans": null,
+    "long_loans": null,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YH4M",
+    "S100LOJA"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "code": "319A",
+  "name": "株式会社技術承継機構",
+  "edinet_code": "E40269",
+  "latest_doc_id": "S100XV9V",
+  "latest_period_end": "2025-12-31",
+  "shares_outstanding": 8845978.0,
+  "annual": [
+    {
+      "fy": 2020,
+      "sales": 76000000.0,
+      "ordinary": 1000000.0,
+      "net_income": 1000000.0,
+      "equity": 208000000.0,
+      "assets": 280000000.0,
+      "equity_ratio": 0.742,
+      "roe": 0.004,
+      "eps": 338.21,
+      "bps": 70495.04
+    },
+    {
+      "fy": 2021,
+      "sales": 62000000.0,
+      "ordinary": 1000000.0,
+      "net_income": 0.0,
+      "equity": 214000000.0,
+      "assets": 338000000.0,
+      "equity_ratio": 0.631,
+      "roe": 0.002,
+      "eps": 311.99,
+      "bps": 77799.36
+    },
+    {
+      "fy": 2022,
+      "sales": 6804000000.0,
+      "ordinary": 541000000.0,
+      "net_income": 148000000.0,
+      "equity": 1323000000.0,
+      "assets": 9185000000.0,
+      "equity_ratio": 0.144,
+      "roe": 0.1227,
+      "eps": 19.03,
+      "bps": 149.94,
+      "ocf": 326000000.0,
+      "cash": 2608000000.0
+    },
+    {
+      "fy": 2023,
+      "sales": 9327000000.0,
+      "ordinary": 926000000.0,
+      "net_income": 1613000000.0,
+      "equity": 3113000000.0,
+      "assets": 14749000000.0,
+      "equity_ratio": 0.2043,
+      "roe": 0.744,
+      "eps": 206.49,
+      "bps": 362.59,
+      "ocf": 1189000000.0,
+      "cash": 4399000000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 11051000000.0,
+      "ordinary": 1548000000.0,
+      "net_income": 901000000.0,
+      "equity": 4002000000.0,
+      "assets": 15416000000.0,
+      "equity_ratio": 0.2531,
+      "roe": 0.2606,
+      "eps": 114.3,
+      "bps": 495.04,
+      "ocf": 1893000000.0,
+      "cash": 5565000000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 14961000000.0,
+      "ordinary": 1416000000.0,
+      "net_income": 3091000000.0,
+      "equity": 9211000000.0,
+      "assets": 30826000000.0,
+      "equity_ratio": 0.2955,
+      "roe": 0.4751,
+      "eps": 353.82,
+      "bps": 1029.91,
+      "ocf": 147000000.0,
+      "cash": 8958000000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 9566000000.0,
+    "receivables": null,
+    "inventories": 1154000000.0,
+    "ppe": 8399000000.0,
+    "intangibles": 3085000000.0,
+    "investments_other": 2401000000.0,
+    "total_assets": 30826000000.0,
+    "total_liabilities": 21615000000.0,
+    "net_assets_bs": 9211000000.0,
+    "short_loans": 3406000000.0,
+    "current_lt_loans": 2164000000.0,
+    "long_loans": 10307000000.0,
+    "bonds": 26000000.0,
+    "current_bonds": 15000000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XV9V",
+    "S100VG4Y"
+  ]
+}

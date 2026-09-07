@@ -1,0 +1,111 @@
+{
+  "code": "247A",
+  "name": "Aiロボティクス株式会社",
+  "edinet_code": "E39903",
+  "latest_doc_id": "S100YGSY",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 64900000.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 1567474000.0,
+      "ordinary": 94457000.0,
+      "net_income": 79331000.0,
+      "equity": 606503000.0,
+      "assets": 1325693000.0,
+      "equity_ratio": 0.4575,
+      "roe": 0.2201,
+      "eps": 26443.7,
+      "bps": -63691.43
+    },
+    {
+      "fy": 2022,
+      "sales": 1607977000.0,
+      "ordinary": -78818000.0,
+      "net_income": -388125000.0,
+      "equity": 218378000.0,
+      "assets": 1916668000.0,
+      "equity_ratio": 0.1139,
+      "eps": -129375.0,
+      "bps": -193066.43
+    },
+    {
+      "fy": 2023,
+      "sales": 3645162000.0,
+      "ordinary": 283423000.0,
+      "net_income": -264417000.0,
+      "equity": 303730000.0,
+      "assets": 2113770000.0,
+      "equity_ratio": 0.1437,
+      "eps": -8.81,
+      "bps": -28.12,
+      "ocf": 10907000.0,
+      "cash": 1133672000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 7061247000.0,
+      "ordinary": 1234289000.0,
+      "net_income": 825117000.0,
+      "equity": 1129177000.0,
+      "assets": 4555194000.0,
+      "equity_ratio": 0.2478,
+      "roe": 1.1519,
+      "eps": 27.5,
+      "bps": -0.62,
+      "ocf": 900175000.0,
+      "cash": 2917507000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 14206033000.0,
+      "ordinary": 2422741000.0,
+      "net_income": 1703320000.0,
+      "equity": 3309977000.0,
+      "assets": 6966482000.0,
+      "equity_ratio": 0.4751,
+      "roe": 0.7675,
+      "eps": 32.47,
+      "bps": 56.68,
+      "ocf": 1314356000.0,
+      "cash": 3932150000.0
+    },
+    {
+      "fy": 2026,
+      "sales": 29359038000.0,
+      "ordinary": 3780076000.0,
+      "net_income": 2654824000.0,
+      "equity": 6049530000.0,
+      "assets": 18431039000.0,
+      "equity_ratio": 0.3282,
+      "roe": 0.5673,
+      "eps": 43.43,
+      "bps": 93.21,
+      "ocf": -5880669000.0,
+      "cash": 3987201000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 3987201000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 536570000.0,
+    "intangibles": null,
+    "investments_other": 291092000.0,
+    "total_assets": 18431039000.0,
+    "total_liabilities": 12381509000.0,
+    "net_assets_bs": 6049530000.0,
+    "short_loans": 3500000000.0,
+    "current_lt_loans": 965844000.0,
+    "long_loans": 3268529000.0,
+    "bonds": null,
+    "current_bonds": 280000000.0,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YGSY",
+    "S100W5J6"
+  ]
+}

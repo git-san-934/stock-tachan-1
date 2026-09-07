@@ -1,0 +1,103 @@
+{
+  "code": "7128",
+  "name": "ユニソルホールディングス株式会社",
+  "edinet_code": "E36707",
+  "latest_doc_id": "S100XU07",
+  "latest_period_end": "2025-12-31",
+  "shares_outstanding": 24298000.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 74292000000.0,
+      "ordinary": 2033000000.0,
+      "net_income": 1037000000.0,
+      "equity": 67361000000.0,
+      "assets": 108594000000.0,
+      "equity_ratio": 0.614,
+      "roe": 0.031,
+      "eps": 67.11,
+      "bps": 2632.94,
+      "ocf": -853000000.0,
+      "cash": 22872000000.0
+    },
+    {
+      "fy": 2022,
+      "sales": 162416000000.0,
+      "ordinary": 7055000000.0,
+      "net_income": 4531000000.0,
+      "equity": 72139000000.0,
+      "assets": 122914000000.0,
+      "equity_ratio": 0.58,
+      "roe": 0.066,
+      "eps": 178.91,
+      "bps": 2816.21,
+      "ocf": 3795000000.0,
+      "cash": 24132000000.0
+    },
+    {
+      "fy": 2023,
+      "sales": 172980000000.0,
+      "ordinary": 6652000000.0,
+      "net_income": 4698000000.0,
+      "equity": 72719000000.0,
+      "assets": 120342000000.0,
+      "equity_ratio": 0.597,
+      "roe": 0.066,
+      "eps": 188.26,
+      "bps": 2945.65,
+      "ocf": 6031000000.0,
+      "cash": 20174000000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 161716000000.0,
+      "ordinary": 4659000000.0,
+      "net_income": 4613000000.0,
+      "equity": 73373000000.0,
+      "assets": 120821000000.0,
+      "equity_ratio": 0.599,
+      "roe": 0.064,
+      "eps": 190.77,
+      "bps": 3008.84,
+      "ocf": 7863000000.0,
+      "cash": 26129000000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 159036000000.0,
+      "ordinary": 4179000000.0,
+      "net_income": 1906000000.0,
+      "equity": 73876000000.0,
+      "assets": 117020000000.0,
+      "equity_ratio": 0.621,
+      "roe": 0.026,
+      "eps": 79.84,
+      "bps": 3023.08,
+      "ocf": 5503000000.0,
+      "cash": 27792000000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 29760000000.0,
+    "receivables": 22652000000.0,
+    "inventories": 10226000000.0,
+    "ppe": 24808000000.0,
+    "intangibles": 1682000000.0,
+    "investments_other": 7994000000.0,
+    "total_assets": 117020000000.0,
+    "total_liabilities": 43144000000.0,
+    "net_assets_bs": 73876000000.0,
+    "short_loans": 469000000.0,
+    "current_lt_loans": 47000000.0,
+    "long_loans": 357000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100XU07",
+    "S100NS9Y"
+  ]
+}

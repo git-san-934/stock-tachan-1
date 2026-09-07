@@ -1,0 +1,117 @@
+{
+  "code": "6525",
+  "name": "株式会社KOKUSAI ELECTRIC",
+  "edinet_code": "E37488",
+  "latest_doc_id": "S100YJUA",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 238115614.0,
+  "annual": [
+    {
+      "fy": 2020,
+      "sales": 58560000000.0,
+      "ordinary": 8096000000.0,
+      "net_income": 20903000000.0,
+      "equity": 73049000000.0,
+      "assets": 238814000000.0,
+      "equity_ratio": 0.306,
+      "roe": 0.334,
+      "eps": 88.77,
+      "bps": 251.79
+    },
+    {
+      "fy": 2021,
+      "sales": 142875000000.0,
+      "ordinary": 24598000000.0,
+      "net_income": 27666000000.0,
+      "equity": 46440000000.0,
+      "assets": 246056000000.0,
+      "equity_ratio": 0.189,
+      "roe": 0.463,
+      "eps": 115.52,
+      "bps": 201.44
+    },
+    {
+      "fy": 2022,
+      "sales": 196404000000.0,
+      "ordinary": 49449000000.0,
+      "net_income": 37724000000.0,
+      "equity": 88440000000.0,
+      "assets": 310729000000.0,
+      "equity_ratio": 0.271,
+      "roe": 0.578,
+      "eps": 163.73,
+      "bps": 365.18
+    },
+    {
+      "fy": 2023,
+      "sales": 185400000000.0,
+      "ordinary": 38530000000.0,
+      "net_income": 30057000000.0,
+      "equity": 120677000000.0,
+      "assets": 311101000000.0,
+      "equity_ratio": 0.367,
+      "roe": 0.303,
+      "eps": 130.46,
+      "bps": 495.67
+    },
+    {
+      "fy": 2024,
+      "sales": 131260000000.0,
+      "ordinary": 22328000000.0,
+      "net_income": 18371000000.0,
+      "equity": 139542000000.0,
+      "assets": 311395000000.0,
+      "equity_ratio": 0.434,
+      "roe": 0.147,
+      "eps": 79.5,
+      "bps": 579.97
+    },
+    {
+      "fy": 2025,
+      "sales": 188687000000.0,
+      "ordinary": 41966000000.0,
+      "net_income": 30406000000.0,
+      "equity": 147056000000.0,
+      "assets": 274171000000.0,
+      "equity_ratio": 0.534,
+      "roe": 0.216,
+      "eps": 130.56,
+      "bps": 628.59
+    },
+    {
+      "fy": 2026,
+      "sales": 168370000000.0,
+      "ordinary": 28212000000.0,
+      "net_income": 22894000000.0,
+      "equity": 162343000000.0,
+      "assets": 274649000000.0,
+      "equity_ratio": 0.59,
+      "roe": 0.148,
+      "eps": 98.12,
+      "bps": 693.54
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 28076000000.0,
+    "receivables": null,
+    "inventories": 20719000000.0,
+    "ppe": 41234000000.0,
+    "intangibles": 57136000000.0,
+    "investments_other": 46551000000.0,
+    "total_assets": 274649000000.0,
+    "total_liabilities": 112306000000.0,
+    "net_assets_bs": 162343000000.0,
+    "short_loans": null,
+    "current_lt_loans": null,
+    "long_loans": 36000000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YJUA",
+    "S100TV4Y"
+  ]
+}

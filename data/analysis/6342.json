@@ -1,0 +1,194 @@
+{
+  "code": "6342",
+  "name": "株式会社太平製作所",
+  "sector33": "機械",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2950.0,
+  "market_cap_oku": 44.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      6336559000.0,
+      7222693000.0,
+      7703363000.0,
+      6724660000.0,
+      3538441000.0,
+      4938246000.0,
+      6437776000.0,
+      8843428000.0,
+      7855530000.0,
+      6359118000.0
+    ],
+    "ordinary": [
+      715957000.0,
+      833401000.0,
+      1042393000.0,
+      678381000.0,
+      86935000.0,
+      282991000.0,
+      768979000.0,
+      1432429000.0,
+      957667000.0,
+      603303000.0
+    ],
+    "ordinary_margin": [
+      0.113,
+      0.1154,
+      0.1353,
+      0.1009,
+      0.0246,
+      0.0573,
+      0.1194,
+      0.162,
+      0.1219,
+      0.0949
+    ],
+    "equity_ratio": [
+      0.521,
+      0.569,
+      0.55,
+      0.605,
+      0.618,
+      0.611,
+      0.589,
+      0.57,
+      0.663,
+      0.758
+    ],
+    "ocf": [
+      -11297000.0,
+      1566094000.0,
+      -581162000.0,
+      1297403000.0,
+      336145000.0,
+      -463259000.0,
+      1438723000.0,
+      1693856000.0,
+      60879000.0,
+      -881545000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7561,
+    "fixed_cost": 868468678.7,
+    "contribution_margin": 0.2439,
+    "breakeven_sales": 3560862515.3,
+    "dol": 2.57,
+    "r2": 0.994,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 3.58,
+    "margin_stdev": 0.039,
+    "has_loss_year": false,
+    "median_margin": 0.1142
+  },
+  "trough": {
+    "score": 0.257,
+    "latest_margin": 0.0949,
+    "margin_pctile": 0.3,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.917,
+    "price_drawdown_10y": 0.054
+  },
+  "structural": {
+    "sales_cagr": 0.0004,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.758,
+    "min_equity_ratio": 0.521,
+    "net_debt": -1205712000.0,
+    "net_debt_to_equity": -0.17,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 1500000.0,
+    "normalized_sales": 6581218000.0,
+    "normalized_margin": 0.1142,
+    "normalized_ordinary": 744091213.7,
+    "normalized_eps": 347.24,
+    "normalized_per": 8.5,
+    "midcycle_per": 12.0,
+    "fair_value": 4166.9,
+    "expected_return_x": 1.41,
+    "pbr": 0.53
+  },
+  "liquidation": {
+    "value": 2134321100.0,
+    "per_share": 1422.9,
+    "downside_to_liquidation": 0.518
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +0.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 76%（最低 52%） / ネットD/E -0.17"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.57 / 期待リターン 1.4倍"
+    }
+  },
+  "auto_score": 49.7,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

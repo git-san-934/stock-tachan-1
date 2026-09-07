@@ -1,0 +1,194 @@
+{
+  "code": "4979",
+  "name": "ＯＡＴアグリオ株式会社",
+  "sector33": "化学",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2973.0,
+  "market_cap_oku": 329.2,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      12938000000.0,
+      14118000000.0,
+      15278000000.0,
+      21909000000.0,
+      20288000000.0,
+      22678000000.0,
+      26960000000.0,
+      28988000000.0,
+      29773000000.0,
+      31950000000.0
+    ],
+    "ordinary": [
+      1572000000.0,
+      1890000000.0,
+      1738000000.0,
+      837000000.0,
+      1346000000.0,
+      1989000000.0,
+      3385000000.0,
+      3800000000.0,
+      3242000000.0,
+      3583000000.0
+    ],
+    "ordinary_margin": [
+      0.1215,
+      0.1339,
+      0.1138,
+      0.0382,
+      0.0663,
+      0.0877,
+      0.1256,
+      0.1311,
+      0.1089,
+      0.1121
+    ],
+    "equity_ratio": [
+      0.377,
+      0.489,
+      0.22,
+      0.205,
+      0.239,
+      0.292,
+      0.356,
+      0.409,
+      0.46,
+      0.504
+    ],
+    "ocf": [
+      1894000000.0,
+      457000000.0,
+      -487000000.0,
+      2392000000.0,
+      1937000000.0,
+      3603000000.0,
+      1416000000.0,
+      1789000000.0,
+      3762000000.0,
+      4900000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8797,
+    "fixed_cost": 367304897.6,
+    "contribution_margin": 0.1203,
+    "breakeven_sales": 3053017033.6,
+    "dol": 1.07,
+    "r2": 0.988,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 2.79,
+    "margin_stdev": 0.0309,
+    "has_loss_year": false,
+    "median_margin": 0.113
+  },
+  "trough": {
+    "score": 0.253,
+    "latest_margin": 0.1121,
+    "margin_pctile": 0.5,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      },
+      {
+        "key": "lng_japan",
+        "label": "LNG 日本 ($/mmbtu, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.893,
+        "yoy": 0.595,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.009
+  },
+  "structural": {
+    "sales_cagr": 0.1057,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.504,
+    "min_equity_ratio": 0.205,
+    "net_debt": 3894000000.0,
+    "net_debt_to_equity": 0.2,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 11072000.0,
+    "normalized_sales": 22293500000.0,
+    "normalized_margin": 0.113,
+    "normalized_ordinary": 2416339920.6,
+    "normalized_eps": 152.77,
+    "normalized_per": 19.5,
+    "midcycle_per": 12.0,
+    "fair_value": 1833.2,
+    "expected_return_x": 0.62,
+    "pbr": 1.59
+  },
+  "liquidation": {
+    "value": -5894500000.0,
+    "per_share": -532.4,
+    "downside_to_liquidation": 1.179
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +10.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 50%（最低 20%） / ネットD/E 0.2"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.07 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 39.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

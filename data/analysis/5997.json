@@ -1,0 +1,194 @@
+{
+  "code": "5997",
+  "name": "協立エアテック株式会社",
+  "sector33": "金属製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 894.0,
+  "market_cap_oku": 53.6,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      8292660000.0,
+      8827332000.0,
+      10268146000.0,
+      11245058000.0,
+      9924459000.0,
+      9892719000.0,
+      10596366000.0,
+      11896916000.0,
+      11732058000.0,
+      11923263000.0
+    ],
+    "ordinary": [
+      605737000.0,
+      713743000.0,
+      917051000.0,
+      985122000.0,
+      642578000.0,
+      683892000.0,
+      563009000.0,
+      739273000.0,
+      727631000.0,
+      645127000.0
+    ],
+    "ordinary_margin": [
+      0.073,
+      0.0809,
+      0.0893,
+      0.0876,
+      0.0647,
+      0.0691,
+      0.0531,
+      0.0621,
+      0.062,
+      0.0541
+    ],
+    "equity_ratio": [
+      0.498,
+      0.509,
+      0.502,
+      0.525,
+      0.565,
+      0.568,
+      0.555,
+      0.56,
+      0.584,
+      0.626
+    ],
+    "ocf": [
+      1105773000.0,
+      364255000.0,
+      814801000.0,
+      825871000.0,
+      1062660000.0,
+      865468000.0,
+      420183000.0,
+      750264000.0,
+      990580000.0,
+      283361000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9726,
+    "fixed_cost": -435591030.7,
+    "contribution_margin": 0.0274,
+    "breakeven_sales": -15890603682.7,
+    "dol": 0.51,
+    "r2": 0.989,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.59,
+    "margin_stdev": 0.0129,
+    "has_loss_year": false,
+    "median_margin": 0.0669
+  },
+  "trough": {
+    "score": 0.277,
+    "latest_margin": 0.0541,
+    "margin_pctile": 0.2,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.024
+  },
+  "structural": {
+    "sales_cagr": 0.0412,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.626,
+    "min_equity_ratio": 0.498,
+    "net_debt": -2197633000.0,
+    "net_debt_to_equity": -0.22,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 6000000.0,
+    "normalized_sales": 10432256000.0,
+    "normalized_margin": 0.0669,
+    "normalized_ordinary": 698323465.7,
+    "normalized_eps": 81.47,
+    "normalized_per": 11.0,
+    "midcycle_per": 12.0,
+    "fair_value": 977.7,
+    "expected_return_x": 1.09,
+    "pbr": 0.44
+  },
+  "liquidation": {
+    "value": 4719431300.0,
+    "per_share": 786.6,
+    "downside_to_liquidation": 0.12
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +4.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 63%（最低 50%） / ネットD/E -0.22"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.51 / 期待リターン 1.1倍"
+    }
+  },
+  "auto_score": 43.8,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

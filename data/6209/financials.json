@@ -1,0 +1,75 @@
+{
+  "code": "6209",
+  "name": "リケンＮＰＲ株式会社",
+  "edinet_code": "E38761",
+  "latest_doc_id": "S100YHYP",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 28247910.0,
+  "annual": [
+    {
+      "fy": 2024,
+      "sales": 138586000000.0,
+      "ordinary": 11635000000.0,
+      "net_income": 26324000000.0,
+      "equity": 149418000000.0,
+      "assets": 220164000000.0,
+      "equity_ratio": 0.638,
+      "roe": 0.187,
+      "eps": 1091.78,
+      "bps": 4990.81,
+      "ocf": 18496000000.0,
+      "cash": 22261000000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 170340000000.0,
+      "ordinary": 14678000000.0,
+      "net_income": 8756000000.0,
+      "equity": 154669000000.0,
+      "assets": 219045000000.0,
+      "equity_ratio": 0.663,
+      "roe": 0.061,
+      "eps": 323.32,
+      "bps": 5402.44,
+      "ocf": 17477000000.0,
+      "cash": 25760000000.0
+    },
+    {
+      "fy": 2026,
+      "sales": 163114000000.0,
+      "ordinary": 17345000000.0,
+      "net_income": 14027000000.0,
+      "equity": 169673000000.0,
+      "assets": 228954000000.0,
+      "equity_ratio": 0.7,
+      "roe": 0.092,
+      "eps": 521.58,
+      "bps": 5957.91,
+      "ocf": 16343000000.0,
+      "cash": 27069000000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 29105000000.0,
+    "receivables": 36874000000.0,
+    "inventories": 24211000000.0,
+    "ppe": 49084000000.0,
+    "intangibles": 8230000000.0,
+    "investments_other": 62515000000.0,
+    "total_assets": 228954000000.0,
+    "total_liabilities": 59281000000.0,
+    "net_assets_bs": 169673000000.0,
+    "short_loans": 762000000.0,
+    "current_lt_loans": 6705000000.0,
+    "long_loans": 6600000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YHYP",
+    "S100TPK7"
+  ]
+}

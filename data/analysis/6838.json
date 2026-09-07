@@ -1,0 +1,188 @@
+{
+  "code": "6838",
+  "name": "株式会社多摩川ホールディングス",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1536.0,
+  "market_cap_oku": 101.1,
+  "fy_range": [
+    2017,
+    2025
+  ],
+  "n_years": 9,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      4443227000.0,
+      3255443000.0,
+      3841699000.0,
+      6332983000.0,
+      6236197000.0,
+      3294497000.0,
+      4153982000.0,
+      2356418000.0,
+      5587974000.0
+    ],
+    "ordinary": [
+      106500000.0,
+      -63752000.0,
+      -79380000.0,
+      672952000.0,
+      331550000.0,
+      -514890000.0,
+      -215476000.0,
+      -51994000.0,
+      231315000.0
+    ],
+    "ordinary_margin": [
+      0.024,
+      -0.0196,
+      -0.0207,
+      0.1063,
+      0.0532,
+      -0.1563,
+      -0.0519,
+      -0.0221,
+      0.0414
+    ],
+    "equity_ratio": [
+      0.438,
+      0.287,
+      0.352,
+      0.441,
+      0.65,
+      0.578,
+      0.51,
+      0.475,
+      0.484
+    ],
+    "ocf": [
+      102030000.0,
+      -534106000.0,
+      499895000.0,
+      1499076000.0,
+      -16798000.0,
+      -1883926000.0,
+      -1132820000.0,
+      257814000.0,
+      -25732000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8052,
+    "fixed_cost": 808765782.5,
+    "contribution_margin": 0.1948,
+    "breakeven_sales": 4151426754.1,
+    "dol": 4.71,
+    "r2": 0.967,
+    "n_points": 9
+  },
+  "cyclicality": {
+    "score": 1.0,
+    "elasticity": 5.34,
+    "margin_stdev": 0.0747,
+    "has_loss_year": true,
+    "median_margin": -0.0196
+  },
+  "trough": {
+    "score": 0.184,
+    "latest_margin": 0.0414,
+    "margin_pctile": 0.778,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.802,
+    "price_drawdown_10y": 0.472
+  },
+  "structural": {
+    "sales_cagr": 0.0291,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.484,
+    "min_equity_ratio": 0.287,
+    "net_debt": 2364146000.0,
+    "net_debt_to_equity": 0.43,
+    "survive_years_if_loss": 2.6
+  },
+  "valuation": {
+    "shares_outstanding": 6584900.0,
+    "normalized_sales": 4153982000.0,
+    "normalized_margin": -0.0196,
+    "normalized_ordinary": -40459180.1,
+    "normalized_eps": -4.3,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 1.83
+  },
+  "liquidation": {
+    "value": 864718500.0,
+    "per_share": 131.3,
+    "downside_to_liquidation": 0.915
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 48%（最低 29%） / ネットD/E 0.43"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 40.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

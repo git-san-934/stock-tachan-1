@@ -1,0 +1,186 @@
+{
+  "code": "7872",
+  "name": "エステールホールディングス株式会社",
+  "sector33": "その他製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 619.0,
+  "market_cap_oku": 70.9,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      32579000000.0,
+      32686000000.0,
+      32504000000.0,
+      32172000000.0,
+      27963000000.0,
+      29985000000.0,
+      29627000000.0,
+      31699000000.0,
+      31271000000.0,
+      33890000000.0
+    ],
+    "ordinary": [
+      1292000000.0,
+      1528000000.0,
+      1343000000.0,
+      1385000000.0,
+      406000000.0,
+      781000000.0,
+      314000000.0,
+      303000000.0,
+      316000000.0,
+      697000000.0
+    ],
+    "ordinary_margin": [
+      0.0397,
+      0.0467,
+      0.0413,
+      0.043,
+      0.0145,
+      0.026,
+      0.0106,
+      0.0096,
+      0.0101,
+      0.0206
+    ],
+    "equity_ratio": [
+      0.402,
+      0.407,
+      0.406,
+      0.403,
+      0.413,
+      0.403,
+      0.406,
+      0.387,
+      0.399,
+      0.387
+    ],
+    "ocf": [
+      2006000000.0,
+      1755000000.0,
+      1508000000.0,
+      1406000000.0,
+      131000000.0,
+      34000000.0,
+      -1150000000.0,
+      984000000.0,
+      118000000.0,
+      1826000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8416,
+    "fixed_cost": 4144585524.8,
+    "contribution_margin": 0.1584,
+    "breakeven_sales": 26158117793.0,
+    "dol": 7.7,
+    "r2": 0.927,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 9.53,
+    "margin_stdev": 0.0151,
+    "has_loss_year": false,
+    "median_margin": 0.0233
+  },
+  "trough": {
+    "score": 0.3,
+    "latest_margin": 0.0206,
+    "margin_pctile": 0.5,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.95,
+    "price_drawdown_10y": 0.149
+  },
+  "structural": {
+    "sales_cagr": 0.0044,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.387,
+    "min_equity_ratio": 0.387,
+    "net_debt": 3859000000.0,
+    "net_debt_to_equity": 0.31,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 11459000.0,
+    "normalized_sales": 31935500000.0,
+    "normalized_margin": 0.0233,
+    "normalized_ordinary": 829150367.2,
+    "normalized_eps": 50.65,
+    "normalized_per": 12.2,
+    "midcycle_per": 12.0,
+    "fair_value": 607.8,
+    "expected_return_x": 0.98,
+    "pbr": 0.56
+  },
+  "liquidation": {
+    "value": -1394300000.0,
+    "per_share": -121.7,
+    "downside_to_liquidation": 1.197
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +0.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 39%（最低 39%） / ネットD/E 0.31"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 7.7 / 期待リターン 1.0倍"
+    }
+  },
+  "auto_score": 34.9,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

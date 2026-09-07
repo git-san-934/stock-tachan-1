@@ -1,0 +1,194 @@
+{
+  "code": "4109",
+  "name": "ステラケミファ株式会社",
+  "sector33": "化学",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 5440.0,
+  "market_cap_oku": 705.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      29850000000.0,
+      33622000000.0,
+      38384000000.0,
+      33729000000.0,
+      32893000000.0,
+      37296000000.0,
+      35382000000.0,
+      30446000000.0,
+      36288000000.0,
+      36799000000.0
+    ],
+    "ordinary": [
+      4154000000.0,
+      1756000000.0,
+      3810000000.0,
+      2307000000.0,
+      4020000000.0,
+      5707000000.0,
+      4347000000.0,
+      3064000000.0,
+      4161000000.0,
+      4424000000.0
+    ],
+    "ordinary_margin": [
+      0.1392,
+      0.0522,
+      0.0993,
+      0.0684,
+      0.1222,
+      0.153,
+      0.1229,
+      0.1006,
+      0.1147,
+      0.1202
+    ],
+    "equity_ratio": [
+      0.539,
+      0.608,
+      0.592,
+      0.64,
+      0.684,
+      0.745,
+      0.773,
+      0.755,
+      0.737,
+      0.746
+    ],
+    "ocf": [
+      5341000000.0,
+      937000000.0,
+      7345000000.0,
+      5036000000.0,
+      7352000000.0,
+      5403000000.0,
+      5634000000.0,
+      6542000000.0,
+      7115000000.0,
+      6009000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8401,
+    "fixed_cost": 1735355835.2,
+    "contribution_margin": 0.1599,
+    "breakeven_sales": 10855162268.3,
+    "dol": 1.33,
+    "r2": 0.844,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 4.73,
+    "margin_stdev": 0.0306,
+    "has_loss_year": false,
+    "median_margin": 0.1174
+  },
+  "trough": {
+    "score": 0.257,
+    "latest_margin": 0.1202,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      },
+      {
+        "key": "lng_japan",
+        "label": "LNG 日本 ($/mmbtu, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.893,
+        "yoy": 0.595,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.975,
+    "price_drawdown_10y": 0.222
+  },
+  "structural": {
+    "sales_cagr": 0.0235,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.746,
+    "min_equity_ratio": 0.539,
+    "net_debt": -9262000000.0,
+    "net_debt_to_equity": -0.19,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 12973000.0,
+    "normalized_sales": 34555500000.0,
+    "normalized_margin": 0.1174,
+    "normalized_ordinary": 3924190832.2,
+    "normalized_eps": 211.74,
+    "normalized_per": 25.7,
+    "midcycle_per": 12.0,
+    "fair_value": 2540.9,
+    "expected_return_x": 0.47,
+    "pbr": 1.39
+  },
+  "liquidation": {
+    "value": 24536300000.0,
+    "per_share": 1891.3,
+    "downside_to_liquidation": 0.652
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 75%（最低 54%） / ネットD/E -0.19"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.33 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 41.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

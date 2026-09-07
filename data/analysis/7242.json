@@ -1,0 +1,194 @@
+{
+  "code": "7242",
+  "name": "カヤバ株式会社",
+  "sector33": "輸送用機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4825.0,
+  "market_cap_oku": 2435.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      186505000000.0,
+      203034000000.0,
+      214250000000.0,
+      197106000000.0,
+      162391000000.0,
+      202406000000.0,
+      220061000000.0,
+      241578000000.0,
+      224184000000.0,
+      239768000000.0
+    ],
+    "ordinary": [
+      6608000000.0,
+      11186000000.0,
+      9756000000.0,
+      5011000000.0,
+      22247000000.0,
+      14012000000.0,
+      16189000000.0,
+      23412000000.0,
+      15369000000.0,
+      19440000000.0
+    ],
+    "ordinary_margin": [
+      0.0354,
+      0.0551,
+      0.0455,
+      0.0254,
+      0.137,
+      0.0692,
+      0.0736,
+      0.0969,
+      0.0686,
+      0.0811
+    ],
+    "equity_ratio": [
+      0.452,
+      0.435,
+      0.308,
+      0.088,
+      0.231,
+      0.348,
+      0.417,
+      0.448,
+      0.482,
+      0.461
+    ],
+    "ocf": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.924,
+    "fixed_cost": 1570648128.9,
+    "contribution_margin": 0.076,
+    "breakeven_sales": 20666556251.8,
+    "dol": 0.94,
+    "r2": 0.933,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 9.64,
+    "margin_stdev": 0.0322,
+    "has_loss_year": false,
+    "median_margin": 0.0689
+  },
+  "trough": {
+    "score": 0.08,
+    "latest_margin": 0.0811,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.071
+  },
+  "structural": {
+    "sales_cagr": 0.0283,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.461,
+    "min_equity_ratio": 0.088,
+    "net_debt": 75806000000.0,
+    "net_debt_to_equity": 0.56,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 50468000.0,
+    "normalized_sales": 208642000000.0,
+    "normalized_margin": 0.0689,
+    "normalized_ordinary": 14329875541.1,
+    "normalized_eps": 198.76,
+    "normalized_per": 24.3,
+    "midcycle_per": 12.0,
+    "fair_value": 2385.1,
+    "expected_return_x": 0.49,
+    "pbr": 1.72
+  },
+  "liquidation": {
+    "value": -33825100000.0,
+    "per_share": -670.2,
+    "downside_to_liquidation": 1.139
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 46%（最低 9%） / ネットD/E 0.56"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.94 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 30.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

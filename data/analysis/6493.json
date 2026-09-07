@@ -1,0 +1,194 @@
+{
+  "code": "6493",
+  "name": "株式会社ＮＩＴＴＡＮ",
+  "sector33": "輸送用機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 497.0,
+  "market_cap_oku": 144.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      43175513000.0,
+      45492944000.0,
+      45972075000.0,
+      42465346000.0,
+      34705315000.0,
+      38669892000.0,
+      41876746000.0,
+      49478572000.0,
+      51446480000.0,
+      51676563000.0
+    ],
+    "ordinary": [
+      3618780000.0,
+      2675779000.0,
+      2870513000.0,
+      1604971000.0,
+      375500000.0,
+      2106204000.0,
+      1759853000.0,
+      2482652000.0,
+      1896332000.0,
+      4423642000.0
+    ],
+    "ordinary_margin": [
+      0.0838,
+      0.0588,
+      0.0624,
+      0.0378,
+      0.0108,
+      0.0545,
+      0.042,
+      0.0502,
+      0.0369,
+      0.0856
+    ],
+    "equity_ratio": [
+      0.428,
+      0.418,
+      0.402,
+      0.394,
+      0.417,
+      0.437,
+      0.438,
+      0.452,
+      0.436,
+      0.463
+    ],
+    "ocf": [
+      6724551000.0,
+      6151545000.0,
+      5850367000.0,
+      4177549000.0,
+      5442392000.0,
+      6884832000.0,
+      4798213000.0,
+      6961032000.0,
+      4304427000.0,
+      7784645000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8682,
+    "fixed_cost": 3481126995.1,
+    "contribution_margin": 0.1318,
+    "breakeven_sales": 26421274806.5,
+    "dol": 1.54,
+    "r2": 0.968,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 15.49,
+    "margin_stdev": 0.0224,
+    "has_loss_year": false,
+    "median_margin": 0.0523
+  },
+  "trough": {
+    "score": 0.073,
+    "latest_margin": 0.0856,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.917,
+    "price_drawdown_10y": 0.352
+  },
+  "structural": {
+    "sales_cagr": 0.0202,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.463,
+    "min_equity_ratio": 0.394,
+    "net_debt": -237983000.0,
+    "net_debt_to_equity": -0.01,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 28978860.0,
+    "normalized_sales": 44334228500.0,
+    "normalized_margin": 0.0523,
+    "normalized_ordinary": 2340873913.2,
+    "normalized_eps": 56.55,
+    "normalized_per": 8.8,
+    "midcycle_per": 12.0,
+    "fair_value": 678.5,
+    "expected_return_x": 1.37,
+    "pbr": 0.46
+  },
+  "liquidation": {
+    "value": 16970481100.0,
+    "per_share": 585.6,
+    "downside_to_liquidation": -0.178
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 46%（最低 39%） / ネットD/E -0.01"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.54 / 期待リターン 1.4倍"
+    }
+  },
+  "auto_score": 42.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

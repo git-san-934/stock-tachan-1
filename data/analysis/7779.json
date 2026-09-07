@@ -1,0 +1,186 @@
+{
+  "code": "7779",
+  "name": "ＣＹＢＥＲＤＹＮＥ株式会社",
+  "sector33": "精密機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 229.0,
+  "market_cap_oku": 314.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      1650000000.0,
+      1727000000.0,
+      1530000000.0,
+      1595000000.0,
+      1663000000.0,
+      1564000000.0,
+      1715000000.0,
+      1835000000.0,
+      2088000000.0,
+      2051000000.0
+    ],
+    "ordinary": [
+      -783000000.0,
+      -689000000.0,
+      -734000000.0,
+      -615000000.0,
+      -521000000.0,
+      -602000000.0,
+      -545000000.0,
+      -269000000.0,
+      -504000000.0,
+      -331000000.0
+    ],
+    "ordinary_margin": [
+      -0.4745,
+      -0.399,
+      -0.4797,
+      -0.3856,
+      -0.3133,
+      -0.3849,
+      -0.3178,
+      -0.1466,
+      -0.2414,
+      -0.1614
+    ],
+    "equity_ratio": [
+      0.986,
+      0.984,
+      0.984,
+      0.983,
+      0.986,
+      0.986,
+      0.973,
+      0.978,
+      0.973,
+      0.974
+    ],
+    "ocf": [
+      575000000.0,
+      -53000000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.4415,
+    "fixed_cost": 1532026793.9,
+    "contribution_margin": 0.5585,
+    "breakeven_sales": 2743302936.0,
+    "dol": null,
+    "r2": 0.323,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 5.0,
+    "margin_stdev": 0.1176,
+    "has_loss_year": true,
+    "median_margin": -0.3513
+  },
+  "trough": {
+    "score": 0.64,
+    "latest_margin": -0.1614,
+    "margin_pctile": 0.9,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.24,
+    "price_drawdown_10y": 0.882
+  },
+  "structural": {
+    "sales_cagr": 0.0245,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.974,
+    "min_equity_ratio": 0.973,
+    "net_debt": -9115000000.0,
+    "net_debt_to_equity": -0.24,
+    "survive_years_if_loss": 12.0
+  },
+  "valuation": {
+    "shares_outstanding": 137445809.0,
+    "normalized_sales": 1689000000.0,
+    "normalized_margin": -0.3513,
+    "normalized_ordinary": -593425710.0,
+    "normalized_eps": -3.02,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 1.28
+  },
+  "liquidation": {
+    "value": 24167600000.0,
+    "per_share": 175.8,
+    "downside_to_liquidation": 0.232
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 97%（最低 97%） / ネットD/E -0.24"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 57.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

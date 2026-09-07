@@ -1,0 +1,194 @@
+{
+  "code": "6343",
+  "name": "フリージア・マクロス株式会社",
+  "sector33": "機械",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 148.0,
+  "market_cap_oku": 66.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      8744944000.0,
+      8127504000.0,
+      7738486000.0,
+      7853522000.0,
+      6788042000.0,
+      7011128000.0,
+      7034419000.0,
+      6720902000.0,
+      6971719000.0,
+      6873506000.0
+    ],
+    "ordinary": [
+      574232000.0,
+      1082895000.0,
+      965467000.0,
+      1290490000.0,
+      583238000.0,
+      1602521000.0,
+      1706656000.0,
+      1541108000.0,
+      1984453000.0,
+      2226362000.0
+    ],
+    "ordinary_margin": [
+      0.0657,
+      0.1332,
+      0.1248,
+      0.1643,
+      0.0859,
+      0.2286,
+      0.2426,
+      0.2293,
+      0.2846,
+      0.3239
+    ],
+    "equity_ratio": [
+      0.314,
+      0.329,
+      0.332,
+      0.304,
+      0.308,
+      0.297,
+      0.337,
+      0.365,
+      0.378,
+      0.43
+    ],
+    "ocf": [
+      -545929000.0,
+      -374715000.0,
+      559989000.0,
+      16628000.0,
+      1436023000.0,
+      43612000.0,
+      -263601000.0,
+      190697000.0,
+      176225000.0,
+      696251000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.2,
+    "fixed_cost": -4870227773.5,
+    "contribution_margin": -0.2,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.833,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 11.96,
+    "margin_stdev": 0.0863,
+    "has_loss_year": false,
+    "median_margin": 0.1964
+  },
+  "trough": {
+    "score": 0.117,
+    "latest_margin": 0.3239,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.702,
+    "price_drawdown_10y": 0.409
+  },
+  "structural": {
+    "sales_cagr": -0.0264,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.43,
+    "min_equity_ratio": 0.297,
+    "net_debt": 8871374000.0,
+    "net_debt_to_equity": 0.36,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 45099000.0,
+    "normalized_sales": 7022773500.0,
+    "normalized_margin": 0.1964,
+    "normalized_ordinary": 1379582137.7,
+    "normalized_eps": 21.41,
+    "normalized_per": 6.9,
+    "midcycle_per": 12.0,
+    "fair_value": 257.0,
+    "expected_return_x": 1.74,
+    "pbr": 0.39
+  },
+  "liquidation": {
+    "value": 11597480300.0,
+    "per_share": 257.2,
+    "downside_to_liquidation": -0.738
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -2.6% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 43%（最低 30%） / ネットD/E 0.36"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "△",
+      "note": "DOL None / 期待リターン 1.7倍"
+    }
+  },
+  "auto_score": 46.3,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

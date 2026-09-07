@@ -1,0 +1,186 @@
+{
+  "code": "9310",
+  "name": "日本トランスシティ株式会社",
+  "sector33": "倉庫・運輸関連業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1394.0,
+  "market_cap_oku": 925.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      91332000000.0,
+      95609000000.0,
+      100094000000.0,
+      101620000000.0,
+      101173000000.0,
+      116750000000.0,
+      134063000000.0,
+      122555000000.0,
+      124765000000.0,
+      125517000000.0
+    ],
+    "ordinary": [
+      3757000000.0,
+      3121000000.0,
+      4416000000.0,
+      4491000000.0,
+      5290000000.0,
+      8368000000.0,
+      8996000000.0,
+      7352000000.0,
+      8806000000.0,
+      9482000000.0
+    ],
+    "ordinary_margin": [
+      0.0411,
+      0.0326,
+      0.0441,
+      0.0442,
+      0.0523,
+      0.0717,
+      0.0671,
+      0.06,
+      0.0706,
+      0.0755
+    ],
+    "equity_ratio": [
+      0.481,
+      0.468,
+      0.473,
+      0.485,
+      0.515,
+      0.541,
+      0.559,
+      0.533,
+      0.551,
+      0.579
+    ],
+    "ocf": [
+      5537000000.0,
+      2893000000.0,
+      8035000000.0,
+      7098000000.0,
+      8623000000.0,
+      7261000000.0,
+      11595000000.0,
+      7282000000.0,
+      15136000000.0,
+      9294000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8454,
+    "fixed_cost": 10801155193.3,
+    "contribution_margin": 0.1546,
+    "breakeven_sales": 69886745944.0,
+    "dol": 2.05,
+    "r2": 0.997,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 3.33,
+    "margin_stdev": 0.0151,
+    "has_loss_year": false,
+    "median_margin": 0.0561
+  },
+  "trough": {
+    "score": 0.173,
+    "latest_margin": 0.0755,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.029
+  },
+  "structural": {
+    "sales_cagr": 0.036,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.579,
+    "min_equity_ratio": 0.468,
+    "net_debt": 9963000000.0,
+    "net_debt_to_equity": 0.09,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 66405517.0,
+    "normalized_sales": 109185000000.0,
+    "normalized_margin": 0.0561,
+    "normalized_ordinary": 6104138573.4,
+    "normalized_eps": 64.35,
+    "normalized_per": 21.7,
+    "midcycle_per": 12.0,
+    "fair_value": 772.1,
+    "expected_return_x": 0.55,
+    "pbr": 0.85
+  },
+  "liquidation": {
+    "value": 46672000000.0,
+    "per_share": 702.8,
+    "downside_to_liquidation": 0.496
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 58%（最低 47%） / ネットD/E 0.09"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.05 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 39.3,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

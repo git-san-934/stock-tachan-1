@@ -1,0 +1,156 @@
+{
+  "code": "429A",
+  "name": "テクセンドフォトマスク株式会社",
+  "sector33": "その他製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3905.0,
+  "market_cap_oku": 3878.8,
+  "fy_range": [
+    2022,
+    2026
+  ],
+  "n_years": 5,
+  "series": {
+    "fy": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      null,
+      21556000000.0,
+      21899000000.0,
+      23258000000.0,
+      26362000000.0
+    ],
+    "ordinary": [
+      null,
+      13721000000.0,
+      7247000000.0,
+      27042000000.0,
+      10086000000.0
+    ],
+    "ordinary_margin": [
+      null,
+      0.6365,
+      0.3309,
+      1.1627,
+      0.3826
+    ],
+    "equity_ratio": [
+      1.0,
+      0.913,
+      0.884,
+      0.564,
+      0.677
+    ],
+    "ocf": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.1752,
+    "fixed_cost": -18601284779.6,
+    "contribution_margin": -0.1752,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.08,
+    "n_points": 4
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 32.01,
+    "margin_stdev": 0.3805,
+    "has_loss_year": false,
+    "median_margin": 0.5096
+  },
+  "trough": {
+    "score": 0.37,
+    "latest_margin": 0.3826,
+    "margin_pctile": 0.5,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.667,
+    "price_drawdown_10y": 0.15
+  },
+  "structural": {
+    "sales_cagr": 0.0516,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.677,
+    "min_equity_ratio": 0.564,
+    "net_debt": -11138000000.0,
+    "net_debt_to_equity": -0.09,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 99329195.0,
+    "normalized_sales": 22578500000.0,
+    "normalized_margin": 0.5096,
+    "normalized_ordinary": 11505148709.8,
+    "normalized_eps": 81.08,
+    "normalized_per": 48.2,
+    "midcycle_per": 12.0,
+    "fair_value": 973.0,
+    "expected_return_x": 0.25,
+    "pbr": 3.17
+  },
+  "liquidation": {
+    "value": 65257400000.0,
+    "per_share": 657.0,
+    "downside_to_liquidation": 0.832
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 68%（最低 56%） / ネットD/E -0.09"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.2倍"
+    }
+  },
+  "auto_score": 44.2,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

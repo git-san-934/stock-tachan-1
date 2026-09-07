@@ -1,0 +1,61 @@
+{
+  "code": "255A",
+  "name": "ジーエルテクノホールディングス株式会社",
+  "edinet_code": "E39741",
+  "latest_doc_id": "S100YFOK",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 13681230.0,
+  "annual": [
+    {
+      "fy": 2025,
+      "sales": 43261049000.0,
+      "ordinary": 6626300000.0,
+      "net_income": 4064741000.0,
+      "equity": 44406948000.0,
+      "assets": 58375184000.0,
+      "equity_ratio": 0.761,
+      "roe": 0.104,
+      "eps": 348.9,
+      "bps": 3405.29,
+      "ocf": 6438372000.0,
+      "cash": 7391363000.0
+    },
+    {
+      "fy": 2026,
+      "sales": 47189387000.0,
+      "ordinary": 7721246000.0,
+      "net_income": 5358224000.0,
+      "equity": 49515934000.0,
+      "assets": 65675395000.0,
+      "equity_ratio": 0.754,
+      "roe": 0.114,
+      "eps": 410.41,
+      "bps": 3801.35,
+      "ocf": 4148222000.0,
+      "cash": 8244828000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 8784927000.0,
+    "receivables": null,
+    "inventories": 2717590000.0,
+    "ppe": 21044304000.0,
+    "intangibles": 976146000.0,
+    "investments_other": 5806708000.0,
+    "total_assets": 65675395000.0,
+    "total_liabilities": 16159461000.0,
+    "net_assets_bs": 49515934000.0,
+    "short_loans": 3558602000.0,
+    "current_lt_loans": null,
+    "long_loans": 3785305000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YFOK",
+    "S100W0QK"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "code": "5985",
+  "name": "サンコール株式会社",
+  "sector33": "金属製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2188.0,
+  "market_cap_oku": 745.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      37980000000.0,
+      42225000000.0,
+      45812000000.0,
+      42354000000.0,
+      40140000000.0,
+      47438000000.0,
+      53399000000.0,
+      51496000000.0,
+      63940000000.0,
+      52223000000.0
+    ],
+    "ordinary": [
+      1734000000.0,
+      2527000000.0,
+      3557000000.0,
+      1336000000.0,
+      -1000000000.0,
+      1022000000.0,
+      848000000.0,
+      -2692000000.0,
+      3156000000.0,
+      7484000000.0
+    ],
+    "ordinary_margin": [
+      0.0457,
+      0.0598,
+      0.0776,
+      0.0315,
+      -0.0249,
+      0.0215,
+      0.0159,
+      -0.0523,
+      0.0494,
+      0.1433
+    ],
+    "equity_ratio": [
+      0.723,
+      0.712,
+      0.717,
+      0.704,
+      0.679,
+      0.641,
+      0.597,
+      0.486,
+      0.442,
+      0.596
+    ],
+    "ocf": [
+      3933000000.0,
+      4608000000.0,
+      5435000000.0,
+      2758000000.0,
+      3014000000.0,
+      3170000000.0,
+      1691000000.0,
+      678000000.0,
+      654000000.0,
+      10026000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9221,
+    "fixed_cost": 1918812260.8,
+    "contribution_margin": 0.0779,
+    "breakeven_sales": 24630889670.2,
+    "dol": 0.54,
+    "r2": 0.878,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 12.44,
+    "margin_stdev": 0.054,
+    "has_loss_year": true,
+    "median_margin": 0.0386
+  },
+  "trough": {
+    "score": 0.0,
+    "latest_margin": 0.1433,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 1.0,
+    "price_drawdown_10y": 0.0
+  },
+  "structural": {
+    "sales_cagr": 0.036,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.596,
+    "min_equity_ratio": 0.442,
+    "net_debt": -1991000000.0,
+    "net_debt_to_equity": -0.06,
+    "survive_years_if_loss": 5.8
+  },
+  "valuation": {
+    "shares_outstanding": 34057000.0,
+    "normalized_sales": 46625000000.0,
+    "normalized_margin": 0.0386,
+    "normalized_ordinary": 1756491541.4,
+    "normalized_eps": 36.1,
+    "normalized_per": 60.6,
+    "midcycle_per": 12.0,
+    "fair_value": 433.2,
+    "expected_return_x": 0.2,
+    "pbr": 1.94
+  },
+  "liquidation": {
+    "value": 8923800000.0,
+    "per_share": 262.0,
+    "downside_to_liquidation": 0.88
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 60%（最低 44%） / ネットD/E -0.06"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.54 / 期待リターン 0.2倍"
+    }
+  },
+  "auto_score": 35.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

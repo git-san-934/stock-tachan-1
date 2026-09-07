@@ -1,0 +1,194 @@
+{
+  "code": "6794",
+  "name": "フォスター電機株式会社",
+  "sector33": "電気機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3035.0,
+  "market_cap_oku": 758.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      160896000000.0,
+      184800000000.0,
+      140303000000.0,
+      107298000000.0,
+      85220000000.0,
+      91106000000.0,
+      121338000000.0,
+      122447000000.0,
+      137607000000.0,
+      134910000000.0
+    ],
+    "ordinary": [
+      3017000000.0,
+      9062000000.0,
+      4318000000.0,
+      2599000000.0,
+      219000000.0,
+      -7473000000.0,
+      2327000000.0,
+      4305000000.0,
+      7726000000.0,
+      8002000000.0
+    ],
+    "ordinary_margin": [
+      0.0188,
+      0.049,
+      0.0308,
+      0.0242,
+      0.0026,
+      -0.082,
+      0.0192,
+      0.0352,
+      0.0561,
+      0.0593
+    ],
+    "equity_ratio": [
+      0.582,
+      0.615,
+      0.595,
+      0.665,
+      0.656,
+      0.547,
+      0.55,
+      0.565,
+      0.57,
+      0.603
+    ],
+    "ocf": [
+      4372000000.0,
+      8153000000.0,
+      17961000000.0,
+      11092000000.0,
+      739000000.0,
+      -12767000000.0,
+      354000000.0,
+      15428000000.0,
+      14831000000.0,
+      6936000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8855,
+    "fixed_cost": 11316291703.0,
+    "contribution_margin": 0.1145,
+    "breakeven_sales": 98814454261.5,
+    "dol": 1.93,
+    "r2": 0.986,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 59.97,
+    "margin_stdev": 0.0405,
+    "has_loss_year": true,
+    "median_margin": 0.0275
+  },
+  "trough": {
+    "score": 0.007,
+    "latest_margin": 0.0593,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.975,
+    "price_drawdown_10y": 0.015
+  },
+  "structural": {
+    "sales_cagr": -0.0194,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.603,
+    "min_equity_ratio": 0.547,
+    "net_debt": -12732000000.0,
+    "net_debt_to_equity": -0.17,
+    "survive_years_if_loss": 3.6
+  },
+  "valuation": {
+    "shares_outstanding": 25000000.0,
+    "normalized_sales": 128678500000.0,
+    "normalized_margin": 0.0275,
+    "normalized_ordinary": 3477979653.0,
+    "normalized_eps": 97.38,
+    "normalized_per": 31.2,
+    "midcycle_per": 12.0,
+    "fair_value": 1168.6,
+    "expected_return_x": 0.39,
+    "pbr": 1.01
+  },
+  "liquidation": {
+    "value": 25473600000.0,
+    "per_share": 1018.9,
+    "downside_to_liquidation": 0.664
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -1.9% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 60%（最低 55%） / ネットD/E -0.17"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.93 / 期待リターン 0.4倍"
+    }
+  },
+  "auto_score": 35.2,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

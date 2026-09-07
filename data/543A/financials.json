@@ -1,0 +1,43 @@
+{
+  "code": "543A",
+  "name": "ARCHION株式会社",
+  "edinet_code": "E41130",
+  "latest_doc_id": "S100YK16",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 1.0,
+  "annual": [
+    {
+      "fy": 2026,
+      "ordinary": -407000000.0,
+      "net_income": -407000000.0,
+      "equity": -407000000.0,
+      "assets": 0.0,
+      "equity_ratio": -4075826.16,
+      "eps": -407582617.0,
+      "bps": -407582616.0,
+      "cash": 0.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 0.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": null,
+    "intangibles": null,
+    "investments_other": null,
+    "total_assets": 0.0,
+    "total_liabilities": 407000000.0,
+    "net_assets_bs": -407000000.0,
+    "short_loans": null,
+    "current_lt_loans": null,
+    "long_loans": null,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YK16"
+  ]
+}

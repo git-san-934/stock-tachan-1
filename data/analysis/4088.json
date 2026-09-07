@@ -1,0 +1,194 @@
+{
+  "code": "4088",
+  "name": "エア・ウォーター株式会社",
+  "sector33": "化学",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3065.0,
+  "market_cap_oku": 7042.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      670536000000.0,
+      753559000000.0,
+      801493000000.0,
+      814190000000.0,
+      120722000000.0,
+      139623000000.0,
+      166411000000.0,
+      142633000000.0,
+      163352000000.0,
+      143401000000.0
+    ],
+    "ordinary": [
+      41251000000.0,
+      44691000000.0,
+      46977000000.0,
+      45167000000.0,
+      8943000000.0,
+      14109000000.0,
+      9817000000.0,
+      16204000000.0,
+      21430000000.0,
+      14579000000.0
+    ],
+    "ordinary_margin": [
+      0.0615,
+      0.0593,
+      0.0586,
+      0.0555,
+      0.0741,
+      0.1011,
+      0.059,
+      0.1136,
+      0.1312,
+      0.1017
+    ],
+    "equity_ratio": [
+      0.407,
+      0.401,
+      0.372,
+      0.384,
+      0.429,
+      0.371,
+      0.344,
+      0.322,
+      0.32,
+      0.262
+    ],
+    "ocf": [
+      58873000000.0,
+      47764000000.0,
+      56690000000.0,
+      40012000000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9507,
+    "fixed_cost": -7009461685.4,
+    "contribution_margin": 0.0493,
+    "breakeven_sales": -142166106772.0,
+    "dol": 0.48,
+    "r2": 1.0,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": 1.42,
+    "margin_stdev": 0.0278,
+    "has_loss_year": false,
+    "median_margin": 0.0678
+  },
+  "trough": {
+    "score": 0.15,
+    "latest_margin": 0.1017,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      },
+      {
+        "key": "lng_japan",
+        "label": "LNG 日本 ($/mmbtu, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.893,
+        "yoy": 0.595,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 1.0,
+    "price_drawdown_10y": 0.0
+  },
+  "structural": {
+    "sales_cagr": -0.1575,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.262,
+    "min_equity_ratio": 0.262,
+    "net_debt": 360186000000.0,
+    "net_debt_to_equity": 2.23,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 229755000.0,
+    "normalized_sales": 164881500000.0,
+    "normalized_margin": 0.0678,
+    "normalized_ordinary": 11178861063.8,
+    "normalized_eps": 34.06,
+    "normalized_per": 90.0,
+    "midcycle_per": 12.0,
+    "fair_value": 408.7,
+    "expected_return_x": 0.13,
+    "pbr": 4.36
+  },
+  "liquidation": {
+    "value": -64908300000.0,
+    "per_share": -282.5,
+    "downside_to_liquidation": 1.092
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -15.7% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 26%（最低 26%） / ネットD/E 2.23"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.48 / 期待リターン 0.1倍"
+    }
+  },
+  "auto_score": 14.8,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": false,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

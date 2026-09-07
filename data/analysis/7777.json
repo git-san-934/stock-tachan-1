@@ -1,0 +1,178 @@
+{
+  "code": "7777",
+  "name": "株式会社スリー・ディー・マトリックス",
+  "sector33": "精密機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 351.0,
+  "market_cap_oku": 449.2,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "ordinary": [
+      -1270163000.0,
+      -1767071000.0,
+      -2426127000.0,
+      -2954836000.0,
+      -1900344000.0,
+      -1807067000.0,
+      -2356571000.0,
+      140139000.0,
+      -2483735000.0,
+      3971596000.0
+    ],
+    "ordinary_margin": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "equity_ratio": [
+      0.668,
+      0.587,
+      0.277,
+      0.018,
+      0.345,
+      0.175,
+      0.003,
+      -0.023,
+      0.268,
+      0.667
+    ],
+    "ocf": [
+      -1887017000.0,
+      -2020656000.0,
+      -2301529000.0,
+      -2189247000.0,
+      -3249736000.0,
+      -2903268000.0,
+      -4585082000.0,
+      -1899876000.0,
+      -1714099000.0,
+      396845000.0
+    ]
+  },
+  "cost_structure": {},
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": null,
+    "margin_stdev": null,
+    "has_loss_year": true,
+    "median_margin": null
+  },
+  "trough": {
+    "score": 0.58,
+    "latest_margin": null,
+    "margin_pctile": null,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.488,
+    "price_drawdown_10y": 0.652
+  },
+  "structural": {
+    "sales_cagr": null,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.667,
+    "min_equity_ratio": -0.023,
+    "net_debt": -2230873000.0,
+    "net_debt_to_equity": -0.33,
+    "survive_years_if_loss": 1.0
+  },
+  "valuation": {
+    "shares_outstanding": 127971881.0,
+    "normalized_sales": null,
+    "normalized_margin": null,
+    "normalized_ordinary": null,
+    "normalized_eps": null,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 6.87
+  },
+  "liquidation": {
+    "value": 1836199300.0,
+    "per_share": 14.3,
+    "downside_to_liquidation": 0.959
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上履歴不足"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 67%（最低 -2%） / ネットD/E -0.33"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 55.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

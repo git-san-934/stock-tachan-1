@@ -1,0 +1,186 @@
+{
+  "code": "9369",
+  "name": "株式会社キユーソー流通システム",
+  "sector33": "倉庫・運輸関連業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2981.0,
+  "market_cap_oku": 755.9,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      153034000000.0,
+      159722000000.0,
+      169155000000.0,
+      172185000000.0,
+      171171000000.0,
+      175967000000.0,
+      179649000000.0,
+      184617000000.0,
+      195192000000.0,
+      202602000000.0
+    ],
+    "ordinary": [
+      5050000000.0,
+      4993000000.0,
+      4822000000.0,
+      4350000000.0,
+      2611000000.0,
+      3306000000.0,
+      3259000000.0,
+      3470000000.0,
+      4887000000.0,
+      4820000000.0
+    ],
+    "ordinary_margin": [
+      0.033,
+      0.0313,
+      0.0285,
+      0.0253,
+      0.0153,
+      0.0188,
+      0.0181,
+      0.0188,
+      0.025,
+      0.0238
+    ],
+    "equity_ratio": [
+      0.412,
+      0.44,
+      0.429,
+      0.414,
+      0.343,
+      0.347,
+      0.348,
+      0.338,
+      0.328,
+      0.332
+    ],
+    "ocf": [
+      5353000000.0,
+      6444000000.0,
+      5731000000.0,
+      5806000000.0,
+      5365000000.0,
+      7568000000.0,
+      8116000000.0,
+      9093000000.0,
+      12325000000.0,
+      9571000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.0046,
+    "fixed_cost": -4974660917.9,
+    "contribution_margin": -0.0046,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.996,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 11.08,
+    "margin_stdev": 0.006,
+    "has_loss_year": false,
+    "median_margin": 0.0244
+  },
+  "trough": {
+    "score": 0.363,
+    "latest_margin": 0.0238,
+    "margin_pctile": 0.5,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.934,
+    "price_drawdown_10y": 0.118
+  },
+  "structural": {
+    "sales_cagr": 0.0317,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.332,
+    "min_equity_ratio": 0.328,
+    "net_debt": 43388000000.0,
+    "net_debt_to_equity": 0.76,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 25355800.0,
+    "normalized_sales": 174076000000.0,
+    "normalized_margin": 0.0244,
+    "normalized_ordinary": 4249836850.9,
+    "normalized_eps": 117.33,
+    "normalized_per": 25.4,
+    "midcycle_per": 12.0,
+    "fair_value": 1407.9,
+    "expected_return_x": 0.47,
+    "pbr": 1.64
+  },
+  "liquidation": {
+    "value": -6687000000.0,
+    "per_share": -263.7,
+    "downside_to_liquidation": 1.088
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 33%（最低 33%） / ネットD/E 0.76"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 29.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

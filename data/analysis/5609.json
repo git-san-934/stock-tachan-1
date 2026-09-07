@@ -1,0 +1,194 @@
+{
+  "code": "5609",
+  "name": "日本鋳造株式会社",
+  "sector33": "鉄鋼",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 914.0,
+  "market_cap_oku": 44.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      9610000000.0,
+      13330000000.0,
+      13741000000.0,
+      12091000000.0,
+      11902000000.0,
+      12106000000.0,
+      14811000000.0,
+      15992000000.0,
+      14311000000.0,
+      12290000000.0
+    ],
+    "ordinary": [
+      -306000000.0,
+      769000000.0,
+      763000000.0,
+      457000000.0,
+      589000000.0,
+      814000000.0,
+      701000000.0,
+      1277000000.0,
+      387000000.0,
+      584000000.0
+    ],
+    "ordinary_margin": [
+      -0.0318,
+      0.0577,
+      0.0555,
+      0.0378,
+      0.0495,
+      0.0672,
+      0.0473,
+      0.0799,
+      0.027,
+      0.0475
+    ],
+    "equity_ratio": [
+      0.5191,
+      0.4943,
+      0.5014,
+      0.5219,
+      0.5495,
+      0.5336,
+      0.5016,
+      0.505,
+      0.5324,
+      0.5423
+    ],
+    "ocf": [
+      210000000.0,
+      680000000.0,
+      774000000.0,
+      507000000.0,
+      1538000000.0,
+      -427000000.0,
+      159000000.0,
+      1806000000.0,
+      685000000.0,
+      2123000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8254,
+    "fixed_cost": 1669383948.0,
+    "contribution_margin": 0.1746,
+    "breakeven_sales": 9561732356.7,
+    "dol": 3.67,
+    "r2": 0.973,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 1.0,
+    "elasticity": 7.47,
+    "margin_stdev": 0.0303,
+    "has_loss_year": true,
+    "median_margin": 0.0485
+  },
+  "trough": {
+    "score": 0.323,
+    "latest_margin": 0.0475,
+    "margin_pctile": 0.5,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "iron_ore",
+        "label": "鉄鉱石 中国CFR ($/dmt, 月次)",
+        "hint": "中立",
+        "pctile": 0.444,
+        "yoy": 0.004,
+        "stale": false
+      },
+      {
+        "key": "coal_aus",
+        "label": "石炭 豪州 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.786,
+        "yoy": 0.207,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.868,
+    "price_drawdown_10y": 0.302
+  },
+  "structural": {
+    "sales_cagr": 0.0277,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.5423,
+    "min_equity_ratio": 0.4943,
+    "net_debt": 1819000000.0,
+    "net_debt_to_equity": 0.16,
+    "survive_years_if_loss": 8.3
+  },
+  "valuation": {
+    "shares_outstanding": 4825050.0,
+    "normalized_sales": 12810000000.0,
+    "normalized_margin": 0.0485,
+    "normalized_ordinary": 594282064.2,
+    "normalized_eps": 86.22,
+    "normalized_per": 10.6,
+    "midcycle_per": 12.0,
+    "fair_value": 1034.6,
+    "expected_return_x": 1.13,
+    "pbr": 0.38
+  },
+  "liquidation": {
+    "value": 419800000.0,
+    "per_share": 87.0,
+    "downside_to_liquidation": 0.905
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 54%（最低 49%） / ネットD/E 0.16"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 3.67 / 期待リターン 1.1倍"
+    }
+  },
+  "auto_score": 45.7,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

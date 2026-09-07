@@ -1,0 +1,104 @@
+{
+  "code": "287A",
+  "name": "黒田グループ株式会社",
+  "edinet_code": "E40213",
+  "latest_doc_id": "S100YFL2",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 44683980.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 401000000.0,
+      "ordinary": -293000000.0,
+      "net_income": -285000000.0,
+      "equity": 19856000000.0,
+      "assets": 80259000000.0,
+      "equity_ratio": 0.247,
+      "eps": -122.7,
+      "bps": 8527.77
+    },
+    {
+      "fy": 2022,
+      "sales": 4090000000.0,
+      "ordinary": 3600000000.0,
+      "net_income": 2902000000.0,
+      "equity": 22758000000.0,
+      "assets": 80511000000.0,
+      "equity_ratio": 0.283,
+      "roe": 0.136,
+      "eps": 1246.53,
+      "bps": 9774.3
+    },
+    {
+      "fy": 2023,
+      "sales": 139275000000.0,
+      "ordinary": 3581000000.0,
+      "net_income": 2278000000.0,
+      "equity": 25190000000.0,
+      "assets": 77835000000.0,
+      "equity_ratio": 0.322,
+      "roe": 0.095,
+      "eps": 48.92,
+      "bps": 537.64
+    },
+    {
+      "fy": 2024,
+      "sales": 126691000000.0,
+      "ordinary": 4756000000.0,
+      "net_income": 4487000000.0,
+      "equity": 26523000000.0,
+      "assets": 77084000000.0,
+      "equity_ratio": 0.344,
+      "roe": 0.174,
+      "eps": 103.27,
+      "bps": 624.83
+    },
+    {
+      "fy": 2025,
+      "sales": 121327000000.0,
+      "ordinary": 2222000000.0,
+      "net_income": 2471000000.0,
+      "equity": 28995000000.0,
+      "assets": 76588000000.0,
+      "equity_ratio": 0.379,
+      "roe": 0.089,
+      "eps": 58.22,
+      "bps": 683.05
+    },
+    {
+      "fy": 2026,
+      "sales": 122796000000.0,
+      "ordinary": 2085000000.0,
+      "net_income": 1189000000.0,
+      "equity": 26364000000.0,
+      "assets": 76450000000.0,
+      "equity_ratio": 0.345,
+      "roe": 0.043,
+      "eps": 28.02,
+      "bps": 621.07
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 5453000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 98000000.0,
+    "intangibles": 1610000000.0,
+    "investments_other": 68047000000.0,
+    "total_assets": 76450000000.0,
+    "total_liabilities": 50085000000.0,
+    "net_assets_bs": 26364000000.0,
+    "short_loans": 5000000000.0,
+    "current_lt_loans": 2100000000.0,
+    "long_loans": 19750000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YFL2",
+    "S100W60Z"
+  ]
+}

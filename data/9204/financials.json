@@ -1,0 +1,133 @@
+{
+  "code": "9204",
+  "name": "スカイマーク株式会社",
+  "edinet_code": "E38082",
+  "latest_doc_id": "S100YJR8",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 60329400.0,
+  "annual": [
+    {
+      "fy": 2019,
+      "ordinary": 8832000000.0,
+      "net_income": 9122000000.0,
+      "equity": 27254000000.0,
+      "assets": 77107000000.0,
+      "equity_ratio": 0.354,
+      "roe": 0.411,
+      "eps": 5068.13,
+      "bps": 15141.37
+    },
+    {
+      "fy": 2020,
+      "ordinary": 2811000000.0,
+      "net_income": -1265000000.0,
+      "equity": 21640000000.0,
+      "assets": 71936000000.0,
+      "equity_ratio": 0.3,
+      "roe": -0.052,
+      "eps": -28.13,
+      "bps": 480.91
+    },
+    {
+      "fy": 2021,
+      "ordinary": -29602000000.0,
+      "net_income": -16342000000.0,
+      "equity": 10424000000.0,
+      "assets": 85452000000.0,
+      "equity_ratio": 0.122,
+      "roe": -1.019,
+      "eps": -363.16,
+      "bps": 231.65,
+      "ocf": -24529000000.0,
+      "cash": 13270000000.0
+    },
+    {
+      "fy": 2022,
+      "ordinary": -15079000000.0,
+      "net_income": -6729000000.0,
+      "equity": 9299000000.0,
+      "assets": 93559000000.0,
+      "equity_ratio": 0.099,
+      "roe": -0.682,
+      "eps": -145.78,
+      "bps": 196.67,
+      "ocf": -12459000000.0,
+      "cash": 9282000000.0
+    },
+    {
+      "fy": 2023,
+      "ordinary": 3713000000.0,
+      "net_income": 5726000000.0,
+      "equity": 23917000000.0,
+      "assets": 107837000000.0,
+      "equity_ratio": 0.222,
+      "roe": 0.345,
+      "eps": 111.88,
+      "bps": 396.46,
+      "ocf": 5911000000.0,
+      "cash": 22519000000.0
+    },
+    {
+      "fy": 2024,
+      "ordinary": 7463000000.0,
+      "net_income": 2997000000.0,
+      "equity": 27857000000.0,
+      "assets": 110790000000.0,
+      "equity_ratio": 0.251,
+      "roe": 0.116,
+      "eps": 49.93,
+      "bps": 472.57,
+      "ocf": 8179000000.0,
+      "cash": 26909000000.0
+    },
+    {
+      "fy": 2025,
+      "ordinary": 760000000.0,
+      "net_income": 2146000000.0,
+      "equity": 27119000000.0,
+      "assets": 103888000000.0,
+      "equity_ratio": 0.261,
+      "roe": 0.078,
+      "eps": 36.14,
+      "bps": 450.32,
+      "ocf": 7182000000.0,
+      "cash": 26018000000.0
+    },
+    {
+      "fy": 2026,
+      "ordinary": 2907000000.0,
+      "net_income": 1638000000.0,
+      "equity": 33944000000.0,
+      "assets": 121103000000.0,
+      "equity_ratio": 0.28,
+      "roe": 0.054,
+      "eps": 27.21,
+      "bps": 564.26,
+      "ocf": 11601000000.0,
+      "cash": 24481000000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 24481000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 32043000000.0,
+    "intangibles": 386000000.0,
+    "investments_other": 45207000000.0,
+    "total_assets": 121103000000.0,
+    "total_liabilities": 87159000000.0,
+    "net_assets_bs": 33944000000.0,
+    "short_loans": 20000000000.0,
+    "current_lt_loans": 6500000000.0,
+    "long_loans": 9179000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YJR8",
+    "S100R69Y"
+  ]
+}

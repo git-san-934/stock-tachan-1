@@ -1,0 +1,149 @@
+{
+  "code": "6779",
+  "name": "日本電波工業株式会社",
+  "edinet_code": "E01807",
+  "latest_doc_id": "S100YFNH",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 23128605.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 40126000000.0,
+      "ordinary": -468000000.0,
+      "net_income": -448000000.0,
+      "equity": 22650000000.0,
+      "assets": 61488000000.0,
+      "equity_ratio": 0.368,
+      "eps": -22.83,
+      "bps": 1154.13
+    },
+    {
+      "fy": 2018,
+      "sales": 37658000000.0,
+      "ordinary": -1213000000.0,
+      "net_income": -9094000000.0,
+      "equity": 13154000000.0,
+      "assets": 56813000000.0,
+      "equity_ratio": 0.232,
+      "eps": -463.42,
+      "bps": 670.28
+    },
+    {
+      "fy": 2019,
+      "sales": 37553000000.0,
+      "ordinary": -888000000.0,
+      "net_income": -1471000000.0,
+      "equity": 11488000000.0,
+      "assets": 55471000000.0,
+      "equity_ratio": 0.207,
+      "eps": -74.98,
+      "bps": 585.4
+    },
+    {
+      "fy": 2020,
+      "sales": 34867000000.0,
+      "ordinary": -2119000000.0,
+      "net_income": -6067000000.0,
+      "equity": 5570000000.0,
+      "assets": 50875000000.0,
+      "equity_ratio": 0.109,
+      "eps": -309.17,
+      "bps": 283.86
+    },
+    {
+      "fy": 2021,
+      "sales": 33407000000.0,
+      "ordinary": -1808000000.0,
+      "net_income": 25000000.0,
+      "equity": 10505000000.0,
+      "assets": 54116000000.0,
+      "equity_ratio": 0.194,
+      "roe": 0.003,
+      "eps": 1.31,
+      "bps": 535.36
+    },
+    {
+      "fy": 2022,
+      "sales": 39959000000.0,
+      "ordinary": 1555000000.0,
+      "net_income": 4859000000.0,
+      "equity": 15418000000.0,
+      "assets": 54734000000.0,
+      "equity_ratio": 0.282,
+      "roe": 0.375,
+      "eps": 247.63,
+      "bps": 785.7
+    },
+    {
+      "fy": 2023,
+      "sales": 45043000000.0,
+      "ordinary": 2768000000.0,
+      "net_income": 2342000000.0,
+      "equity": 15247000000.0,
+      "assets": 53360000000.0,
+      "equity_ratio": 0.286,
+      "roe": 0.153,
+      "eps": 101.83,
+      "bps": 659.27
+    },
+    {
+      "fy": 2024,
+      "sales": 41355000000.0,
+      "ordinary": 2266000000.0,
+      "net_income": 2021000000.0,
+      "equity": 16876000000.0,
+      "assets": 52336000000.0,
+      "equity_ratio": 0.322,
+      "roe": 0.126,
+      "eps": 87.57,
+      "bps": 731.86
+    },
+    {
+      "fy": 2025,
+      "sales": 44426000000.0,
+      "ordinary": 1044000000.0,
+      "net_income": 891000000.0,
+      "equity": 17159000000.0,
+      "assets": 55915000000.0,
+      "equity_ratio": 0.307,
+      "roe": 0.052,
+      "eps": 38.65,
+      "bps": 744.14
+    },
+    {
+      "fy": 2026,
+      "sales": 44256000000.0,
+      "ordinary": 524000000.0,
+      "net_income": 474000000.0,
+      "equity": 17026000000.0,
+      "assets": 57485000000.0,
+      "equity_ratio": 0.296,
+      "roe": 0.028,
+      "eps": 20.59,
+      "bps": 742.61
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 5559000000.0,
+    "receivables": null,
+    "inventories": 3959000000.0,
+    "ppe": 8542000000.0,
+    "intangibles": 3140000000.0,
+    "investments_other": 13645000000.0,
+    "total_assets": 57485000000.0,
+    "total_liabilities": 40458000000.0,
+    "net_assets_bs": 17026000000.0,
+    "short_loans": 440000000.0,
+    "current_lt_loans": null,
+    "long_loans": 25120000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YFNH",
+    "S100LO3R"
+  ]
+}

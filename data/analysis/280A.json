@@ -1,0 +1,153 @@
+{
+  "code": "280A",
+  "name": "株式会社ＴＭＨ",
+  "sector33": "卸売業",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1120.0,
+  "market_cap_oku": 41.4,
+  "fy_range": [
+    2020,
+    2025
+  ],
+  "n_years": 6,
+  "series": {
+    "fy": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      1003879000.0,
+      1110173000.0,
+      1698753000.0,
+      1747118000.0,
+      6017239000.0,
+      8628372000.0
+    ],
+    "ordinary": [
+      -89348000.0,
+      9127000.0,
+      246079000.0,
+      -353508000.0,
+      306043000.0,
+      338459000.0
+    ],
+    "ordinary_margin": [
+      -0.089,
+      0.0082,
+      0.1449,
+      -0.2023,
+      0.0509,
+      0.0392
+    ],
+    "equity_ratio": [
+      0.158,
+      0.1072,
+      0.1333,
+      0.3,
+      0.2048,
+      0.5141
+    ],
+    "ocf": [
+      null,
+      null,
+      1405823000.0,
+      -1085659000.0,
+      1546326000.0,
+      -2369693000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.942,
+    "fixed_cost": 119071542.5,
+    "contribution_margin": 0.058,
+    "breakeven_sales": 2054078890.0,
+    "dol": 1.48,
+    "r2": 0.996,
+    "n_points": 6
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 12.32,
+    "margin_stdev": 0.1214,
+    "has_loss_year": true,
+    "median_margin": 0.0237
+  },
+  "trough": {
+    "score": 0.502,
+    "latest_margin": 0.0392,
+    "margin_pctile": 0.667,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.273,
+    "price_drawdown_10y": 0.603
+  },
+  "structural": {
+    "sales_cagr": 0.5376,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.5141,
+    "min_equity_ratio": 0.1072,
+    "net_debt": -260147000.0,
+    "net_debt_to_equity": -0.18,
+    "survive_years_if_loss": 1.8
+  },
+  "valuation": {
+    "shares_outstanding": 3698100.0,
+    "normalized_sales": 5177023200.0,
+    "normalized_margin": 0.0237,
+    "normalized_ordinary": 152007140.6,
+    "normalized_eps": 28.77,
+    "normalized_per": 38.9,
+    "midcycle_per": 12.0,
+    "fair_value": 345.3,
+    "expected_return_x": 0.31,
+    "pbr": 2.91
+  },
+  "liquidation": {
+    "value": -528576400.0,
+    "per_share": -142.9,
+    "downside_to_liquidation": 1.128
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +53.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 51%（最低 11%） / ネットD/E -0.18"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.48 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 47.5,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

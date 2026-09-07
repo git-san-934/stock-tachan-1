@@ -1,0 +1,186 @@
+{
+  "code": "7762",
+  "name": "シチズン時計株式会社",
+  "sector33": "精密機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2637.0,
+  "market_cap_oku": 6487.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      312559000000.0,
+      320047000000.0,
+      321652000000.0,
+      278531000000.0,
+      206641000000.0,
+      281417000000.0,
+      301366000000.0,
+      312830000000.0,
+      316885000000.0,
+      346808000000.0
+    ],
+    "ordinary": [
+      21985000000.0,
+      26664000000.0,
+      26602000000.0,
+      7531000000.0,
+      -4143000000.0,
+      27342000000.0,
+      29096000000.0,
+      30810000000.0,
+      23024000000.0,
+      38456000000.0
+    ],
+    "ordinary_margin": [
+      0.0703,
+      0.0833,
+      0.0827,
+      0.027,
+      -0.02,
+      0.0972,
+      0.0965,
+      0.0985,
+      0.0727,
+      0.1109
+    ],
+    "equity_ratio": [
+      0.6048,
+      0.6194,
+      0.622,
+      0.5999,
+      0.5576,
+      0.5806,
+      0.5748,
+      0.5961,
+      0.6159,
+      0.6261
+    ],
+    "ocf": [
+      32781000000.0,
+      32539000000.0,
+      19897000000.0,
+      17347000000.0,
+      7489000000.0,
+      34693000000.0,
+      16576000000.0,
+      34564000000.0,
+      35765000000.0,
+      38822000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7153,
+    "fixed_cost": 62641436420.1,
+    "contribution_margin": 0.2847,
+    "breakeven_sales": 220015496192.6,
+    "dol": 2.57,
+    "r2": 0.959,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 15.15,
+    "margin_stdev": 0.0397,
+    "has_loss_year": true,
+    "median_margin": 0.083
+  },
+  "trough": {
+    "score": 0.02,
+    "latest_margin": 0.1109,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.067
+  },
+  "structural": {
+    "sales_cagr": 0.0116,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.6261,
+    "min_equity_ratio": 0.5576,
+    "net_debt": -38533000000.0,
+    "net_debt_to_equity": -0.13,
+    "survive_years_if_loss": 32.0
+  },
+  "valuation": {
+    "shares_outstanding": 246000000.0,
+    "normalized_sales": 312694500000.0,
+    "normalized_margin": 0.083,
+    "normalized_ordinary": 26169498674.2,
+    "normalized_eps": 74.47,
+    "normalized_per": 35.4,
+    "midcycle_per": 12.0,
+    "fair_value": 893.6,
+    "expected_return_x": 0.34,
+    "pbr": 2.19
+  },
+  "liquidation": {
+    "value": 131820700000.0,
+    "per_share": 535.9,
+    "downside_to_liquidation": 0.797
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 63%（最低 56%） / ネットD/E -0.13"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.57 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 35.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

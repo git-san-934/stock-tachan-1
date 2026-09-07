@@ -1,0 +1,194 @@
+{
+  "code": "7277",
+  "name": "株式会社ＴＢＫ",
+  "sector33": "輸送用機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 349.0,
+  "market_cap_oku": 114.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      46640000000.0,
+      51353000000.0,
+      53637000000.0,
+      51340000000.0,
+      43956000000.0,
+      51194000000.0,
+      53522000000.0,
+      56659000000.0,
+      54415000000.0,
+      54756000000.0
+    ],
+    "ordinary": [
+      1799000000.0,
+      2156000000.0,
+      1554000000.0,
+      944000000.0,
+      1306000000.0,
+      1232000000.0,
+      -623000000.0,
+      841000000.0,
+      309000000.0,
+      1730000000.0
+    ],
+    "ordinary_margin": [
+      0.0386,
+      0.042,
+      0.029,
+      0.0184,
+      0.0297,
+      0.0241,
+      -0.0116,
+      0.0148,
+      0.0057,
+      0.0316
+    ],
+    "equity_ratio": [
+      0.511,
+      0.538,
+      0.552,
+      0.512,
+      0.527,
+      0.554,
+      0.516,
+      0.506,
+      0.532,
+      0.555
+    ],
+    "ocf": [
+      5908000000.0,
+      2530000000.0,
+      6256000000.0,
+      3765000000.0,
+      5565000000.0,
+      4292000000.0,
+      2539000000.0,
+      3163000000.0,
+      3894000000.0,
+      4001000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.0691,
+    "fixed_cost": -4699913045.3,
+    "contribution_margin": -0.0691,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.967,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 21.44,
+    "margin_stdev": 0.0161,
+    "has_loss_year": true,
+    "median_margin": 0.0265
+  },
+  "trough": {
+    "score": 0.213,
+    "latest_margin": 0.0316,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.372,
+    "price_drawdown_10y": 0.252
+  },
+  "structural": {
+    "sales_cagr": 0.018,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.555,
+    "min_equity_ratio": 0.506,
+    "net_debt": 500000000.0,
+    "net_debt_to_equity": 0.02,
+    "survive_years_if_loss": 18.5
+  },
+  "valuation": {
+    "shares_outstanding": 32694135.0,
+    "normalized_sales": 52437500000.0,
+    "normalized_margin": 0.0265,
+    "normalized_ordinary": 1390586333.4,
+    "normalized_eps": 29.77,
+    "normalized_per": 11.7,
+    "midcycle_per": 12.0,
+    "fair_value": 357.3,
+    "expected_return_x": 1.02,
+    "pbr": 0.35
+  },
+  "liquidation": {
+    "value": 16282000000.0,
+    "per_share": 498.0,
+    "downside_to_liquidation": -0.427
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 56%（最低 51%） / ネットD/E 0.02"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 1.0倍"
+    }
+  },
+  "auto_score": 40.8,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

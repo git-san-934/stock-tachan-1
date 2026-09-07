@@ -1,0 +1,177 @@
+{
+  "code": "8032",
+  "name": "日本紙パルプ商事株式会社",
+  "sector33": "卸売業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1225.0,
+  "market_cap_oku": 1472.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      490672000000.0,
+      521526000000.0,
+      535495000000.0,
+      534782000000.0,
+      462922000000.0,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "ordinary": [
+      8189000000.0,
+      9998000000.0,
+      10753000000.0,
+      9800000000.0,
+      8948000000.0,
+      15051000000.0,
+      21233000000.0,
+      16753000000.0,
+      15822000000.0,
+      10887000000.0
+    ],
+    "ordinary_margin": [
+      0.0167,
+      0.0192,
+      0.0201,
+      0.0183,
+      0.0193,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "equity_ratio": [
+      0.264,
+      0.258,
+      0.248,
+      0.235,
+      0.259,
+      0.274,
+      0.307,
+      0.342,
+      0.342,
+      0.326
+    ],
+    "ocf": [
+      16282000000.0,
+      8698000000.0,
+      13660000000.0,
+      22488000000.0,
+      28382000000.0,
+      14007000000.0,
+      304000000.0,
+      20891000000.0,
+      21010000000.0,
+      24554000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9757,
+    "fixed_cost": 2812603152.0,
+    "contribution_margin": 0.0243,
+    "breakeven_sales": 115936418813.9,
+    "dol": null,
+    "r2": 1.0,
+    "n_points": 5
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 3.69,
+    "margin_stdev": 0.0013,
+    "has_loss_year": false,
+    "median_margin": 0.0192
+  },
+  "trough": {
+    "score": 0.0,
+    "latest_margin": null,
+    "margin_pctile": null,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 1.0,
+    "price_drawdown_10y": 0.0
+  },
+  "structural": {
+    "sales_cagr": -0.0064,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.326,
+    "min_equity_ratio": 0.235,
+    "net_debt": 76270000000.0,
+    "net_debt_to_equity": 0.54,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 120215510.0,
+    "normalized_sales": 521526000000.0,
+    "normalized_margin": 0.0192,
+    "normalized_ordinary": 9929239324.0,
+    "normalized_eps": 57.82,
+    "normalized_per": 21.2,
+    "midcycle_per": 12.0,
+    "fair_value": 693.8,
+    "expected_return_x": 0.57,
+    "pbr": 1.07
+  },
+  "liquidation": {
+    "value": 17802400000.0,
+    "per_share": 148.1,
+    "downside_to_liquidation": 0.879
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -0.6% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 33%（最低 24%） / ネットD/E 0.54"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 22.7,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

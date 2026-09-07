@@ -1,0 +1,46 @@
+{
+  "code": "416A",
+  "name": "富士ユナイトホールディングス株式会社",
+  "edinet_code": "E40727",
+  "latest_doc_id": "S100YGHU",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 6620000.0,
+  "annual": [
+    {
+      "fy": 2026,
+      "sales": 75057000000.0,
+      "ordinary": 1187000000.0,
+      "net_income": 726000000.0,
+      "equity": 9780000000.0,
+      "assets": 22353000000.0,
+      "equity_ratio": 0.438,
+      "roe": 0.075,
+      "eps": 109.95,
+      "bps": 1481.95,
+      "ocf": 2028000000.0,
+      "cash": 4944000000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 5073000000.0,
+    "receivables": null,
+    "inventories": 582000000.0,
+    "ppe": 5743000000.0,
+    "intangibles": 2250000000.0,
+    "investments_other": 482000000.0,
+    "total_assets": 22353000000.0,
+    "total_liabilities": 12573000000.0,
+    "net_assets_bs": 9780000000.0,
+    "short_loans": 30000000.0,
+    "current_lt_loans": 113000000.0,
+    "long_loans": 2299000000.0,
+    "bonds": 50000000.0,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YGHU"
+  ]
+}

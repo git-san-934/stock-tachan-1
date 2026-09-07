@@ -1,0 +1,147 @@
+{
+  "code": "7128",
+  "name": "ユニソルホールディングス株式会社",
+  "sector33": "卸売業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2785.0,
+  "market_cap_oku": 676.7,
+  "fy_range": [
+    2021,
+    2025
+  ],
+  "n_years": 5,
+  "series": {
+    "fy": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      74292000000.0,
+      162416000000.0,
+      172980000000.0,
+      161716000000.0,
+      159036000000.0
+    ],
+    "ordinary": [
+      2033000000.0,
+      7055000000.0,
+      6652000000.0,
+      4659000000.0,
+      4179000000.0
+    ],
+    "ordinary_margin": [
+      0.0274,
+      0.0434,
+      0.0385,
+      0.0288,
+      0.0263
+    ],
+    "equity_ratio": [
+      0.614,
+      0.58,
+      0.597,
+      0.599,
+      0.621
+    ],
+    "ocf": [
+      -853000000.0,
+      3795000000.0,
+      6031000000.0,
+      7863000000.0,
+      5503000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.958,
+    "fixed_cost": 1212806990.5,
+    "contribution_margin": 0.042,
+    "breakeven_sales": 28910701899.8,
+    "dol": 1.6,
+    "r2": 0.999,
+    "n_points": 5
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.2,
+    "margin_stdev": 0.0076,
+    "has_loss_year": false,
+    "median_margin": 0.0288
+  },
+  "trough": {
+    "score": 0.475,
+    "latest_margin": 0.0263,
+    "margin_pctile": 0.2,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.869,
+    "price_drawdown_10y": 0.177
+  },
+  "structural": {
+    "sales_cagr": 0.2096,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.621,
+    "min_equity_ratio": 0.58,
+    "net_debt": -28887000000.0,
+    "net_debt_to_equity": -0.39,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 24298000.0,
+    "normalized_sales": 161716000000.0,
+    "normalized_margin": 0.0288,
+    "normalized_ordinary": 5119132504.8,
+    "normalized_eps": 147.48,
+    "normalized_per": 18.9,
+    "midcycle_per": 12.0,
+    "fair_value": 1769.7,
+    "expected_return_x": 0.64,
+    "pbr": 0.92
+  },
+  "liquidation": {
+    "value": 32812000000.0,
+    "per_share": 1350.4,
+    "downside_to_liquidation": 0.515
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +21.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 62%（最低 58%） / ネットD/E -0.39"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.6 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 46.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

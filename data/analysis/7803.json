@@ -1,0 +1,186 @@
+{
+  "code": "7803",
+  "name": "株式会社ブシロード",
+  "sector33": "その他製品",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 456.0,
+  "market_cap_oku": 313.6,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      14954999000.0,
+      22759182000.0,
+      28889777000.0,
+      32175839000.0,
+      33000032000.0,
+      32569988000.0,
+      41966359000.0,
+      48799238000.0,
+      46262958000.0,
+      56175627000.0
+    ],
+    "ordinary": [
+      803953000.0,
+      323720000.0,
+      2996022000.0,
+      3031079000.0,
+      2755300000.0,
+      583490000.0,
+      5113149000.0,
+      4503590000.0,
+      1898197000.0,
+      4844985000.0
+    ],
+    "ordinary_margin": [
+      0.0538,
+      0.0142,
+      0.1037,
+      0.0942,
+      0.0835,
+      0.0179,
+      0.1218,
+      0.0923,
+      0.041,
+      0.0862
+    ],
+    "equity_ratio": [
+      0.208,
+      0.396,
+      0.345,
+      0.469,
+      0.383,
+      0.353,
+      0.356,
+      0.466,
+      0.437,
+      0.477
+    ],
+    "ocf": [
+      null,
+      -970437000.0,
+      3264882000.0,
+      2165519000.0,
+      736926000.0,
+      -1397694000.0,
+      6868927000.0,
+      1981493000.0,
+      -362678000.0,
+      5818268000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8957,
+    "fixed_cost": 1042956598.2,
+    "contribution_margin": 0.1043,
+    "breakeven_sales": 10002220650.8,
+    "dol": 1.21,
+    "r2": 0.989,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 20.31,
+    "margin_stdev": 0.0369,
+    "has_loss_year": false,
+    "median_margin": 0.0849
+  },
+  "trough": {
+    "score": 0.22,
+    "latest_margin": 0.0862,
+    "margin_pctile": 0.6,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.977,
+    "price_drawdown_10y": 0.06
+  },
+  "structural": {
+    "sales_cagr": 0.1584,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.477,
+    "min_equity_ratio": 0.208,
+    "net_debt": -13455372000.0,
+    "net_debt_to_equity": -0.53,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 68776579.47686116,
+    "normalized_sales": 33705376200.0,
+    "normalized_margin": 0.0849,
+    "normalized_ordinary": 2666552796.9,
+    "normalized_eps": 27.14,
+    "normalized_per": 16.8,
+    "midcycle_per": 12.0,
+    "fair_value": 325.7,
+    "expected_return_x": 0.71,
+    "pbr": 1.3
+  },
+  "liquidation": {
+    "value": 8391887700.0,
+    "per_share": 122.0,
+    "downside_to_liquidation": 0.732
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +15.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 48%（最低 21%） / ネットD/E -0.53"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.21 / 期待リターン 0.7倍"
+    }
+  },
+  "auto_score": 39.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

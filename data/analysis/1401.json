@@ -1,0 +1,186 @@
+{
+  "code": "1401",
+  "name": "株式会社エムビーエス",
+  "sector33": "建設業",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1325.0,
+  "market_cap_oku": 102.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      2660864000.0,
+      3017440000.0,
+      3340619000.0,
+      3345618000.0,
+      3439594000.0,
+      4030131000.0,
+      4004117000.0,
+      4356628000.0,
+      4713002000.0,
+      5029712000.0
+    ],
+    "ordinary": [
+      294682000.0,
+      384376000.0,
+      381470000.0,
+      340957000.0,
+      284511000.0,
+      475515000.0,
+      468392000.0,
+      527537000.0,
+      672365000.0,
+      945598000.0
+    ],
+    "ordinary_margin": [
+      0.1107,
+      0.1274,
+      0.1142,
+      0.1019,
+      0.0827,
+      0.118,
+      0.117,
+      0.1211,
+      0.1427,
+      0.188
+    ],
+    "equity_ratio": [
+      0.555,
+      0.643,
+      0.694,
+      0.717,
+      0.732,
+      0.777,
+      0.78,
+      0.788,
+      0.758,
+      0.759
+    ],
+    "ocf": [
+      492961000.0,
+      41840000.0,
+      215699000.0,
+      474234000.0,
+      -1699000.0,
+      233103000.0,
+      54044000.0,
+      547568000.0,
+      567895000.0,
+      723581000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7627,
+    "fixed_cost": 422894247.7,
+    "contribution_margin": 0.2373,
+    "breakeven_sales": 1781767005.0,
+    "dol": 1.26,
+    "r2": 0.976,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 4.57,
+    "margin_stdev": 0.0279,
+    "has_loss_year": false,
+    "median_margin": 0.1175
+  },
+  "trough": {
+    "score": 0.095,
+    "latest_margin": 0.188,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.901,
+    "price_drawdown_10y": 0.288
+  },
+  "structural": {
+    "sales_cagr": 0.0733,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.759,
+    "min_equity_ratio": 0.555,
+    "net_debt": -2516980000.0,
+    "net_debt_to_equity": -0.65,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 7732000.0,
+    "normalized_sales": 3721855500.0,
+    "normalized_margin": 0.1175,
+    "normalized_ordinary": 448779859.4,
+    "normalized_eps": 40.63,
+    "normalized_per": 32.6,
+    "midcycle_per": 12.0,
+    "fair_value": 487.6,
+    "expected_return_x": 0.37,
+    "pbr": 2.37
+  },
+  "liquidation": {
+    "value": 2300271200.0,
+    "per_share": 297.5,
+    "downside_to_liquidation": 0.775
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +7.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 76%（最低 56%） / ネットD/E -0.65"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.26 / 期待リターン 0.4倍"
+    }
+  },
+  "auto_score": 37.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

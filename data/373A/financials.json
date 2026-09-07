@@ -1,0 +1,98 @@
+{
+  "code": "373A",
+  "name": "株式会社リップス",
+  "edinet_code": "E40640",
+  "latest_doc_id": "S100X6NP",
+  "latest_period_end": "2025-08-31",
+  "shares_outstanding": 2550000.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 1878066000.0,
+      "ordinary": 522666000.0,
+      "net_income": 349473000.0,
+      "equity": 122816000.0,
+      "assets": 1223231000.0,
+      "equity_ratio": 0.1,
+      "roe": 0.01505,
+      "eps": 5824.56,
+      "bps": 2046.94
+    },
+    {
+      "fy": 2022,
+      "sales": 1012299000.0,
+      "ordinary": 193017000.0,
+      "net_income": 135788000.0,
+      "equity": 1860625000.0,
+      "assets": 2527549000.0,
+      "equity_ratio": 0.735,
+      "roe": 0.137,
+      "eps": 1775.69,
+      "bps": 18586.05
+    },
+    {
+      "fy": 2023,
+      "sales": 3106810000.0,
+      "ordinary": 770355000.0,
+      "net_income": 539093000.0,
+      "equity": 2399718000.0,
+      "assets": 2982738000.0,
+      "equity_ratio": 0.804,
+      "roe": 0.253,
+      "eps": 215.64,
+      "bps": 959.08,
+      "ocf": 651828000.0,
+      "cash": 1980301000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 3760918000.0,
+      "ordinary": 719441000.0,
+      "net_income": 423712000.0,
+      "equity": 2823430000.0,
+      "assets": 3252877000.0,
+      "equity_ratio": 0.867,
+      "roe": 0.162,
+      "eps": 169.48,
+      "bps": 1128.56,
+      "ocf": -21129000.0,
+      "cash": 1864803000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 4409577000.0,
+      "ordinary": 940739000.0,
+      "net_income": 652302000.0,
+      "equity": 3617693000.0,
+      "assets": 4073825000.0,
+      "equity_ratio": 0.888,
+      "roe": 0.203,
+      "eps": 260.01,
+      "bps": 1418.7,
+      "ocf": 676827000.0,
+      "cash": 2652576000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 2652576000.0,
+    "receivables": null,
+    "inventories": 503870000.0,
+    "ppe": 37516000.0,
+    "intangibles": 23386000.0,
+    "investments_other": 69184000.0,
+    "total_assets": 4073825000.0,
+    "total_liabilities": 456132000.0,
+    "net_assets_bs": 3617693000.0,
+    "short_loans": null,
+    "current_lt_loans": null,
+    "long_loans": null,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100X6NP"
+  ]
+}

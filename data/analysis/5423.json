@@ -2,7 +2,7 @@
   "code": "5423",
   "name": "東京製鐵株式会社",
   "sector33": "鉄鋼",
-  "market": "",
+  "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
   "as_of_price": "2026-09-07",
   "price": 1706.0,
@@ -174,12 +174,14 @@
   },
   "auto_score": 45.2,
   "passes": {
+    "s0_size": true,
     "s1_cheap": true,
     "s2_cyclical": true,
     "s3_trough": true,
     "s4_structural_ok": true,
     "s5_survivable": true,
-    "pass_all": true
+    "s6_upside": false,
+    "pass_all": false
   },
   "catalyst": {
     "note": "",

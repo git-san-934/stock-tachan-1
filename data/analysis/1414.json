@@ -1,0 +1,186 @@
+{
+  "code": "1414",
+  "name": "ショーボンドホールディングス株式会社",
+  "sector33": "建設業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1258.0,
+  "market_cap_oku": 688.7,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      52334000000.0,
+      53250000000.0,
+      59682000000.0,
+      60824000000.0,
+      67590000000.0,
+      80065000000.0,
+      81193000000.0,
+      83924000000.0,
+      85419000000.0,
+      90712000000.0
+    ],
+    "ordinary": [
+      9648000000.0,
+      10516000000.0,
+      11187000000.0,
+      12165000000.0,
+      13507000000.0,
+      16302000000.0,
+      17669000000.0,
+      18637000000.0,
+      20436000000.0,
+      21139000000.0
+    ],
+    "ordinary_margin": [
+      0.1844,
+      0.1975,
+      0.1874,
+      0.2,
+      0.1998,
+      0.2036,
+      0.2176,
+      0.2221,
+      0.2392,
+      0.233
+    ],
+    "equity_ratio": [
+      0.824,
+      0.822,
+      0.814,
+      0.825,
+      0.814,
+      0.828,
+      0.802,
+      0.802,
+      0.792,
+      0.814
+    ],
+    "ocf": [
+      4386000000.0,
+      7484000000.0,
+      1734000000.0,
+      4550000000.0,
+      4540000000.0,
+      2737000000.0,
+      7834000000.0,
+      3751000000.0,
+      19406000000.0,
+      9473000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.708,
+    "fixed_cost": 5759913946.9,
+    "contribution_margin": 0.292,
+    "breakeven_sales": 19723164684.1,
+    "dol": 1.25,
+    "r2": 0.995,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": 0.8,
+    "margin_stdev": 0.0187,
+    "has_loss_year": false,
+    "median_margin": 0.2018
+  },
+  "trough": {
+    "score": 0.16,
+    "latest_margin": 0.233,
+    "margin_pctile": 0.9,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.719,
+    "price_drawdown_10y": 0.167
+  },
+  "structural": {
+    "sales_cagr": 0.063,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.814,
+    "min_equity_ratio": 0.792,
+    "net_debt": -32523000000.0,
+    "net_debt_to_equity": -0.31,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 54745180.0,
+    "normalized_sales": 73827500000.0,
+    "normalized_margin": 0.2018,
+    "normalized_ordinary": 15348290047.1,
+    "normalized_eps": 196.25,
+    "normalized_per": 6.4,
+    "midcycle_per": 12.0,
+    "fair_value": 2355.0,
+    "expected_return_x": 1.87,
+    "pbr": 0.61
+  },
+  "liquidation": {
+    "value": 30324200000.0,
+    "per_share": 553.9,
+    "downside_to_liquidation": 0.56
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +6.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 81%（最低 79%） / ネットD/E -0.31"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "△",
+      "note": "DOL 1.25 / 期待リターン 1.9倍"
+    }
+  },
+  "auto_score": 56.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "code": "6699",
+  "name": "ダイヤモンドエレクトリックホールディングス株式会社",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 514.0,
+  "market_cap_oku": 60.1,
+  "fy_range": [
+    2019,
+    2026
+  ],
+  "n_years": 8,
+  "series": {
+    "fy": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      55610000000.0,
+      71012000000.0,
+      70639000000.0,
+      76271000000.0,
+      91106000000.0,
+      93334000000.0,
+      91724000000.0,
+      96768000000.0
+    ],
+    "ordinary": [
+      391000000.0,
+      143000000.0,
+      2470000000.0,
+      1268000000.0,
+      -817000000.0,
+      1313000000.0,
+      1467000000.0,
+      2062000000.0
+    ],
+    "ordinary_margin": [
+      0.007,
+      0.002,
+      0.035,
+      0.0166,
+      -0.009,
+      0.0141,
+      0.016,
+      0.0213
+    ],
+    "equity_ratio": [
+      0.133,
+      0.117,
+      0.11,
+      0.147,
+      0.137,
+      0.124,
+      0.144,
+      0.167
+    ],
+    "ocf": [
+      39000000.0,
+      -1818000000.0,
+      3716000000.0,
+      -4388000000.0,
+      -3491000000.0,
+      2122000000.0,
+      3588000000.0,
+      -1379000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9901,
+    "fixed_cost": -233615227.3,
+    "contribution_margin": 0.0099,
+    "breakeven_sales": null,
+    "dol": 0.47,
+    "r2": 0.995,
+    "n_points": 8
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 59.68,
+    "margin_stdev": 0.0132,
+    "has_loss_year": true,
+    "median_margin": 0.015
+  },
+  "trough": {
+    "score": 0.322,
+    "latest_margin": 0.0213,
+    "margin_pctile": 0.875,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.134,
+    "price_drawdown_10y": 0.818
+  },
+  "structural": {
+    "sales_cagr": 0.0824,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.167,
+    "min_equity_ratio": 0.11,
+    "net_debt": 31549000000.0,
+    "net_debt_to_equity": 2.23,
+    "survive_years_if_loss": 7.9
+  },
+  "valuation": {
+    "shares_outstanding": 11683901.0,
+    "normalized_sales": 83688500000.0,
+    "normalized_margin": 0.015,
+    "normalized_ordinary": 1257896307.3,
+    "normalized_eps": 75.36,
+    "normalized_per": 6.8,
+    "midcycle_per": 12.0,
+    "fair_value": 904.3,
+    "expected_return_x": 1.76,
+    "pbr": 0.4
+  },
+  "liquidation": {
+    "value": -40477800000.0,
+    "per_share": -3464.4,
+    "downside_to_liquidation": 7.74
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +8.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 17%（最低 11%） / ネットD/E 2.23"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "△",
+      "note": "DOL 0.47 / 期待リターン 1.8倍"
+    }
+  },
+  "auto_score": 30.2,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": false,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "code": "9312",
+  "name": "ケイヒン株式会社",
+  "sector33": "倉庫・運輸関連業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2870.0,
+  "market_cap_oku": 187.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      42352000000.0,
+      45465000000.0,
+      49552000000.0,
+      47702000000.0,
+      48159000000.0,
+      54108000000.0,
+      59821000000.0,
+      46520000000.0,
+      50452000000.0,
+      50309000000.0
+    ],
+    "ordinary": [
+      872000000.0,
+      1369000000.0,
+      1741000000.0,
+      1951000000.0,
+      2516000000.0,
+      3286000000.0,
+      3958000000.0,
+      2988000000.0,
+      3102000000.0,
+      3704000000.0
+    ],
+    "ordinary_margin": [
+      0.0206,
+      0.0301,
+      0.0351,
+      0.0409,
+      0.0522,
+      0.0607,
+      0.0662,
+      0.0642,
+      0.0615,
+      0.0736
+    ],
+    "equity_ratio": [
+      0.372,
+      0.392,
+      0.419,
+      0.437,
+      0.462,
+      0.512,
+      0.55,
+      0.57,
+      0.592,
+      0.565
+    ],
+    "ocf": [
+      2137000000.0,
+      3437000000.0,
+      3263000000.0,
+      3635000000.0,
+      3685000000.0,
+      4520000000.0,
+      5236000000.0,
+      3906000000.0,
+      3804000000.0,
+      5625000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8294,
+    "fixed_cost": 5884712035.5,
+    "contribution_margin": 0.1706,
+    "breakeven_sales": 34501302753.6,
+    "dol": 2.32,
+    "r2": 0.977,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 2.06,
+    "margin_stdev": 0.0178,
+    "has_loss_year": false,
+    "median_margin": 0.0565
+  },
+  "trough": {
+    "score": 0.19,
+    "latest_margin": 0.0736,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.113
+  },
+  "structural": {
+    "sales_cagr": 0.0193,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.565,
+    "min_equity_ratio": 0.372,
+    "net_debt": 7640000000.0,
+    "net_debt_to_equity": 0.23,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 6536445.0,
+    "normalized_sales": 48855500000.0,
+    "normalized_margin": 0.0565,
+    "normalized_ordinary": 2604868456.0,
+    "normalized_eps": 278.96,
+    "normalized_per": 10.3,
+    "midcycle_per": 12.0,
+    "fair_value": 3347.5,
+    "expected_return_x": 1.17,
+    "pbr": 0.55
+  },
+  "liquidation": {
+    "value": 12227500000.0,
+    "per_share": 1870.7,
+    "downside_to_liquidation": 0.348
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 56%（最低 37%） / ネットD/E 0.23"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 2.32 / 期待リターン 1.2倍"
+    }
+  },
+  "auto_score": 43.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

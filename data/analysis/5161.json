@@ -1,0 +1,194 @@
+{
+  "code": "5161",
+  "name": "西川ゴム工業株式会社",
+  "sector33": "ゴム製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3565.0,
+  "market_cap_oku": 1319.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      92844000000.0,
+      96256000000.0,
+      98435000000.0,
+      97267000000.0,
+      80234000000.0,
+      84503000000.0,
+      98167000000.0,
+      117904000000.0,
+      120639000000.0,
+      122138000000.0
+    ],
+    "ordinary": [
+      9611000000.0,
+      9548000000.0,
+      8465000000.0,
+      7489000000.0,
+      6021000000.0,
+      3598000000.0,
+      1332000000.0,
+      8920000000.0,
+      7617000000.0,
+      11189000000.0
+    ],
+    "ordinary_margin": [
+      0.1035,
+      0.0992,
+      0.086,
+      0.077,
+      0.075,
+      0.0426,
+      0.0136,
+      0.0757,
+      0.0631,
+      0.0916
+    ],
+    "equity_ratio": [
+      0.536,
+      0.556,
+      0.578,
+      0.59,
+      0.58,
+      0.593,
+      0.575,
+      0.614,
+      0.635,
+      0.596
+    ],
+    "ocf": [
+      10044000000.0,
+      5742000000.0,
+      6560000000.0,
+      10446000000.0,
+      6385000000.0,
+      4163000000.0,
+      5243000000.0,
+      14884000000.0,
+      9243000000.0,
+      12214000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9034,
+    "fixed_cost": 2360679061.0,
+    "contribution_margin": 0.0966,
+    "breakeven_sales": 24441032003.0,
+    "dol": 1.05,
+    "r2": 0.962,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 18.45,
+    "margin_stdev": 0.0273,
+    "has_loss_year": false,
+    "median_margin": 0.0763
+  },
+  "trough": {
+    "score": 0.19,
+    "latest_margin": 0.0916,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "rubber",
+        "label": "天然ゴム ($/kg, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.845,
+        "yoy": 0.266,
+        "stale": false
+      },
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.197
+  },
+  "structural": {
+    "sales_cagr": 0.0309,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.596,
+    "min_equity_ratio": 0.536,
+    "net_debt": -22398000000.0,
+    "net_debt_to_equity": -0.24,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 37000000.0,
+    "normalized_sales": 97717000000.0,
+    "normalized_margin": 0.0763,
+    "normalized_ordinary": 7268492712.5,
+    "normalized_eps": 137.51,
+    "normalized_per": 25.9,
+    "midcycle_per": 12.0,
+    "fair_value": 1650.1,
+    "expected_return_x": 0.46,
+    "pbr": 1.47
+  },
+  "liquidation": {
+    "value": 55647700000.0,
+    "per_share": 1504.0,
+    "downside_to_liquidation": 0.578
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 60%（最低 54%） / ネットD/E -0.24"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.05 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 39.8,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

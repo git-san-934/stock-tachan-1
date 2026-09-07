@@ -1,0 +1,194 @@
+{
+  "code": "6779",
+  "name": "日本電波工業株式会社",
+  "sector33": "電気機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2693.0,
+  "market_cap_oku": 622.9,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      40126000000.0,
+      37658000000.0,
+      37553000000.0,
+      34867000000.0,
+      33407000000.0,
+      39959000000.0,
+      45043000000.0,
+      41355000000.0,
+      44426000000.0,
+      44256000000.0
+    ],
+    "ordinary": [
+      -468000000.0,
+      -1213000000.0,
+      -888000000.0,
+      -2119000000.0,
+      -1808000000.0,
+      1555000000.0,
+      2768000000.0,
+      2266000000.0,
+      1044000000.0,
+      524000000.0
+    ],
+    "ordinary_margin": [
+      -0.0117,
+      -0.0322,
+      -0.0236,
+      -0.0608,
+      -0.0541,
+      0.0389,
+      0.0615,
+      0.0548,
+      0.0235,
+      0.0118
+    ],
+    "equity_ratio": [
+      0.368,
+      0.232,
+      0.207,
+      0.109,
+      0.194,
+      0.282,
+      0.286,
+      0.322,
+      0.307,
+      0.296
+    ],
+    "ocf": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.6455,
+    "fixed_cost": 13966636332.1,
+    "contribution_margin": 0.3545,
+    "breakeven_sales": 39396472437.9,
+    "dol": 29.94,
+    "r2": 0.882,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 1.0,
+    "elasticity": 11.02,
+    "margin_stdev": 0.0439,
+    "has_loss_year": true,
+    "median_margin": 0.0001
+  },
+  "trough": {
+    "score": 0.173,
+    "latest_margin": 0.0118,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.975,
+    "price_drawdown_10y": 0.214
+  },
+  "structural": {
+    "sales_cagr": 0.0109,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.296,
+    "min_equity_ratio": 0.109,
+    "net_debt": 20001000000.0,
+    "net_debt_to_equity": 1.17,
+    "survive_years_if_loss": 2.6
+  },
+  "valuation": {
+    "shares_outstanding": 23128605.0,
+    "normalized_sales": 40042500000.0,
+    "normalized_margin": 0.0001,
+    "normalized_ordinary": 115986256.3,
+    "normalized_eps": 3.51,
+    "normalized_per": 767.2,
+    "midcycle_per": 12.0,
+    "fair_value": 42.1,
+    "expected_return_x": 0.02,
+    "pbr": 3.63
+  },
+  "liquidation": {
+    "value": -17388600000.0,
+    "per_share": -751.8,
+    "downside_to_liquidation": 1.279
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +1.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 30%（最低 11%） / ネットD/E 1.17"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 29.94 / 期待リターン 0.0倍"
+    }
+  },
+  "auto_score": 19.8,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

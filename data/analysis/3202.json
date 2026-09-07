@@ -1,0 +1,186 @@
+{
+  "code": "3202",
+  "name": "ダイトウボウ株式会社",
+  "sector33": "繊維製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 131.0,
+  "market_cap_oku": 39.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      4701997000.0,
+      4427778000.0,
+      4496789000.0,
+      4819101000.0,
+      4617518000.0,
+      4502252000.0,
+      3997466000.0,
+      4033875000.0,
+      4106822000.0,
+      4012247000.0
+    ],
+    "ordinary": [
+      267602000.0,
+      153946000.0,
+      236704000.0,
+      228267000.0,
+      21915000.0,
+      86015000.0,
+      22526000.0,
+      139722000.0,
+      121929000.0,
+      116012000.0
+    ],
+    "ordinary_margin": [
+      0.0569,
+      0.0348,
+      0.0526,
+      0.0474,
+      0.0047,
+      0.0191,
+      0.0056,
+      0.0346,
+      0.0297,
+      0.0289
+    ],
+    "equity_ratio": [
+      0.227,
+      0.235,
+      0.206,
+      0.197,
+      0.209,
+      0.219,
+      0.234,
+      0.242,
+      0.245,
+      0.249
+    ],
+    "ocf": [
+      528592000.0,
+      559135000.0,
+      375151000.0,
+      283572000.0,
+      899386000.0,
+      516952000.0,
+      367943000.0,
+      757989000.0,
+      480945000.0,
+      725874000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8651,
+    "fixed_cost": 450351738.7,
+    "contribution_margin": 0.1349,
+    "breakeven_sales": 3337909145.0,
+    "dol": 4.67,
+    "r2": 0.928,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 38.43,
+    "margin_stdev": 0.018,
+    "has_loss_year": false,
+    "median_margin": 0.0322
+  },
+  "trough": {
+    "score": 0.403,
+    "latest_margin": 0.0289,
+    "margin_pctile": 0.4,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "cotton",
+        "label": "綿花 ($/kg, 月次)",
+        "hint": "中立",
+        "pctile": 0.578,
+        "yoy": 0.125,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.959,
+    "price_drawdown_10y": 0.169
+  },
+  "structural": {
+    "sales_cagr": -0.0175,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.249,
+    "min_equity_ratio": 0.197,
+    "net_debt": 8134248000.0,
+    "net_debt_to_equity": 1.63,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 30360000.0,
+    "normalized_sales": 4462283500.0,
+    "normalized_margin": 0.0322,
+    "normalized_ordinary": 147565974.8,
+    "normalized_eps": 3.4,
+    "normalized_per": 38.5,
+    "midcycle_per": 12.0,
+    "fair_value": 40.8,
+    "expected_return_x": 0.31,
+    "pbr": 0.79
+  },
+  "liquidation": {
+    "value": -1278969600.0,
+    "per_share": -42.1,
+    "downside_to_liquidation": 1.322
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR -1.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 25%（最低 20%） / ネットD/E 1.63"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 4.67 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 20.5,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": false,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

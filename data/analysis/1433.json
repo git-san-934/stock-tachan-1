@@ -1,0 +1,186 @@
+{
+  "code": "1433",
+  "name": "ベステラ株式会社",
+  "sector33": "建設業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1278.0,
+  "market_cap_oku": 118.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      4182382000.0,
+      4496739000.0,
+      4927436000.0,
+      3436154000.0,
+      3682864000.0,
+      5966882000.0,
+      5458728000.0,
+      9394828000.0,
+      10897474000.0,
+      11140386000.0
+    ],
+    "ordinary": [
+      404357000.0,
+      373707000.0,
+      495407000.0,
+      97222000.0,
+      212842000.0,
+      721265000.0,
+      -94823000.0,
+      407626000.0,
+      592069000.0,
+      763546000.0
+    ],
+    "ordinary_margin": [
+      0.0967,
+      0.0831,
+      0.1005,
+      0.0283,
+      0.0578,
+      0.1209,
+      -0.0174,
+      0.0434,
+      0.0543,
+      0.0685
+    ],
+    "equity_ratio": [
+      0.517,
+      0.597,
+      0.572,
+      0.514,
+      0.43,
+      0.476,
+      0.518,
+      0.376,
+      0.439,
+      0.648
+    ],
+    "ocf": [
+      -759647000.0,
+      369656000.0,
+      1753846000.0,
+      -153747000.0,
+      -108653000.0,
+      537849000.0,
+      -354780000.0,
+      -1422340000.0,
+      -607470000.0,
+      1644324000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9467,
+    "fixed_cost": -58526750.5,
+    "contribution_margin": 0.0533,
+    "breakeven_sales": -1098409636.4,
+    "dol": 0.78,
+    "r2": 0.994,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 6.62,
+    "margin_stdev": 0.0401,
+    "has_loss_year": true,
+    "median_margin": 0.0632
+  },
+  "trough": {
+    "score": 0.365,
+    "latest_margin": 0.0685,
+    "margin_pctile": 0.6,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.711,
+    "price_drawdown_10y": 0.378
+  },
+  "structural": {
+    "sales_cagr": 0.115,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.648,
+    "min_equity_ratio": 0.376,
+    "net_debt": -863687000.0,
+    "net_debt_to_equity": -0.16,
+    "survive_years_if_loss": 16.1
+  },
+  "valuation": {
+    "shares_outstanding": 9297200.0,
+    "normalized_sales": 6684231600.0,
+    "normalized_margin": 0.0632,
+    "normalized_ordinary": 422213102.0,
+    "normalized_eps": 31.79,
+    "normalized_per": 40.2,
+    "midcycle_per": 12.0,
+    "fair_value": 381.5,
+    "expected_return_x": 0.3,
+    "pbr": 2.1
+  },
+  "liquidation": {
+    "value": 308750300.0,
+    "per_share": 33.2,
+    "downside_to_liquidation": 0.974
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +11.5% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 65%（最低 38%） / ネットD/E -0.16"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.78 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 44.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

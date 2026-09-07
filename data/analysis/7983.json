@@ -1,0 +1,186 @@
+{
+  "code": "7983",
+  "name": "株式会社ミロク",
+  "sector33": "その他製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1213.0,
+  "market_cap_oku": 36.5,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      11950686000.0,
+      12549908000.0,
+      13509523000.0,
+      15368111000.0,
+      13635747000.0,
+      13653248000.0,
+      11471221000.0,
+      11887497000.0,
+      10918396000.0,
+      12518322000.0
+    ],
+    "ordinary": [
+      918427000.0,
+      1252681000.0,
+      1098090000.0,
+      1269572000.0,
+      756909000.0,
+      590695000.0,
+      808948000.0,
+      795415000.0,
+      -263073000.0,
+      211059000.0
+    ],
+    "ordinary_margin": [
+      0.0769,
+      0.0998,
+      0.0813,
+      0.0826,
+      0.0555,
+      0.0433,
+      0.0705,
+      0.0669,
+      -0.0241,
+      0.0169
+    ],
+    "equity_ratio": [
+      0.714,
+      0.748,
+      0.762,
+      0.779,
+      0.785,
+      0.774,
+      0.76,
+      0.733,
+      0.589,
+      0.491
+    ],
+    "ocf": [
+      1003089000.0,
+      1121730000.0,
+      628727000.0,
+      1529175000.0,
+      1191098000.0,
+      1136723000.0,
+      176856000.0,
+      -484975000.0,
+      -41983000.0,
+      1236749000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7989,
+    "fixed_cost": 1819924087.1,
+    "contribution_margin": 0.2011,
+    "breakeven_sales": 9048002582.7,
+    "dol": 11.93,
+    "r2": 0.877,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 1.0,
+    "elasticity": 6.95,
+    "margin_stdev": 0.0367,
+    "has_loss_year": true,
+    "median_margin": 0.0687
+  },
+  "trough": {
+    "score": 0.83,
+    "latest_margin": 0.0169,
+    "margin_pctile": 0.2,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.174,
+    "price_drawdown_10y": 0.887
+  },
+  "structural": {
+    "sales_cagr": 0.0052,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.491,
+    "min_equity_ratio": 0.491,
+    "net_debt": 5496268000.0,
+    "net_debt_to_equity": 0.51,
+    "survive_years_if_loss": 9.2
+  },
+  "valuation": {
+    "shares_outstanding": 3005000.0,
+    "normalized_sales": 12534115000.0,
+    "normalized_margin": 0.0687,
+    "normalized_ordinary": 780989342.5,
+    "normalized_eps": 181.93,
+    "normalized_per": 6.7,
+    "midcycle_per": 12.0,
+    "fair_value": 2183.1,
+    "expected_return_x": 1.8,
+    "pbr": 0.33
+  },
+  "liquidation": {
+    "value": 3368141500.0,
+    "per_share": 1120.8,
+    "downside_to_liquidation": 0.076
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR +0.5% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 49%（最低 49%） / ネットD/E 0.51"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "△",
+      "note": "DOL 11.93 / 期待リターン 1.8倍"
+    }
+  },
+  "auto_score": 66.6,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

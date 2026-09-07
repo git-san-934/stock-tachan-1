@@ -2,7 +2,7 @@
   "code": "8031",
   "name": "三井物産株式会社",
   "sector33": "卸売業",
-  "market": "",
+  "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
   "as_of_price": "2026-09-07",
   "price": 5069.0,
@@ -157,11 +157,13 @@
   },
   "auto_score": 20.6,
   "passes": {
+    "s0_size": true,
     "s1_cheap": false,
     "s2_cyclical": false,
     "s3_trough": false,
     "s4_structural_ok": true,
     "s5_survivable": true,
+    "s6_upside": false,
     "pass_all": false
   },
   "catalyst": {

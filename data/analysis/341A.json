@@ -1,0 +1,162 @@
+{
+  "code": "341A",
+  "name": "株式会社トヨコー",
+  "sector33": "建設業",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2140.0,
+  "market_cap_oku": 291.4,
+  "fy_range": [
+    2021,
+    2026
+  ],
+  "n_years": 6,
+  "series": {
+    "fy": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      921168000.0,
+      1046423000.0,
+      1119953000.0,
+      1095495000.0,
+      2025901000.0,
+      3133835000.0
+    ],
+    "ordinary": [
+      -333472000.0,
+      -558174000.0,
+      -117877000.0,
+      -157578000.0,
+      262852000.0,
+      618728000.0
+    ],
+    "ordinary_margin": [
+      -0.362,
+      -0.5334,
+      -0.1053,
+      -0.1438,
+      0.1297,
+      0.1974
+    ],
+    "equity_ratio": [
+      0.1883,
+      -0.0737,
+      -0.162,
+      0.171,
+      0.522,
+      0.5578
+    ],
+    "ocf": [
+      null,
+      null,
+      -114667000.0,
+      -176586000.0,
+      179504000.0,
+      136504000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.5444,
+    "fixed_cost": 757090226.4,
+    "contribution_margin": 0.4556,
+    "breakeven_sales": 1661566787.2,
+    "dol": 2.31,
+    "r2": 0.906,
+    "n_points": 6
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 4.26,
+    "margin_stdev": 0.2799,
+    "has_loss_year": true,
+    "median_margin": -0.1245
+  },
+  "trough": {
+    "score": 0.2,
+    "latest_margin": 0.1974,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.526,
+    "price_drawdown_10y": 0.33
+  },
+  "structural": {
+    "sales_cagr": 0.2775,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.5578,
+    "min_equity_ratio": -0.162,
+    "net_debt": -469007000.0,
+    "net_debt_to_equity": -0.16,
+    "survive_years_if_loss": 4.0
+  },
+  "valuation": {
+    "shares_outstanding": 13618090.0,
+    "normalized_sales": 1880301000.0,
+    "normalized_margin": -0.1245,
+    "normalized_ordinary": -67305264.4,
+    "normalized_eps": -3.46,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 9.78
+  },
+  "liquidation": {
+    "value": 757032900.0,
+    "per_share": 55.6,
+    "downside_to_liquidation": 0.974
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +27.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 56%（最低 -16%） / ネットD/E -0.16"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 46.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

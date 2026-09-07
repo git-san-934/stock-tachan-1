@@ -1,0 +1,194 @@
+{
+  "code": "4968",
+  "name": "荒川化学工業株式会社",
+  "sector33": "化学",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2160.0,
+  "market_cap_oku": 446.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      77380000000.0,
+      80782000000.0,
+      79501000000.0,
+      72967000000.0,
+      70572000000.0,
+      80515000000.0,
+      79431000000.0,
+      72222000000.0,
+      80236000000.0,
+      82135000000.0
+    ],
+    "ordinary": [
+      5314000000.0,
+      5218000000.0,
+      3950000000.0,
+      2927000000.0,
+      3652000000.0,
+      3566000000.0,
+      -2687000000.0,
+      -2412000000.0,
+      854000000.0,
+      2390000000.0
+    ],
+    "ordinary_margin": [
+      0.0687,
+      0.0646,
+      0.0497,
+      0.0401,
+      0.0517,
+      0.0443,
+      -0.0338,
+      -0.0334,
+      0.0106,
+      0.0291
+    ],
+    "equity_ratio": [
+      0.595,
+      0.608,
+      0.594,
+      0.58,
+      0.541,
+      0.503,
+      0.454,
+      0.448,
+      0.478,
+      0.495
+    ],
+    "ocf": [
+      7843000000.0,
+      3808000000.0,
+      6728000000.0,
+      7534000000.0,
+      3685000000.0,
+      3989000000.0,
+      -575000000.0,
+      1157000000.0,
+      5119000000.0,
+      4176000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8964,
+    "fixed_cost": 5759343337.9,
+    "contribution_margin": 0.1036,
+    "breakeven_sales": 55593040097.5,
+    "dol": 3.56,
+    "r2": 0.632,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 1.0,
+    "elasticity": 12.62,
+    "margin_stdev": 0.037,
+    "has_loss_year": true,
+    "median_margin": 0.0422
+  },
+  "trough": {
+    "score": 0.283,
+    "latest_margin": 0.0291,
+    "margin_pctile": 0.4,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      },
+      {
+        "key": "lng_japan",
+        "label": "LNG 日本 ($/mmbtu, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.893,
+        "yoy": 0.595,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 1.0,
+    "price_drawdown_10y": 0.0
+  },
+  "structural": {
+    "sales_cagr": 0.0066,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.495,
+    "min_equity_ratio": 0.448,
+    "net_debt": 33205000000.0,
+    "net_debt_to_equity": 0.56,
+    "survive_years_if_loss": 5.6
+  },
+  "valuation": {
+    "shares_outstanding": 20652400.0,
+    "normalized_sales": 79466000000.0,
+    "normalized_margin": 0.0422,
+    "normalized_ordinary": 3353620477.4,
+    "normalized_eps": 113.67,
+    "normalized_per": 19.0,
+    "midcycle_per": 12.0,
+    "fair_value": 1364.0,
+    "expected_return_x": 0.63,
+    "pbr": 0.69
+  },
+  "liquidation": {
+    "value": 12321300000.0,
+    "per_share": 596.6,
+    "downside_to_liquidation": 0.724
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +0.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 50%（最低 45%） / ネットD/E 0.56"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 3.56 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 36.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

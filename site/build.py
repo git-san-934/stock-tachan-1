@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DOCS = ROOT / "docs"
 
-FUNNEL_LABELS = ["①割安", "②循環性", "③谷", "④非衰退", "⑤生存力"]
+FUNNEL_LABELS = ["⓪規模", "①割安", "②循環性", "③谷", "④非衰退", "⑤生存力", "⑥上値"]
 
 CSS = """
 :root{--bg:#f7f5f0;--card:#fff;--text:#23201b;--sub:#6b645a;--border:#e5e0d6;
@@ -179,7 +179,8 @@ def build_index(shortlist: dict) -> str:
 <p class="note">景気循環業界で「循環の谷」にいて、次の山まで生き残れて、
 山で大きく跳ねる可能性がある割安株を機械的に絞り込む。手法は
 <a href="https://git-san-934.github.io/portal/">ポータル</a>の投資ノート参照。
-漏斗: ①割安 ②循環性 ③谷 ④非衰退（構造縮小でない）⑤生存力。</p>
+漏斗: ⓪規模（時価総額100億円以上）①割安 ②循環性 ③谷
+④非衰退（構造縮小でない）⑤生存力 ⑥上値（正常化利益で期待リターン≥1倍）。</p>
 
 <div class="controls">
 <label><input type="checkbox" id="onlypass" checked> 漏斗通過のみ</label>

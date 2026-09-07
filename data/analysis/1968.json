@@ -1,0 +1,186 @@
+{
+  "code": "1968",
+  "name": "太平電業株式会社",
+  "sector33": "建設業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2553.0,
+  "market_cap_oku": 1664.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      79528000000.0,
+      81393000000.0,
+      101141000000.0,
+      119459000000.0,
+      127779000000.0,
+      126908000000.0,
+      125774000000.0,
+      129363000000.0,
+      125670000000.0,
+      141657000000.0
+    ],
+    "ordinary": [
+      6520000000.0,
+      3422000000.0,
+      4013000000.0,
+      9580000000.0,
+      8329000000.0,
+      13125000000.0,
+      15092000000.0,
+      11512000000.0,
+      13808000000.0,
+      16246000000.0
+    ],
+    "ordinary_margin": [
+      0.082,
+      0.042,
+      0.0397,
+      0.0802,
+      0.0652,
+      0.1034,
+      0.12,
+      0.089,
+      0.1099,
+      0.1147
+    ],
+    "equity_ratio": [
+      0.664,
+      0.649,
+      0.58,
+      0.524,
+      0.559,
+      0.601,
+      0.6,
+      0.648,
+      0.733,
+      0.721
+    ],
+    "ocf": [
+      1404000000.0,
+      2314000000.0,
+      -990000000.0,
+      -3587000000.0,
+      19576000000.0,
+      613000000.0,
+      32501000000.0,
+      -4639000000.0,
+      -2525000000.0,
+      -5817000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.821,
+    "fixed_cost": 10571662119.0,
+    "contribution_margin": 0.179,
+    "breakeven_sales": 59070577666.7,
+    "dol": 1.56,
+    "r2": 0.98,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 5.7,
+    "margin_stdev": 0.0287,
+    "has_loss_year": false,
+    "median_margin": 0.0855
+  },
+  "trough": {
+    "score": 0.1,
+    "latest_margin": 0.1147,
+    "margin_pctile": 0.9,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.167
+  },
+  "structural": {
+    "sales_cagr": 0.0662,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.721,
+    "min_equity_ratio": 0.524,
+    "net_debt": -20498000000.0,
+    "net_debt_to_equity": -0.16,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 65195000.0,
+    "normalized_sales": 125722000000.0,
+    "normalized_margin": 0.0855,
+    "normalized_ordinary": 11340073691.0,
+    "normalized_eps": 121.76,
+    "normalized_per": 21.0,
+    "midcycle_per": 12.0,
+    "fair_value": 1461.1,
+    "expected_return_x": 0.57,
+    "pbr": 1.27
+  },
+  "liquidation": {
+    "value": 24338200000.0,
+    "per_share": 373.3,
+    "downside_to_liquidation": 0.854
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +6.6% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 72%（最低 52%） / ネットD/E -0.16"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.56 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 37.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

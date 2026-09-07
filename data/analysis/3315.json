@@ -1,0 +1,194 @@
+{
+  "code": "3315",
+  "name": "日本コークス工業株式会社",
+  "sector33": "石油・石炭製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 100.0,
+  "market_cap_oku": 302.3,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      89051000000.0,
+      110155000000.0,
+      121246000000.0,
+      107408000000.0,
+      87883000000.0,
+      124711000000.0,
+      174062000000.0,
+      135152000000.0,
+      99045000000.0,
+      91386000000.0
+    ],
+    "ordinary": [
+      1243000000.0,
+      3227000000.0,
+      5892000000.0,
+      989000000.0,
+      6452000000.0,
+      11454000000.0,
+      -752000000.0,
+      3640000000.0,
+      -10269000000.0,
+      -276000000.0
+    ],
+    "ordinary_margin": [
+      0.014,
+      0.0293,
+      0.0486,
+      0.0092,
+      0.0734,
+      0.0918,
+      -0.0043,
+      0.0269,
+      -0.1037,
+      -0.003
+    ],
+    "equity_ratio": [
+      0.378,
+      0.401,
+      0.394,
+      0.444,
+      0.5,
+      0.445,
+      0.387,
+      0.4,
+      0.318,
+      0.275
+    ],
+    "ocf": [
+      5496000000.0,
+      10191000000.0,
+      10278000000.0,
+      6460000000.0,
+      15503000000.0,
+      4608000000.0,
+      -12402000000.0,
+      10827000000.0,
+      -3178000000.0,
+      8511000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9781,
+    "fixed_cost": 335959824.0,
+    "contribution_margin": 0.0219,
+    "breakeven_sales": 15345898427.7,
+    "dol": null,
+    "r2": 0.954,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 12.23,
+    "margin_stdev": 0.0532,
+    "has_loss_year": true,
+    "median_margin": 0.0204
+  },
+  "trough": {
+    "score": 0.57,
+    "latest_margin": -0.003,
+    "margin_pctile": 0.3,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      },
+      {
+        "key": "coal_aus",
+        "label": "石炭 豪州 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.786,
+        "yoy": 0.207,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.636,
+    "price_drawdown_10y": 0.294
+  },
+  "structural": {
+    "sales_cagr": 0.0029,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.275,
+    "min_equity_ratio": 0.275,
+    "net_debt": 60885000000.0,
+    "net_debt_to_equity": 1.75,
+    "survive_years_if_loss": 1.2
+  },
+  "valuation": {
+    "shares_outstanding": 302349000.0,
+    "normalized_sales": 108781500000.0,
+    "normalized_margin": 0.0204,
+    "normalized_ordinary": 2135221752.9,
+    "normalized_eps": 4.94,
+    "normalized_per": 20.2,
+    "midcycle_per": 12.0,
+    "fair_value": 59.3,
+    "expected_return_x": 0.59,
+    "pbr": 0.84
+  },
+  "liquidation": {
+    "value": -23779600000.0,
+    "per_share": -78.6,
+    "downside_to_liquidation": 1.786
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +0.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 28%（最低 28%） / ネットD/E 1.75"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 25.8,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": false,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "code": "5076",
+  "name": "インフロニア・ホールディングス株式会社",
+  "edinet_code": "E36723",
+  "latest_doc_id": "S100YCIP",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 274845000.0,
+  "annual": [
+    {
+      "fy": 2022,
+      "sales": 682912000000.0,
+      "ordinary": 38036000000.0,
+      "net_income": 26689000000.0,
+      "equity": 355865000000.0,
+      "assets": 926432000000.0,
+      "equity_ratio": 0.374,
+      "roe": 0.087,
+      "eps": 94.73,
+      "bps": 1312.19,
+      "ocf": -16333000000.0,
+      "cash": 76018000000.0
+    },
+    {
+      "fy": 2023,
+      "sales": 709641000000.0,
+      "ordinary": 41768000000.0,
+      "net_income": 35870000000.0,
+      "equity": 362315000000.0,
+      "assets": 926563000000.0,
+      "equity_ratio": 0.381,
+      "roe": 0.103,
+      "eps": 138.39,
+      "bps": 1396.72,
+      "ocf": 70954000000.0,
+      "cash": 86015000000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 786509000000.0,
+      "ordinary": 42979000000.0,
+      "net_income": 27411000000.0,
+      "equity": 398521000000.0,
+      "assets": 1363624000000.0,
+      "equity_ratio": 0.283,
+      "roe": 0.074,
+      "eps": 109.83,
+      "bps": 1561.42,
+      "ocf": 11372000000.0,
+      "cash": 108921000000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 21720000000.0,
+      "ordinary": 12395000000.0,
+      "net_income": 9963000000.0,
+      "equity": 366902000000.0,
+      "assets": 743710000000.0,
+      "equity_ratio": 0.493,
+      "roe": 0.031,
+      "eps": 32.42,
+      "bps": 1053.64
+    },
+    {
+      "fy": 2026,
+      "sales": 26246000000.0,
+      "ordinary": 13745000000.0,
+      "net_income": 16227000000.0,
+      "equity": 370114000000.0,
+      "assets": 952374000000.0,
+      "equity_ratio": 0.389,
+      "roe": 0.044,
+      "eps": 52.96,
+      "bps": 1045.57
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 172524000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 843000000.0,
+    "intangibles": 608000000.0,
+    "investments_other": 718229000000.0,
+    "total_assets": 952374000000.0,
+    "total_liabilities": 582259000000.0,
+    "net_assets_bs": 370114000000.0,
+    "short_loans": 215519000000.0,
+    "current_lt_loans": null,
+    "long_loans": 217080000000.0,
+    "bonds": 86000000000.0,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YCIP",
+    "S100OBO5"
+  ]
+}

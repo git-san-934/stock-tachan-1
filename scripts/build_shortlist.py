@@ -16,7 +16,8 @@ import argparse
 from common import DATA, read_json, write_json
 from analyze import analyze
 
-FUNNEL_KEYS = ["s1_cheap", "s2_cyclical", "s3_trough", "s4_structural_ok", "s5_survivable"]
+FUNNEL_KEYS = ["s0_size", "s1_cheap", "s2_cyclical", "s3_trough",
+               "s4_structural_ok", "s5_survivable", "s6_upside"]
 
 
 def run(limit: int = 0) -> dict:

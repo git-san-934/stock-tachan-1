@@ -1,0 +1,113 @@
+{
+  "code": "205A",
+  "name": "株式会社ロゴスホールディングス",
+  "edinet_code": "E39671",
+  "latest_doc_id": "S100YYTC",
+  "latest_period_end": "2026-05-31",
+  "shares_outstanding": 3923885.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "ordinary": -9194000.0,
+      "net_income": 61013000.0,
+      "equity": 1673588000.0,
+      "assets": 2429874000.0,
+      "equity_ratio": 0.689,
+      "eps": 1.92,
+      "bps": 43.78
+    },
+    {
+      "fy": 2022,
+      "sales": 24850348000.0,
+      "ordinary": 1189239000.0,
+      "net_income": 774024000.0,
+      "equity": 3270863000.0,
+      "assets": 14511707000.0,
+      "equity_ratio": 0.225,
+      "roe": 0.271,
+      "eps": 202.45,
+      "bps": 847.8,
+      "ocf": 3043376000.0,
+      "cash": 5325032000.0
+    },
+    {
+      "fy": 2023,
+      "sales": 28025793000.0,
+      "ordinary": -139664000.0,
+      "net_income": -80865000.0,
+      "equity": 3190802000.0,
+      "assets": 14692621000.0,
+      "equity_ratio": 0.217,
+      "roe": -0.025,
+      "eps": -20.96,
+      "bps": 827.05,
+      "ocf": -1523439000.0,
+      "cash": 4945383000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 31714580000.0,
+      "ordinary": 1358423000.0,
+      "net_income": 890165000.0,
+      "equity": 3092591000.0,
+      "assets": 13390586000.0,
+      "equity_ratio": 0.231,
+      "roe": 0.283,
+      "eps": 230.73,
+      "bps": 801.59,
+      "ocf": 1087247000.0,
+      "cash": 4484097000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 36269311000.0,
+      "ordinary": 404393000.0,
+      "net_income": 199832000.0,
+      "equity": 3406595000.0,
+      "assets": 21122677000.0,
+      "equity_ratio": 0.161,
+      "roe": 0.061,
+      "eps": 51.14,
+      "bps": 870.51,
+      "ocf": 1994728000.0,
+      "cash": 6845430000.0
+    },
+    {
+      "fy": 2026,
+      "sales": 49502925000.0,
+      "ordinary": 1326455000.0,
+      "net_income": 799580000.0,
+      "equity": 4044859000.0,
+      "assets": 23225355000.0,
+      "equity_ratio": 0.174,
+      "roe": 0.215,
+      "eps": 203.98,
+      "bps": 1030.84,
+      "ocf": 2152943000.0,
+      "cash": 9113390000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 9163390000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 3738513000.0,
+    "intangibles": 2692862000.0,
+    "investments_other": 598568000.0,
+    "total_assets": 23225355000.0,
+    "total_liabilities": 19180495000.0,
+    "net_assets_bs": 4044859000.0,
+    "short_loans": 2212612000.0,
+    "current_lt_loans": 1123951000.0,
+    "long_loans": 5177821000.0,
+    "bonds": 250000000.0,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YYTC",
+    "S100UAOV"
+  ]
+}

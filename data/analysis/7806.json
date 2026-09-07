@@ -1,0 +1,186 @@
+{
+  "code": "7806",
+  "name": "株式会社ＭＴＧ",
+  "sector33": "その他製品",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 8090.0,
+  "market_cap_oku": 3246.6,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      29480000000.0,
+      45325000000.0,
+      58377000000.0,
+      36046000000.0,
+      34845000000.0,
+      42799000000.0,
+      48984000000.0,
+      60154000000.0,
+      71865000000.0,
+      98810000000.0
+    ],
+    "ordinary": [
+      3494000000.0,
+      6120000000.0,
+      6936000000.0,
+      -14698000000.0,
+      1672000000.0,
+      4213000000.0,
+      3724000000.0,
+      4168000000.0,
+      3676000000.0,
+      10731000000.0
+    ],
+    "ordinary_margin": [
+      0.1185,
+      0.135,
+      0.1188,
+      -0.4078,
+      0.048,
+      0.0984,
+      0.076,
+      0.0693,
+      0.0512,
+      0.1086
+    ],
+    "equity_ratio": [
+      0.644,
+      0.483,
+      0.804,
+      0.772,
+      0.801,
+      0.811,
+      0.818,
+      0.77,
+      0.76,
+      0.678
+    ],
+    "ocf": [
+      3785000000.0,
+      3486000000.0,
+      -1219000000.0,
+      -11594000000.0,
+      1536000000.0,
+      3927000000.0,
+      1879000000.0,
+      2686000000.0,
+      983000000.0,
+      7833000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8275,
+    "fixed_cost": 6081447409.2,
+    "contribution_margin": 0.1725,
+    "breakeven_sales": 35255810833.4,
+    "dol": 1.59,
+    "r2": 0.902,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 5.68,
+    "margin_stdev": 0.1607,
+    "has_loss_year": true,
+    "median_margin": 0.0872
+  },
+  "trough": {
+    "score": 0.185,
+    "latest_margin": 0.1086,
+    "margin_pctile": 0.7,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.98,
+    "price_drawdown_10y": 0.123
+  },
+  "structural": {
+    "sales_cagr": 0.1438,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.678,
+    "min_equity_ratio": 0.483,
+    "net_debt": -7583000000.0,
+    "net_debt_to_equity": -0.15,
+    "survive_years_if_loss": 0.9
+  },
+  "valuation": {
+    "shares_outstanding": 40131428.0,
+    "normalized_sales": 59286000000.0,
+    "normalized_margin": 0.0872,
+    "normalized_ordinary": 4658477938.3,
+    "normalized_eps": 81.26,
+    "normalized_per": 99.6,
+    "midcycle_per": 12.0,
+    "fair_value": 975.1,
+    "expected_return_x": 0.12,
+    "pbr": 6.23
+  },
+  "liquidation": {
+    "value": 24021800000.0,
+    "per_share": 598.6,
+    "downside_to_liquidation": 0.926
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +14.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 68%（最低 48%） / ネットD/E -0.15"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.59 / 期待リターン 0.1倍"
+    }
+  },
+  "auto_score": 39.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

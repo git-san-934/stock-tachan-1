@@ -1,0 +1,194 @@
+{
+  "code": "7735",
+  "name": "株式会社SCREENホールディングス",
+  "sector33": "電気機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 13430.0,
+  "market_cap_oku": 12809.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      300233000000.0,
+      339368000000.0,
+      364234000000.0,
+      323249000000.0,
+      320322000000.0,
+      411865000000.0,
+      460834000000.0,
+      504916000000.0,
+      625269000000.0,
+      605748000000.0
+    ],
+    "ordinary": [
+      32019000000.0,
+      41329000000.0,
+      29279000000.0,
+      11636000000.0,
+      22720000000.0,
+      59438000000.0,
+      77393000000.0,
+      94279000000.0,
+      138265000000.0,
+      124323000000.0
+    ],
+    "ordinary_margin": [
+      0.1066,
+      0.1218,
+      0.0804,
+      0.036,
+      0.0709,
+      0.1443,
+      0.1679,
+      0.1867,
+      0.2211,
+      0.2052
+    ],
+    "equity_ratio": [
+      0.475,
+      0.467,
+      0.47,
+      0.5,
+      0.545,
+      0.539,
+      0.533,
+      0.549,
+      0.627,
+      0.674
+    ],
+    "ocf": [
+      49024000000.0,
+      28878000000.0,
+      -37534000000.0,
+      11811000000.0,
+      57205000000.0,
+      81752000000.0,
+      73906000000.0,
+      96255000000.0,
+      71234000000.0,
+      92707000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.6387,
+    "fixed_cost": 90695352270.5,
+    "contribution_margin": 0.3613,
+    "breakeven_sales": 251036810104.6,
+    "dol": 1.76,
+    "r2": 0.987,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 5.23,
+    "margin_stdev": 0.0615,
+    "has_loss_year": false,
+    "median_margin": 0.133
+  },
+  "trough": {
+    "score": 0.077,
+    "latest_margin": 0.2052,
+    "margin_pctile": 0.9,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.983,
+    "price_drawdown_10y": 0.246
+  },
+  "structural": {
+    "sales_cagr": 0.0811,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.674,
+    "min_equity_ratio": 0.467,
+    "net_debt": -144124000000.0,
+    "net_debt_to_equity": -0.3,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 95379000.0,
+    "normalized_sales": 388049500000.0,
+    "normalized_margin": 0.133,
+    "normalized_ordinary": 50568122569.8,
+    "normalized_eps": 371.13,
+    "normalized_per": 36.2,
+    "midcycle_per": 12.0,
+    "fair_value": 4453.5,
+    "expected_return_x": 0.33,
+    "pbr": 5.22
+  },
+  "liquidation": {
+    "value": 132655200000.0,
+    "per_share": 1390.8,
+    "downside_to_liquidation": 0.896
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +8.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 67%（最低 47%） / ネットD/E -0.3"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.76 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 36.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "code": "6862",
+  "name": "ミナトホールディングス株式会社",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4515.0,
+  "market_cap_oku": 357.8,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      7981443000.0,
+      13886422000.0,
+      15850328000.0,
+      12077410000.0,
+      15920673000.0,
+      24578783000.0,
+      22599087000.0,
+      19018417000.0,
+      24540461000.0,
+      36572041000.0
+    ],
+    "ordinary": [
+      71198000.0,
+      176307000.0,
+      193342000.0,
+      301078000.0,
+      199721000.0,
+      781583000.0,
+      895292000.0,
+      1224709000.0,
+      582825000.0,
+      4042339000.0
+    ],
+    "ordinary_margin": [
+      0.0089,
+      0.0127,
+      0.0122,
+      0.0249,
+      0.0125,
+      0.0318,
+      0.0396,
+      0.0644,
+      0.0237,
+      0.1105
+    ],
+    "equity_ratio": [
+      0.322,
+      0.258,
+      0.251,
+      0.343,
+      0.271,
+      0.252,
+      0.301,
+      0.341,
+      0.337,
+      0.252
+    ],
+    "ocf": [
+      -702482000.0,
+      -1107300000.0,
+      531622000.0,
+      709729000.0,
+      329379000.0,
+      -454957000.0,
+      1768476000.0,
+      144914000.0,
+      92371000.0,
+      -6132473000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8756,
+    "fixed_cost": 1553720634.5,
+    "contribution_margin": 0.1244,
+    "breakeven_sales": 12493210840.7,
+    "dol": 1.13,
+    "r2": 0.993,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 6.12,
+    "margin_stdev": 0.0317,
+    "has_loss_year": false,
+    "median_margin": 0.0243
+  },
+  "trough": {
+    "score": 0.0,
+    "latest_margin": 0.1105,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 1.0,
+    "price_drawdown_10y": 0.0
+  },
+  "structural": {
+    "sales_cagr": 0.1843,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.252,
+    "min_equity_ratio": 0.251,
+    "net_debt": 14526441000.0,
+    "net_debt_to_equity": 1.8,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 7925714.0,
+    "normalized_sales": 21943224600.0,
+    "normalized_margin": 0.0243,
+    "normalized_ordinary": 855049474.7,
+    "normalized_eps": 75.52,
+    "normalized_per": 59.8,
+    "midcycle_per": 12.0,
+    "fair_value": 906.2,
+    "expected_return_x": 0.2,
+    "pbr": 4.16
+  },
+  "liquidation": {
+    "value": -14783766600.0,
+    "per_share": -1865.3,
+    "downside_to_liquidation": 1.413
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +18.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 25%（最低 25%） / ネットD/E 1.8"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.13 / 期待リターン 0.2倍"
+    }
+  },
+  "auto_score": 10.6,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": false,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "code": "6919",
+  "name": "ケル株式会社",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1425.0,
+  "market_cap_oku": 110.3,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      9671517000.0,
+      10379901000.0,
+      10185580000.0,
+      10591909000.0,
+      10163376000.0,
+      12793940000.0,
+      14500120000.0,
+      12231077000.0,
+      11871771000.0,
+      12857567000.0
+    ],
+    "ordinary": [
+      853451000.0,
+      962079000.0,
+      881433000.0,
+      1055388000.0,
+      1008690000.0,
+      2142874000.0,
+      2536660000.0,
+      1268655000.0,
+      585576000.0,
+      384498000.0
+    ],
+    "ordinary_margin": [
+      0.0882,
+      0.0927,
+      0.0865,
+      0.0996,
+      0.0992,
+      0.1675,
+      0.1749,
+      0.1037,
+      0.0493,
+      0.0299
+    ],
+    "equity_ratio": [
+      0.754,
+      0.767,
+      0.784,
+      0.782,
+      0.783,
+      0.754,
+      0.764,
+      0.813,
+      0.818,
+      0.807
+    ],
+    "ocf": [
+      905604000.0,
+      1207668000.0,
+      1708114000.0,
+      1614697000.0,
+      1460725000.0,
+      1582624000.0,
+      1669841000.0,
+      2319565000.0,
+      1156510000.0,
+      1446778000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7442,
+    "fixed_cost": 1780077772.9,
+    "contribution_margin": 0.2558,
+    "breakeven_sales": 6958874612.3,
+    "dol": 8.55,
+    "r2": 0.825,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 4.23,
+    "margin_stdev": 0.0448,
+    "has_loss_year": false,
+    "median_margin": 0.096
+  },
+  "trough": {
+    "score": 0.363,
+    "latest_margin": 0.0299,
+    "margin_pctile": 0.1,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.793,
+    "price_drawdown_10y": 0.168
+  },
+  "structural": {
+    "sales_cagr": 0.0321,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.807,
+    "min_equity_ratio": 0.754,
+    "net_debt": -4078088000.0,
+    "net_debt_to_equity": -0.27,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 7743000.0,
+    "normalized_sales": 11231840000.0,
+    "normalized_margin": 0.096,
+    "normalized_ordinary": 1085457162.1,
+    "normalized_eps": 98.13,
+    "normalized_per": 14.5,
+    "midcycle_per": 12.0,
+    "fair_value": 1177.6,
+    "expected_return_x": 0.83,
+    "pbr": 0.68
+  },
+  "liquidation": {
+    "value": 6547673400.0,
+    "per_share": 845.6,
+    "downside_to_liquidation": 0.407
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 81%（最低 75%） / ネットD/E -0.27"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 8.55 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 44.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

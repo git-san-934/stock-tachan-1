@@ -1,0 +1,194 @@
+{
+  "code": "6740",
+  "name": "株式会社ジャパンディスプレイ",
+  "sector33": "電気機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 48.0,
+  "market_cap_oku": 1862.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      883045000000.0,
+      718991000000.0,
+      636661000000.0,
+      504022000000.0,
+      341694000000.0,
+      295946000000.0,
+      270746000000.0,
+      239153000000.0,
+      188012000000.0,
+      132328000000.0
+    ],
+    "ordinary": [
+      -15476000000.0,
+      -86312000000.0,
+      -40564000000.0,
+      -57854000000.0,
+      -32656000000.0,
+      -7964000000.0,
+      -42924000000.0,
+      -33188000000.0,
+      -40415000000.0,
+      -30462000000.0
+    ],
+    "ordinary_margin": [
+      -0.0175,
+      -0.12,
+      -0.0637,
+      -0.1148,
+      -0.0956,
+      -0.0269,
+      -0.1585,
+      -0.1388,
+      -0.215,
+      -0.2302
+    ],
+    "equity_ratio": [
+      0.343,
+      0.118,
+      -0.002,
+      0.131,
+      0.176,
+      0.282,
+      0.558,
+      0.381,
+      0.045,
+      -0.061
+    ],
+    "ocf": [
+      110652000000.0,
+      -128000000.0,
+      -6604000000.0,
+      -87111000000.0,
+      -23121000000.0,
+      -21673000000.0,
+      -65665000000.0,
+      -17576000000.0,
+      -25450000000.0,
+      -23286000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.0212,
+    "fixed_cost": 29843089932.9,
+    "contribution_margin": -0.0212,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.993,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 25.47,
+    "margin_stdev": 0.0714,
+    "has_loss_year": true,
+    "median_margin": -0.1174
+  },
+  "trough": {
+    "score": 0.643,
+    "latest_margin": -0.2302,
+    "margin_pctile": 0.1,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.512,
+    "price_drawdown_10y": 0.856
+  },
+  "structural": {
+    "sales_cagr": -0.1901,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": -0.061,
+    "min_equity_ratio": -0.061,
+    "net_debt": 37245000000.0,
+    "net_debt_to_equity": -5.02,
+    "survive_years_if_loss": 0.3
+  },
+  "valuation": {
+    "shares_outstanding": 3880388022.0,
+    "normalized_sales": 198492000000.0,
+    "normalized_margin": -0.1174,
+    "normalized_ordinary": -28678563050.6,
+    "normalized_eps": -5.17,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": -4.72
+  },
+  "liquidation": {
+    "value": -70200700000.0,
+    "per_share": -18.1,
+    "downside_to_liquidation": 1.377
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -19.0% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "×",
+      "note": "自己資本比率 -6%（最低 -6%） / ネットD/E -5.02"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 39.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": false,
+    "s5_survivable": false,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

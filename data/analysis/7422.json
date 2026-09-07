@@ -1,0 +1,177 @@
+{
+  "code": "7422",
+  "name": "東邦レマック株式会社",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 406.0,
+  "market_cap_oku": 20.8,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      12922695000.0,
+      11446358000.0,
+      10871124000.0,
+      9251191000.0,
+      6728159000.0,
+      6409865000.0,
+      6449405000.0,
+      5168792000.0,
+      5105669000.0,
+      4547599000.0
+    ],
+    "ordinary": [
+      263639000.0,
+      102252000.0,
+      -144115000.0,
+      46481000.0,
+      -143679000.0,
+      -111954000.0,
+      -19517000.0,
+      -178291000.0,
+      132352000.0,
+      -99484000.0
+    ],
+    "ordinary_margin": [
+      0.0204,
+      0.0089,
+      -0.0133,
+      0.005,
+      -0.0214,
+      -0.0175,
+      -0.003,
+      -0.0345,
+      0.0259,
+      -0.0219
+    ],
+    "equity_ratio": [
+      0.62,
+      0.628,
+      0.62,
+      0.692,
+      0.718,
+      0.726,
+      0.726,
+      0.746,
+      0.765,
+      0.674
+    ],
+    "ocf": [
+      188342000.0,
+      -430206000.0,
+      71137000.0,
+      521382000.0,
+      371761000.0,
+      212736000.0,
+      -595296000.0,
+      441395000.0,
+      196137000.0,
+      -482098000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9735,
+    "fixed_cost": 223979765.5,
+    "contribution_margin": 0.0265,
+    "breakeven_sales": 8465796768.1,
+    "dol": null,
+    "r2": 0.998,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 37.89,
+    "margin_stdev": 0.0198,
+    "has_loss_year": true,
+    "median_margin": -0.0081
+  },
+  "trough": {
+    "score": 0.683,
+    "latest_margin": -0.0219,
+    "margin_pctile": 0.2,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.826,
+    "price_drawdown_10y": 0.329
+  },
+  "structural": {
+    "sales_cagr": -0.1096,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.674,
+    "min_equity_ratio": 0.62,
+    "net_debt": -405033000.0,
+    "net_debt_to_equity": -0.09,
+    "survive_years_if_loss": 11.1
+  },
+  "valuation": {
+    "shares_outstanding": 5120700.0,
+    "normalized_sales": 6588782000.0,
+    "normalized_margin": -0.0081,
+    "normalized_ordinary": -51509557.7,
+    "normalized_eps": -7.04,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 0.46
+  },
+  "liquidation": {
+    "value": 1358966900.0,
+    "per_share": 265.4,
+    "downside_to_liquidation": 0.346
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -11.0% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 67%（最低 62%） / ネットD/E -0.09"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 64.1,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

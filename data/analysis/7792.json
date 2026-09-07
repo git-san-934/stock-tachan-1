@@ -1,0 +1,180 @@
+{
+  "code": "7792",
+  "name": "株式会社コラントッテ",
+  "sector33": "その他製品",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1480.0,
+  "market_cap_oku": 134.6,
+  "fy_range": [
+    2017,
+    2025
+  ],
+  "n_years": 9,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      1798023000.0,
+      2397598000.0,
+      2942170000.0,
+      2886212000.0,
+      3752508000.0,
+      4663759000.0,
+      5406535000.0,
+      5944680000.0,
+      6917910000.0
+    ],
+    "ordinary": [
+      -128869000.0,
+      207772000.0,
+      431308000.0,
+      490610000.0,
+      629319000.0,
+      955647000.0,
+      1027987000.0,
+      1495168000.0,
+      1827535000.0
+    ],
+    "ordinary_margin": [
+      -0.0717,
+      0.0867,
+      0.1466,
+      0.17,
+      0.1677,
+      0.2049,
+      0.1901,
+      0.2515,
+      0.2642
+    ],
+    "equity_ratio": [
+      0.057,
+      0.137,
+      0.253,
+      0.381,
+      0.619,
+      0.669,
+      0.669,
+      0.757,
+      0.769
+    ],
+    "ocf": [
+      null,
+      null,
+      115698000.0,
+      378765000.0,
+      637266000.0,
+      148095000.0,
+      955698000.0,
+      883766000.0,
+      998346000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.6503,
+    "fixed_cost": 655605904.5,
+    "contribution_margin": 0.3497,
+    "breakeven_sales": 1874817097.9,
+    "dol": 1.32,
+    "r2": 0.992,
+    "n_points": 9
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 9.76,
+    "margin_stdev": 0.1009,
+    "has_loss_year": true,
+    "median_margin": 0.17
+  },
+  "trough": {
+    "score": 0.03,
+    "latest_margin": 0.2642,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.905,
+    "price_drawdown_10y": 0.024
+  },
+  "structural": {
+    "sales_cagr": 0.1834,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.769,
+    "min_equity_ratio": 0.057,
+    "net_debt": -2180025000.0,
+    "net_debt_to_equity": -0.42,
+    "survive_years_if_loss": 21.5
+  },
+  "valuation": {
+    "shares_outstanding": 9092100.0,
+    "normalized_sales": 4150746000.0,
+    "normalized_margin": 0.17,
+    "normalized_ordinary": 750735290.1,
+    "normalized_eps": 57.8,
+    "normalized_per": 25.6,
+    "midcycle_per": 12.0,
+    "fair_value": 693.6,
+    "expected_return_x": 0.47,
+    "pbr": 2.6
+  },
+  "liquidation": {
+    "value": 1933524800.0,
+    "per_share": 212.7,
+    "downside_to_liquidation": 0.856
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +18.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 77%（最低 6%） / ネットD/E -0.42"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.32 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 35.8,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "code": "7944",
+  "name": "ローランド株式会社",
+  "sector33": "その他製品",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3810.0,
+  "market_cap_oku": 1012.7,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      37392000000.0,
+      43081000000.0,
+      61153000000.0,
+      63247000000.0,
+      64044000000.0,
+      80032000000.0,
+      95840000000.0,
+      102445000000.0,
+      99433000000.0,
+      100952000000.0
+    ],
+    "ordinary": [
+      3497000000.0,
+      5863000000.0,
+      5169000000.0,
+      4726000000.0,
+      6277000000.0,
+      10102000000.0,
+      10250000000.0,
+      11154000000.0,
+      8411000000.0,
+      9022000000.0
+    ],
+    "ordinary_margin": [
+      0.0935,
+      0.1361,
+      0.0845,
+      0.0747,
+      0.098,
+      0.1262,
+      0.1069,
+      0.1089,
+      0.0846,
+      0.0894
+    ],
+    "equity_ratio": [
+      0.595,
+      0.683,
+      0.452,
+      0.413,
+      0.431,
+      0.537,
+      0.434,
+      0.492,
+      0.568,
+      0.492
+    ],
+    "ocf": [
+      null,
+      null,
+      3250000000.0,
+      4992000000.0,
+      6902000000.0,
+      4929000000.0,
+      793000000.0,
+      15428000000.0,
+      11717000000.0,
+      13699000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9043,
+    "fixed_cost": -294031493.4,
+    "contribution_margin": 0.0957,
+    "breakeven_sales": -3073136107.0,
+    "dol": 1.07,
+    "r2": 0.997,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.23,
+    "margin_stdev": 0.0194,
+    "has_loss_year": false,
+    "median_margin": 0.0958
+  },
+  "trough": {
+    "score": 0.405,
+    "latest_margin": 0.0894,
+    "margin_pctile": 0.4,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.843,
+    "price_drawdown_10y": 0.255
+  },
+  "structural": {
+    "sales_cagr": 0.1167,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.492,
+    "min_equity_ratio": 0.413,
+    "net_debt": 6284000000.0,
+    "net_debt_to_equity": 0.15,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 26580659.0,
+    "normalized_sales": 72038000000.0,
+    "normalized_margin": 0.0958,
+    "normalized_ordinary": 6898842300.4,
+    "normalized_eps": 181.68,
+    "normalized_per": 21.0,
+    "midcycle_per": 12.0,
+    "fair_value": 2180.2,
+    "expected_return_x": 0.57,
+    "pbr": 2.45
+  },
+  "liquidation": {
+    "value": -1664700000.0,
+    "per_share": -62.6,
+    "downside_to_liquidation": 1.016
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +11.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 49%（最低 41%） / ネットD/E 0.15"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.07 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 43.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

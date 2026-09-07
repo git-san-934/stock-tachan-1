@@ -1,0 +1,194 @@
+{
+  "code": "6809",
+  "name": "ＴＯＡ株式会社",
+  "sector33": "電気機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1765.0,
+  "market_cap_oku": 613.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      42504000000.0,
+      44180000000.0,
+      46338000000.0,
+      45068000000.0,
+      40575000000.0,
+      40864000000.0,
+      45123000000.0,
+      48814000000.0,
+      50626000000.0,
+      55386000000.0
+    ],
+    "ordinary": [
+      3040000000.0,
+      3561000000.0,
+      4099000000.0,
+      3577000000.0,
+      2558000000.0,
+      2407000000.0,
+      2104000000.0,
+      3710000000.0,
+      3922000000.0,
+      5236000000.0
+    ],
+    "ordinary_margin": [
+      0.0715,
+      0.0806,
+      0.0885,
+      0.0794,
+      0.063,
+      0.0589,
+      0.0466,
+      0.076,
+      0.0775,
+      0.0945
+    ],
+    "equity_ratio": [
+      0.741,
+      0.752,
+      0.748,
+      0.729,
+      0.758,
+      0.737,
+      0.724,
+      0.72,
+      0.721,
+      0.76
+    ],
+    "ocf": [
+      3040000000.0,
+      2760000000.0,
+      3261000000.0,
+      1832000000.0,
+      5290000000.0,
+      1632000000.0,
+      583000000.0,
+      5074000000.0,
+      5619000000.0,
+      5882000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8301,
+    "fixed_cost": 4387330404.9,
+    "contribution_margin": 0.1699,
+    "breakeven_sales": 25815743344.5,
+    "dol": 1.8,
+    "r2": 0.983,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 4.84,
+    "margin_stdev": 0.0142,
+    "has_loss_year": false,
+    "median_margin": 0.0767
+  },
+  "trough": {
+    "score": 0.003,
+    "latest_margin": 0.0945,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.014
+  },
+  "structural": {
+    "sales_cagr": 0.0299,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.76,
+    "min_equity_ratio": 0.72,
+    "net_debt": -27189000000.0,
+    "net_debt_to_equity": -0.44,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 34736635.0,
+    "normalized_sales": 45095500000.0,
+    "normalized_margin": 0.0767,
+    "normalized_ordinary": 3367431370.6,
+    "normalized_eps": 67.86,
+    "normalized_per": 26.0,
+    "midcycle_per": 12.0,
+    "fair_value": 814.3,
+    "expected_return_x": 0.46,
+    "pbr": 1.05
+  },
+  "liquidation": {
+    "value": 30694600000.0,
+    "per_share": 883.6,
+    "downside_to_liquidation": 0.499
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.0% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 76%（最低 72%） / ネットD/E -0.44"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.8 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 35.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "code": "5016",
+  "name": "ＪＸ金属株式会社",
+  "sector33": "非鉄金属",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 3674.0,
+  "market_cap_oku": 34111.7,
+  "fy_range": [
+    2021,
+    2026
+  ],
+  "n_years": 6,
+  "series": {
+    "fy": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      303092000000.0,
+      302528000000.0,
+      319941000000.0,
+      291395000000.0,
+      379384000000.0,
+      461843000000.0
+    ],
+    "ordinary": [
+      52925000000.0,
+      72192000000.0,
+      72156000000.0,
+      115437000000.0,
+      55754000000.0,
+      108234000000.0
+    ],
+    "ordinary_margin": [
+      0.1746,
+      0.2386,
+      0.2255,
+      0.3962,
+      0.147,
+      0.2344
+    ],
+    "equity_ratio": [
+      0.51,
+      0.482,
+      0.431,
+      0.619,
+      0.58,
+      0.54
+    ],
+    "ocf": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8984,
+    "fixed_cost": -44602057599.7,
+    "contribution_margin": 0.1016,
+    "breakeven_sales": -439050670307.7,
+    "dol": 0.43,
+    "r2": 0.844,
+    "n_points": 6
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 3.51,
+    "margin_stdev": 0.0866,
+    "has_loss_year": false,
+    "median_margin": 0.2299
+  },
+  "trough": {
+    "score": 0.243,
+    "latest_margin": 0.2344,
+    "margin_pctile": 0.667,
+    "market_phase_score": 0.12,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      },
+      {
+        "key": "nickel",
+        "label": "ニッケル ($/mt, 月次)",
+        "hint": "中立",
+        "pctile": 0.594,
+        "yoy": 0.106,
+        "stale": false
+      },
+      {
+        "key": "zinc",
+        "label": "亜鉛 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.968,
+        "yoy": 0.301,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.684,
+    "price_drawdown_10y": 0.233
+  },
+  "structural": {
+    "sales_cagr": 0.0879,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.54,
+    "min_equity_ratio": 0.431,
+    "net_debt": 172098000000.0,
+    "net_debt_to_equity": 0.35,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 928463102.0,
+    "normalized_sales": 311516500000.0,
+    "normalized_margin": 0.2299,
+    "normalized_ordinary": 71630329613.6,
+    "normalized_eps": 54.0,
+    "normalized_per": 68.0,
+    "midcycle_per": 12.0,
+    "fair_value": 648.1,
+    "expected_return_x": 0.18,
+    "pbr": 6.99
+  },
+  "liquidation": {
+    "value": -21203300000.0,
+    "per_share": -22.8,
+    "downside_to_liquidation": 1.006
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +8.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 54%（最低 43%） / ネットD/E 0.35"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.43 / 期待リターン 0.2倍"
+    }
+  },
+  "auto_score": 39.5,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

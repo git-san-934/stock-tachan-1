@@ -1,8 +1,8 @@
 {
   "code": "7003",
   "name": "株式会社三井E&amp;S",
-  "sector33": "輸送用機器",
-  "market": "",
+  "sector33": "機械",
+  "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
   "as_of_price": "2026-09-07",
   "price": 4401.0,
@@ -109,20 +109,20 @@
     "market_phase_score": 0.0,
     "market_phase_detail": [
       {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
         "key": "japan_iip",
         "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
         "hint": "中立",
         "pctile": 0.535,
         "yoy": -0.059,
         "stale": true
-      },
-      {
-        "key": "aluminum",
-        "label": "アルミ ($/mt, 月次)",
-        "hint": "山寄り",
-        "pctile": 0.963,
-        "yoy": 0.212,
-        "stale": false
       }
     ],
     "price_pctile_10y": 0.909,
@@ -174,11 +174,13 @@
   },
   "auto_score": 34.2,
   "passes": {
+    "s0_size": true,
     "s1_cheap": false,
     "s2_cyclical": true,
     "s3_trough": false,
     "s4_structural_ok": false,
     "s5_survivable": true,
+    "s6_upside": false,
     "pass_all": false
   },
   "catalyst": {

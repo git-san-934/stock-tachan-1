@@ -1,0 +1,87 @@
+{
+  "code": "429A",
+  "name": "テクセンドフォトマスク株式会社",
+  "edinet_code": "E40985",
+  "latest_doc_id": "S100YJ5L",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 99329195.0,
+  "annual": [
+    {
+      "fy": 2022,
+      "equity": 50000000.0,
+      "assets": 50000000.0,
+      "equity_ratio": 1.0,
+      "bps": 1.0
+    },
+    {
+      "fy": 2023,
+      "sales": 21556000000.0,
+      "ordinary": 13721000000.0,
+      "net_income": 10891000000.0,
+      "equity": 93512000000.0,
+      "assets": 102407000000.0,
+      "equity_ratio": 0.913,
+      "roe": 0.116,
+      "eps": 108.91,
+      "bps": 935.11
+    },
+    {
+      "fy": 2024,
+      "sales": 21899000000.0,
+      "ordinary": 7247000000.0,
+      "net_income": 5238000000.0,
+      "equity": 98751000000.0,
+      "assets": 111680000000.0,
+      "equity_ratio": 0.884,
+      "roe": 0.053,
+      "eps": 52.38,
+      "bps": 987.49
+    },
+    {
+      "fy": 2025,
+      "sales": 23258000000.0,
+      "ordinary": 27042000000.0,
+      "net_income": 23091000000.0,
+      "equity": 94845000000.0,
+      "assets": 168185000000.0,
+      "equity_ratio": 0.564,
+      "roe": 0.243,
+      "eps": 241.85,
+      "bps": 1027.63
+    },
+    {
+      "fy": 2026,
+      "sales": 26362000000.0,
+      "ordinary": 10086000000.0,
+      "net_income": 7338000000.0,
+      "equity": 122265000000.0,
+      "assets": 180694000000.0,
+      "equity_ratio": 0.677,
+      "roe": 0.068,
+      "eps": 76.81,
+      "bps": 1230.87
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 11138000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 19500000000.0,
+    "intangibles": 160000000.0,
+    "investments_other": 141282000000.0,
+    "total_assets": 180694000000.0,
+    "total_liabilities": 58428000000.0,
+    "net_assets_bs": 122265000000.0,
+    "short_loans": null,
+    "current_lt_loans": null,
+    "long_loans": null,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YJ5L"
+  ]
+}

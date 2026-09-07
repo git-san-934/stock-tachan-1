@@ -1,0 +1,110 @@
+{
+  "code": "402A",
+  "name": "株式会社アクセルスペースホールディングス",
+  "edinet_code": "E40500",
+  "latest_doc_id": "S100YYV1",
+  "latest_period_end": "2026-05-31",
+  "shares_outstanding": 66640600.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 181433000.0,
+      "ordinary": 2237000.0,
+      "net_income": 1008000.0,
+      "equity": 5276029000.0,
+      "assets": 5393275000.0,
+      "equity_ratio": 0.978,
+      "roe": 0.0,
+      "eps": 8.46,
+      "bps": -11804.63
+    },
+    {
+      "fy": 2022,
+      "sales": 411222000.0,
+      "ordinary": -1093797000.0,
+      "net_income": -1677267000.0,
+      "equity": 2325535000.0,
+      "assets": 3343065000.0,
+      "equity_ratio": 0.695,
+      "eps": -11058.22,
+      "bps": -31257.24,
+      "ocf": -1307009000.0,
+      "cash": 1652134000.0
+    },
+    {
+      "fy": 2023,
+      "sales": 1313609000.0,
+      "ordinary": -1330384000.0,
+      "net_income": -1342316000.0,
+      "equity": 1910309000.0,
+      "assets": 2872527000.0,
+      "equity_ratio": 0.665,
+      "eps": -43.75,
+      "bps": -187.68,
+      "ocf": -1229022000.0,
+      "cash": 1354982000.0
+    },
+    {
+      "fy": 2024,
+      "sales": 2110676000.0,
+      "ordinary": -2509711000.0,
+      "net_income": -3174278000.0,
+      "equity": 4976627000.0,
+      "assets": 7353280000.0,
+      "equity_ratio": 0.677,
+      "eps": -85.72,
+      "bps": -213.36,
+      "ocf": -2579367000.0,
+      "cash": 4242383000.0
+    },
+    {
+      "fy": 2025,
+      "sales": 1586835000.0,
+      "ordinary": -1824228000.0,
+      "net_income": -1950803000.0,
+      "equity": 3027944000.0,
+      "assets": 9523131000.0,
+      "equity_ratio": 0.318,
+      "eps": -44.96,
+      "bps": 69.73,
+      "ocf": -4329150000.0,
+      "cash": 4106833000.0
+    },
+    {
+      "fy": 2026,
+      "sales": 2508363000.0,
+      "ordinary": -3712007000.0,
+      "net_income": -4057302000.0,
+      "equity": 6993391000.0,
+      "assets": 14609256000.0,
+      "equity_ratio": 0.477,
+      "eps": -65.84,
+      "bps": 104.65,
+      "ocf": -5123804000.0,
+      "cash": 4715658000.0
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 5815658000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 3364066000.0,
+    "intangibles": 17243000.0,
+    "investments_other": 202051000.0,
+    "total_assets": 14609256000.0,
+    "total_liabilities": 7615865000.0,
+    "net_assets_bs": 6993391000.0,
+    "short_loans": null,
+    "current_lt_loans": 2007585000.0,
+    "long_loans": 3262306000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YYV1",
+    "S100WLO0"
+  ]
+}

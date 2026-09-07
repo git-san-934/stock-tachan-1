@@ -1,0 +1,165 @@
+{
+  "code": "7115",
+  "name": "株式会社アルファパーチェス",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1485.0,
+  "market_cap_oku": 146.3,
+  "fy_range": [
+    2018,
+    2025
+  ],
+  "n_years": 8,
+  "series": {
+    "fy": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      35976000000.0,
+      35207000000.0,
+      32447000000.0,
+      37948000000.0,
+      44383000000.0,
+      51951000000.0,
+      55952000000.0,
+      58922000000.0
+    ],
+    "ordinary": [
+      633000000.0,
+      648000000.0,
+      716000000.0,
+      827000000.0,
+      994000000.0,
+      1183000000.0,
+      1227000000.0,
+      1483000000.0
+    ],
+    "ordinary_margin": [
+      0.0176,
+      0.0184,
+      0.0221,
+      0.0218,
+      0.0224,
+      0.0228,
+      0.0219,
+      0.0252
+    ],
+    "equity_ratio": [
+      0.153,
+      0.191,
+      0.214,
+      0.23,
+      0.301,
+      0.314,
+      0.33,
+      0.34
+    ],
+    "ocf": [
+      null,
+      null,
+      1793000000.0,
+      472000000.0,
+      1377000000.0,
+      1224000000.0,
+      2471000000.0,
+      903000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9706,
+    "fixed_cost": 332362753.5,
+    "contribution_margin": 0.0294,
+    "breakeven_sales": 11307042827.9,
+    "dol": 1.17,
+    "r2": 1.0,
+    "n_points": 8
+  },
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": 0.77,
+    "margin_stdev": 0.0024,
+    "has_loss_year": false,
+    "median_margin": 0.022
+  },
+  "trough": {
+    "score": 0.245,
+    "latest_margin": 0.0252,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.609,
+    "price_drawdown_10y": 0.591
+  },
+  "structural": {
+    "sales_cagr": 0.073,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.34,
+    "min_equity_ratio": 0.153,
+    "net_debt": -5363805000.0,
+    "net_debt_to_equity": -0.8,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 9854500.0,
+    "normalized_sales": 41165500000.0,
+    "normalized_margin": 0.022,
+    "normalized_ordinary": 891733545.5,
+    "normalized_eps": 63.34,
+    "normalized_per": 23.4,
+    "midcycle_per": 12.0,
+    "fair_value": 760.1,
+    "expected_return_x": 0.51,
+    "pbr": 2.15
+  },
+  "liquidation": {
+    "value": -7490770600.0,
+    "per_share": -760.1,
+    "downside_to_liquidation": 1.512
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +7.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 34%（最低 15%） / ネットD/E -0.8"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.17 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 34.4,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

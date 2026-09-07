@@ -1,0 +1,81 @@
+{
+  "code": "7111",
+  "name": "ＩＮＥＳＴ株式会社",
+  "edinet_code": "E37831",
+  "latest_doc_id": "S100YJEX",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 7306432.0,
+  "annual": [
+    {
+      "fy": 2023,
+      "sales": 7937000000.0,
+      "ordinary": 20000000.0,
+      "net_income": 7000000.0,
+      "equity": 2278000000.0,
+      "assets": 3257000000.0,
+      "equity_ratio": 0.683,
+      "roe": 0.0032,
+      "eps": 1.19,
+      "bps": 123.36
+    },
+    {
+      "fy": 2024,
+      "sales": 10515000000.0,
+      "ordinary": 34000000.0,
+      "net_income": 16000000.0,
+      "equity": 3395000000.0,
+      "assets": 6135000000.0,
+      "equity_ratio": 0.542,
+      "roe": 0.0059,
+      "eps": 2.44,
+      "bps": 454.81
+    },
+    {
+      "fy": 2025,
+      "sales": 18960000000.0,
+      "ordinary": 34000000.0,
+      "net_income": 10000000.0,
+      "equity": 3437000000.0,
+      "assets": 5930000000.0,
+      "equity_ratio": 0.562,
+      "roe": 0.0033,
+      "eps": 1.49,
+      "bps": 456.3
+    },
+    {
+      "fy": 2026,
+      "sales": 18185000000.0,
+      "ordinary": 25000000.0,
+      "net_income": 15000000.0,
+      "equity": 3460000000.0,
+      "assets": 5695000000.0,
+      "equity_ratio": 0.587,
+      "roe": 0.0046,
+      "eps": 2.09,
+      "bps": 458.87
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 635000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 11000000.0,
+    "intangibles": 8000000.0,
+    "investments_other": 4877000000.0,
+    "total_assets": 5695000000.0,
+    "total_liabilities": 2234000000.0,
+    "net_assets_bs": 3460000000.0,
+    "short_loans": 250000000.0,
+    "current_lt_loans": null,
+    "long_loans": 1361000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YJEX",
+    "S100RAZE"
+  ]
+}

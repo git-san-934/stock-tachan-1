@@ -1,0 +1,194 @@
+{
+  "code": "5184",
+  "name": "株式会社ニチリン",
+  "sector33": "ゴム製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 4115.0,
+  "market_cap_oku": 591.4,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      50992000000.0,
+      59375000000.0,
+      62413000000.0,
+      61073000000.0,
+      51505000000.0,
+      58260000000.0,
+      64172000000.0,
+      70631000000.0,
+      71356000000.0,
+      73668000000.0
+    ],
+    "ordinary": [
+      6343000000.0,
+      8629000000.0,
+      8512000000.0,
+      6243000000.0,
+      4453000000.0,
+      7531000000.0,
+      8452000000.0,
+      10548000000.0,
+      10382000000.0,
+      9230000000.0
+    ],
+    "ordinary_margin": [
+      0.1244,
+      0.1453,
+      0.1364,
+      0.1022,
+      0.0865,
+      0.1293,
+      0.1317,
+      0.1493,
+      0.1455,
+      0.1253
+    ],
+    "equity_ratio": [
+      0.503,
+      0.53,
+      0.559,
+      0.56,
+      0.581,
+      0.599,
+      0.637,
+      0.66,
+      0.684,
+      0.685
+    ],
+    "ocf": [
+      5670000000.0,
+      7228000000.0,
+      7759000000.0,
+      5134000000.0,
+      2857000000.0,
+      6352000000.0,
+      6770000000.0,
+      9912000000.0,
+      8670000000.0,
+      8353000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7893,
+    "fixed_cost": 5102007209.2,
+    "contribution_margin": 0.2107,
+    "breakeven_sales": 24217652548.3,
+    "dol": 1.68,
+    "r2": 0.976,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 3.26,
+    "margin_stdev": 0.0199,
+    "has_loss_year": false,
+    "median_margin": 0.1305
+  },
+  "trough": {
+    "score": 0.293,
+    "latest_margin": 0.1253,
+    "margin_pctile": 0.4,
+    "market_phase_score": 0.25,
+    "market_phase_detail": [
+      {
+        "key": "rubber",
+        "label": "天然ゴム ($/kg, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.845,
+        "yoy": 0.266,
+        "stale": false
+      },
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.975,
+    "price_drawdown_10y": 0.038
+  },
+  "structural": {
+    "sales_cagr": 0.0417,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.685,
+    "min_equity_ratio": 0.503,
+    "net_debt": -23559000000.0,
+    "net_debt_to_equity": -0.35,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 14371000.0,
+    "normalized_sales": 61743000000.0,
+    "normalized_margin": 0.1305,
+    "normalized_ordinary": 7981949252.7,
+    "normalized_eps": 388.79,
+    "normalized_per": 10.6,
+    "midcycle_per": 12.0,
+    "fair_value": 4665.5,
+    "expected_return_x": 1.13,
+    "pbr": 0.9
+  },
+  "liquidation": {
+    "value": 33021900000.0,
+    "per_share": 2297.8,
+    "downside_to_liquidation": 0.442
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +4.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 68%（最低 50%） / ネットD/E -0.35"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.68 / 期待リターン 1.1倍"
+    }
+  },
+  "auto_score": 45.0,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

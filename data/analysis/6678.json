@@ -1,0 +1,194 @@
+{
+  "code": "6678",
+  "name": "株式会社テクノメディカ",
+  "sector33": "電気機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2028.0,
+  "market_cap_oku": 177.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      8457238000.0,
+      8654247000.0,
+      9332420000.0,
+      9810534000.0,
+      9040115000.0,
+      9699077000.0,
+      9367586000.0,
+      10283851000.0,
+      9905864000.0,
+      11236606000.0
+    ],
+    "ordinary": [
+      1396309000.0,
+      1490631000.0,
+      1535226000.0,
+      1269747000.0,
+      1629989000.0,
+      1851058000.0,
+      1668300000.0,
+      1870610000.0,
+      1303692000.0,
+      1717693000.0
+    ],
+    "ordinary_margin": [
+      0.1651,
+      0.1722,
+      0.1645,
+      0.1294,
+      0.1803,
+      0.1908,
+      0.1781,
+      0.1819,
+      0.1316,
+      0.1529
+    ],
+    "equity_ratio": [
+      0.8621,
+      0.8402,
+      0.8506,
+      0.8539,
+      0.8522,
+      0.8456,
+      0.8428,
+      0.7926,
+      0.8021,
+      0.8021
+    ],
+    "ocf": [
+      695462000.0,
+      1517084000.0,
+      704255000.0,
+      1269281000.0,
+      825412000.0,
+      2062978000.0,
+      887240000.0,
+      1142703000.0,
+      977535000.0,
+      1100442000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.906,
+    "fixed_cost": -672449183.9,
+    "contribution_margin": 0.094,
+    "breakeven_sales": -7149955061.0,
+    "dol": 0.62,
+    "r2": 0.933,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.88,
+    "margin_stdev": 0.0209,
+    "has_loss_year": false,
+    "median_margin": 0.1687
+  },
+  "trough": {
+    "score": 0.277,
+    "latest_margin": 0.1529,
+    "margin_pctile": 0.3,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.934,
+    "price_drawdown_10y": 0.189
+  },
+  "structural": {
+    "sales_cagr": 0.0321,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.8021,
+    "min_equity_ratio": 0.7926,
+    "net_debt": -8976227000.0,
+    "net_debt_to_equity": -0.62,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 8760000.0,
+    "normalized_sales": 9533331500.0,
+    "normalized_margin": 0.1687,
+    "normalized_ordinary": 1608010678.1,
+    "normalized_eps": 128.49,
+    "normalized_per": 15.8,
+    "midcycle_per": 12.0,
+    "fair_value": 1541.9,
+    "expected_return_x": 0.76,
+    "pbr": 0.94
+  },
+  "liquidation": {
+    "value": 7794954600.0,
+    "per_share": 889.8,
+    "downside_to_liquidation": 0.561
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 80%（最低 79%） / ネットD/E -0.62"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.62 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 41.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

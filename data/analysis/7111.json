@@ -1,0 +1,141 @@
+{
+  "code": "7111",
+  "name": "ＩＮＥＳＴ株式会社",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 525.0,
+  "market_cap_oku": 38.4,
+  "fy_range": [
+    2023,
+    2026
+  ],
+  "n_years": 4,
+  "series": {
+    "fy": [
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      7937000000.0,
+      10515000000.0,
+      18960000000.0,
+      18185000000.0
+    ],
+    "ordinary": [
+      20000000.0,
+      34000000.0,
+      34000000.0,
+      25000000.0
+    ],
+    "ordinary_margin": [
+      0.0025,
+      0.0032,
+      0.0018,
+      0.0014
+    ],
+    "equity_ratio": [
+      0.683,
+      0.542,
+      0.562,
+      0.587
+    ],
+    "ocf": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9995,
+    "fixed_cost": -21390580.4,
+    "contribution_margin": 0.0005,
+    "breakeven_sales": null,
+    "dol": 0.36,
+    "r2": 1.0,
+    "n_points": 4
+  },
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": 1.18,
+    "margin_stdev": 0.0008,
+    "has_loss_year": false,
+    "median_margin": 0.0022
+  },
+  "trough": {
+    "score": 0.735,
+    "latest_margin": 0.0014,
+    "margin_pctile": 0.25,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.167,
+    "price_drawdown_10y": 0.615
+  },
+  "structural": {
+    "sales_cagr": 0.3183,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.587,
+    "min_equity_ratio": 0.542,
+    "net_debt": 976000000.0,
+    "net_debt_to_equity": 0.28,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 7306432.0,
+    "normalized_sales": 14350000000.0,
+    "normalized_margin": 0.0022,
+    "normalized_ordinary": 30946440.2,
+    "normalized_eps": 2.96,
+    "normalized_per": 177.1,
+    "midcycle_per": 12.0,
+    "fair_value": 35.6,
+    "expected_return_x": 0.07,
+    "pbr": 1.14
+  },
+  "liquidation": {
+    "value": 1822600000.0,
+    "per_share": 249.5,
+    "downside_to_liquidation": 0.525
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +31.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 59%（最低 54%） / ネットD/E 0.28"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.36 / 期待リターン 0.1倍"
+    }
+  },
+  "auto_score": 53.4,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

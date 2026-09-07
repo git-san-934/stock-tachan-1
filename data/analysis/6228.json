@@ -1,0 +1,176 @@
+{
+  "code": "6228",
+  "name": "株式会社ジェイ・イー・ティ",
+  "sector33": "機械",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 541.0,
+  "market_cap_oku": 72.9,
+  "fy_range": [
+    2019,
+    2025
+  ],
+  "n_years": 7,
+  "series": {
+    "fy": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      10480369000.0,
+      12585039000.0,
+      19102000000.0,
+      23420000000.0,
+      23129000000.0,
+      19316000000.0,
+      14662000000.0
+    ],
+    "ordinary": [
+      448777000.0,
+      650227000.0,
+      1703000000.0,
+      2018000000.0,
+      1593000000.0,
+      960000000.0,
+      -1575000000.0
+    ],
+    "ordinary_margin": [
+      0.0428,
+      0.0517,
+      0.0892,
+      0.0862,
+      0.0689,
+      0.0497,
+      -0.1074
+    ],
+    "equity_ratio": [
+      0.444,
+      0.405,
+      0.37,
+      0.29,
+      0.397,
+      0.465,
+      0.498
+    ],
+    "ocf": [
+      null,
+      null,
+      1126000000.0,
+      -3597000000.0,
+      -1181000000.0,
+      -1390000000.0,
+      3080000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8485,
+    "fixed_cost": 1827758418.3,
+    "contribution_margin": 0.1515,
+    "breakeven_sales": 12061744978.6,
+    "dol": null,
+    "r2": 0.955,
+    "n_points": 7
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 4.97,
+    "margin_stdev": 0.0675,
+    "has_loss_year": true,
+    "median_margin": 0.0517
+  },
+  "trough": {
+    "score": 0.689,
+    "latest_margin": -0.1074,
+    "margin_pctile": 0.143,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.06,
+    "price_drawdown_10y": 0.859
+  },
+  "structural": {
+    "sales_cagr": 0.0576,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.498,
+    "min_equity_ratio": 0.29,
+    "net_debt": 2808000000.0,
+    "net_debt_to_equity": 0.29,
+    "survive_years_if_loss": 1.3
+  },
+  "valuation": {
+    "shares_outstanding": 13470000.0,
+    "normalized_sales": 19102000000.0,
+    "normalized_margin": 0.0517,
+    "normalized_ordinary": 1026565612.8,
+    "normalized_eps": 53.35,
+    "normalized_per": 10.1,
+    "midcycle_per": 12.0,
+    "fair_value": 640.2,
+    "expected_return_x": 1.18,
+    "pbr": 0.73
+  },
+  "liquidation": {
+    "value": -4937600000.0,
+    "per_share": -366.6,
+    "downside_to_liquidation": 1.678
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.8% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 50%（最低 29%） / ネットD/E 0.29"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 1.2倍"
+    }
+  },
+  "auto_score": 53.1,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

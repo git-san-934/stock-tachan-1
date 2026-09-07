@@ -1,0 +1,153 @@
+{
+  "code": "3591",
+  "name": "株式会社ワコールホールディングス",
+  "edinet_code": "E00590",
+  "latest_doc_id": "S100YKJC",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 52500000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 13139000000.0,
+      "ordinary": 9215000000.0,
+      "net_income": 11453000000.0,
+      "equity": 145496000000.0,
+      "assets": 165022000000.0,
+      "equity_ratio": 0.879,
+      "roe": 0.079,
+      "eps": 164.85,
+      "bps": 2114.38
+    },
+    {
+      "fy": 2018,
+      "sales": 12644000000.0,
+      "ordinary": 6308000000.0,
+      "net_income": 6461000000.0,
+      "equity": 140510000000.0,
+      "assets": 160086000000.0,
+      "equity_ratio": 0.875,
+      "roe": 0.045,
+      "eps": 95.12,
+      "bps": 2078.38
+    },
+    {
+      "fy": 2019,
+      "sales": 15715000000.0,
+      "ordinary": 11255000000.0,
+      "net_income": 5968000000.0,
+      "equity": 134813000000.0,
+      "assets": 154554000000.0,
+      "equity_ratio": 0.869,
+      "roe": 0.043,
+      "eps": 90.24,
+      "bps": 2060.13
+    },
+    {
+      "fy": 2020,
+      "sales": 13346000000.0,
+      "ordinary": 9111000000.0,
+      "net_income": 8762000000.0,
+      "equity": 130996000000.0,
+      "assets": 156000000000.0,
+      "equity_ratio": 0.836,
+      "roe": 0.066,
+      "eps": 136.93,
+      "bps": 2090.11
+    },
+    {
+      "fy": 2021,
+      "sales": 16429000000.0,
+      "ordinary": 12048000000.0,
+      "net_income": 11544000000.0,
+      "equity": 140106000000.0,
+      "assets": 191737000000.0,
+      "equity_ratio": 0.728,
+      "roe": 0.086,
+      "eps": 184.98,
+      "bps": 2235.07
+    },
+    {
+      "fy": 2022,
+      "sales": 172072000000.0,
+      "ordinary": 1682000000.0,
+      "net_income": 2749000000.0,
+      "equity": 138332000000.0,
+      "assets": 165180000000.0,
+      "equity_ratio": 0.834,
+      "roe": 0.02,
+      "eps": 44.18,
+      "bps": 2241.5
+    },
+    {
+      "fy": 2023,
+      "sales": 188592000000.0,
+      "ordinary": 2473000000.0,
+      "net_income": 4458000000.0,
+      "equity": 130602000000.0,
+      "assets": 154705000000.0,
+      "equity_ratio": 0.841,
+      "roe": 0.033,
+      "eps": 74.46,
+      "bps": 2242.19
+    },
+    {
+      "fy": 2024,
+      "sales": 187208000000.0,
+      "ordinary": 3002000000.0,
+      "net_income": 2817000000.0,
+      "equity": 118310000000.0,
+      "assets": 154073000000.0,
+      "equity_ratio": 0.765,
+      "roe": 0.023,
+      "eps": 49.5,
+      "bps": 2139.06
+    },
+    {
+      "fy": 2025,
+      "sales": 173896000000.0,
+      "ordinary": 8919000000.0,
+      "net_income": 15702000000.0,
+      "equity": 111602000000.0,
+      "assets": 142378000000.0,
+      "equity_ratio": 0.781,
+      "roe": 0.137,
+      "eps": 291.29,
+      "bps": 2153.26
+    },
+    {
+      "fy": 2026,
+      "sales": 171510000000.0,
+      "ordinary": 3256000000.0,
+      "net_income": 16356000000.0,
+      "equity": 110472000000.0,
+      "assets": 152649000000.0,
+      "equity_ratio": 0.723,
+      "roe": 0.148,
+      "eps": 326.09,
+      "bps": 2231.76
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 18208000000.0,
+    "receivables": null,
+    "inventories": null,
+    "ppe": 25811000000.0,
+    "intangibles": 231000000.0,
+    "investments_other": 101924000000.0,
+    "total_assets": 152649000000.0,
+    "total_liabilities": 42177000000.0,
+    "net_assets_bs": 110472000000.0,
+    "short_loans": 5000000000.0,
+    "current_lt_loans": 327000000.0,
+    "long_loans": 2453000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YKJC",
+    "S100LTK2"
+  ]
+}

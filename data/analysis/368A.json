@@ -1,0 +1,162 @@
+{
+  "code": "368A",
+  "name": "株式会社北里コーポレーション",
+  "sector33": "精密機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1412.0,
+  "market_cap_oku": 564.8,
+  "fy_range": [
+    2021,
+    2026
+  ],
+  "n_years": 6,
+  "series": {
+    "fy": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      6766000000.0,
+      8140000000.0,
+      9348000000.0,
+      10080000000.0,
+      10302000000.0,
+      10947000000.0
+    ],
+    "ordinary": [
+      3586000000.0,
+      4474000000.0,
+      5117000000.0,
+      5995000000.0,
+      5767000000.0,
+      5903000000.0
+    ],
+    "ordinary_margin": [
+      0.53,
+      0.5496,
+      0.5474,
+      0.5947,
+      0.5598,
+      0.5392
+    ],
+    "equity_ratio": [
+      0.925,
+      0.874,
+      0.909,
+      0.899,
+      0.924,
+      0.932
+    ],
+    "ocf": [
+      null,
+      null,
+      2130000000.0,
+      4500000000.0,
+      3526000000.0,
+      3870000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.3992,
+    "fixed_cost": 425205623.2,
+    "contribution_margin": 0.6008,
+    "breakeven_sales": 707754281.6,
+    "dol": 1.11,
+    "r2": 0.905,
+    "n_points": 6
+  },
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": 1.6,
+    "margin_stdev": 0.0226,
+    "has_loss_year": false,
+    "median_margin": 0.5485
+  },
+  "trough": {
+    "score": 0.508,
+    "latest_margin": 0.5392,
+    "margin_pctile": 0.333,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.438,
+    "price_drawdown_10y": 0.138
+  },
+  "structural": {
+    "sales_cagr": 0.101,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.932,
+    "min_equity_ratio": 0.874,
+    "net_debt": -13414000000.0,
+    "net_debt_to_equity": -0.65,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 40000000.0,
+    "normalized_sales": 9714000000.0,
+    "normalized_margin": 0.5485,
+    "normalized_ordinary": 5369598932.0,
+    "normalized_eps": 93.97,
+    "normalized_per": 15.0,
+    "midcycle_per": 12.0,
+    "fair_value": 1127.6,
+    "expected_return_x": 0.8,
+    "pbr": 2.75
+  },
+  "liquidation": {
+    "value": 15483200000.0,
+    "per_share": 387.1,
+    "downside_to_liquidation": 0.726
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +10.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 93%（最低 87%） / ネットD/E -0.65"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.11 / 期待リターン 0.8倍"
+    }
+  },
+  "auto_score": 47.7,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

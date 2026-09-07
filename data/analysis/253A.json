@@ -1,0 +1,124 @@
+{
+  "code": "253A",
+  "name": "株式会社ＥＴＳグループ",
+  "sector33": "建設業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1046.0,
+  "market_cap_oku": 66.6,
+  "fy_range": [
+    2025,
+    2025
+  ],
+  "n_years": 1,
+  "series": {
+    "fy": [
+      2025
+    ],
+    "sales": [
+      11261178000.0
+    ],
+    "ordinary": [
+      690568000.0
+    ],
+    "ordinary_margin": [
+      0.0613
+    ],
+    "equity_ratio": [
+      0.372
+    ],
+    "ocf": [
+      -1061378000.0
+    ]
+  },
+  "cost_structure": {},
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": null,
+    "margin_stdev": null,
+    "has_loss_year": false,
+    "median_margin": 0.0613
+  },
+  "trough": {
+    "score": 0.09,
+    "latest_margin": 0.0613,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.917,
+    "price_drawdown_10y": 0.268
+  },
+  "structural": {
+    "sales_cagr": null,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.372,
+    "min_equity_ratio": 0.372,
+    "net_debt": 1303671000.0,
+    "net_debt_to_equity": 0.38,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 6368000.0,
+    "normalized_sales": 11261178000.0,
+    "normalized_margin": 0.0613,
+    "normalized_ordinary": 690568000.0,
+    "normalized_eps": 75.91,
+    "normalized_per": 13.8,
+    "midcycle_per": 12.0,
+    "fair_value": 910.9,
+    "expected_return_x": 0.87,
+    "pbr": 1.93
+  },
+  "liquidation": {
+    "value": -2501524200.0,
+    "per_share": -392.8,
+    "downside_to_liquidation": 1.376
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上履歴不足"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 37%（最低 37%） / ネットD/E 0.38"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.9倍"
+    }
+  },
+  "auto_score": 28.3,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

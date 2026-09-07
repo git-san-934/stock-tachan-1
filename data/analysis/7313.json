@@ -1,0 +1,194 @@
+{
+  "code": "7313",
+  "name": "テイ・エス　テック株式会社",
+  "sector33": "輸送用機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1846.5,
+  "market_cap_oku": 2289.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      85456000000.0,
+      86178000000.0,
+      96690000000.0,
+      77352000000.0,
+      71737000000.0,
+      66645000000.0,
+      71744000000.0,
+      73779000000.0,
+      92179000000.0,
+      92985000000.0
+    ],
+    "ordinary": [
+      11309000000.0,
+      13615000000.0,
+      18981000000.0,
+      15651000000.0,
+      18553000000.0,
+      21882000000.0,
+      17002000000.0,
+      19190000000.0,
+      11638000000.0,
+      19304000000.0
+    ],
+    "ordinary_margin": [
+      0.1323,
+      0.158,
+      0.1963,
+      0.2023,
+      0.2586,
+      0.3283,
+      0.237,
+      0.2601,
+      0.1263,
+      0.2076
+    ],
+    "equity_ratio": [
+      0.835,
+      0.835,
+      0.867,
+      0.894,
+      0.89,
+      0.895,
+      0.895,
+      0.872,
+      0.847,
+      0.875
+    ],
+    "ocf": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.1378,
+    "fixed_cost": -27943279578.8,
+    "contribution_margin": -0.1378,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.932,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 2.54,
+    "margin_stdev": 0.0629,
+    "has_loss_year": false,
+    "median_margin": 0.205
+  },
+  "trough": {
+    "score": 0.15,
+    "latest_margin": 0.2076,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.06
+  },
+  "structural": {
+    "sales_cagr": 0.0094,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.875,
+    "min_equity_ratio": 0.835,
+    "net_debt": -17917000000.0,
+    "net_debt_to_equity": -0.13,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 124000000.0,
+    "normalized_sales": 81404000000.0,
+    "normalized_margin": 0.205,
+    "normalized_ordinary": 16685302913.0,
+    "normalized_eps": 94.19,
+    "normalized_per": 19.6,
+    "midcycle_per": 12.0,
+    "fair_value": 1130.3,
+    "expected_return_x": 0.61,
+    "pbr": 1.52
+  },
+  "liquidation": {
+    "value": 64241000000.0,
+    "per_share": 518.1,
+    "downside_to_liquidation": 0.719
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +0.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 88%（最低 84%） / ネットD/E -0.13"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 38.7,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

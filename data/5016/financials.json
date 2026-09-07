@@ -1,0 +1,105 @@
+{
+  "code": "5016",
+  "name": "ＪＸ金属株式会社",
+  "edinet_code": "E01081",
+  "latest_doc_id": "S100YINW",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 928463102.0,
+  "annual": [
+    {
+      "fy": 2021,
+      "sales": 303092000000.0,
+      "ordinary": 52925000000.0,
+      "net_income": 36357000000.0,
+      "equity": 360446000000.0,
+      "assets": 706967000000.0,
+      "equity_ratio": 0.51,
+      "roe": 0.104,
+      "eps": 39.16,
+      "bps": 388.22
+    },
+    {
+      "fy": 2022,
+      "sales": 302528000000.0,
+      "ordinary": 72192000000.0,
+      "net_income": 56926000000.0,
+      "equity": 379610000000.0,
+      "assets": 787631000000.0,
+      "equity_ratio": 0.482,
+      "roe": 0.154,
+      "eps": 61.31,
+      "bps": 408.86
+    },
+    {
+      "fy": 2023,
+      "sales": 319941000000.0,
+      "ordinary": 72156000000.0,
+      "net_income": -7260000000.0,
+      "equity": 343911000000.0,
+      "assets": 798367000000.0,
+      "equity_ratio": 0.431,
+      "roe": -0.02,
+      "eps": -7.82,
+      "bps": 370.41
+    },
+    {
+      "fy": 2024,
+      "sales": 291395000000.0,
+      "ordinary": 115437000000.0,
+      "net_income": 141602000000.0,
+      "equity": 485644000000.0,
+      "assets": 784316000000.0,
+      "equity_ratio": 0.619,
+      "roe": 0.341,
+      "eps": 152.51,
+      "bps": 523.06
+    },
+    {
+      "fy": 2025,
+      "sales": 379384000000.0,
+      "ordinary": 55754000000.0,
+      "net_income": 37249000000.0,
+      "equity": 439517000000.0,
+      "assets": 758325000000.0,
+      "equity_ratio": 0.58,
+      "roe": 0.081,
+      "eps": 40.12,
+      "bps": 474.0
+    },
+    {
+      "fy": 2026,
+      "sales": 461843000000.0,
+      "ordinary": 108234000000.0,
+      "net_income": 66870000000.0,
+      "equity": 487044000000.0,
+      "assets": 901440000000.0,
+      "equity_ratio": 0.54,
+      "roe": 0.144,
+      "eps": 72.17,
+      "bps": 525.77
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 22423000000.0,
+    "receivables": null,
+    "inventories": 16870000000.0,
+    "ppe": 168691000000.0,
+    "intangibles": 3350000000.0,
+    "investments_other": 348930000000.0,
+    "total_assets": 901440000000.0,
+    "total_liabilities": 414396000000.0,
+    "net_assets_bs": 487044000000.0,
+    "short_loans": 97521000000.0,
+    "current_lt_loans": null,
+    "long_loans": 97000000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YINW",
+    "S100W549"
+  ]
+}

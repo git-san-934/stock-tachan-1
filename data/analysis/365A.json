@@ -1,0 +1,156 @@
+{
+  "code": "365A",
+  "name": "伊澤タオル株式会社",
+  "sector33": "繊維製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 784.0,
+  "market_cap_oku": 78.4,
+  "fy_range": [
+    2022,
+    2026
+  ],
+  "n_years": 5,
+  "series": {
+    "fy": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      24700000.0,
+      9207828000.0,
+      9938817000.0,
+      9825360000.0,
+      10283187000.0
+    ],
+    "ordinary": [
+      -128905000.0,
+      174410000.0,
+      1771877000.0,
+      980080000.0,
+      1146865000.0
+    ],
+    "ordinary_margin": [
+      -5.2188,
+      0.0189,
+      0.1783,
+      0.0998,
+      0.1115
+    ],
+    "equity_ratio": [
+      0.395,
+      0.372,
+      0.435,
+      0.463,
+      0.488
+    ],
+    "ocf": [
+      null,
+      null,
+      1422418000.0,
+      643784000.0,
+      318317000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8751,
+    "fixed_cost": 192275564.9,
+    "contribution_margin": 0.1249,
+    "breakeven_sales": 1539547056.8,
+    "dol": 1.12,
+    "r2": 0.981,
+    "n_points": 5
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 0.03,
+    "margin_stdev": 2.3803,
+    "has_loss_year": true,
+    "median_margin": 0.0998
+  },
+  "trough": {
+    "score": 0.257,
+    "latest_margin": 0.1115,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "cotton",
+        "label": "綿花 ($/kg, 月次)",
+        "hint": "中立",
+        "pctile": 0.578,
+        "yoy": 0.125,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.875,
+    "price_drawdown_10y": 0.01
+  },
+  "structural": {
+    "sales_cagr": 3.5171,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.488,
+    "min_equity_ratio": 0.372,
+    "net_debt": 1938646000.0,
+    "net_debt_to_equity": 0.47,
+    "survive_years_if_loss": 14.9
+  },
+  "valuation": {
+    "shares_outstanding": 10000000.0,
+    "normalized_sales": 9825360000.0,
+    "normalized_margin": 0.0998,
+    "normalized_ordinary": 1007495949.5,
+    "normalized_eps": 70.52,
+    "normalized_per": 11.1,
+    "midcycle_per": 12.0,
+    "fair_value": 846.3,
+    "expected_return_x": 1.08,
+    "pbr": 1.87
+  },
+  "liquidation": {
+    "value": -2207951600.0,
+    "per_share": -220.8,
+    "downside_to_liquidation": 1.282
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +351.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 49%（最低 37%） / ネットD/E 0.47"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.12 / 期待リターン 1.1倍"
+    }
+  },
+  "auto_score": 38.1,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

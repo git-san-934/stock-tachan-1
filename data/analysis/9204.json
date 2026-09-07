@@ -1,0 +1,166 @@
+{
+  "code": "9204",
+  "name": "スカイマーク株式会社",
+  "sector33": "空運業",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 418.0,
+  "market_cap_oku": 252.2,
+  "fy_range": [
+    2019,
+    2026
+  ],
+  "n_years": 8,
+  "series": {
+    "fy": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "ordinary": [
+      8832000000.0,
+      2811000000.0,
+      -29602000000.0,
+      -15079000000.0,
+      3713000000.0,
+      7463000000.0,
+      760000000.0,
+      2907000000.0
+    ],
+    "ordinary_margin": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "equity_ratio": [
+      0.354,
+      0.3,
+      0.122,
+      0.099,
+      0.222,
+      0.251,
+      0.261,
+      0.28
+    ],
+    "ocf": [
+      null,
+      null,
+      -24529000000.0,
+      -12459000000.0,
+      5911000000.0,
+      8179000000.0,
+      7182000000.0,
+      11601000000.0
+    ]
+  },
+  "cost_structure": {},
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": null,
+    "margin_stdev": null,
+    "has_loss_year": true,
+    "median_margin": null
+  },
+  "trough": {
+    "score": 0.5,
+    "latest_margin": null,
+    "margin_pctile": null,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.694,
+    "price_drawdown_10y": 0.692
+  },
+  "structural": {
+    "sales_cagr": null,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.28,
+    "min_equity_ratio": 0.099,
+    "net_debt": 11198000000.0,
+    "net_debt_to_equity": 0.33,
+    "survive_years_if_loss": 0.8
+  },
+  "valuation": {
+    "shares_outstanding": 60329400.0,
+    "normalized_sales": null,
+    "normalized_margin": null,
+    "normalized_ordinary": null,
+    "normalized_eps": null,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 0.74
+  },
+  "liquidation": {
+    "value": -8603000000.0,
+    "per_share": -142.6,
+    "downside_to_liquidation": 1.341
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上履歴不足"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 28%（最低 10%） / ネットD/E 0.33"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 41.2,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "code": "402A",
+  "name": "株式会社アクセルスペースホールディングス",
+  "sector33": "輸送用機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 559.0,
+  "market_cap_oku": 372.5,
+  "fy_range": [
+    2021,
+    2026
+  ],
+  "n_years": 6,
+  "series": {
+    "fy": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      181433000.0,
+      411222000.0,
+      1313609000.0,
+      2110676000.0,
+      1586835000.0,
+      2508363000.0
+    ],
+    "ordinary": [
+      2237000.0,
+      -1093797000.0,
+      -1330384000.0,
+      -2509711000.0,
+      -1824228000.0,
+      -3712007000.0
+    ],
+    "ordinary_margin": [
+      0.0123,
+      -2.6599,
+      -1.0128,
+      -1.1891,
+      -1.1496,
+      -1.4799
+    ],
+    "equity_ratio": [
+      0.978,
+      0.695,
+      0.665,
+      0.677,
+      0.318,
+      0.477
+    ],
+    "ocf": [
+      null,
+      -1307009000.0,
+      -1229022000.0,
+      -2579367000.0,
+      -4329150000.0,
+      -5123804000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.2,
+    "fixed_cost": -30609217.1,
+    "contribution_margin": -0.2,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.965,
+    "n_points": 6
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 240.96,
+    "margin_stdev": 0.8607,
+    "has_loss_year": true,
+    "median_margin": -1.1693
+  },
+  "trough": {
+    "score": 0.507,
+    "latest_margin": -1.4799,
+    "margin_pctile": 0.333,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.643,
+    "price_drawdown_10y": 0.354
+  },
+  "structural": {
+    "sales_cagr": 0.691,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.477,
+    "min_equity_ratio": 0.318,
+    "net_debt": -545767000.0,
+    "net_debt_to_equity": -0.08,
+    "survive_years_if_loss": 1.6
+  },
+  "valuation": {
+    "shares_outstanding": 66640600.0,
+    "normalized_sales": 1505017800.0,
+    "normalized_margin": -1.1693,
+    "normalized_ordinary": -1759860289.1,
+    "normalized_eps": -18.49,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 5.34
+  },
+  "liquidation": {
+    "value": 696074900.0,
+    "per_share": 10.4,
+    "downside_to_liquidation": 0.981
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +69.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 48%（最低 32%） / ネットD/E -0.08"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 52.7,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

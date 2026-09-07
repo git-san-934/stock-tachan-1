@@ -1,0 +1,194 @@
+{
+  "code": "6134",
+  "name": "株式会社ＦＵＪＩ",
+  "sector33": "機械",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 7128.0,
+  "market_cap_oku": 6972.9,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      86397000000.0,
+      120032000000.0,
+      129104000000.0,
+      140967000000.0,
+      136161000000.0,
+      148128000000.0,
+      153326000000.0,
+      127059000000.0,
+      127387000000.0,
+      180642000000.0
+    ],
+    "ordinary": [
+      10200000000.0,
+      23538000000.0,
+      23454000000.0,
+      20119000000.0,
+      23224000000.0,
+      29943000000.0,
+      29016000000.0,
+      15010000000.0,
+      15328000000.0,
+      31291000000.0
+    ],
+    "ordinary_margin": [
+      0.1181,
+      0.1961,
+      0.1817,
+      0.1427,
+      0.1706,
+      0.2021,
+      0.1892,
+      0.1181,
+      0.1203,
+      0.1732
+    ],
+    "equity_ratio": [
+      0.825,
+      0.826,
+      0.831,
+      0.844,
+      0.865,
+      0.858,
+      0.885,
+      0.909,
+      0.895,
+      0.835
+    ],
+    "ocf": [
+      17380000000.0,
+      16220000000.0,
+      4186000000.0,
+      22560000000.0,
+      30870000000.0,
+      15720000000.0,
+      12994000000.0,
+      30187000000.0,
+      23413000000.0,
+      9181000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.7588,
+    "fixed_cost": 10432850203.1,
+    "contribution_margin": 0.2412,
+    "breakeven_sales": 43250784540.0,
+    "dol": 1.39,
+    "r2": 0.96,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 3.01,
+    "margin_stdev": 0.0334,
+    "has_loss_year": false,
+    "median_margin": 0.1719
+  },
+  "trough": {
+    "score": 0.163,
+    "latest_margin": 0.1732,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.151
+  },
+  "structural": {
+    "sales_cagr": 0.0854,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.835,
+    "min_equity_ratio": 0.825,
+    "net_debt": -53741000000.0,
+    "net_debt_to_equity": -0.23,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 97823748.0,
+    "normalized_sales": 132632500000.0,
+    "normalized_margin": 0.1719,
+    "normalized_ordinary": 22178282492.6,
+    "normalized_eps": 158.7,
+    "normalized_per": 44.9,
+    "midcycle_per": 12.0,
+    "fair_value": 1904.4,
+    "expected_return_x": 0.27,
+    "pbr": 2.7
+  },
+  "liquidation": {
+    "value": 118322600000.0,
+    "per_share": 1209.5,
+    "downside_to_liquidation": 0.83
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +8.5% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 84%（最低 82%） / ネットD/E -0.23"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.39 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 39.1,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

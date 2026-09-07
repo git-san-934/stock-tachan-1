@@ -1,0 +1,149 @@
+{
+  "code": "5202",
+  "name": "日本板硝子株式会社",
+  "edinet_code": "E01121",
+  "latest_doc_id": "S100YL06",
+  "latest_period_end": "2026-03-31",
+  "shares_outstanding": 142319000.0,
+  "annual": [
+    {
+      "fy": 2017,
+      "sales": 101316000000.0,
+      "ordinary": -7398000000.0,
+      "net_income": -3906000000.0,
+      "equity": 320288000000.0,
+      "assets": 706378000000.0,
+      "equity_ratio": 0.453,
+      "eps": -43.23,
+      "bps": 3105.69
+    },
+    {
+      "fy": 2018,
+      "sales": 104499000000.0,
+      "ordinary": 4408000000.0,
+      "net_income": 5920000000.0,
+      "equity": 326688000000.0,
+      "assets": 676837000000.0,
+      "equity_ratio": 0.482,
+      "roe": 0.018,
+      "eps": 45.57,
+      "bps": 3153.51
+    },
+    {
+      "fy": 2019,
+      "sales": 111882000000.0,
+      "ordinary": 8734000000.0,
+      "net_income": 8836000000.0,
+      "equity": 324580000000.0,
+      "assets": 664107000000.0,
+      "equity_ratio": 0.488,
+      "roe": 0.027,
+      "eps": 65.98,
+      "bps": 3189.66
+    },
+    {
+      "fy": 2020,
+      "sales": 105136000000.0,
+      "ordinary": -2528000000.0,
+      "net_income": -2713000000.0,
+      "equity": 312055000000.0,
+      "assets": 671915000000.0,
+      "equity_ratio": 0.464,
+      "eps": -56.99,
+      "bps": 3095.73
+    },
+    {
+      "fy": 2021,
+      "sales": 87327000000.0,
+      "ordinary": -10222000000.0,
+      "net_income": -208000000.0,
+      "equity": 311706000000.0,
+      "assets": 682327000000.0,
+      "equity_ratio": 0.456,
+      "eps": -23.81,
+      "bps": 3087.67
+    },
+    {
+      "fy": 2022,
+      "sales": 88300000000.0,
+      "ordinary": -3808000000.0,
+      "net_income": 1633000000.0,
+      "equity": 311345000000.0,
+      "assets": 678566000000.0,
+      "equity_ratio": 0.458,
+      "roe": 0.005,
+      "eps": -3.51,
+      "bps": 3079.4
+    },
+    {
+      "fy": 2023,
+      "sales": 96695000000.0,
+      "ordinary": 12349000000.0,
+      "net_income": 13331000000.0,
+      "equity": 317844000000.0,
+      "assets": 693819000000.0,
+      "equity_ratio": 0.457,
+      "roe": 0.042,
+      "eps": 125.27,
+      "bps": 3147.89
+    },
+    {
+      "fy": 2024,
+      "sales": 109159000000.0,
+      "ordinary": 756000000.0,
+      "net_income": 2130000000.0,
+      "equity": 314934000000.0,
+      "assets": 695383000000.0,
+      "equity_ratio": 0.452,
+      "roe": 0.007,
+      "eps": 1.98,
+      "bps": 3111.09
+    },
+    {
+      "fy": 2025,
+      "sales": 119967000000.0,
+      "ordinary": 2995000000.0,
+      "net_income": 8565000000.0,
+      "equity": 321472000000.0,
+      "assets": 704278000000.0,
+      "equity_ratio": 0.456,
+      "roe": 0.027,
+      "eps": 72.6,
+      "bps": 3182.04
+    },
+    {
+      "fy": 2026,
+      "sales": 117849000000.0,
+      "ordinary": -1761000000.0,
+      "net_income": -2105000000.0,
+      "equity": 316747000000.0,
+      "assets": 699770000000.0,
+      "equity_ratio": 0.452,
+      "eps": -21.18,
+      "bps": 2230.45
+    }
+  ],
+  "balance_sheet": {
+    "cash_deposits": 6587000000.0,
+    "receivables": 6803000000.0,
+    "inventories": 16070000000.0,
+    "ppe": 52400000000.0,
+    "intangibles": 1091000000.0,
+    "investments_other": 529673000000.0,
+    "total_assets": 699770000000.0,
+    "total_liabilities": 383023000000.0,
+    "net_assets_bs": 316747000000.0,
+    "short_loans": 184525000000.0,
+    "current_lt_loans": 46534000000.0,
+    "long_loans": 95864000000.0,
+    "bonds": null,
+    "current_bonds": null,
+    "commercial_papers": null,
+    "lease_current": null,
+    "lease_noncurrent": null
+  },
+  "source_docs": [
+    "S100YL06",
+    "S100LVA5"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "code": "7875",
+  "name": "竹田ｉＰホールディングス株式会社",
+  "sector33": "その他製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 809.0,
+  "market_cap_oku": 71.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      34751000000.0,
+      36913000000.0,
+      36155000000.0,
+      35651000000.0,
+      31108000000.0,
+      30600000000.0,
+      32944000000.0,
+      31669000000.0,
+      34198000000.0,
+      34479000000.0
+    ],
+    "ordinary": [
+      771000000.0,
+      793000000.0,
+      669000000.0,
+      588000000.0,
+      478000000.0,
+      921000000.0,
+      1061000000.0,
+      932000000.0,
+      1478000000.0,
+      1455000000.0
+    ],
+    "ordinary_margin": [
+      0.0222,
+      0.0215,
+      0.0185,
+      0.0165,
+      0.0154,
+      0.0301,
+      0.0322,
+      0.0294,
+      0.0432,
+      0.0422
+    ],
+    "equity_ratio": [
+      0.495,
+      0.484,
+      0.479,
+      0.488,
+      0.47,
+      0.511,
+      0.525,
+      0.548,
+      0.578,
+      0.573
+    ],
+    "ocf": [
+      1322000000.0,
+      1842000000.0,
+      2010000000.0,
+      727000000.0,
+      68000000.0,
+      1615000000.0,
+      2235000000.0,
+      1249000000.0,
+      2816000000.0,
+      1129000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.0027,
+    "fixed_cost": -1004815765.6,
+    "contribution_margin": -0.0027,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.977,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 5.83,
+    "margin_stdev": 0.01,
+    "has_loss_year": false,
+    "median_margin": 0.0258
+  },
+  "trough": {
+    "score": 0.075,
+    "latest_margin": 0.0422,
+    "margin_pctile": 0.9,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.981,
+    "price_drawdown_10y": 0.089
+  },
+  "structural": {
+    "sales_cagr": -0.0009,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.573,
+    "min_equity_ratio": 0.47,
+    "net_debt": -4289000000.0,
+    "net_debt_to_equity": -0.21,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 8781000.0,
+    "normalized_sales": 34338500000.0,
+    "normalized_margin": 0.0258,
+    "normalized_ordinary": 886204958.2,
+    "normalized_eps": 70.65,
+    "normalized_per": 11.5,
+    "midcycle_per": 12.0,
+    "fair_value": 847.8,
+    "expected_return_x": 1.05,
+    "pbr": 0.68
+  },
+  "liquidation": {
+    "value": 9027500000.0,
+    "per_share": 1028.1,
+    "downside_to_liquidation": -0.271
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR -0.1% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 57%（最低 47%） / ネットD/E -0.21"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 1.0倍"
+    }
+  },
+  "auto_score": 37.8,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

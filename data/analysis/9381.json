@@ -1,0 +1,186 @@
+{
+  "code": "9381",
+  "name": "株式会社エーアイテイー",
+  "sector33": "倉庫・運輸関連業",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2319.0,
+  "market_cap_oku": 554.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      21263523000.0,
+      25114385000.0,
+      27783095000.0,
+      45003847000.0,
+      45797121000.0,
+      59931000000.0,
+      69463000000.0,
+      51400000000.0,
+      55638000000.0,
+      58399000000.0
+    ],
+    "ordinary": [
+      1461542000.0,
+      1587530000.0,
+      1703837000.0,
+      1947434000.0,
+      2545597000.0,
+      3821000000.0,
+      5605000000.0,
+      4536000000.0,
+      4532000000.0,
+      4680000000.0
+    ],
+    "ordinary_margin": [
+      0.0687,
+      0.0632,
+      0.0613,
+      0.0433,
+      0.0556,
+      0.0638,
+      0.0807,
+      0.0882,
+      0.0815,
+      0.0801
+    ],
+    "equity_ratio": [
+      0.743,
+      0.729,
+      0.722,
+      0.549,
+      0.556,
+      0.592,
+      0.656,
+      0.734,
+      0.746,
+      0.743
+    ],
+    "ocf": [
+      987288000.0,
+      758251000.0,
+      1489112000.0,
+      2218826000.0,
+      1521101000.0,
+      3772000000.0,
+      5321000000.0,
+      3174000000.0,
+      3228000000.0,
+      3530000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.913,
+    "fixed_cost": 756091760.0,
+    "contribution_margin": 0.087,
+    "breakeven_sales": 8695303140.9,
+    "dol": 1.09,
+    "r2": 0.998,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": 0.96,
+    "margin_stdev": 0.0139,
+    "has_loss_year": false,
+    "median_margin": 0.0662
+  },
+  "trough": {
+    "score": 0.27,
+    "latest_margin": 0.0801,
+    "margin_pctile": 0.7,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.019
+  },
+  "structural": {
+    "sales_cagr": 0.1188,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.743,
+    "min_equity_ratio": 0.549,
+    "net_debt": -14169000000.0,
+    "net_debt_to_equity": -0.68,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 23913600.0,
+    "normalized_sales": 48598560500.0,
+    "normalized_margin": 0.0662,
+    "normalized_ordinary": 3345713838.1,
+    "normalized_eps": 97.94,
+    "normalized_per": 23.7,
+    "midcycle_per": 12.0,
+    "fair_value": 1175.2,
+    "expected_return_x": 0.51,
+    "pbr": 2.66
+  },
+  "liquidation": {
+    "value": 10889000000.0,
+    "per_share": 455.3,
+    "downside_to_liquidation": 0.804
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +11.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 74%（最低 55%） / ネットD/E -0.68"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.09 / 期待リターン 0.5倍"
+    }
+  },
+  "auto_score": 41.8,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

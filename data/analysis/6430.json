@@ -1,0 +1,194 @@
+{
+  "code": "6430",
+  "name": "ダイコク電機株式会社",
+  "sector33": "機械",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2472.0,
+  "market_cap_oku": 366.3,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      40714015000.0,
+      34093161000.0,
+      31166208000.0,
+      32922375000.0,
+      23228774000.0,
+      24480058000.0,
+      31910975000.0,
+      53946777000.0,
+      57492726000.0,
+      54337041000.0
+    ],
+    "ordinary": [
+      1374039000.0,
+      1390542000.0,
+      1748868000.0,
+      1674918000.0,
+      986830000.0,
+      1367552000.0,
+      4260220000.0,
+      12102168000.0,
+      12231796000.0,
+      9831817000.0
+    ],
+    "ordinary_margin": [
+      0.0337,
+      0.0408,
+      0.0561,
+      0.0509,
+      0.0425,
+      0.0559,
+      0.1335,
+      0.2243,
+      0.2128,
+      0.1809
+    ],
+    "equity_ratio": [
+      0.623,
+      0.671,
+      0.684,
+      0.712,
+      0.746,
+      0.751,
+      0.692,
+      0.687,
+      0.791,
+      0.838
+    ],
+    "ocf": [
+      9339079000.0,
+      2921586000.0,
+      1875839000.0,
+      5006623000.0,
+      3396292000.0,
+      3220365000.0,
+      2983735000.0,
+      8429256000.0,
+      7695368000.0,
+      5946435000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.6574,
+    "fixed_cost": 8467581866.8,
+    "contribution_margin": 0.3426,
+    "breakeven_sales": 24718261718.8,
+    "dol": 1.89,
+    "r2": 0.947,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 3.13,
+    "margin_stdev": 0.0769,
+    "has_loss_year": false,
+    "median_margin": 0.056
+  },
+  "trough": {
+    "score": 0.197,
+    "latest_margin": 0.1809,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      },
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.719,
+    "price_drawdown_10y": 0.49
+  },
+  "structural": {
+    "sales_cagr": 0.0326,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.838,
+    "min_equity_ratio": 0.623,
+    "net_debt": -16591921000.0,
+    "net_debt_to_equity": -0.33,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 14818175.0,
+    "normalized_sales": 33507768000.0,
+    "normalized_margin": 0.056,
+    "normalized_ordinary": 2444124255.7,
+    "normalized_eps": 115.46,
+    "normalized_per": 21.4,
+    "midcycle_per": 12.0,
+    "fair_value": 1385.5,
+    "expected_return_x": 0.56,
+    "pbr": 0.72
+  },
+  "liquidation": {
+    "value": 21927417500.0,
+    "per_share": 1479.8,
+    "downside_to_liquidation": 0.401
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +3.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 84%（最低 62%） / ネットD/E -0.33"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.89 / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 39.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

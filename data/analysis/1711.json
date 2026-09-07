@@ -1,0 +1,186 @@
+{
+  "code": "1711",
+  "name": "株式会社ＳＤＳホールディングス",
+  "sector33": "建設業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 246.0,
+  "market_cap_oku": 25.7,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      2429965000.0,
+      1789350000.0,
+      1280341000.0,
+      2273085000.0,
+      844454000.0,
+      1034970000.0,
+      3402015000.0,
+      4135838000.0,
+      4035492000.0,
+      5251516000.0
+    ],
+    "ordinary": [
+      -31525000.0,
+      -292495000.0,
+      -399757000.0,
+      -171102000.0,
+      -272124000.0,
+      -298344000.0,
+      -210858000.0,
+      -51085000.0,
+      -97208000.0,
+      1030000.0
+    ],
+    "ordinary_margin": [
+      -0.013,
+      -0.1635,
+      -0.3122,
+      -0.0753,
+      -0.3222,
+      -0.2883,
+      -0.062,
+      -0.0124,
+      -0.0241,
+      0.0002
+    ],
+    "equity_ratio": [
+      0.34,
+      0.036,
+      0.19,
+      0.026,
+      0.127,
+      0.646,
+      0.117,
+      0.176,
+      0.129,
+      0.104
+    ],
+    "ocf": [
+      -495677000.0,
+      32148000.0,
+      -387424000.0,
+      -6080000.0,
+      -515095000.0,
+      -485253000.0,
+      -717609000.0,
+      924633000.0,
+      -214276000.0,
+      -89160000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9268,
+    "fixed_cost": 376057676.6,
+    "contribution_margin": 0.0732,
+    "breakeven_sales": 5140077343.8,
+    "dol": 373.02,
+    "r2": 0.997,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 1.0,
+    "elasticity": 3.35,
+    "margin_stdev": 0.1332,
+    "has_loss_year": true,
+    "median_margin": -0.0686
+  },
+  "trough": {
+    "score": 0.43,
+    "latest_margin": 0.0002,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.116,
+    "price_drawdown_10y": 0.846
+  },
+  "structural": {
+    "sales_cagr": 0.0894,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.104,
+    "min_equity_ratio": 0.026,
+    "net_debt": 4081312000.0,
+    "net_debt_to_equity": 5.5,
+    "survive_years_if_loss": 0.6
+  },
+  "valuation": {
+    "shares_outstanding": 10432773.0,
+    "normalized_sales": 3150909600.0,
+    "normalized_margin": -0.0686,
+    "normalized_ordinary": -180823778.1,
+    "normalized_eps": -12.13,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 4.39
+  },
+  "liquidation": {
+    "value": -2982755600.0,
+    "per_share": -285.9,
+    "downside_to_liquidation": 2.162
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +8.9% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "×",
+      "note": "自己資本比率 10%（最低 3%） / ネットD/E 5.5"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 21.1,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": false,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

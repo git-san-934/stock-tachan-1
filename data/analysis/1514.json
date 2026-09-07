@@ -1,0 +1,202 @@
+{
+  "code": "1514",
+  "name": "住石ホールディングス株式会社",
+  "sector33": "鉱業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 677.0,
+  "market_cap_oku": 455.1,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      12943000000.0,
+      16922000000.0,
+      21719000000.0,
+      16679000000.0,
+      9781000000.0,
+      10277000000.0,
+      36323000000.0,
+      14416000000.0,
+      10264000000.0,
+      10658000000.0
+    ],
+    "ordinary": [
+      507000000.0,
+      2626000000.0,
+      2129000000.0,
+      1262000000.0,
+      -33000000.0,
+      2356000000.0,
+      3719000000.0,
+      8106000000.0,
+      4711000000.0,
+      2794000000.0
+    ],
+    "ordinary_margin": [
+      0.0392,
+      0.1552,
+      0.098,
+      0.0757,
+      -0.0034,
+      0.2292,
+      0.1024,
+      0.5623,
+      0.459,
+      0.2622
+    ],
+    "equity_ratio": [
+      0.664,
+      0.686,
+      0.855,
+      0.894,
+      0.886,
+      0.804,
+      0.779,
+      0.867,
+      0.965,
+      0.906
+    ],
+    "ocf": [
+      -35000000.0,
+      4335000000.0,
+      -2145000000.0,
+      2191000000.0,
+      1452000000.0,
+      -3034000000.0,
+      53000000.0,
+      18778000000.0,
+      26000000.0,
+      4553000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9637,
+    "fixed_cost": -2237264505.7,
+    "contribution_margin": 0.0363,
+    "breakeven_sales": -61664397454.6,
+    "dol": 0.14,
+    "r2": 0.919,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 26.08,
+    "margin_stdev": 0.1849,
+    "has_loss_year": true,
+    "median_margin": 0.1288
+  },
+  "trough": {
+    "score": 0.328,
+    "latest_margin": 0.2622,
+    "margin_pctile": 0.8,
+    "market_phase_score": 0.33,
+    "market_phase_detail": [
+      {
+        "key": "crude_brent",
+        "label": "原油ブレント ($/bbl, 月次)",
+        "hint": "中立",
+        "pctile": 0.631,
+        "yoy": 0.204,
+        "stale": false
+      },
+      {
+        "key": "coal_aus",
+        "label": "石炭 豪州 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.786,
+        "yoy": 0.207,
+        "stale": false
+      },
+      {
+        "key": "iron_ore",
+        "label": "鉄鉱石 中国CFR ($/dmt, 月次)",
+        "hint": "中立",
+        "pctile": 0.444,
+        "yoy": 0.004,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.826,
+    "price_drawdown_10y": 0.732
+  },
+  "structural": {
+    "sales_cagr": -0.0214,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.906,
+    "min_equity_ratio": 0.664,
+    "net_debt": -10924000000.0,
+    "net_debt_to_equity": -0.37,
+    "survive_years_if_loss": 410.3
+  },
+  "valuation": {
+    "shares_outstanding": 67222853.0,
+    "normalized_sales": 13679500000.0,
+    "normalized_margin": 0.1288,
+    "normalized_ordinary": 1761711123.8,
+    "normalized_eps": 18.34,
+    "normalized_per": 36.9,
+    "midcycle_per": 12.0,
+    "fair_value": 220.1,
+    "expected_return_x": 0.33,
+    "pbr": 1.39
+  },
+  "liquidation": {
+    "value": 16273100000.0,
+    "per_share": 242.1,
+    "downside_to_liquidation": 0.642
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -2.1% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 91%（最低 66%） / ネットD/E -0.37"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.14 / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 43.2,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "code": "268A",
+  "name": "リガク・ホールディングス株式会社",
+  "sector33": "精密機器",
+  "market": "プライム（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1710.0,
+  "market_cap_oku": 3939.4,
+  "fy_range": [
+    2021,
+    2025
+  ],
+  "n_years": 5,
+  "series": {
+    "fy": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      916000000.0,
+      3448000000.0,
+      4360000000.0,
+      90652000000.0,
+      94193000000.0
+    ],
+    "ordinary": [
+      -4424000000.0,
+      -1494000000.0,
+      1971000000.0,
+      3014000000.0,
+      7548000000.0
+    ],
+    "ordinary_margin": [
+      -4.8297,
+      -0.4333,
+      0.4521,
+      0.0332,
+      0.0801
+    ],
+    "equity_ratio": [
+      0.445,
+      0.437,
+      0.462,
+      0.477,
+      0.467
+    ],
+    "ocf": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9244,
+    "fixed_cost": 1602200042.4,
+    "contribution_margin": 0.0756,
+    "breakeven_sales": 21204447936.3,
+    "dol": 0.94,
+    "r2": 0.997,
+    "n_points": 5
+  },
+  "cyclicality": {
+    "score": 0.6,
+    "elasticity": 0.17,
+    "margin_stdev": 2.1973,
+    "has_loss_year": true,
+    "median_margin": 0.0332
+  },
+  "trough": {
+    "score": 0.26,
+    "latest_margin": 0.0801,
+    "margin_pctile": 0.8,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.75,
+    "price_drawdown_10y": 0.389
+  },
+  "structural": {
+    "sales_cagr": 2.1844,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": false,
+    "equity_ratio": 0.467,
+    "min_equity_ratio": 0.437,
+    "net_debt": 59389000000.0,
+    "net_debt_to_equity": 1.1,
+    "survive_years_if_loss": 0.1
+  },
+  "valuation": {
+    "shares_outstanding": 230375000.0,
+    "normalized_sales": 56515800000.0,
+    "normalized_margin": 0.0332,
+    "normalized_ordinary": 2274716596.2,
+    "normalized_eps": 6.91,
+    "normalized_per": 247.4,
+    "midcycle_per": 12.0,
+    "fair_value": 82.9,
+    "expected_return_x": 0.05,
+    "pbr": 7.17
+  },
+  "liquidation": {
+    "value": 32885400000.0,
+    "per_share": 142.7,
+    "downside_to_liquidation": 0.917
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +218.4% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "△",
+      "note": "自己資本比率 47%（最低 44%） / ネットD/E 1.1"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 0.94 / 期待リターン 0.0倍"
+    }
+  },
+  "auto_score": 29.8,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

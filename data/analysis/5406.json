@@ -2,7 +2,7 @@
   "code": "5406",
   "name": "株式会社　神戸製鋼所",
   "sector33": "鉄鋼",
-  "market": "",
+  "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
   "as_of_price": "2026-09-07",
   "price": 2059.5,
@@ -174,11 +174,13 @@
   },
   "auto_score": 32.7,
   "passes": {
+    "s0_size": true,
     "s1_cheap": true,
     "s2_cyclical": true,
     "s3_trough": false,
     "s4_structural_ok": true,
     "s5_survivable": true,
+    "s6_upside": false,
     "pass_all": false
   },
   "catalyst": {

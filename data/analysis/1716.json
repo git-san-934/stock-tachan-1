@@ -1,0 +1,186 @@
+{
+  "code": "1716",
+  "name": "第一カッター興業株式会社",
+  "sector33": "建設業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 1394.0,
+  "market_cap_oku": 167.3,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      12857204000.0,
+      12840827000.0,
+      16283654000.0,
+      14871802000.0,
+      17440076000.0,
+      19337792000.0,
+      20949144000.0,
+      22164394000.0,
+      20918336000.0,
+      20228578000.0
+    ],
+    "ordinary": [
+      1780934000.0,
+      1473313000.0,
+      2263436000.0,
+      1843825000.0,
+      2482784000.0,
+      2936089000.0,
+      2704274000.0,
+      2865135000.0,
+      2829176000.0,
+      1791866000.0
+    ],
+    "ordinary_margin": [
+      0.1385,
+      0.1147,
+      0.139,
+      0.124,
+      0.1424,
+      0.1518,
+      0.1291,
+      0.1293,
+      0.1352,
+      0.0886
+    ],
+    "equity_ratio": [
+      0.732,
+      0.759,
+      0.743,
+      0.793,
+      0.771,
+      0.758,
+      0.774,
+      0.771,
+      0.831,
+      0.864
+    ],
+    "ocf": [
+      1354160000.0,
+      913377000.0,
+      2224813000.0,
+      1231019000.0,
+      2515215000.0,
+      1957496000.0,
+      2239381000.0,
+      2740454000.0,
+      2173773000.0,
+      1699024000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8773,
+    "fixed_cost": -114677416.1,
+    "contribution_margin": 0.1227,
+    "breakeven_sales": -934756172.2,
+    "dol": 1.38,
+    "r2": 0.988,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.2,
+    "elasticity": 2.45,
+    "margin_stdev": 0.0176,
+    "has_loss_year": false,
+    "median_margin": 0.1323
+  },
+  "trough": {
+    "score": 0.5,
+    "latest_margin": 0.0886,
+    "margin_pctile": 0.1,
+    "market_phase_score": null,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      }
+    ],
+    "price_pctile_10y": 0.917,
+    "price_drawdown_10y": 0.111
+  },
+  "structural": {
+    "sales_cagr": 0.0516,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.864,
+    "min_equity_ratio": 0.732,
+    "net_debt": -9738194000.0,
+    "net_debt_to_equity": -0.5,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 12000000.0,
+    "normalized_sales": 18388934000.0,
+    "normalized_margin": 0.1323,
+    "normalized_ordinary": 2432084370.2,
+    "normalized_eps": 141.87,
+    "normalized_per": 9.8,
+    "midcycle_per": 12.0,
+    "fair_value": 1702.5,
+    "expected_return_x": 1.22,
+    "pbr": 0.82
+  },
+  "liquidation": {
+    "value": 12385423600.0,
+    "per_share": 1032.1,
+    "downside_to_liquidation": 0.26
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +5.2% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 86%（最低 73%） / ネットD/E -0.5"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.38 / 期待リターン 1.2倍"
+    }
+  },
+  "auto_score": 51.9,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

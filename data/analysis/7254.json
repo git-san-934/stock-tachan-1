@@ -1,0 +1,194 @@
+{
+  "code": "7254",
+  "name": "株式会社ユニバンス",
+  "sector33": "輸送用機器",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 835.0,
+  "market_cap_oku": 195.4,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      60024665000.0,
+      58729554000.0,
+      59924071000.0,
+      56288534000.0,
+      46249312000.0,
+      49061146000.0,
+      48601703000.0,
+      52771780000.0,
+      53915906000.0,
+      56542577000.0
+    ],
+    "ordinary": [
+      78907000.0,
+      518995000.0,
+      1453155000.0,
+      -1153079000.0,
+      -253806000.0,
+      3285825000.0,
+      1095216000.0,
+      4537203000.0,
+      4391994000.0,
+      5263260000.0
+    ],
+    "ordinary_margin": [
+      0.0013,
+      0.0088,
+      0.0242,
+      -0.0205,
+      -0.0055,
+      0.067,
+      0.0225,
+      0.086,
+      0.0815,
+      0.0931
+    ],
+    "equity_ratio": [
+      0.415,
+      0.436,
+      0.438,
+      0.37,
+      0.361,
+      0.435,
+      0.477,
+      0.532,
+      0.593,
+      0.599
+    ],
+    "ocf": [
+      4282484000.0,
+      4020069000.0,
+      5454929000.0,
+      2035807000.0,
+      2947623000.0,
+      5442169000.0,
+      5242834000.0,
+      6562988000.0,
+      7177894000.0,
+      6435484000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.0358,
+    "fixed_cost": -3863962387.4,
+    "contribution_margin": -0.0358,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.837,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 68.88,
+    "margin_stdev": 0.0421,
+    "has_loss_year": true,
+    "median_margin": 0.0234
+  },
+  "trough": {
+    "score": 0.01,
+    "latest_margin": 0.0931,
+    "margin_pctile": 1.0,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "aluminum",
+        "label": "アルミ ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.963,
+        "yoy": 0.212,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.017
+  },
+  "structural": {
+    "sales_cagr": -0.0066,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.599,
+    "min_equity_ratio": 0.361,
+    "net_debt": -10864796000.0,
+    "net_debt_to_equity": -0.37,
+    "survive_years_if_loss": 14.1
+  },
+  "valuation": {
+    "shares_outstanding": 23396787.0,
+    "normalized_sales": 55102220000.0,
+    "normalized_margin": 0.0234,
+    "normalized_ordinary": 1288963718.3,
+    "normalized_eps": 38.56,
+    "normalized_per": 21.7,
+    "midcycle_per": 12.0,
+    "fair_value": 462.8,
+    "expected_return_x": 0.55,
+    "pbr": 0.6
+  },
+  "liquidation": {
+    "value": 5428055600.0,
+    "per_share": 232.0,
+    "downside_to_liquidation": 0.722
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR -0.7% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 60%（最低 36%） / ネットD/E -0.37"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.6倍"
+    }
+  },
+  "auto_score": 35.2,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

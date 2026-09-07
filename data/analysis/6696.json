@@ -1,0 +1,194 @@
+{
+  "code": "6696",
+  "name": "株式会社トラース・オン・プロダクト",
+  "sector33": "電気機器",
+  "market": "グロース（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 331.0,
+  "market_cap_oku": 16.0,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      1051654000.0,
+      1258047000.0,
+      694460000.0,
+      783417000.0,
+      586408000.0,
+      404573000.0,
+      496493000.0,
+      310965000.0,
+      411492000.0,
+      485942000.0
+    ],
+    "ordinary": [
+      184484000.0,
+      245273000.0,
+      -146733000.0,
+      -102370000.0,
+      -286358000.0,
+      -365193000.0,
+      -15100000.0,
+      -76376000.0,
+      6919000.0,
+      -35494000.0
+    ],
+    "ordinary_margin": [
+      0.1754,
+      0.195,
+      -0.2113,
+      -0.1307,
+      -0.4883,
+      -0.9027,
+      -0.0304,
+      -0.2456,
+      0.0168,
+      -0.073
+    ],
+    "equity_ratio": [
+      0.767,
+      0.842,
+      0.892,
+      0.928,
+      0.776,
+      0.699,
+      0.62,
+      0.793,
+      0.757,
+      0.62
+    ],
+    "ocf": [
+      144808000.0,
+      166247000.0,
+      -259521000.0,
+      -101637000.0,
+      -116217000.0,
+      -263077000.0,
+      18134000.0,
+      -72561000.0,
+      28017000.0,
+      -29889000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.5912,
+    "fixed_cost": 324120357.5,
+    "contribution_margin": 0.4088,
+    "breakeven_sales": 792911625.5,
+    "dol": null,
+    "r2": 0.627,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.8,
+    "elasticity": 9.11,
+    "margin_stdev": 0.3272,
+    "has_loss_year": true,
+    "median_margin": -0.1019
+  },
+  "trough": {
+    "score": 0.555,
+    "latest_margin": -0.073,
+    "margin_pctile": 0.6,
+    "market_phase_score": 0.0,
+    "market_phase_detail": [
+      {
+        "key": "japan_iip",
+        "label": "日本 鉱工業生産指数 (OECD 2015=100, 月次)",
+        "hint": "中立",
+        "pctile": 0.535,
+        "yoy": -0.059,
+        "stale": true
+      },
+      {
+        "key": "copper",
+        "label": "銅 ($/mt, 月次)",
+        "hint": "山寄り",
+        "pctile": 0.995,
+        "yoy": 0.386,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.236,
+    "price_drawdown_10y": 0.868
+  },
+  "structural": {
+    "sales_cagr": -0.0822,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.62,
+    "min_equity_ratio": 0.62,
+    "net_debt": -127584000.0,
+    "net_debt_to_equity": -0.36,
+    "survive_years_if_loss": 0.8
+  },
+  "valuation": {
+    "shares_outstanding": 4826991.0,
+    "normalized_sales": 541450500.0,
+    "normalized_margin": -0.1019,
+    "normalized_ordinary": -55150195.5,
+    "normalized_eps": -8.0,
+    "normalized_per": null,
+    "midcycle_per": 12.0,
+    "fair_value": null,
+    "expected_return_x": null,
+    "pbr": 4.57
+  },
+  "liquidation": {
+    "value": 191124700.0,
+    "per_share": 39.6,
+    "downside_to_liquidation": 0.88
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -8.2% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 62%（最低 62%） / ネットD/E -0.36"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "正常化利益を試算できず"
+    }
+  },
+  "auto_score": 54.9,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "code": "3131",
+  "name": "シンデン・ハイテックス株式会社",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 6710.0,
+  "market_cap_oku": 141.6,
+  "fy_range": [
+    2017,
+    2026
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "sales": [
+      44440072000.0,
+      54406551000.0,
+      46102601000.0,
+      44277596000.0,
+      49084536000.0,
+      43458893000.0,
+      41924471000.0,
+      42285022000.0,
+      43745219000.0,
+      42812010000.0
+    ],
+    "ordinary": [
+      502477000.0,
+      874368000.0,
+      299764000.0,
+      291646000.0,
+      702974000.0,
+      1062803000.0,
+      1302764000.0,
+      499269000.0,
+      929726000.0,
+      523827000.0
+    ],
+    "ordinary_margin": [
+      0.0113,
+      0.0161,
+      0.0065,
+      0.0066,
+      0.0143,
+      0.0245,
+      0.0311,
+      0.0118,
+      0.0213,
+      0.0122
+    ],
+    "equity_ratio": [
+      0.16,
+      0.251,
+      0.253,
+      0.293,
+      0.283,
+      0.306,
+      0.411,
+      0.381,
+      0.445,
+      0.337
+    ],
+    "ocf": [
+      3318942000.0,
+      -6511351000.0,
+      5994660000.0,
+      -467136000.0,
+      -602417000.0,
+      747657000.0,
+      4577046000.0,
+      1033157000.0,
+      3068077000.0,
+      -4293704000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 1.0011,
+    "fixed_cost": -750834987.7,
+    "contribution_margin": -0.0011,
+    "breakeven_sales": null,
+    "dol": null,
+    "r2": 0.992,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 6.34,
+    "margin_stdev": 0.0079,
+    "has_loss_year": false,
+    "median_margin": 0.0133
+  },
+  "trough": {
+    "score": 0.25,
+    "latest_margin": 0.0122,
+    "margin_pctile": 0.5,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 1.0,
+    "price_drawdown_10y": 0.0
+  },
+  "structural": {
+    "sales_cagr": -0.0041,
+    "ok": false,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.337,
+    "min_equity_ratio": 0.16,
+    "net_debt": 4574539000.0,
+    "net_debt_to_equity": 0.61,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 2110200.0,
+    "normalized_sales": 44011407500.0,
+    "normalized_margin": 0.0133,
+    "normalized_ordinary": 584410210.9,
+    "normalized_eps": 193.86,
+    "normalized_per": 34.6,
+    "midcycle_per": 12.0,
+    "fair_value": 2326.3,
+    "expected_return_x": 0.35,
+    "pbr": 1.69
+  },
+  "liquidation": {
+    "value": -7420049500.0,
+    "per_share": -3516.3,
+    "downside_to_liquidation": 1.524
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "△",
+      "note": "売上10年CAGR -0.4% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 34%（最低 16%） / ネットD/E 0.61"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL None / 期待リターン 0.3倍"
+    }
+  },
+  "auto_score": 28.7,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": false,
+    "s2_cyclical": true,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

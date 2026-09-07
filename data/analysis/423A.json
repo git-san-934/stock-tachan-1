@@ -1,0 +1,147 @@
+{
+  "code": "423A",
+  "name": "株式会社ライオン事務器",
+  "sector33": "卸売業",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 323.0,
+  "market_cap_oku": 96.6,
+  "fy_range": [
+    2021,
+    2025
+  ],
+  "n_years": 5,
+  "series": {
+    "fy": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      47924000000.0,
+      33945000000.0,
+      33021000000.0,
+      34894000000.0,
+      37022000000.0
+    ],
+    "ordinary": [
+      1646000000.0,
+      1046000000.0,
+      1110000000.0,
+      1168000000.0,
+      1275000000.0
+    ],
+    "ordinary_margin": [
+      0.0343,
+      0.0308,
+      0.0336,
+      0.0335,
+      0.0344
+    ],
+    "equity_ratio": [
+      0.354,
+      0.419,
+      0.457,
+      0.491,
+      0.488
+    ],
+    "ocf": [
+      6204000000.0,
+      -3258000000.0,
+      -497000000.0,
+      1753000000.0,
+      -6000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.9617,
+    "fixed_cost": 182439664.4,
+    "contribution_margin": 0.0383,
+    "breakeven_sales": 4761754868.2,
+    "dol": 1.11,
+    "r2": 1.0,
+    "n_points": 5
+  },
+  "cyclicality": {
+    "score": 0.0,
+    "elasticity": 1.31,
+    "margin_stdev": 0.0015,
+    "has_loss_year": false,
+    "median_margin": 0.0336
+  },
+  "trough": {
+    "score": 0.105,
+    "latest_margin": 0.0344,
+    "margin_pctile": 1.0,
+    "market_phase_score": null,
+    "market_phase_detail": [],
+    "price_pctile_10y": 0.667,
+    "price_drawdown_10y": 0.078
+  },
+  "structural": {
+    "sales_cagr": -0.0625,
+    "ok": false,
+    "shrink_flag": true
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.488,
+    "min_equity_ratio": 0.354,
+    "net_debt": -4785000000.0,
+    "net_debt_to_equity": -0.39,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 29900000.0,
+    "normalized_sales": 34894000000.0,
+    "normalized_margin": 0.0336,
+    "normalized_ordinary": 1163480689.3,
+    "normalized_eps": 27.24,
+    "normalized_per": 11.9,
+    "midcycle_per": 12.0,
+    "fair_value": 326.9,
+    "expected_return_x": 1.01,
+    "pbr": 0.79
+  },
+  "liquidation": {
+    "value": 5514500000.0,
+    "per_share": 184.4,
+    "downside_to_liquidation": 0.429
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "×",
+      "note": "売上10年CAGR -6.2% / 直近ピーク < 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 49%（最低 35%） / ネットD/E -0.39"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 1.11 / 期待リターン 1.0倍"
+    }
+  },
+  "auto_score": 37.4,
+  "passes": {
+    "s0_size": false,
+    "s1_cheap": true,
+    "s2_cyclical": false,
+    "s3_trough": false,
+    "s4_structural_ok": false,
+    "s5_survivable": true,
+    "s6_upside": true,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}

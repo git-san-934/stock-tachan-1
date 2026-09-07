@@ -1,0 +1,186 @@
+{
+  "code": "8029",
+  "name": "株式会社ルックホールディングス",
+  "sector33": "繊維製品",
+  "market": "スタンダード（内国株式）",
+  "profit_basis": "経常利益",
+  "as_of_price": "2026-09-07",
+  "price": 2668.0,
+  "market_cap_oku": 208.0,
+  "fy_range": [
+    2016,
+    2025
+  ],
+  "n_years": 10,
+  "series": {
+    "fy": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sales": [
+      42624000000.0,
+      43040000000.0,
+      44015000000.0,
+      43909000000.0,
+      37014000000.0,
+      41065000000.0,
+      54687000000.0,
+      55475000000.0,
+      54739000000.0,
+      52117000000.0
+    ],
+    "ordinary": [
+      964000000.0,
+      1747000000.0,
+      1821000000.0,
+      1784000000.0,
+      848000000.0,
+      2720000000.0,
+      4005000000.0,
+      3578000000.0,
+      2880000000.0,
+      2086000000.0
+    ],
+    "ordinary_margin": [
+      0.0226,
+      0.0406,
+      0.0414,
+      0.0406,
+      0.0229,
+      0.0662,
+      0.0732,
+      0.0645,
+      0.0526,
+      0.04
+    ],
+    "equity_ratio": [
+      0.672,
+      0.694,
+      0.691,
+      0.511,
+      0.517,
+      0.515,
+      0.549,
+      0.605,
+      0.615,
+      0.632
+    ],
+    "ocf": [
+      1315000000.0,
+      1484000000.0,
+      1759000000.0,
+      998000000.0,
+      1950000000.0,
+      4047000000.0,
+      2840000000.0,
+      1142000000.0,
+      2452000000.0,
+      2546000000.0
+    ]
+  },
+  "cost_structure": {
+    "variable_cost_ratio": 0.8758,
+    "fixed_cost": 3579632235.7,
+    "contribution_margin": 0.1242,
+    "breakeven_sales": 28812286773.6,
+    "dol": 3.1,
+    "r2": 0.989,
+    "n_points": 10
+  },
+  "cyclicality": {
+    "score": 0.4,
+    "elasticity": 6.23,
+    "margin_stdev": 0.0174,
+    "has_loss_year": false,
+    "median_margin": 0.041
+  },
+  "trough": {
+    "score": 0.413,
+    "latest_margin": 0.04,
+    "margin_pctile": 0.3,
+    "market_phase_score": 0.5,
+    "market_phase_detail": [
+      {
+        "key": "cotton",
+        "label": "綿花 ($/kg, 月次)",
+        "hint": "中立",
+        "pctile": 0.578,
+        "yoy": 0.125,
+        "stale": false
+      }
+    ],
+    "price_pctile_10y": 0.967,
+    "price_drawdown_10y": 0.037
+  },
+  "structural": {
+    "sales_cagr": 0.0226,
+    "ok": true,
+    "shrink_flag": false
+  },
+  "survival": {
+    "ok": true,
+    "equity_ratio": 0.632,
+    "min_equity_ratio": 0.511,
+    "net_debt": 2120000000.0,
+    "net_debt_to_equity": 0.05,
+    "survive_years_if_loss": null
+  },
+  "valuation": {
+    "shares_outstanding": 7796313.0,
+    "normalized_sales": 43962000000.0,
+    "normalized_margin": 0.041,
+    "normalized_ordinary": 1841464240.4,
+    "normalized_eps": 165.34,
+    "normalized_per": 16.1,
+    "midcycle_per": 12.0,
+    "fair_value": 1984.1,
+    "expected_return_x": 0.74,
+    "pbr": 0.49
+  },
+  "liquidation": {
+    "value": 7901100000.0,
+    "per_share": 1013.4,
+    "downside_to_liquidation": 0.62
+  },
+  "checklist": {
+    "A_cycle_not_structural": {
+      "mark": "○",
+      "note": "売上10年CAGR +2.3% / 直近ピーク ≥ 過去ピーク"
+    },
+    "B_survive_to_next_peak": {
+      "mark": "○",
+      "note": "自己資本比率 63%（最低 51%） / ネットD/E 0.05"
+    },
+    "C_operating_leverage_upside": {
+      "mark": "×",
+      "note": "DOL 3.1 / 期待リターン 0.7倍"
+    }
+  },
+  "auto_score": 45.3,
+  "passes": {
+    "s0_size": true,
+    "s1_cheap": true,
+    "s2_cyclical": true,
+    "s3_trough": true,
+    "s4_structural_ok": true,
+    "s5_survivable": true,
+    "s6_upside": false,
+    "pass_all": false
+  },
+  "catalyst": {
+    "note": "",
+    "kpi": "",
+    "manual_score": null
+  },
+  "phase_manual": {
+    "note": ""
+  }
+}
