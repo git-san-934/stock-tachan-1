@@ -270,7 +270,7 @@ def analyze(code: str) -> dict | None:
         "code": code, "name": fin.get("name", ""), "sector33": uni.get("sector33", ""),
         "market": uni.get("market", ""), "profit_basis": profit_basis,
         "as_of_price": prices.get("as_of"), "price": price,
-        "market_cap_oku": round(market_cap / 1e8, 1) if market_cap else None,
+        "market_cap_oku": int(market_cap // 1e8) if market_cap else None,
         "fy_range": [fys[0], fys[-1]] if fys else None, "n_years": len(fys),
         "series": {"fy": fys, "sales": sales, "ordinary": ordinary,
                    "ordinary_margin": [round(m, 4) if m is not None else None
