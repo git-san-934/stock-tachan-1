@@ -174,16 +174,16 @@ def build_index(shortlist: dict) -> str:
     body = f"""
 <h1>シクリカルバリュー・スクリーナー</h1>
 <p class="muted">生成 {esc(shortlist['generated'])} ／ 分析 {st['analyzed']} 社 ／
-漏斗通過 <span class="badge">{st['pass_all']}</span> 社
+ふるい通過 <span class="badge">{st['pass_all']}</span> 社
 （東証33業種のうちシクリカル業種{'・パイロット版' if st['analyzed'] < 300 else ''}）</p>
 <p class="note">景気循環業界で「循環の谷」にいて、次の山まで生き残れて、
 山で大きく跳ねる可能性がある割安株を機械的に絞り込む。手法は
 <a href="https://git-san-934.github.io/portal/">ポータル</a>の投資ノート参照。
-漏斗: ⓪規模（時価総額100億円以上）①割安 ②循環性 ③谷
+ふるい: ⓪規模（時価総額100億円以上）①割安 ②循環性 ③谷
 ④非衰退（構造縮小でない）⑤生存力 ⑥上値（正常化利益で期待リターン≥1倍）。</p>
 
 <div class="controls">
-<label><input type="checkbox" id="onlypass" checked> 漏斗通過のみ</label>
+<label><input type="checkbox" id="onlypass" checked> ふるい通過のみ</label>
 <select id="sector"><option value="">業種すべて</option>{opts}</select>
 <input id="q" placeholder="コード / 銘柄名で絞り込み" size="18">
 <span class="muted" id="count"></span>
@@ -195,7 +195,7 @@ def build_index(shortlist: dict) -> str:
 <th class="l" data-k="sector33">業種</th>
 <th data-k="market_cap_oku">時価総額<br>(億円)</th>
 <th data-k="auto_score">自動<br>スコア</th>
-<th data-k="_funnel">漏斗</th>
+<th data-k="_funnel">ふるい</th>
 <th data-k="expected_return_x">期待<br>リターン</th>
 <th data-k="normalized_per">正常化<br>PER</th>
 <th data-k="pbr">PBR</th>
@@ -282,7 +282,7 @@ def build_company(a: dict, market: dict) -> str:
 
     body = f"""
 <h1>{esc(a['code'])} {esc(a['name'])}
-{"<span class='badge'>漏斗通過</span>" if a['passes']['pass_all'] else ""}</h1>
+{"<span class='badge'>ふるい通過</span>" if a['passes']['pass_all'] else ""}</h1>
 <p class="muted">{esc(a['sector33'])}{(' · ' + esc(a['market'])) if a.get('market') else ''} ·
 株価 {fmt(a['price'])} 円（{esc(a['as_of_price'])}） ·
 時価総額 {fmt(a['market_cap_oku'])} 億円 ·

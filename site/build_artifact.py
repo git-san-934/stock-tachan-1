@@ -129,12 +129,12 @@ def main() -> None:
   <p class="lede">景気循環業界で「循環の谷」にいて、次の山まで生き残れて、山で大きく
   跳ねる可能性がある割安株を、東証33業種のシクリカル業種から機械的に絞り込む。
   行をタップすると銘柄の詳細（10年財務・コスト構造・チェックリストA/B/C）が開く。</p>
-  <p class="note">生成 {st['analyzed']} 社分析 ／ 漏斗通過
+  <p class="note">生成 {st['analyzed']} 社分析 ／ ふるい通過
   <b>{st['pass_all']}</b> 社 ／ {shortlist['generated']}。
-  漏斗: {' '.join(FUNNEL_LABELS)}（③谷 = 利益率が過去下位40% or 赤字 or 市況が谷寄り）。</p>
+  ふるい: {' '.join(FUNNEL_LABELS)}（③谷 = 利益率が過去下位40% or 赤字 or 市況が谷寄り）。</p>
 
   <div class="controls">
-    <label><input type="checkbox" id="onlypass" checked> 漏斗通過のみ</label>
+    <label><input type="checkbox" id="onlypass" checked> ふるい通過のみ</label>
     <select id="sector"><option value="">業種すべて</option></select>
     <input id="q" placeholder="コード / 銘柄名" size="16">
     <span class="note" id="count"></span>
@@ -146,7 +146,7 @@ def main() -> None:
     <th class="l" data-k="sector33">業種</th>
     <th data-k="market_cap_oku">時価総額<br>(億円)</th>
     <th data-k="auto_score">自動<br>スコア</th>
-    <th data-k="_funnel">漏斗</th>
+    <th data-k="_funnel">ふるい</th>
     <th data-k="expected_return_x">期待<br>リターン</th>
     <th data-k="normalized_per">正常化<br>PER</th>
     <th data-k="pbr">PBR</th>
@@ -295,7 +295,7 @@ function openDetail(code){{
     <div class="backbar"><button id="back">← 一覧へ戻る</button>
       <span class="note">${{esc(a.code)}} ${{esc(a.name)}}</span></div>
     <h1>${{esc(a.code)}} ${{esc(a.name)}}
-      ${{a.passes.pass_all?'<span class="badge">漏斗通過</span>':''}}</h1>
+      ${{a.passes.pass_all?'<span class="badge">ふるい通過</span>':''}}</h1>
     <p class="note">${{esc(a.sector33)}}${{a.market?" · "+esc(a.market):""}} ·
       株価 ${{num(a.price)}} 円（${{esc(a.as_of_price)}}） ·
       時価総額 ${{num(a.market_cap_oku)}} 億円 ·

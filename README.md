@@ -8,7 +8,7 @@
 
 **LLM もサーバーも使わない。完全無料。** データは EDINET・Yahoo Finance・FRED から。
 
-## 漏斗（段階0〜5）
+## ふるい（段階0〜⑥）
 
 | 段階 | 内容 | 主な条件 |
 |---|---|---|
@@ -21,7 +21,7 @@
 | ⑤ 生存力 | 次の山まで生き残れるか | 自己資本比率≥25% かつ ネットD/E≤1.0 |
 | ⑥ 上値 | 山で跳ねる根拠があるか | 正常化利益（プラス）で期待リターン≥1倍を試算できる |
 
-全段階を通過した銘柄を「漏斗通過」として上位に並べ、自動スコア（割安40 / 谷25 /
+全段階を通過した銘柄を「ふるい通過」として上位に並べ、自動スコア（割安40 / 谷25 /
 生存35）で順位付けする。**カタリスト（引き金）は自動化せず、銘柄詳細ページの
 手入力メモで管理する。**
 
@@ -51,14 +51,14 @@ scripts/analyze.py            循環性 / トラフ / 構造 / 生存力 / 正�
    │                          バリュエーション / 清算価値 / チェックリストA・B・C / スコア
    │                          → data/analysis/<code>.json
    ▼
-scripts/build_shortlist.py    漏斗を適用してランキング → data/shortlist.json
+scripts/build_shortlist.py    ふるいを適用してランキング → data/shortlist.json
    ▼
 site/build.py                 docs/ に静的サイト（ランキング＋銘柄詳細）
    ▼
 GitHub Pages で公開 → ポータル https://git-san-934.github.io/portal/ に追加
 ```
 
-`scripts/update_all.py` が 0〜⑤を通しで実行する。
+`scripts/update_all.py` が 0〜⑥を通しで実行する。
 
 ## セットアップ
 
@@ -119,8 +119,8 @@ python -m http.server -d docs 8000
 | `scripts/fetch_prices.py` | 月次10年株価 → `data/<code>/prices.json` |
 | `scripts/fetch_market.py` | 市況（FRED）→ `data/market/commodities.json` |
 | `scripts/analyze.py` | 全指標・チェックリスト・スコア → `data/analysis/<code>.json` |
-| `scripts/build_shortlist.py` | 漏斗適用・ランキング → `data/shortlist.json` |
-| `scripts/update_all.py` | 0〜⑤の通し実行 |
+| `scripts/build_shortlist.py` | ふるい適用・ランキング → `data/shortlist.json` |
+| `scripts/update_all.py` | 0〜⑥の通し実行 |
 | `site/build.py` | 静的サイト生成（`docs/` はコミットせず CI でビルド） |
 
 ## 限界・注意
