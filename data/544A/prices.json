@@ -1,7 +1,7 @@
 {
   "symbol": "544A.T",
-  "as_of": "2026-09-07",
-  "latest": 341.0,
+  "as_of": "2026-06-09",
+  "latest": 362.0,
   "monthly": [
     [
       "2026-04",
@@ -28,8 +28,9 @@
       341.0
     ]
   ],
-  "pctile_10y": 0.333,
-  "drawdown_from_peak_10y": 0.066,
+  "pctile_10y": 0.857,
+  "drawdown_from_peak_10y": 0.008,
   "chg_1y": null,
-  "currency": "JPY"
+  "currency": "JPY",
+  "latest_source": "jquants"
 }

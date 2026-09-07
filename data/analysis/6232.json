@@ -5,16 +5,16 @@
   "market": "グロース（内国株式）",
   "profit_basis": "経常利益",
   "cycle_phase": {
-    "num": 3,
-    "name": "拡大",
-    "label": "③ 拡大",
-    "zone": "hold",
-    "level": 0.652,
+    "num": 4,
+    "name": "過熱",
+    "label": "④ 過熱",
+    "zone": "sell",
+    "level": 0.726,
     "momentum": 0.56
   },
-  "as_of_price": "2026-09-07",
-  "price": 1490.0,
-  "market_cap_oku": 268,
+  "as_of_price": "2026-06-09",
+  "price": 2086.0,
+  "market_cap_oku": 376,
   "fy_range": [
     2017,
     2025
@@ -105,7 +105,7 @@
     "median_margin": -1.2268
   },
   "trough": {
-    "score": 0.463,
+    "score": 0.423,
     "latest_margin": -0.4137,
     "margin_pctile": 0.778,
     "market_phase_score": 0.0,
@@ -127,8 +127,8 @@
         "stale": true
       }
     ],
-    "price_pctile_10y": 0.426,
-    "price_drawdown_10y": 0.687
+    "price_pctile_10y": 0.632,
+    "price_drawdown_10y": 0.562
   },
   "structural": {
     "sales_cagr": 0.2758,
@@ -153,12 +153,12 @@
     "midcycle_per": 12.0,
     "fair_value": null,
     "expected_return_x": null,
-    "pbr": 16.32
+    "pbr": 22.85
   },
   "liquidation": {
     "value": -1638722700.0,
     "per_share": -90.8,
-    "downside_to_liquidation": 1.061
+    "downside_to_liquidation": 1.044
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -177,7 +177,7 @@
       "note": "平常時の利益がマイナス圏で試算できず"
     }
   },
-  "auto_score": 43.8,
+  "auto_score": 42.8,
   "passes": {
     "s0_size": true,
     "s1_cheap": false,

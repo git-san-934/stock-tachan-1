@@ -9,11 +9,11 @@
     "name": "底入れ",
     "label": "① 底入れ",
     "zone": "buy",
-    "level": 0.017,
+    "level": 0.049,
     "momentum": 0.0
   },
-  "as_of_price": "2026-09-07",
-  "price": 274.0,
+  "as_of_price": "2026-06-09",
+  "price": 296.0,
   "market_cap_oku": 0,
   "fy_range": [
     2026,
@@ -49,7 +49,7 @@
     "median_margin": null
   },
   "trough": {
-    "score": 0.445,
+    "score": 0.43,
     "latest_margin": null,
     "margin_pctile": null,
     "market_phase_score": 0.0,
@@ -71,8 +71,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.017,
-    "price_drawdown_10y": 0.796
+    "price_pctile_10y": 0.049,
+    "price_drawdown_10y": 0.779
   },
   "structural": {
     "sales_cagr": null,
@@ -102,7 +102,7 @@
   "liquidation": {
     "value": -407000000.0,
     "per_share": -407000000.0,
-    "downside_to_liquidation": 1485402.46
+    "downside_to_liquidation": 1375001.0
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -121,7 +121,7 @@
       "note": "平常時の利益がマイナス圏で試算できず"
     }
   },
-  "auto_score": 23.1,
+  "auto_score": 22.7,
   "passes": {
     "s0_size": false,
     "s1_cheap": true,

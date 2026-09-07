@@ -30,7 +30,7 @@
 ```
 config/sectors.json ──┐
                       ▼
-scripts/fetch_universe.py     J-Quants /listed/info（または JPX data_j を .xlsx 保存）
+scripts/fetch_universe.py     JPX「東証上場銘柄一覧」(data_j.xls → .xlsx 保存)
    │                          → data/universe.json（シクリカル業種の銘柄一覧）
    ▼
 scripts/fetch_yuho_index.py   EDINET 書類一覧を6年さかのぼり有報を索引化
@@ -41,7 +41,9 @@ scripts/fetch_financials.py   最新有報＋約5年前の有報の「主要な�
    │                          BS明細・発行済株式数も最新有報から
    │                          → data/<code>/financials.json
    ▼
-scripts/fetch_prices.py       Yahoo Finance chart API（月次10年）
+scripts/fetch_prices.py       初回: Yahoo Finance chart API（月次10年）
+   │                          更新: J-Quants の最新終値（無料プランは約12週遅れ）で
+   │                          latest を一括更新、月次履歴は保持し月替わりで1点追記
    │                          → data/<code>/prices.json
    ▼
 scripts/fetch_market.py       FRED（原油・鉄鉱石・石炭・銅ほか＋日本鉱工業生産）
@@ -66,11 +68,11 @@ GitHub Pages で公開 → ポータル https://git-san-934.github.io/portal/ �
 2. `.env`（`.env.example` をコピー）:
    ```
    EDINET_API_KEY=xxxxxxxx
-   # ユニバースを J-Quants から作る場合のみ（無料アカウント）:
-   # JQUANTS_REFRESH_TOKEN=...   または JQUANTS_MAIL= / JQUANTS_PASS=
+   # 株価を自動更新する場合（J-Quants API V2 のダッシュボードで発行）:
+   # JQUANTS_API_KEY=xxxxxxxx
    ```
-   J-Quants を使わない場合は JPX「東証上場銘柄一覧」(data_j.xls) をブラウザで開いて
-   `.xlsx` 形式で `cache/universe.xlsx` に保存し、`--universe-xlsx` を付ける。
+   ユニバースは JPX「東証上場銘柄一覧」(data_j.xls) をブラウザで開いて
+   `.xlsx` 形式で `cache/universe.xlsx` に保存し、`fetch_universe.py --from-xlsx`。
 3. `pip install -r requirements.txt`
 
 ## 使い方（ローカル）
@@ -88,8 +90,9 @@ python scripts/update_all.py               # 初回は 1〜2 時間
 python scripts/update_all.py --limit 50    # 動作確認（先頭50社）
 python scripts/update_all.py --skip-index  # 索引の再収集を省く
 
-# 株価だけまとめて取り直す（Yahoo。ローカルで実行してコミットする）
-python scripts/fetch_prices.py --universe --max-age-days 20
+# 株価の更新
+python scripts/fetch_prices.py --jquants                       # J-Quants 最新終値で latest を一括更新（速い・CI と同じ）
+python scripts/fetch_prices.py --universe --max-age-days 20     # Yahoo で月次10年を取り直す（初回・履歴の作り直し用）
 
 # サイト生成・ローカル確認
 python site/build.py
@@ -100,6 +103,7 @@ python -m http.server -d docs 8000
 
 1. リポジトリを作成して push（`stock-tachan-1`）
 2. Settings → Secrets and variables → Actions に `EDINET_API_KEY` を登録
+   （株価も自動更新するなら `JQUANTS_API_KEY` も。無ければ株価はスキップ）
 3. Settings → Pages → Source を **GitHub Actions**
 4. Actions の `update` を手動実行（以降は毎月1日・15日）
 5. 公開 URL をポータル（`../portal/index.html` の `<main class="apps">`）に追加
@@ -112,7 +116,7 @@ python -m http.server -d docs 8000
 | `scripts/common.py` | パス・.env・HTTP・回帰(OLS)・統計ヘルパー |
 | `scripts/edinet.py` | EDINET API v2（書類一覧キャッシュ・ダウンロード） |
 | `scripts/xbrl_csv.py` | 有報 CSV(type=5) のパース |
-| `scripts/jquants.py` | J-Quants（上場銘柄マスタのみ） |
+| `scripts/jquants.py` | J-Quants API V2（株価の最新終値更新） |
 | `scripts/fetch_universe.py` | ユニバース生成 → `data/universe.json`（コミット対象） |
 | `scripts/fetch_yuho_index.py` | 有報索引 → `cache/yuho_index.json`（Git 管理外） |
 | `scripts/fetch_financials.py` | 10年財務・BS明細 → `data/<code>/financials.json` |

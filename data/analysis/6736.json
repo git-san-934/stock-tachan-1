@@ -9,12 +9,12 @@
     "name": "過熱",
     "label": "④ 過熱",
     "zone": "sell",
-    "level": 0.985,
+    "level": 0.976,
     "momentum": 0.425
   },
-  "as_of_price": "2026-09-07",
-  "price": 9130.0,
-  "market_cap_oku": 2191,
+  "as_of_price": "2026-06-09",
+  "price": 8870.0,
+  "market_cap_oku": 2129,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": 0.012
   },
   "trough": {
-    "score": 0.017,
+    "score": 0.027,
     "latest_margin": 0.5181,
     "margin_pctile": 1.0,
     "market_phase_score": 0.0,
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.959,
-    "price_drawdown_10y": 0.065
+    "price_pctile_10y": 0.934,
+    "price_drawdown_10y": 0.091
   },
   "structural": {
     "sales_cagr": -0.0965,
@@ -155,16 +155,16 @@
     "normalized_margin": 0.012,
     "normalized_ordinary": 178939709.3,
     "normalized_eps": 5.22,
-    "normalized_per": 1749.9,
+    "normalized_per": 1700.1,
     "midcycle_per": 12.0,
     "fair_value": 62.6,
     "expected_return_x": 0.01,
-    "pbr": 4.08
+    "pbr": 3.97
   },
   "liquidation": {
     "value": 27860755200.0,
     "per_share": 1160.5,
-    "downside_to_liquidation": 0.873
+    "downside_to_liquidation": 0.869
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -183,7 +183,7 @@
       "note": "平常時の利益で評価すると理論株価は現在値の 0.0倍（-99%）。営業レバレッジ DOL は 0.62（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 35.4,
+  "auto_score": 35.7,
   "passes": {
     "s0_size": true,
     "s1_cheap": false,

@@ -5,16 +5,16 @@
   "market": "スタンダード（内国株式）",
   "profit_basis": "経常利益",
   "cycle_phase": {
-    "num": 4,
-    "name": "過熱",
-    "label": "④ 過熱",
+    "num": 5,
+    "name": "高原",
+    "label": "⑤ 高原",
     "zone": "sell",
-    "level": 0.727,
+    "level": 0.7,
     "momentum": 0.616
   },
-  "as_of_price": "2026-09-07",
-  "price": 834.0,
-  "market_cap_oku": 278,
+  "as_of_price": "2026-06-09",
+  "price": 744.0,
+  "market_cap_oku": 248,
   "fy_range": [
     2016,
     2025
@@ -111,7 +111,7 @@
     "median_margin": -0.1523
   },
   "trough": {
-    "score": 0.46,
+    "score": 0.483,
     "latest_margin": -0.1329,
     "margin_pctile": 0.6,
     "market_phase_score": 0.25,
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.926,
-    "price_drawdown_10y": 0.314
+    "price_pctile_10y": 0.82,
+    "price_drawdown_10y": 0.388
   },
   "structural": {
     "sales_cagr": -0.0148,
@@ -159,12 +159,12 @@
     "midcycle_per": 12.0,
     "fair_value": null,
     "expected_return_x": null,
-    "pbr": 3.2
+    "pbr": 2.85
   },
   "liquidation": {
     "value": 5205900000.0,
     "per_share": 156.1,
-    "downside_to_liquidation": 0.813
+    "downside_to_liquidation": 0.79
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -183,7 +183,7 @@
       "note": "平常時の利益がマイナス圏で試算できず"
     }
   },
-  "auto_score": 52.5,
+  "auto_score": 53.1,
   "passes": {
     "s0_size": true,
     "s1_cheap": false,

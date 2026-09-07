@@ -9,12 +9,12 @@
     "name": "拡大",
     "label": "③ 拡大",
     "zone": "hold",
-    "level": 0.418,
+    "level": 0.4,
     "momentum": 0.668
   },
-  "as_of_price": "2026-09-07",
-  "price": 951.0,
-  "market_cap_oku": 330,
+  "as_of_price": "2026-06-09",
+  "price": 890.0,
+  "market_cap_oku": 309,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": -0.0181
   },
   "trough": {
-    "score": 0.43,
+    "score": 0.44,
     "latest_margin": 0.0086,
     "margin_pctile": 0.6,
     "market_phase_score": 0.0,
@@ -133,8 +133,8 @@
         "stale": true
       }
     ],
-    "price_pctile_10y": 0.091,
-    "price_drawdown_10y": 0.868
+    "price_pctile_10y": 0.041,
+    "price_drawdown_10y": 0.876
   },
   "structural": {
     "sales_cagr": -0.0668,
@@ -159,12 +159,12 @@
     "midcycle_per": 12.0,
     "fair_value": null,
     "expected_return_x": null,
-    "pbr": 0.39
+    "pbr": 0.37
   },
   "liquidation": {
     "value": 18554500000.0,
     "per_share": 533.2,
-    "downside_to_liquidation": 0.439
+    "downside_to_liquidation": 0.401
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -183,7 +183,7 @@
       "note": "平常時の利益がマイナス圏で試算できず"
     }
   },
-  "auto_score": 57.7,
+  "auto_score": 58.0,
   "passes": {
     "s0_size": true,
     "s1_cheap": true,

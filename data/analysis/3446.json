@@ -9,12 +9,12 @@
     "name": "不況",
     "label": "⑦ 不況",
     "zone": "buy",
-    "level": 0.35,
+    "level": 0.353,
     "momentum": -0.859
   },
-  "as_of_price": "2026-09-07",
-  "price": 1651.0,
-  "market_cap_oku": 97,
+  "as_of_price": "2026-06-09",
+  "price": 1688.0,
+  "market_cap_oku": 99,
   "fy_range": [
     2016,
     2025
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.26,
-    "price_drawdown_10y": 0.809
+    "price_pctile_10y": 0.267,
+    "price_drawdown_10y": 0.805
   },
   "structural": {
     "sales_cagr": 0.139,
@@ -155,16 +155,16 @@
     "normalized_margin": 0.1728,
     "normalized_ordinary": 173537002.6,
     "normalized_eps": 20.62,
-    "normalized_per": 80.1,
+    "normalized_per": 81.9,
     "midcycle_per": 12.0,
     "fair_value": 247.5,
     "expected_return_x": 0.15,
-    "pbr": 3.5
+    "pbr": 3.58
   },
   "liquidation": {
     "value": 880749800.0,
     "per_share": 149.5,
-    "downside_to_liquidation": 0.909
+    "downside_to_liquidation": 0.911
   },
   "checklist": {
     "A_cycle_not_structural": {

@@ -5,16 +5,16 @@
   "market": "グロース（内国株式）",
   "profit_basis": "経常利益",
   "cycle_phase": {
-    "num": 4,
-    "name": "過熱",
-    "label": "④ 過熱",
+    "num": 5,
+    "name": "高原",
+    "label": "⑤ 高原",
     "zone": "sell",
-    "level": 0.856,
+    "level": 0.716,
     "momentum": 0.657
   },
-  "as_of_price": "2026-09-07",
-  "price": 391.0,
-  "market_cap_oku": 95,
+  "as_of_price": "2026-06-09",
+  "price": 294.0,
+  "market_cap_oku": 71,
   "fy_range": [
     2019,
     2026
@@ -99,7 +99,7 @@
     "median_margin": 0.0076
   },
   "trough": {
-    "score": 0.225,
+    "score": 0.355,
     "latest_margin": 0.0339,
     "margin_pctile": 1.0,
     "market_phase_score": null,
@@ -113,8 +113,8 @@
         "stale": true
       }
     ],
-    "price_pctile_10y": 0.598,
-    "price_drawdown_10y": 0.503
+    "price_pctile_10y": 0.204,
+    "price_drawdown_10y": 0.626
   },
   "structural": {
     "sales_cagr": 0.1478,
@@ -135,16 +135,16 @@
     "normalized_margin": 0.0076,
     "normalized_ordinary": 351149548.5,
     "normalized_eps": 10.05,
-    "normalized_per": 38.9,
+    "normalized_per": 29.2,
     "midcycle_per": 12.0,
     "fair_value": 120.7,
-    "expected_return_x": 0.31,
-    "pbr": 3.9
+    "expected_return_x": 0.41,
+    "pbr": 2.93
   },
   "liquidation": {
     "value": -3168430300.0,
     "per_share": -129.6,
-    "downside_to_liquidation": 1.331
+    "downside_to_liquidation": 1.441
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -160,10 +160,10 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 0.3倍（-69%）。営業レバレッジ DOL は 1.08（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 0.4倍（-59%）。営業レバレッジ DOL は 1.08（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 11.6,
+  "auto_score": 14.9,
   "passes": {
     "s0_size": false,
     "s1_cheap": false,

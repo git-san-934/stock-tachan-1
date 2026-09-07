@@ -9,12 +9,12 @@
     "name": "高原",
     "label": "⑤ 高原",
     "zone": "sell",
-    "level": 0.967,
+    "level": 0.992,
     "momentum": 0.0
   },
-  "as_of_price": "2026-09-07",
-  "price": 3880.0,
-  "market_cap_oku": 2462,
+  "as_of_price": "2026-06-09",
+  "price": 4515.0,
+  "market_cap_oku": 2865,
   "fy_range": [
     2017,
     2026
@@ -103,7 +103,7 @@
     "median_margin": null
   },
   "trough": {
-    "score": 0.13,
+    "score": 0.05,
     "latest_margin": null,
     "margin_pctile": null,
     "market_phase_score": null,
@@ -117,8 +117,8 @@
         "stale": true
       }
     ],
-    "price_pctile_10y": 0.967,
-    "price_drawdown_10y": 0.219
+    "price_pctile_10y": 0.992,
+    "price_drawdown_10y": 0.091
   },
   "structural": {
     "sales_cagr": null,
@@ -143,12 +143,12 @@
     "midcycle_per": 12.0,
     "fair_value": null,
     "expected_return_x": null,
-    "pbr": 1.52
+    "pbr": 1.77
   },
   "liquidation": {
     "value": 21080600000.0,
     "per_share": 332.2,
-    "downside_to_liquidation": 0.914
+    "downside_to_liquidation": 0.926
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -167,7 +167,7 @@
       "note": "平常時の利益がマイナス圏で試算できず"
     }
   },
-  "auto_score": 44.2,
+  "auto_score": 42.2,
   "passes": {
     "s0_size": true,
     "s1_cheap": false,

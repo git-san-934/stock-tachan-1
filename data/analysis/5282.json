@@ -5,16 +5,16 @@
   "market": "スタンダード（内国株式）",
   "profit_basis": "経常利益",
   "cycle_phase": {
-    "num": 4,
-    "name": "過熱",
-    "label": "④ 過熱",
+    "num": 5,
+    "name": "高原",
+    "label": "⑤ 高原",
     "zone": "sell",
-    "level": 0.726,
+    "level": 0.708,
     "momentum": 0.598
   },
-  "as_of_price": "2026-09-07",
-  "price": 416.0,
-  "market_cap_oku": 131,
+  "as_of_price": "2026-06-09",
+  "price": 375.0,
+  "market_cap_oku": 118,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": 0.0703
   },
   "trough": {
-    "score": 0.31,
+    "score": 0.33,
     "latest_margin": 0.0729,
     "margin_pctile": 0.7,
     "market_phase_score": 0.25,
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.744,
-    "price_drawdown_10y": 0.506
+    "price_pctile_10y": 0.672,
+    "price_drawdown_10y": 0.554
   },
   "structural": {
     "sales_cagr": -0.0081,
@@ -155,16 +155,16 @@
     "normalized_margin": 0.0703,
     "normalized_ordinary": 2119796620.9,
     "normalized_eps": 47.06,
-    "normalized_per": 8.8,
+    "normalized_per": 8.0,
     "midcycle_per": 12.0,
     "fair_value": 564.7,
-    "expected_return_x": 1.36,
-    "pbr": 0.51
+    "expected_return_x": 1.51,
+    "pbr": 0.46
   },
   "liquidation": {
     "value": -2152797400.0,
     "per_share": -68.3,
-    "downside_to_liquidation": 1.164
+    "downside_to_liquidation": 1.182
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -178,12 +178,12 @@
       "note": "自己資本比率 68%（この10年の最低は 52%）、ネット有利子負債は自己資本の -0.02 倍。"
     },
     "C_operating_leverage_upside": {
-      "mark": "×",
+      "mark": "△",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 1.4倍（+36%）。営業レバレッジ DOL は 3.28（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 1.5倍（+51%）。営業レバレッジ DOL は 3.28（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 49.9,
+  "auto_score": 53.4,
   "passes": {
     "s0_size": true,
     "s1_cheap": true,

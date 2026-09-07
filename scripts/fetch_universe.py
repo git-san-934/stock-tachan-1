@@ -24,16 +24,24 @@ def _load_cfg() -> None:
 
 
 def _from_jquants() -> list[dict]:
-    from jquants import listed_info
+    """J-Quants V2 の銘柄マスタから。フィールド名は仕様変更されうるので候補で拾う。"""
+    from jquants import equities_master
+
+    def pick(row, *names):
+        for n in names:
+            if row.get(n) not in (None, ""):
+                return str(row[n]).strip()
+        return ""
+
     rows = []
-    for r in listed_info():
-        sector = (r.get("Sector33CodeName") or "").strip()
-        market = (r.get("MarketCodeName") or "").strip()
-        code = short_seccode(r.get("Code", ""))
-        if sector in ("", "-", "その他") or "ETF" in market or "REIT" in market:
+    for r in equities_master():
+        sector = pick(r, "Sector33CodeName", "Sector33Name", "Sec33Name")
+        market = pick(r, "MarketCodeName", "MarketName", "MktName")
+        code = short_seccode(pick(r, "Code", "LocalCode"))
+        name = pick(r, "CompanyName", "Name", "CoName")
+        if not code or sector in ("", "-", "その他") or "ETF" in market or "REIT" in market:
             continue
-        rows.append({"code": code, "name": r.get("CompanyName", ""),
-                     "sector33": sector, "market": market})
+        rows.append({"code": code, "name": name, "sector33": sector, "market": market})
     return rows
 
 

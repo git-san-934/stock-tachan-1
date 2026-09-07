@@ -5,16 +5,16 @@
   "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
   "cycle_phase": {
-    "num": 4,
-    "name": "過熱",
-    "label": "④ 過熱",
+    "num": 5,
+    "name": "高原",
+    "label": "⑤ 高原",
     "zone": "sell",
-    "level": 0.74,
+    "level": 0.719,
     "momentum": 0.528
   },
-  "as_of_price": "2026-09-07",
-  "price": 3410.0,
-  "market_cap_oku": 1842,
+  "as_of_price": "2026-06-09",
+  "price": 2689.0,
+  "market_cap_oku": 1452,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": 0.0856
   },
   "trough": {
-    "score": 0.14,
+    "score": 0.183,
     "latest_margin": 0.0945,
     "margin_pctile": 0.6,
     "market_phase_score": 0.0,
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.992,
-    "price_drawdown_10y": 0.024
+    "price_pctile_10y": 0.934,
+    "price_drawdown_10y": 0.231
   },
   "structural": {
     "sales_cagr": 0.098,
@@ -155,16 +155,16 @@
     "normalized_margin": 0.0856,
     "normalized_ordinary": 19467205643.1,
     "normalized_eps": 252.25,
-    "normalized_per": 13.5,
+    "normalized_per": 10.7,
     "midcycle_per": 12.0,
     "fair_value": 3027.0,
-    "expected_return_x": 0.89,
-    "pbr": 0.69
+    "expected_return_x": 1.13,
+    "pbr": 0.55
   },
   "liquidation": {
     "value": 116169000000.0,
     "per_share": 2150.4,
-    "downside_to_liquidation": 0.369
+    "downside_to_liquidation": 0.2
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -180,10 +180,10 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 0.9倍（-11%）。営業レバレッジ DOL は 0.81（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 1.1倍（+13%）。営業レバレッジ DOL は 0.81（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 38.5,
+  "auto_score": 42.1,
   "passes": {
     "s0_size": true,
     "s1_cheap": true,
@@ -191,7 +191,7 @@
     "s3_trough": false,
     "s4_structural_ok": true,
     "s5_survivable": true,
-    "s6_upside": false,
+    "s6_upside": true,
     "pass_all": false
   },
   "catalyst": {

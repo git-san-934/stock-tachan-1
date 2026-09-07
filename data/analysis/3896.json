@@ -9,12 +9,12 @@
     "name": "夜明け前",
     "label": "⑧ 夜明け前",
     "zone": "buy",
-    "level": 0.321,
+    "level": 0.285,
     "momentum": -0.105
   },
-  "as_of_price": "2026-09-07",
-  "price": 413.0,
-  "market_cap_oku": 42,
+  "as_of_price": "2026-06-09",
+  "price": 381.0,
+  "market_cap_oku": 38,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": 0.0184
   },
   "trough": {
-    "score": 0.72,
+    "score": 0.743,
     "latest_margin": -0.0052,
     "margin_pctile": 0.2,
     "market_phase_score": 0.5,
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.322,
-    "price_drawdown_10y": 0.487
+    "price_pctile_10y": 0.18,
+    "price_drawdown_10y": 0.527
   },
   "structural": {
     "sales_cagr": 0.0141,
@@ -155,16 +155,16 @@
     "normalized_margin": 0.0184,
     "normalized_ordinary": 264315651.4,
     "normalized_eps": 18.19,
-    "normalized_per": 22.7,
+    "normalized_per": 20.9,
     "midcycle_per": 12.0,
     "fair_value": 218.3,
-    "expected_return_x": 0.53,
-    "pbr": 0.65
+    "expected_return_x": 0.57,
+    "pbr": 0.6
   },
   "liquidation": {
     "value": -2449624400.0,
     "per_share": -240.8,
-    "downside_to_liquidation": 1.583
+    "downside_to_liquidation": 1.632
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -180,10 +180,10 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 0.5倍（-47%）。営業レバレッジ DOL は None（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 0.6倍（-43%）。営業レバレッジ DOL は None（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 28.4,
+  "auto_score": 29.0,
   "passes": {
     "s0_size": false,
     "s1_cheap": true,

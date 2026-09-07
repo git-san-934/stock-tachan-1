@@ -9,12 +9,12 @@
     "name": "後退",
     "label": "⑥ 後退",
     "zone": "sell",
-    "level": 0.583,
+    "level": 0.444,
     "momentum": -0.456
   },
-  "as_of_price": "2026-09-07",
-  "price": 1376.0,
-  "market_cap_oku": 1743,
+  "as_of_price": "2026-06-09",
+  "price": 1090.0,
+  "market_cap_oku": 1381,
   "fy_range": [
     2018,
     2026
@@ -105,7 +105,7 @@
     "median_margin": 0.0215
   },
   "trough": {
-    "score": 0.259,
+    "score": 0.349,
     "latest_margin": 0.0073,
     "margin_pctile": 0.444,
     "market_phase_score": 0.0,
@@ -127,8 +127,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.833,
-    "price_drawdown_10y": 0.278
+    "price_pctile_10y": 0.443,
+    "price_drawdown_10y": 0.428
   },
   "structural": {
     "sales_cagr": 0.6485,
@@ -149,16 +149,16 @@
     "normalized_margin": 0.0215,
     "normalized_ordinary": 8197107623.9,
     "normalized_eps": 45.28,
-    "normalized_per": 30.4,
+    "normalized_per": 24.1,
     "midcycle_per": 12.0,
     "fair_value": 543.4,
-    "expected_return_x": 0.39,
-    "pbr": 1.81
+    "expected_return_x": 0.5,
+    "pbr": 1.43
   },
   "liquidation": {
     "value": -56409000000.0,
     "per_share": -445.1,
-    "downside_to_liquidation": 1.323
+    "downside_to_liquidation": 1.408
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -174,10 +174,10 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 0.4倍（-61%）。営業レバレッジ DOL は 5.36（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 0.5倍（-50%）。営業レバレッジ DOL は 5.36（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 16.1,
+  "auto_score": 18.3,
   "passes": {
     "s0_size": true,
     "s1_cheap": false,

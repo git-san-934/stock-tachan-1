@@ -9,12 +9,12 @@
     "name": "不況",
     "label": "⑦ 不況",
     "zone": "buy",
-    "level": 0.298,
+    "level": 0.346,
     "momentum": -0.306
   },
-  "as_of_price": "2026-09-07",
-  "price": 845.0,
-  "market_cap_oku": 43,
+  "as_of_price": "2026-06-09",
+  "price": 1096.0,
+  "market_cap_oku": 56,
   "fy_range": [
     2020,
     2026
@@ -93,7 +93,7 @@
     "median_margin": 0.2046
   },
   "trough": {
-    "score": 0.622,
+    "score": 0.569,
     "latest_margin": 0.069,
     "margin_pctile": 0.143,
     "market_phase_score": 0.25,
@@ -115,8 +115,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.033,
-    "price_drawdown_10y": 0.56
+    "price_pctile_10y": 0.226,
+    "price_drawdown_10y": 0.429
   },
   "structural": {
     "sales_cagr": 0.0975,
@@ -137,16 +137,16 @@
     "normalized_margin": 0.2046,
     "normalized_ordinary": 970603540.0,
     "normalized_eps": 132.92,
-    "normalized_per": 6.4,
+    "normalized_per": 8.2,
     "midcycle_per": 12.0,
     "fair_value": 1595.0,
-    "expected_return_x": 1.89,
-    "pbr": 0.73
+    "expected_return_x": 1.46,
+    "pbr": 0.94
   },
   "liquidation": {
     "value": 2906431500.0,
     "per_share": 568.6,
-    "downside_to_liquidation": 0.327
+    "downside_to_liquidation": 0.481
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -160,12 +160,12 @@
       "note": "自己資本比率 67%（この10年の最低は 17%）、ネット有利子負債は自己資本の -0.1 倍。"
     },
     "C_operating_leverage_upside": {
-      "mark": "△",
+      "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 1.9倍（+89%）。営業レバレッジ DOL は 1.9（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 1.5倍（+46%）。営業レバレッジ DOL は 1.9（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 68.3,
+  "auto_score": 58.3,
   "passes": {
     "s0_size": false,
     "s1_cheap": true,

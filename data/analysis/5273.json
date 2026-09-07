@@ -9,12 +9,12 @@
     "name": "過熱",
     "label": "④ 過熱",
     "zone": "sell",
-    "level": 0.917,
+    "level": 0.868,
     "momentum": 0.813
   },
-  "as_of_price": "2026-09-07",
-  "price": 2033.0,
-  "market_cap_oku": 426,
+  "as_of_price": "2026-06-09",
+  "price": 1449.0,
+  "market_cap_oku": 304,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": 0.1182
   },
   "trough": {
-    "score": 0.097,
+    "score": 0.177,
     "latest_margin": 0.1895,
     "margin_pctile": 1.0,
     "market_phase_score": 0.25,
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.967,
-    "price_drawdown_10y": 0.056
+    "price_pctile_10y": 0.77,
+    "price_drawdown_10y": 0.327
   },
   "structural": {
     "sales_cagr": 0.0486,
@@ -155,16 +155,16 @@
     "normalized_margin": 0.1182,
     "normalized_ordinary": 9363258879.4,
     "normalized_eps": 312.31,
-    "normalized_per": 6.5,
+    "normalized_per": 4.6,
     "midcycle_per": 12.0,
     "fair_value": 3747.7,
-    "expected_return_x": 1.84,
-    "pbr": 1.41
+    "expected_return_x": 2.59,
+    "pbr": 1.0
   },
   "liquidation": {
     "value": 54045500000.0,
     "per_share": 2575.2,
-    "downside_to_liquidation": -0.267
+    "downside_to_liquidation": -0.777
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -178,12 +178,12 @@
       "note": "自己資本比率 72%（この10年の最低は 63%）、ネット有利子負債は自己資本の -0.46 倍。"
     },
     "C_operating_leverage_upside": {
-      "mark": "△",
+      "mark": "○",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 1.8倍（+84%）。営業レバレッジ DOL は 1.91（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 2.6倍（+159%）。営業レバレッジ DOL は 1.91（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 54.3,
+  "auto_score": 71.1,
   "passes": {
     "s0_size": true,
     "s1_cheap": true,

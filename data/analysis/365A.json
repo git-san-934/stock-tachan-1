@@ -5,16 +5,16 @@
   "market": "スタンダード（内国株式）",
   "profit_basis": "経常利益",
   "cycle_phase": {
-    "num": 4,
-    "name": "過熱",
-    "label": "④ 過熱",
+    "num": 5,
+    "name": "高原",
+    "label": "⑤ 高原",
     "zone": "sell",
-    "level": 0.729,
+    "level": 0.672,
     "momentum": 0.387
   },
-  "as_of_price": "2026-09-07",
-  "price": 784.0,
-  "market_cap_oku": 78,
+  "as_of_price": "2026-06-09",
+  "price": 719.0,
+  "market_cap_oku": 71,
   "fy_range": [
     2022,
     2026
@@ -81,7 +81,7 @@
     "median_margin": 0.0998
   },
   "trough": {
-    "score": 0.257,
+    "score": 0.307,
     "latest_margin": 0.1115,
     "margin_pctile": 0.8,
     "market_phase_score": 0.5,
@@ -95,8 +95,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.875,
-    "price_drawdown_10y": 0.01
+    "price_pctile_10y": 0.647,
+    "price_drawdown_10y": 0.092
   },
   "structural": {
     "sales_cagr": 3.5171,
@@ -117,16 +117,16 @@
     "normalized_margin": 0.0998,
     "normalized_ordinary": 1007495949.5,
     "normalized_eps": 70.52,
-    "normalized_per": 11.1,
+    "normalized_per": 10.2,
     "midcycle_per": 12.0,
     "fair_value": 846.3,
-    "expected_return_x": 1.08,
-    "pbr": 1.87
+    "expected_return_x": 1.18,
+    "pbr": 1.72
   },
   "liquidation": {
     "value": -2207951600.0,
     "per_share": -220.8,
-    "downside_to_liquidation": 1.282
+    "downside_to_liquidation": 1.307
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -142,10 +142,10 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 1.1倍（+8%）。営業レバレッジ DOL は 1.12（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 1.2倍（+18%）。営業レバレッジ DOL は 1.12（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 38.1,
+  "auto_score": 41.3,
   "passes": {
     "s0_size": false,
     "s1_cheap": false,

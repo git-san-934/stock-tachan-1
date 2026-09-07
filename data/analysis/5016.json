@@ -5,16 +5,16 @@
   "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
   "cycle_phase": {
-    "num": 4,
-    "name": "過熱",
-    "label": "④ 過熱",
+    "num": 5,
+    "name": "高原",
+    "label": "⑤ 高原",
     "zone": "sell",
-    "level": 0.734,
+    "level": 0.713,
     "momentum": 1.0
   },
-  "as_of_price": "2026-09-07",
-  "price": 3674.0,
-  "market_cap_oku": 34111,
+  "as_of_price": "2026-06-09",
+  "price": 3555.0,
+  "market_cap_oku": 33006,
   "fy_range": [
     2021,
     2026
@@ -87,7 +87,7 @@
     "median_margin": 0.2299
   },
   "trough": {
-    "score": 0.243,
+    "score": 0.263,
     "latest_margin": 0.2344,
     "margin_pctile": 0.667,
     "market_phase_score": 0.12,
@@ -125,8 +125,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.684,
-    "price_drawdown_10y": 0.233
+    "price_pctile_10y": 0.6,
+    "price_drawdown_10y": 0.258
   },
   "structural": {
     "sales_cagr": 0.0879,
@@ -147,11 +147,11 @@
     "normalized_margin": 0.2299,
     "normalized_ordinary": 71630329613.6,
     "normalized_eps": 54.0,
-    "normalized_per": 68.0,
+    "normalized_per": 65.8,
     "midcycle_per": 12.0,
     "fair_value": 648.1,
     "expected_return_x": 0.18,
-    "pbr": 6.99
+    "pbr": 6.76
   },
   "liquidation": {
     "value": -21203300000.0,
@@ -175,7 +175,7 @@
       "note": "平常時の利益で評価すると理論株価は現在値の 0.2倍（-82%）。営業レバレッジ DOL は 0.43（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 39.5,
+  "auto_score": 40.0,
   "passes": {
     "s0_size": true,
     "s1_cheap": false,

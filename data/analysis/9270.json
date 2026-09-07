@@ -5,16 +5,16 @@
   "market": "グロース（内国株式）",
   "profit_basis": "経常利益",
   "cycle_phase": {
-    "num": 2,
-    "name": "回復",
-    "label": "② 回復",
-    "zone": "buy",
-    "level": 0.323,
+    "num": 3,
+    "name": "拡大",
+    "label": "③ 拡大",
+    "zone": "hold",
+    "level": 0.396,
     "momentum": 0.687
   },
-  "as_of_price": "2026-09-07",
-  "price": 2014.0,
-  "market_cap_oku": 276,
+  "as_of_price": "2026-06-09",
+  "price": 2459.0,
+  "market_cap_oku": 337,
   "fy_range": [
     2016,
     2025
@@ -111,13 +111,13 @@
     "median_margin": 0.0236
   },
   "trough": {
-    "score": 0.665,
+    "score": 0.59,
     "latest_margin": 0.0155,
     "margin_pctile": 0.2,
     "market_phase_score": null,
     "market_phase_detail": [],
-    "price_pctile_10y": 0.544,
-    "price_drawdown_10y": 0.6
+    "price_pctile_10y": 0.75,
+    "price_drawdown_10y": 0.512
   },
   "structural": {
     "sales_cagr": 0.1619,
@@ -138,16 +138,16 @@
     "normalized_margin": 0.0236,
     "normalized_ordinary": 1200650752.6,
     "normalized_eps": 61.15,
-    "normalized_per": 32.9,
+    "normalized_per": 40.2,
     "midcycle_per": 12.0,
     "fair_value": 733.8,
-    "expected_return_x": 0.36,
-    "pbr": 3.6
+    "expected_return_x": 0.3,
+    "pbr": 4.39
   },
   "liquidation": {
     "value": -11585087900.0,
     "per_share": -842.9,
-    "downside_to_liquidation": 1.419
+    "downside_to_liquidation": 1.343
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -163,10 +163,10 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 0.4倍（-64%）。営業レバレッジ DOL は None（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 0.3倍（-70%）。営業レバレッジ DOL は None（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 26.6,
+  "auto_score": 24.7,
   "passes": {
     "s0_size": true,
     "s1_cheap": false,

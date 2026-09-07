@@ -77,12 +77,18 @@ def main(args) -> None:
 
     # 3) 株価
     if not args.skip_prices:
-        print("== 株価の取得（Yahoo）==")
-        from fetch_prices import build as build_prices
-        for i, code in enumerate(codes, 1):
-            build_prices(code, max_age_days=args.price_max_age)
-            if i % 50 == 0:
-                print(f"  [{i}/{len(codes)}]")
+        from jquants import has_credentials
+        if has_credentials():
+            print("== 株価の更新（J-Quants 最新終値）==")
+            from fetch_prices import refresh_from_jquants
+            refresh_from_jquants()
+        else:
+            print("== 株価の取得（Yahoo・1銘柄ずつ）==")
+            from fetch_prices import build as build_prices
+            for i, code in enumerate(codes, 1):
+                build_prices(code, max_age_days=args.price_max_age)
+                if i % 50 == 0:
+                    print(f"  [{i}/{len(codes)}]")
 
     # 4) 市況
     print("== 市況の取得（FRED）==")

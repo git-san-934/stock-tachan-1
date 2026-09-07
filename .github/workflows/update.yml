@@ -33,13 +33,16 @@ jobs:
           key: doclist-${{ github.run_id }}
           restore-keys: doclist-
 
-      # 株価(Yahoo)は CI だと 429 になりやすいのでローカルで取得・コミットしておく。
-      # ユニバースはコミット済み data/universe.json を使う（J-Quants 不要）。
-      - name: 財務・市況・ランキングを更新
+      # 株価は J-Quants の最新終値（無料プランは約12週遅れ）で latest を一括更新。
+      # 10年の月次履歴はコミット済み（Yahoo 由来）を保持し、月替わり時に1点追記する。
+      # J-Quants 認証情報が無ければこのステップは株価をスキップする。
+      # ユニバースはコミット済み data/universe.json を使う。
+      - name: 財務・株価・市況・ランキングを更新
         continue-on-error: true
         env:
           EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
-        run: python scripts/update_all.py --skip-prices
+          JQUANTS_API_KEY: ${{ secrets.JQUANTS_API_KEY }}
+        run: python scripts/update_all.py
 
       - name: サイト生成
         run: python site/build.py

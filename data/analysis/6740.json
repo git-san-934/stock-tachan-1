@@ -9,12 +9,12 @@
     "name": "不況",
     "label": "⑦ 不況",
     "zone": "buy",
-    "level": 0.247,
+    "level": 0.287,
     "momentum": -0.732
   },
-  "as_of_price": "2026-09-07",
-  "price": 48.0,
-  "market_cap_oku": 1862,
+  "as_of_price": "2026-06-09",
+  "price": 62.0,
+  "market_cap_oku": 2405,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": -0.1174
   },
   "trough": {
-    "score": 0.643,
+    "score": 0.625,
     "latest_margin": -0.2302,
     "margin_pctile": 0.1,
     "market_phase_score": 0.0,
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.512,
-    "price_drawdown_10y": 0.856
+    "price_pctile_10y": 0.623,
+    "price_drawdown_10y": 0.814
   },
   "structural": {
     "sales_cagr": -0.1901,
@@ -159,12 +159,12 @@
     "midcycle_per": 12.0,
     "fair_value": null,
     "expected_return_x": null,
-    "pbr": -4.72
+    "pbr": -6.1
   },
   "liquidation": {
     "value": -70200700000.0,
     "per_share": -18.1,
-    "downside_to_liquidation": 1.377
+    "downside_to_liquidation": 1.292
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -183,7 +183,7 @@
       "note": "平常時の利益がマイナス圏で試算できず"
     }
   },
-  "auto_score": 39.5,
+  "auto_score": 39.1,
   "passes": {
     "s0_size": true,
     "s1_cheap": true,

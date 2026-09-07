@@ -1,7 +1,7 @@
 {
   "symbol": "325A.T",
-  "as_of": "2026-09-07",
-  "latest": 1774.0,
+  "as_of": "2026-06-09",
+  "latest": 3815.0,
   "monthly": [
     [
       "2025-02",
@@ -84,8 +84,9 @@
       1774.0
     ]
   ],
-  "pctile_10y": 0.9,
-  "drawdown_from_peak_10y": 0.042,
-  "chg_1y": 0.312,
-  "currency": "JPY"
+  "pctile_10y": 1.0,
+  "drawdown_from_peak_10y": 0.0,
+  "chg_1y": 1.822,
+  "currency": "JPY",
+  "latest_source": "jquants"
 }

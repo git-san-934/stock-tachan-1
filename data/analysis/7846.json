@@ -9,12 +9,12 @@
     "name": "後退",
     "label": "⑥ 後退",
     "zone": "sell",
-    "level": 0.415,
+    "level": 0.421,
     "momentum": -0.578
   },
-  "as_of_price": "2026-09-07",
-  "price": 2080.5,
-  "market_cap_oku": 851,
+  "as_of_price": "2026-06-09",
+  "price": 4841.0,
+  "market_cap_oku": 1980,
   "fy_range": [
     2016,
     2025
@@ -111,7 +111,7 @@
     "median_margin": 0.1914
   },
   "trough": {
-    "score": 0.46,
+    "score": 0.45,
     "latest_margin": 0.1413,
     "margin_pctile": 0.1,
     "market_phase_score": null,
@@ -125,8 +125,8 @@
         "stale": true
       }
     ],
-    "price_pctile_10y": 0.983,
-    "price_drawdown_10y": 0.029
+    "price_pctile_10y": 1.0,
+    "price_drawdown_10y": 0.0
   },
   "structural": {
     "sales_cagr": 0.0283,
@@ -147,16 +147,16 @@
     "normalized_margin": 0.1914,
     "normalized_ordinary": 19917772434.7,
     "normalized_eps": 340.85,
-    "normalized_per": 6.1,
+    "normalized_per": 14.2,
     "midcycle_per": 12.0,
     "fair_value": 4090.2,
-    "expected_return_x": 1.97,
-    "pbr": 0.53
+    "expected_return_x": 0.84,
+    "pbr": 1.24
   },
   "liquidation": {
     "value": 82896800000.0,
     "per_share": 2026.6,
-    "downside_to_liquidation": 0.026
+    "downside_to_liquidation": 0.581
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -170,20 +170,20 @@
       "note": "自己資本比率 81%（この10年の最低は 52%）、ネット有利子負債は自己資本の -0.24 倍。"
     },
     "C_operating_leverage_upside": {
-      "mark": "△",
+      "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 2.0倍（+97%）。営業レバレッジ DOL は 0.44（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 0.8倍（-16%）。営業レバレッジ DOL は 0.44（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 65.8,
+  "auto_score": 46.2,
   "passes": {
     "s0_size": true,
-    "s1_cheap": true,
+    "s1_cheap": false,
     "s2_cyclical": false,
     "s3_trough": true,
     "s4_structural_ok": true,
     "s5_survivable": true,
-    "s6_upside": true,
+    "s6_upside": false,
     "pass_all": false
   },
   "catalyst": {

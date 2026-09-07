@@ -9,10 +9,10 @@
     "name": "拡大",
     "label": "③ 拡大",
     "zone": "hold",
-    "level": 0.519,
+    "level": 0.52,
     "momentum": 0.558
   },
-  "as_of_price": "2026-09-07",
+  "as_of_price": "2026-06-09",
   "price": 100.0,
   "market_cap_oku": 302,
   "fy_range": [
@@ -133,7 +133,7 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.636,
+    "price_pctile_10y": 0.639,
     "price_drawdown_10y": 0.294
   },
   "structural": {

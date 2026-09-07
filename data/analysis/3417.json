@@ -9,12 +9,12 @@
     "name": "不況",
     "label": "⑦ 不況",
     "zone": "buy",
-    "level": 0.289,
+    "level": 0.316,
     "momentum": -0.183
   },
-  "as_of_price": "2026-09-07",
-  "price": 1022.0,
-  "market_cap_oku": 143,
+  "as_of_price": "2026-06-09",
+  "price": 1079.0,
+  "market_cap_oku": 151,
   "fy_range": [
     2017,
     2026
@@ -111,13 +111,13 @@
     "median_margin": 0.0109
   },
   "trough": {
-    "score": 0.675,
+    "score": 0.645,
     "latest_margin": 0.0055,
     "margin_pctile": 0.1,
     "market_phase_score": null,
     "market_phase_detail": [],
-    "price_pctile_10y": 0.628,
-    "price_drawdown_10y": 0.521
+    "price_pctile_10y": 0.705,
+    "price_drawdown_10y": 0.494
   },
   "structural": {
     "sales_cagr": 0.0551,
@@ -138,16 +138,16 @@
     "normalized_margin": 0.0109,
     "normalized_ordinary": 3072421625.3,
     "normalized_eps": 152.83,
-    "normalized_per": 6.7,
+    "normalized_per": 7.1,
     "midcycle_per": 12.0,
     "fair_value": 1834.0,
-    "expected_return_x": 1.79,
-    "pbr": 0.41
+    "expected_return_x": 1.7,
+    "pbr": 0.43
   },
   "liquidation": {
     "value": -17460400000.0,
     "per_share": -1240.8,
-    "downside_to_liquidation": 2.214
+    "downside_to_liquidation": 2.15
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -163,10 +163,10 @@
     "C_operating_leverage_upside": {
       "mark": "△",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 1.8倍（+79%）。営業レバレッジ DOL は 0.43（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 1.7倍（+70%）。営業レバレッジ DOL は 0.43（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 52.6,
+  "auto_score": 50.0,
   "passes": {
     "s0_size": true,
     "s1_cheap": true,

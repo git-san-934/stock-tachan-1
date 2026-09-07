@@ -5,16 +5,16 @@
   "market": "スタンダード（内国株式）",
   "profit_basis": "経常利益",
   "cycle_phase": {
-    "num": 5,
-    "name": "高原",
-    "label": "⑤ 高原",
-    "zone": "sell",
-    "level": 0.682,
+    "num": 3,
+    "name": "拡大",
+    "label": "③ 拡大",
+    "zone": "hold",
+    "level": 0.568,
     "momentum": 1.0
   },
-  "as_of_price": "2026-09-07",
-  "price": 3850.0,
-  "market_cap_oku": 166,
+  "as_of_price": "2026-06-09",
+  "price": 2500.0,
+  "market_cap_oku": 108,
   "fy_range": [
     2018,
     2026
@@ -105,7 +105,7 @@
     "median_margin": 0.084
   },
   "trough": {
-    "score": 0.328,
+    "score": 0.438,
     "latest_margin": 0.084,
     "margin_pctile": 0.556,
     "market_phase_score": 0.25,
@@ -127,8 +127,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.828,
-    "price_drawdown_10y": 0.41
+    "price_pctile_10y": 0.373,
+    "price_drawdown_10y": 0.617
   },
   "structural": {
     "sales_cagr": 0.0928,
@@ -149,16 +149,16 @@
     "normalized_margin": 0.084,
     "normalized_ordinary": 1298088936.7,
     "normalized_eps": 210.32,
-    "normalized_per": 18.3,
+    "normalized_per": 11.9,
     "midcycle_per": 12.0,
     "fair_value": 2523.8,
-    "expected_return_x": 0.66,
-    "pbr": 1.25
+    "expected_return_x": 1.01,
+    "pbr": 0.81
   },
   "liquidation": {
     "value": 4963520900.0,
     "per_share": 1148.9,
-    "downside_to_liquidation": 0.702
+    "downside_to_liquidation": 0.54
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -174,18 +174,18 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 0.7倍（-34%）。営業レバレッジ DOL は 1.69（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 1.0倍（+1%）。営業レバレッジ DOL は 1.69（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 38.9,
+  "auto_score": 41.8,
   "passes": {
     "s0_size": true,
-    "s1_cheap": false,
+    "s1_cheap": true,
     "s2_cyclical": true,
     "s3_trough": false,
     "s4_structural_ok": true,
     "s5_survivable": true,
-    "s6_upside": false,
+    "s6_upside": true,
     "pass_all": false
   },
   "catalyst": {

@@ -5,16 +5,16 @@
   "market": "プライム（内国株式）",
   "profit_basis": "経常利益",
   "cycle_phase": {
-    "num": 5,
-    "name": "高原",
-    "label": "⑤ 高原",
+    "num": 4,
+    "name": "過熱",
+    "label": "④ 過熱",
     "zone": "sell",
-    "level": 0.716,
+    "level": 0.723,
     "momentum": 0.541
   },
-  "as_of_price": "2026-09-07",
-  "price": 12775.0,
-  "market_cap_oku": 20846,
+  "as_of_price": "2026-06-09",
+  "price": 13310.0,
+  "market_cap_oku": 21720,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": 0.0928
   },
   "trough": {
-    "score": 0.31,
+    "score": 0.3,
     "latest_margin": 0.0937,
     "margin_pctile": 0.6,
     "market_phase_score": null,
@@ -125,8 +125,8 @@
         "stale": true
       }
     ],
-    "price_pctile_10y": 0.926,
-    "price_drawdown_10y": 0.365
+    "price_pctile_10y": 0.943,
+    "price_drawdown_10y": 0.338
   },
   "structural": {
     "sales_cagr": 0.0385,
@@ -147,16 +147,16 @@
     "normalized_margin": 0.0928,
     "normalized_ordinary": 152785097333.8,
     "normalized_eps": 655.38,
-    "normalized_per": 19.5,
+    "normalized_per": 20.3,
     "midcycle_per": 12.0,
     "fair_value": 7864.6,
-    "expected_return_x": 0.62,
-    "pbr": 2.2
+    "expected_return_x": 0.59,
+    "pbr": 2.29
   },
   "liquidation": {
     "value": -773837100000.0,
     "per_share": -4742.1,
-    "downside_to_liquidation": 1.371
+    "downside_to_liquidation": 1.356
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -172,10 +172,10 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 0.6倍（-38%）。営業レバレッジ DOL は 0.41（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 0.6倍（-41%）。営業レバレッジ DOL は 0.41（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 35.1,
+  "auto_score": 34.9,
   "passes": {
     "s0_size": true,
     "s1_cheap": false,

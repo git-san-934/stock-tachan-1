@@ -9,12 +9,12 @@
     "name": "高原",
     "label": "⑤ 高原",
     "zone": "sell",
-    "level": 0.664,
+    "level": 0.673,
     "momentum": 0.87
   },
-  "as_of_price": "2026-09-07",
-  "price": 2262.0,
-  "market_cap_oku": 847,
+  "as_of_price": "2026-06-09",
+  "price": 2725.0,
+  "market_cap_oku": 1021,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": 0.0726
   },
   "trough": {
-    "score": 0.21,
+    "score": 0.18,
     "latest_margin": 0.0723,
     "margin_pctile": 0.5,
     "market_phase_score": 0.0,
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.959,
-    "price_drawdown_10y": 0.219
+    "price_pctile_10y": 0.984,
+    "price_drawdown_10y": 0.06
   },
   "structural": {
     "sales_cagr": 0.0525,
@@ -155,16 +155,16 @@
     "normalized_margin": 0.0726,
     "normalized_ordinary": 4634762390.9,
     "normalized_eps": 86.56,
-    "normalized_per": 26.1,
+    "normalized_per": 31.5,
     "midcycle_per": 12.0,
     "fair_value": 1038.7,
-    "expected_return_x": 0.46,
-    "pbr": 0.95
+    "expected_return_x": 0.38,
+    "pbr": 1.14
   },
   "liquidation": {
     "value": 41347600000.0,
     "per_share": 1103.2,
-    "downside_to_liquidation": 0.512
+    "downside_to_liquidation": 0.595
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -180,13 +180,13 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 0.5倍（-54%）。営業レバレッジ DOL は 2.15（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 0.4倍（-62%）。営業レバレッジ DOL は 2.15（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 40.2,
+  "auto_score": 39.5,
   "passes": {
     "s0_size": true,
-    "s1_cheap": true,
+    "s1_cheap": false,
     "s2_cyclical": true,
     "s3_trough": false,
     "s4_structural_ok": true,
