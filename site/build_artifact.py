@@ -165,10 +165,10 @@ def main() -> None:
     <th data-k="auto_score">自動<br>スコア</th>
     <th data-k="_funnel">ふるい</th>
     <th data-k="expected_return_x">期待<br>リターン</th>
-    <th data-k="normalized_per">正常化<br>PER</th>
-    <th data-k="pbr">PBR</th>
-    <th data-k="cyclicality">循環性</th>
-    <th data-k="trough_score">トラフ度</th>
+    <th data-k="normalized_per" title="平常時（山谷ならし）の1株利益で見たPER">平常時<br>PER</th>
+    <th data-k="pbr" title="株価 ÷ 1株純資産">PBR</th>
+    <th data-k="cyclicality" title="景気にどれだけ振り回されるか">景気<br>敏感度</th>
+    <th data-k="trough_score" title="高いほど「いま谷にいる」度合いが強い">谷<br>サイン</th>
     <th data-k="market_phase_score">市況<br>フェーズ</th>
     <th data-k="_cycle">循環<br>局面</th>
     <th data-k="equity_ratio">自己資本<br>比率</th>
@@ -221,7 +221,7 @@ def main() -> None:
 const D=JSON.parse(document.getElementById("data").textContent);
 const FL=D.funnelLabels;
 const ABC=["A_cycle_not_structural","B_survive_to_next_peak","C_operating_leverage_upside"];
-const ABC_T={{A_cycle_not_structural:"A. 循環の谷か、構造的衰退か",
+const ABC_T={{A_cycle_not_structural:"A. 「谷」か「構造的な衰退」か",
   B_survive_to_next_peak:"B. 次の山まで生き残れるか",
   C_operating_leverage_upside:"C. 山でどれだけ跳ねるか"}};
 let sortK="auto_score",sortDir=-1;
@@ -326,6 +326,30 @@ function chart(fy,sales,ord,margin){{
   return s+"</svg>";
 }}
 
+// 株価循環の波（① 谷 → ⑤ 山 → ⑧ 谷）。現在局面 cur を大きく表示。
+function cycleWave(cur){{
+  const W=560,H=150,pad=28,amp=(H-2*pad)/2,mid=H/2;
+  const A=n=>(270+(n-1)*45)*Math.PI/180;
+  const X=n=>pad+(n-1)/8*(W-2*pad);
+  const Y=n=>mid-amp*Math.sin(A(n));
+  let d="M";
+  for(let t=0;t<=128;t++){{const n=1+t/16;d+=(t?" L":"")+X(n).toFixed(1)+","+Y(n).toFixed(1);}}
+  let s=`<svg viewBox="0 0 ${{W}} ${{H}}" role="img" aria-label="株価循環での現在位置">`;
+  s+=`<rect x="0" y="0" width="${{X(2.5).toFixed(0)}}" height="${{H}}" fill="var(--ok)" opacity="0.09"/>`;
+  s+=`<rect x="${{X(6.5).toFixed(0)}}" y="0" width="${{(W-X(6.5)).toFixed(0)}}" height="${{H}}" fill="var(--ok)" opacity="0.09"/>`;
+  s+=`<rect x="${{X(3.5).toFixed(0)}}" y="0" width="${{(X(6.5)-X(3.5)).toFixed(0)}}" height="${{H}}" fill="var(--warn)" opacity="0.09"/>`;
+  s+=`<path d="${{d}}" fill="none" stroke="var(--line-strong)" stroke-width="2"/>`;
+  "①②③④⑤⑥⑦⑧".split("").forEach((c,i)=>{{
+    const n=i+1,on=n===cur,up=(n>=3&&n<=6);
+    s+=`<circle cx="${{X(n).toFixed(1)}}" cy="${{Y(n).toFixed(1)}}" r="${{on?7:3.4}}" fill="${{on?'var(--accent)':'var(--sub)'}}"/>`;
+    s+=`<text x="${{X(n).toFixed(1)}}" y="${{(Y(n)+(up?-11:19)).toFixed(1)}}" font-size="11" text-anchor="middle" font-weight="${{on?700:400}}" fill="${{on?'var(--accent)':'var(--sub)'}}">${{c}}</text>`;
+    if(on)s+=`<text x="${{X(n).toFixed(1)}}" y="${{(Y(n)+(up?-25:33)).toFixed(1)}}" font-size="10" text-anchor="middle" fill="var(--accent)">いまここ</text>`;
+  }});
+  s+=`<text x="${{X(1.6).toFixed(0)}}" y="${{H-5}}" font-size="9" fill="var(--ok)" text-anchor="middle">谷ゾーン（買い場）</text>`;
+  s+=`<text x="${{X(5).toFixed(0)}}" y="12" font-size="9" fill="var(--warn)" text-anchor="middle">山ゾーン（売り場）</text>`;
+  return s+"</svg>";
+}}
+
 // ---------- 詳細 ----------
 const kv=(l,v)=>`<div class="kv"><b>${{esc(l)}}</b>${{v}}</div>`;
 function openDetail(code){{
@@ -340,7 +364,9 @@ function openDetail(code){{
      <td>${{d.stale?"（古い）":""}}</td></tr>`).join("");
   const check=k=>{{const c=a.checklist[k];return `<div class="card checkrow">
     <span class="mk ${{mkClass(c.mark)}} big">${{c.mark}}</span>
-    <div><b>${{esc(ABC_T[k])}}</b><div class="note">${{esc(c.note)}}</div></div></div>`;}};
+    <div><b>${{esc(ABC_T[k])}}</b>
+      ${{c.criteria?`<div class="note" style="margin:.15rem 0"><b>${{esc(c.criteria)}}</b></div>`:""}}
+      <div class="note">${{esc(c.note)}}</div></div></div>`;}};
   box.innerHTML=`<div class="wrap">
     <div class="backbar"><button id="back">← 一覧へ戻る</button>
       <span class="note">${{esc(a.code)}} ${{esc(a.name)}}</span></div>
@@ -368,50 +394,51 @@ function openDetail(code){{
       ${{kv("回帰の当てはまり R²",num(cs.r2,2))}}
     </div><p class="note">DOL が高いほど、売上の変化で利益が大きく振れる（谷で赤字・山で急拡大）。</p></div>
 
-    <h2>循環性</h2>
+    <h2>景気にどれだけ振り回されるか（循環性）</h2>
     <div class="card"><div class="grid">
-      ${{kv("循環性スコア",pct(a.cyclicality.score))}}
-      ${{kv("利益弾性（σ利益yoy / σ売上yoy）",num(a.cyclicality.elasticity,1))}}
-      ${{kv("利益率のブレ（標準偏差）",pct(a.cyclicality.margin_stdev,1))}}
-      ${{kv("過去に赤字の年",a.cyclicality.has_loss_year?"あり":"なし")}}
-      ${{kv("ミッドサイクル利益率（中央値）",pct(a.cyclicality.median_margin,1))}}
-    </div></div>
+      ${{kv("景気敏感度スコア",pct(a.cyclicality.score))}}
+      ${{kv("利益の振れ幅 ÷ 売上の振れ幅",num(a.cyclicality.elasticity,1))}}
+      ${{kv("利益率のブレ幅",pct(a.cyclicality.margin_stdev,1))}}
+      ${{kv("過去10年に赤字の年",a.cyclicality.has_loss_year?"あり":"なし")}}
+      ${{kv("平常時の利益率（10年の中央値）",pct(a.cyclicality.median_margin,1))}}
+    </div><p class="note">「利益の振れ幅 ÷ 売上の振れ幅」が大きいほど、売上が少し動くだけで
+    利益が大きく振れる＝景気に敏感な会社。</p></div>
 
-    <h2>いま循環の谷か</h2>
+    <h2>いま循環の谷にいるか</h2>
     <div class="card"><div class="grid">
-      ${{kv("トラフ度（総合）",pct(t.score))}}
+      ${{kv("谷サイン（総合・高いほど谷）",pct(t.score))}}
       ${{kv("直近の利益率",pct(t.latest_margin,1))}}
-      ${{kv("利益率の過去パーセンタイル",pct(t.margin_pctile))}}
-      ${{kv("市況フェーズ（1=谷 0=山）",num(t.market_phase_score,2))}}
-      ${{kv("株価 10年パーセンタイル",pct(t.price_pctile_10y))}}
+      ${{kv("利益率の位置（0%=10年で最低 / 100%=最高）",pct(t.margin_pctile))}}
+      ${{kv("市況の位置（1=谷 / 0=山）",num(t.market_phase_score,2))}}
+      ${{kv("株価の位置（0%=10年で最安 / 100%=最高値）",pct(t.price_pctile_10y))}}
       ${{kv("10年高値からの下落率",pct(t.price_drawdown_10y))}}
     </div>${{ph?`<table class="mini"><thead><tr><th class="l">市況</th><th>フェーズ</th>
-      <th>15年%タイル</th><th>前年比</th><th></th></tr></thead><tbody>${{ph}}</tbody></table>`
+      <th>15年での位置</th><th>前年比</th><th></th></tr></thead><tbody>${{ph}}</tbody></table>`
       :`<p class="note">この業種に紐づく自動取得の市況シリーズはありません。</p>`}}</div>
 
-    ${{a.cycle_phase?`<h2>循環局面（推定）</h2>
+    ${{a.cycle_phase?`<h2>いま循環のどこにいるか（推定）</h2>
     <div class="card">
       <p><b class="cyc cyc-${{a.cycle_phase.zone}}" style="font-size:1.3rem">${{a.cycle_phase.label}}</b>
         <span class="note">（${{a.cycle_phase.zone==="buy"?"買い場ゾーン":a.cycle_phase.zone==="sell"?"売り場ゾーン":"保有ゾーン"}}）</span></p>
-      <div class="phasestrip">${{"①②③④⑤⑥⑦⑧".split("").map((c,i)=>
-        `<span class="${{i+1===a.cycle_phase.num?'on':''}}">${{c}}</span>`).join("")}}</div>
-      <div class="grid" style="margin-top:.7rem">
-        ${{kv("水準（0=谷 / 1=山）",num(a.cycle_phase.level,2))}}
-        ${{kv("方向（−1=下降 / +1=上昇）",num(a.cycle_phase.momentum,2))}}
+      ${{cycleWave(a.cycle_phase.num)}}
+      <div class="grid" style="margin-top:.5rem">
+        ${{kv("いまの高さ（0%=谷 / 100%=山）",pct(a.cycle_phase.level))}}
+        ${{kv("向き（マイナス=下降 / プラス=上昇）",num(a.cycle_phase.momentum,2))}}
       </div>
-      <p class="note">水準＝利益率・市況・株価の過去パーセンタイルの加重平均。
-      方向＝売上・利益率・市況の前年比。<b>自動推定の目安</b>で、
-      実際の局面は在庫循環・市況スプレッド・先物カーブで確認すること。
-      局面の一覧はページ下部の凡例を参照。</p>
+      <p class="note">「高さ」＝利益率・市況・株価がそれぞれ過去のどのあたりの水準かの平均。
+      「向き」＝売上・利益率・市況が前年比で上がっているか下がっているか。
+      <b>自動推定の目安</b>。実際の局面は在庫の増減・市況スプレッド・先物カーブで
+      確認すること。8局面の意味はページ下部の凡例を参照。</p>
     </div>`:""}}
 
-    <h2>構造縮小でないか（バリュートラップ判定）</h2>
+    <h2>「谷」なのか「構造的な衰退」なのか</h2>
     <div class="card"><div class="grid">
-      ${{kv("売上 期間CAGR",pct(stc.sales_cagr,1))}}
-      ${{kv("判定",stc.ok?"循環の範囲内":"要注意")}}
-      ${{kv("構造縮小フラグ",stc.shrink_flag?"⚠ 立っている":"なし")}}
-    </div><p class="note">EV化・脱炭素・デジタル代替・中国の恒常的過剰供給などで
-    市場そのものが縮小していないか、定性的にも必ず確認する。</p></div>
+      ${{kv("売上の10年成長率（年率）",pct(stc.sales_cagr,1))}}
+      ${{kv("判定",stc.ok?"循環の範囲内（戻れる見込み）":"要注意")}}
+      ${{kv("構造縮小の疑い",stc.shrink_flag?"⚠ あり":"なし")}}
+    </div><p class="note">売上が山谷を繰り返しつつ長期で減っていなければ「循環の谷」。
+    EV化・脱炭素・デジタル代替・中国の恒常的な過剰供給などで市場そのものが
+    縮小していないかは、数値だけでなく目で確認する。</p></div>
 
     <h2>次の山まで生き残れるか</h2>
     <div class="card"><div class="grid">
@@ -422,18 +449,18 @@ function openDetail(code){{
       ${{kv("赤字時の持ちこたえ年数",sv.survive_years_if_loss?num(sv.survive_years_if_loss,1)+" 年":"—（赤字年なし）")}}
     </div></div>
 
-    <h2>正常化利益とバリュエーション</h2>
+    <h2>平常時の利益で見た株価の割安さ</h2>
     <div class="card"><div class="grid">
-      ${{kv("正常化売上（全期間中央値）",oku(v.normalized_sales))}}
-      ${{kv("正常化利益率（中央値）",pct(v.normalized_margin,1))}}
-      ${{kv("正常化"+pn,oku(v.normalized_ordinary))}}
-      ${{kv("正常化EPS（税率30%後）",num(v.normalized_eps,2)+" 円")}}
-      ${{kv("正常化PER",num(v.normalized_per,1))}}
-      ${{kv("理論株価（PER "+num(v.midcycle_per,0)+"）",num(v.fair_value,0)+" 円")}}
-      ${{kv("期待リターン倍率",xR(v.expected_return_x))}}
-      ${{kv("PBR（実績BPS）",num(v.pbr,2))}}
-    </div><p class="note">シクリカルは谷で高PER・山で低PERになる。谷のPERではなく
-    ミッドサイクル利益で評価する。期待リターン2倍未満は原則見送り。</p></div>
+      ${{kv("平常時の売上（10年の中央値）",oku(v.normalized_sales))}}
+      ${{kv("平常時の利益率（10年の中央値）",pct(v.normalized_margin,1))}}
+      ${{kv("平常時の"+pn,oku(v.normalized_ordinary))}}
+      ${{kv("平常時の1株利益（税引後）",num(v.normalized_eps,2)+" 円")}}
+      ${{kv("平常時の利益で見たPER",num(v.normalized_per,1))}}
+      ${{kv("理論株価（PER "+num(v.midcycle_per,0)+" 倍で評価）",num(v.fair_value,0)+" 円")}}
+      ${{kv("期待リターン（理論株価 ÷ 現在値）",xR(v.expected_return_x))}}
+      ${{kv("PBR（株価 ÷ 1株純資産）",num(v.pbr,2))}}
+    </div><p class="note">景気循環株は谷でPERが高く・山でPERが低く見える。だから今の利益ではなく、
+    山谷をならした「平常時の利益」で評価する。期待リターン2倍（+100%）未満は原則見送り。</p></div>
 
     <h2>清算価値（下値のメド）</h2>
     <div class="card"><div class="grid">

@@ -315,24 +315,37 @@ def analyze(code: str) -> dict | None:
             return "○"
         return "△" if warn else "×"
 
+    _cagr_txt = f"{sales_cagr:+.1%}" if sales_cagr is not None else "不明"
+    _er_txt = f"{latest_er:.0%}" if latest_er is not None else "不明"
+    _min_er_txt = f"{min_er:.0%}" if min_er is not None else "不明"
+    _ret_pct = f"{(exp_return_x - 1) * 100:+.0f}%" if exp_return_x else "—"
     checklist = {
         "A_cycle_not_structural": {
             "mark": mark(structural_ok, warn=not structural_flag),
-            "note": (f"売上10年CAGR {sales_cagr:+.1%} / "
-                     f"直近ピーク {'≥' if structural_ok else '<'} 過去ピーク"
-                     if sales_cagr is not None else "売上履歴不足"),
+            "criteria": "○＝売上が長期で減っていない（谷から戻れる見込み）／"
+                        "△＝やや不安／×＝売上が10年で縮小傾向（構造的衰退の疑い）",
+            "note": (f"売上の10年成長率 {_cagr_txt}、直近5年のピーク売上は"
+                     f"過去のピークの {('9割以上' if structural_ok else '9割未満')}。"
+                     + ("EV化・脱炭素などで市場そのものが消えていないかは要目視。"
+                        if structural_ok else "市場が縮んでいる可能性。要確認。")),
         },
         "B_survive_to_next_peak": {
             "mark": mark(survival_ok, warn=bool(latest_er and latest_er >= 0.15)),
-            "note": (f"自己資本比率 {latest_er:.0%}（最低 {min_er:.0%}） / "
-                     f"ネットD/E {nd_to_equity}"
-                     if latest_er is not None else "自己資本比率不明"),
+            "criteria": "○＝自己資本比率25%以上かつネット有利子負債が自己資本以下／"
+                        "△＝自己資本比率15%以上／×＝それ未満（谷で資金繰りに窮する恐れ）",
+            "note": (f"自己資本比率 {_er_txt}（この10年の最低は {_min_er_txt}）、"
+                     f"ネット有利子負債は自己資本の {nd_to_equity} 倍。"
+                     if latest_er is not None else "自己資本比率が取得できず"),
         },
         "C_operating_leverage_upside": {
             "mark": mark(bool(cost.get("dol") and exp_return_x and exp_return_x >= 2),
                          warn=bool(exp_return_x and exp_return_x >= 1.5)),
-            "note": (f"DOL {cost.get('dol')} / 期待リターン "
-                     f"{exp_return_x:.1f}倍" if exp_return_x else "正常化利益を試算できず"),
+            "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／"
+                        "△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
+            "note": (f"平常時の利益で評価すると理論株価は現在値の {exp_return_x:.1f}倍"
+                     f"（{_ret_pct}）。営業レバレッジ DOL は {cost.get('dol')}"
+                     f"（大きいほど山で利益が跳ねる）。"
+                     if exp_return_x else "平常時の利益がマイナス圏で試算できず"),
         },
     }
 

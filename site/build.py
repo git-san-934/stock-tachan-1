@@ -149,6 +149,45 @@ def spark(series, pctile=None) -> str:
     return f"<svg viewBox='0 0 {W} {H}'><path d='{d}' fill='none' stroke='var(--sub)' stroke-width='1.5'/>{dot}</svg>"
 
 
+def cycle_wave(cur: int) -> str:
+    """株価循環の波（① 谷 → ⑤ 山 → ⑧ 谷）。現在局面 cur を大きく表示。"""
+    import math
+    W, H, pad = 560, 150, 28
+    amp = (H - 2 * pad) / 2
+    mid = H / 2
+
+    def ang(n): return math.radians(270 + (n - 1) * 45)
+    def X(n): return pad + (n - 1) / 8 * (W - 2 * pad)
+    def Y(n): return mid - amp * math.sin(ang(n))
+
+    pts = []
+    for t in range(129):
+        n = 1 + t / 16
+        pts.append(f"{X(n):.1f},{Y(n):.1f}")
+    d = "M" + " L".join(pts)
+    out = [f"<svg viewBox='0 0 {W} {H}' role='img' aria-label='株価循環での現在位置'>"]
+    out.append(f"<rect x='0' y='0' width='{X(2.5):.0f}' height='{H}' fill='var(--ok)' opacity='0.09'/>")
+    out.append(f"<rect x='{X(6.5):.0f}' y='0' width='{W - X(6.5):.0f}' height='{H}' fill='var(--ok)' opacity='0.09'/>")
+    out.append(f"<rect x='{X(3.5):.0f}' y='0' width='{X(6.5) - X(3.5):.0f}' height='{H}' fill='var(--warn)' opacity='0.09'/>")
+    out.append(f"<path d='{d}' fill='none' stroke='var(--border)' stroke-width='2'/>")
+    for i, c in enumerate("①②③④⑤⑥⑦⑧"):
+        n = i + 1
+        on = n == cur
+        up = 3 <= n <= 6
+        col = "var(--accent)" if on else "var(--sub)"
+        out.append(f"<circle cx='{X(n):.1f}' cy='{Y(n):.1f}' r='{7 if on else 3.4}' "
+                   f"fill='{'var(--accent)' if on else 'var(--sub)'}'/>")
+        out.append(f"<text x='{X(n):.1f}' y='{Y(n) + (-11 if up else 19):.1f}' font-size='11' "
+                   f"text-anchor='middle' font-weight='{700 if on else 400}' fill='{col}'>{c}</text>")
+        if on:
+            out.append(f"<text x='{X(n):.1f}' y='{Y(n) + (-25 if up else 33):.1f}' font-size='10' "
+                       f"text-anchor='middle' fill='var(--accent)'>いまここ</text>")
+    out.append(f"<text x='{X(1.6):.0f}' y='{H - 5}' font-size='9' fill='var(--ok)' text-anchor='middle'>谷ゾーン（買い場）</text>")
+    out.append(f"<text x='{X(5):.0f}' y='12' font-size='9' fill='var(--warn)' text-anchor='middle'>山ゾーン（売り場）</text>")
+    out.append("</svg>")
+    return "".join(out)
+
+
 # ------------------------------------------------------------------ pages
 
 def page(title: str, body: str, depth: int = 0) -> str:
@@ -197,10 +236,10 @@ def build_index(shortlist: dict) -> str:
 <th data-k="auto_score">自動<br>スコア</th>
 <th data-k="_funnel">ふるい</th>
 <th data-k="expected_return_x">期待<br>リターン</th>
-<th data-k="normalized_per">正常化<br>PER</th>
-<th data-k="pbr">PBR</th>
-<th data-k="cyclicality">循環性</th>
-<th data-k="trough_score">トラフ<br>度</th>
+<th data-k="normalized_per" title="平常時（山谷ならし）の1株利益で見たPER">平常時<br>PER</th>
+<th data-k="pbr" title="株価 ÷ 1株純資産">PBR</th>
+<th data-k="cyclicality" title="景気にどれだけ振り回されるか">景気<br>敏感度</th>
+<th data-k="trough_score" title="高いほど「いま谷にいる」度合いが強い">谷<br>サイン</th>
 <th data-k="market_phase_score">市況<br>フェーズ</th>
 <th data-k="_cycle">循環<br>局面</th>
 <th data-k="equity_ratio">自己資本<br>比率</th>
@@ -300,32 +339,30 @@ def build_company(a: dict, market: dict) -> str:
 
     def mk(key):
         c = a["checklist"][key]
+        crit = (f"<div class='note' style='margin:.15rem 0'><b>{esc(c['criteria'])}</b></div>"
+                if c.get("criteria") else "")
         return (f"<div class='card'><b class='mk {c['mark']}'>{c['mark']}</b> "
-                f"{esc(_CHECK_TITLE[key])}<div class='note'>{esc(c['note'])}</div></div>")
+                f"{esc(_CHECK_TITLE[key])}{crit}"
+                f"<div class='note'>{esc(c['note'])}</div></div>")
 
     cp = a.get("cycle_phase")
     cycle_block = ""
     if cp:
         col = {"buy": "var(--ok)", "sell": "var(--ng)"}.get(cp["zone"], "var(--sub)")
         zone_txt = {"buy": "買い場ゾーン", "sell": "売り場ゾーン"}.get(cp["zone"], "保有ゾーン")
-        strip = "".join(
-            f"<span style=\"width:1.8rem;height:1.8rem;display:grid;place-items:center;"
-            f"border:1px solid var(--border);border-radius:.35rem;"
-            f"{'background:var(--accent);color:#fff;font-weight:700' if i + 1 == cp['num'] else 'color:var(--sub)'}\">"
-            f"{c}</span>" for i, c in enumerate('①②③④⑤⑥⑦⑧'))
-        cycle_block = f"""<h2>循環局面（推定）</h2>
+        cycle_block = f"""<h2>いま循環のどこにいるか（推定）</h2>
 <div class="card">
 <p><b style="font-size:1.3rem;color:{col}">{esc(cp['label'])}</b>
 <span class="note">（{zone_txt}）</span></p>
-<div style="display:flex;gap:.3rem;margin:.4rem 0 .7rem">{strip}</div>
-<div class="grid">
-{kv("水準（0=谷 / 1=山）", fmt(cp['level'], digits=2))}
-{kv("方向（−1=下降 / +1=上昇）", fmt(cp['momentum'], digits=2))}
+{cycle_wave(cp['num'])}
+<div class="grid" style="margin-top:.5rem">
+{kv("いまの高さ（0%=谷 / 100%=山）", fmt(cp['level'], pct=True, digits=0))}
+{kv("向き（マイナス=下降 / プラス=上昇）", fmt(cp['momentum'], digits=2))}
 </div>
-<p class="note">水準＝利益率・市況・株価の過去パーセンタイルの加重平均。
-方向＝売上・利益率・市況の前年比。<b>自動推定の目安</b>で、実際の局面は
-在庫循環・市況スプレッド・先物カーブで確認すること（局面の一覧は
-<a href="../index.html">一覧ページ下部の凡例</a>）。</p>
+<p class="note">「高さ」＝利益率・市況・株価がそれぞれ過去のどのあたりの水準かの平均。
+「向き」＝売上・利益率・市況が前年比で上がっているか下がっているか。
+<b>自動推定の目安</b>。実際の局面は在庫の増減・市況スプレッド・先物カーブで
+確認すること（8局面の意味は<a href="../index.html">一覧ページ下部の凡例</a>）。</p>
 </div>"""
 
     body = f"""
@@ -352,35 +389,37 @@ def build_company(a: dict, market: dict) -> str:
 {kv("回帰の当てはまり R²", fmt(cs.get('r2'), digits=2))}
 </div><p class="note">DOL が高いほど、売上の変化に対して利益が大きく振れる（谷で赤字・山で急拡大）。</p></div>
 
-<h2>循環性</h2>
+<h2>景気にどれだけ振り回されるか（循環性）</h2>
 <div class="card"><div class="grid">
-{kv("循環性スコア", fmt(a['cyclicality']['score'], pct=True))}
-{kv("利益弾性（σ経常yoy / σ売上yoy）", fmt(a['cyclicality']['elasticity']))}
-{kv("経常利益率のブレ（標準偏差）", fmt(a['cyclicality']['margin_stdev'], pct=True))}
-{kv("過去に営業赤字の年", "あり" if a['cyclicality']['has_loss_year'] else "なし")}
-{kv("ミッドサイクル経常利益率（中央値）", fmt(a['cyclicality']['median_margin'], pct=True))}
-</div></div>
+{kv("景気敏感度スコア", fmt(a['cyclicality']['score'], pct=True))}
+{kv("利益の振れ幅 ÷ 売上の振れ幅", fmt(a['cyclicality']['elasticity']))}
+{kv("利益率のブレ幅", fmt(a['cyclicality']['margin_stdev'], pct=True))}
+{kv("過去10年に赤字の年", "あり" if a['cyclicality']['has_loss_year'] else "なし")}
+{kv("平常時の利益率（10年の中央値）", fmt(a['cyclicality']['median_margin'], pct=True))}
+</div><p class="note">「利益の振れ幅 ÷ 売上の振れ幅」が大きいほど、売上が少し動くだけで
+利益が大きく振れる＝景気に敏感な会社。</p></div>
 
-<h2>いま循環の谷か</h2>
+<h2>いま循環の谷にいるか</h2>
 <div class="card"><div class="grid">
-{kv("トラフ度（総合）", fmt(t['score'], pct=True))}
-{kv("直近の経常利益率", fmt(t['latest_margin'], pct=True))}
-{kv("経常利益率の過去パーセンタイル", fmt(t['margin_pctile'], pct=True))}
-{kv("市況フェーズ（1=谷 0=山）", fmt(t['market_phase_score']))}
-{kv("株価 10年パーセンタイル", fmt(t['price_pctile_10y'], pct=True))}
+{kv("谷サイン（総合・高いほど谷）", fmt(t['score'], pct=True))}
+{kv("直近の利益率", fmt(t['latest_margin'], pct=True))}
+{kv("利益率の位置（0%=10年で最低 / 100%=最高）", fmt(t['margin_pctile'], pct=True))}
+{kv("市況の位置（1=谷 / 0=山）", fmt(t['market_phase_score']))}
+{kv("株価の位置（0%=10年で最安 / 100%=最高値）", fmt(t['price_pctile_10y'], pct=True))}
 {kv("10年高値からの下落率", fmt(t['price_drawdown_10y'], pct=True))}
 </div>
-{"<table style='margin-top:.6rem'><thead><tr><th class='l'>市況</th><th>フェーズ</th><th>15年%タイル</th><th>前年比</th><th></th></tr></thead><tbody>"+phase_rows+"</tbody></table>" if phase_rows else "<p class='note'>この業種に紐づく自動取得の市況シリーズはありません。</p>"}
+{"<table style='margin-top:.6rem'><thead><tr><th class='l'>市況</th><th>フェーズ</th><th>15年での位置</th><th>前年比</th><th></th></tr></thead><tbody>"+phase_rows+"</tbody></table>" if phase_rows else "<p class='note'>この業種に紐づく自動取得の市況シリーズはありません。</p>"}
 </div>
 {cycle_block}
 
-<h2>構造縮小でないか（バリュートラップ判定）</h2>
+<h2>「谷」なのか「構造的な衰退」なのか</h2>
 <div class="card"><div class="grid">
-{kv("売上 期間CAGR", fmt(st_['sales_cagr'], pct=True))}
-{kv("判定", "循環の範囲内" if st_['ok'] else "要注意")}
-{kv("構造縮小フラグ", "⚠ 立っている" if st_['shrink_flag'] else "なし")}
-</div><p class="note">EV化・脱炭素・デジタル代替・中国の恒常的過剰供給などで市場そのものが
-縮小していないか、定性的にも必ず確認する。</p></div>
+{kv("売上の10年成長率（年率）", fmt(st_['sales_cagr'], pct=True))}
+{kv("判定", "循環の範囲内（戻れる見込み）" if st_['ok'] else "要注意")}
+{kv("構造縮小の疑い", "⚠ あり" if st_['shrink_flag'] else "なし")}
+</div><p class="note">売上が山谷を繰り返しつつ長期で減っていなければ「循環の谷」。
+EV化・脱炭素・デジタル代替・中国の恒常的な過剰供給などで市場そのものが
+縮小していないかは、数値だけでなく目で確認する。</p></div>
 
 <h2>次の山まで生き残れるか</h2>
 <div class="card"><div class="grid">
@@ -391,18 +430,18 @@ def build_company(a: dict, market: dict) -> str:
 {kv("赤字時の持ちこたえ年数", fmt(sv['survive_years_if_loss']) if sv['survive_years_if_loss'] else "—（赤字年なし）")}
 </div></div>
 
-<h2>正常化利益とバリュエーション</h2>
+<h2>平常時の利益で見た株価の割安さ</h2>
 <div class="card"><div class="grid">
-{kv("正常化売上（直近5年中央値）", oku(v['normalized_sales']))}
-{kv("正常化経常利益率（中央値）", fmt(v['normalized_margin'], pct=True))}
-{kv("正常化経常利益", oku(v['normalized_ordinary']))}
-{kv("正常化EPS（税率30%後）", fmt(v['normalized_eps'], digits=2) + " 円")}
-{kv("正常化PER", fmt(v['normalized_per']))}
-{kv(f"理論株価（PER {v['midcycle_per']:.0f}）", fmt(v['fair_value']) + " 円")}
-{kv("期待リターン倍率", fmt(v['expected_return_x'], x=True))}
-{kv("PBR（実績BPS）", fmt(v['pbr'], digits=2))}
-</div><p class="note">シクリカルは谷で高PER・山で低PERになる。谷のPERではなく
-ミッドサイクル利益で評価する。期待リターン2倍未満は原則見送り。</p></div>
+{kv("平常時の売上（10年の中央値）", oku(v['normalized_sales']))}
+{kv("平常時の利益率（10年の中央値）", fmt(v['normalized_margin'], pct=True))}
+{kv("平常時の経常利益", oku(v['normalized_ordinary']))}
+{kv("平常時の1株利益（税引後）", fmt(v['normalized_eps'], digits=2) + " 円")}
+{kv("平常時の利益で見たPER", fmt(v['normalized_per']))}
+{kv(f"理論株価（PER {v['midcycle_per']:.0f} 倍で評価）", fmt(v['fair_value']) + " 円")}
+{kv("期待リターン（理論株価 ÷ 現在値）", fmt(v['expected_return_x'], x=True))}
+{kv("PBR（株価 ÷ 1株純資産）", fmt(v['pbr'], digits=2))}
+</div><p class="note">景気循環株は谷でPERが高く・山でPERが低く見える。だから今の利益ではなく、
+山谷をならした「平常時の利益」で評価する。期待リターン2倍（+100%）未満は原則見送り。</p></div>
 
 <h2>清算価値（下値のメド）</h2>
 <div class="card"><div class="grid">
@@ -445,7 +484,7 @@ F.forEach(f=>document.getElementById(f).addEventListener("input",save));
 
 
 _CHECK_TITLE = {
-    "A_cycle_not_structural": "A. 循環の谷か、構造的衰退か",
+    "A_cycle_not_structural": "A. 「谷」か「構造的な衰退」か",
     "B_survive_to_next_peak": "B. 次の山まで生き残れるか",
     "C_operating_leverage_upside": "C. 山でどれだけ跳ねるか",
 }
