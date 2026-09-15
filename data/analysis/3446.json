@@ -12,9 +12,9 @@
     "level": 0.353,
     "momentum": -0.859
   },
-  "as_of_price": "2026-06-09",
-  "price": 1688.0,
-  "market_cap_oku": 99,
+  "as_of_price": "2026-06-17",
+  "price": 1673.0,
+  "market_cap_oku": 98,
   "fy_range": [
     2016,
     2025
@@ -134,7 +134,7 @@
       }
     ],
     "price_pctile_10y": 0.267,
-    "price_drawdown_10y": 0.805
+    "price_drawdown_10y": 0.806
   },
   "structural": {
     "sales_cagr": 0.139,
@@ -155,11 +155,11 @@
     "normalized_margin": 0.1728,
     "normalized_ordinary": 173537002.6,
     "normalized_eps": 20.62,
-    "normalized_per": 81.9,
+    "normalized_per": 81.1,
     "midcycle_per": 12.0,
     "fair_value": 247.5,
     "expected_return_x": 0.15,
-    "pbr": 3.58
+    "pbr": 3.55
   },
   "liquidation": {
     "value": 880749800.0,

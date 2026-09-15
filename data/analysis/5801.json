@@ -12,9 +12,9 @@
     "level": 0.963,
     "momentum": 0.712
   },
-  "as_of_price": "2026-06-09",
-  "price": 46500.0,
-  "market_cap_oku": 32860,
+  "as_of_price": "2026-06-17",
+  "price": 47440.0,
+  "market_cap_oku": 33524,
   "fy_range": [
     2017,
     2026
@@ -171,11 +171,11 @@
     "normalized_margin": 0.0322,
     "normalized_ordinary": 30433776571.9,
     "normalized_eps": 301.47,
-    "normalized_per": 154.2,
+    "normalized_per": 157.4,
     "midcycle_per": 12.0,
     "fair_value": 3617.6,
     "expected_return_x": 0.08,
-    "pbr": 7.84
+    "pbr": 8.0
   },
   "liquidation": {
     "value": 538500000.0,

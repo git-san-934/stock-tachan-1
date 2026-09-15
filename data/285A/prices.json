@@ -1,7 +1,7 @@
 {
   "symbol": "285A.T",
-  "as_of": "2026-06-09",
-  "latest": 76450.0,
+  "as_of": "2026-06-17",
+  "latest": 96000.0,
   "monthly": [
     [
       "2024-12",
@@ -92,9 +92,9 @@
       59150.0
     ]
   ],
-  "pctile_10y": 0.957,
-  "drawdown_from_peak_10y": 0.148,
-  "chg_1y": 6.062,
+  "pctile_10y": 1.0,
+  "drawdown_from_peak_10y": 0.0,
+  "chg_1y": 7.868,
   "currency": "JPY",
   "latest_source": "jquants"
 }

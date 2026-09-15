@@ -9,11 +9,11 @@
     "name": "拡大",
     "label": "③ 拡大",
     "zone": "hold",
-    "level": 0.502,
+    "level": 0.504,
     "momentum": 0.09
   },
-  "as_of_price": "2026-06-09",
-  "price": 603.0,
+  "as_of_price": "2026-06-17",
+  "price": 609.0,
   "market_cap_oku": 23,
   "fy_range": [
     2016,
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.746,
-    "price_drawdown_10y": 0.433
+    "price_pctile_10y": 0.754,
+    "price_drawdown_10y": 0.427
   },
   "structural": {
     "sales_cagr": 0.0322,
@@ -155,7 +155,7 @@
     "normalized_margin": 0.0204,
     "normalized_ordinary": 208212960.0,
     "normalized_eps": 37.41,
-    "normalized_per": 16.1,
+    "normalized_per": 16.3,
     "midcycle_per": 12.0,
     "fair_value": 448.9,
     "expected_return_x": 0.74,
@@ -164,7 +164,7 @@
   "liquidation": {
     "value": 3429475700.0,
     "per_share": 880.3,
-    "downside_to_liquidation": -0.46
+    "downside_to_liquidation": -0.445
   },
   "checklist": {
     "A_cycle_not_structural": {

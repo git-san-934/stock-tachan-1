@@ -5,15 +5,15 @@
   "market": "スタンダード（内国株式）",
   "profit_basis": "経常利益",
   "cycle_phase": {
-    "num": 2,
-    "name": "回復",
-    "label": "② 回復",
+    "num": 1,
+    "name": "底入れ",
+    "label": "① 底入れ",
     "zone": "buy",
-    "level": 0.383,
+    "level": 0.378,
     "momentum": -0.017
   },
-  "as_of_price": "2026-06-09",
-  "price": 1257.0,
+  "as_of_price": "2026-06-17",
+  "price": 1252.0,
   "market_cap_oku": 23,
   "fy_range": [
     2017,
@@ -111,13 +111,13 @@
     "median_margin": 0.0138
   },
   "trough": {
-    "score": 0.57,
+    "score": 0.575,
     "latest_margin": 0.0093,
     "margin_pctile": 0.2,
     "market_phase_score": null,
     "market_phase_detail": [],
-    "price_pctile_10y": 0.713,
-    "price_drawdown_10y": 0.389
+    "price_pctile_10y": 0.697,
+    "price_drawdown_10y": 0.391
   },
   "structural": {
     "sales_cagr": -0.0022,
@@ -147,7 +147,7 @@
   "liquidation": {
     "value": 4118082500.0,
     "per_share": 2209.3,
-    "downside_to_liquidation": -0.758
+    "downside_to_liquidation": -0.765
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -166,7 +166,7 @@
       "note": "平常時の利益で評価すると理論株価は現在値の 0.5倍（-47%）。営業レバレッジ DOL は 9.75（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 49.2,
+  "auto_score": 49.4,
   "passes": {
     "s0_size": false,
     "s1_cheap": true,

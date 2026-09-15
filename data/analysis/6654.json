@@ -9,12 +9,12 @@
     "name": "後退",
     "label": "⑥ 後退",
     "zone": "sell",
-    "level": 0.395,
+    "level": 0.436,
     "momentum": -0.382
   },
-  "as_of_price": "2026-06-09",
-  "price": 1070.0,
-  "market_cap_oku": 67,
+  "as_of_price": "2026-06-17",
+  "price": 1082.0,
+  "market_cap_oku": 68,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": 0.0946
   },
   "trough": {
-    "score": 0.313,
+    "score": 0.293,
     "latest_margin": 0.0803,
     "margin_pctile": 0.3,
     "market_phase_score": 0.0,
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.566,
-    "price_drawdown_10y": 0.054
+    "price_pctile_10y": 0.68,
+    "price_drawdown_10y": 0.043
   },
   "structural": {
     "sales_cagr": 0.0002,
@@ -155,16 +155,16 @@
     "normalized_margin": 0.0946,
     "normalized_ordinary": 357041158.2,
     "normalized_eps": 39.68,
-    "normalized_per": 27.0,
+    "normalized_per": 27.3,
     "midcycle_per": 12.0,
     "fair_value": 476.1,
     "expected_return_x": 0.44,
-    "pbr": 0.53
+    "pbr": 0.54
   },
   "liquidation": {
     "value": 6209882500.0,
     "per_share": 985.9,
-    "downside_to_liquidation": 0.079
+    "downside_to_liquidation": 0.089
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -183,7 +183,7 @@
       "note": "平常時の利益で評価すると理論株価は現在値の 0.4倍（-56%）。営業レバレッジ DOL は 1.1（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 42.8,
+  "auto_score": 42.3,
   "passes": {
     "s0_size": false,
     "s1_cheap": true,

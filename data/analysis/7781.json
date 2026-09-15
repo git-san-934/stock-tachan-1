@@ -12,9 +12,9 @@
     "level": 1.0,
     "momentum": 0.05
   },
-  "as_of_price": "2026-06-09",
-  "price": 1420.0,
-  "market_cap_oku": 115,
+  "as_of_price": "2026-06-17",
+  "price": 1485.0,
+  "market_cap_oku": 121,
   "fy_range": [
     2016,
     2025
@@ -147,16 +147,16 @@
     "normalized_margin": 0.0225,
     "normalized_ordinary": 545139428.7,
     "normalized_eps": 46.83,
-    "normalized_per": 30.3,
+    "normalized_per": 31.7,
     "midcycle_per": 12.0,
     "fair_value": 561.9,
-    "expected_return_x": 0.4,
-    "pbr": 2.17
+    "expected_return_x": 0.38,
+    "pbr": 2.27
   },
   "liquidation": {
     "value": 3047642400.0,
     "per_share": 374.0,
-    "downside_to_liquidation": 0.737
+    "downside_to_liquidation": 0.748
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -172,7 +172,7 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 0.4倍（-60%）。営業レバレッジ DOL は 1.27（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 0.4倍（-62%）。営業レバレッジ DOL は 1.27（大きいほど山で利益が跳ねる）。"
     }
   },
   "auto_score": 31.0,

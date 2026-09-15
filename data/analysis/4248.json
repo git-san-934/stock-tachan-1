@@ -9,12 +9,12 @@
     "name": "拡大",
     "label": "③ 拡大",
     "zone": "hold",
-    "level": 0.61,
+    "level": 0.612,
     "momentum": 0.366
   },
-  "as_of_price": "2026-06-09",
-  "price": 874.0,
-  "market_cap_oku": 109,
+  "as_of_price": "2026-06-17",
+  "price": 882.0,
+  "market_cap_oku": 110,
   "fy_range": [
     2016,
     2025
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.82,
-    "price_drawdown_10y": 0.309
+    "price_pctile_10y": 0.828,
+    "price_drawdown_10y": 0.303
   },
   "structural": {
     "sales_cagr": 0.0139,
@@ -155,16 +155,16 @@
     "normalized_margin": 0.1007,
     "normalized_ordinary": 1415387332.0,
     "normalized_eps": 79.08,
-    "normalized_per": 11.1,
+    "normalized_per": 11.2,
     "midcycle_per": 12.0,
     "fair_value": 948.9,
-    "expected_return_x": 1.09,
-    "pbr": 0.88
+    "expected_return_x": 1.08,
+    "pbr": 0.89
   },
   "liquidation": {
     "value": 7576754800.0,
     "per_share": 604.7,
-    "downside_to_liquidation": 0.308
+    "downside_to_liquidation": 0.314
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -180,10 +180,10 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 1.1倍（+9%）。営業レバレッジ DOL は 2.17（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 1.1倍（+8%）。営業レバレッジ DOL は 2.17（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 45.8,
+  "auto_score": 45.6,
   "passes": {
     "s0_size": true,
     "s1_cheap": true,

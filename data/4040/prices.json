@@ -1,7 +1,7 @@
 {
   "symbol": "4040.T",
-  "as_of": "2026-06-09",
-  "latest": 3730.0,
+  "as_of": "2026-06-17",
+  "latest": 3705.0,
   "monthly": [
     [
       "2023-04",
@@ -173,8 +173,8 @@
     ]
   ],
   "pctile_10y": 0.721,
-  "drawdown_from_peak_10y": 0.284,
-  "chg_1y": 0.4,
+  "drawdown_from_peak_10y": 0.289,
+  "chg_1y": 0.39,
   "currency": "JPY",
   "latest_source": "jquants"
 }

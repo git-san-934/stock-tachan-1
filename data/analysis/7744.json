@@ -9,12 +9,12 @@
     "name": "後退",
     "label": "⑥ 後退",
     "zone": "sell",
-    "level": 0.462,
+    "level": 0.465,
     "momentum": -0.523
   },
-  "as_of_price": "2026-06-09",
-  "price": 1968.0,
-  "market_cap_oku": 2141,
+  "as_of_price": "2026-06-17",
+  "price": 2017.0,
+  "market_cap_oku": 2194,
   "fy_range": [
     2016,
     2025
@@ -111,7 +111,7 @@
     "median_margin": 0.01
   },
   "trough": {
-    "score": 0.63,
+    "score": 0.627,
     "latest_margin": -0.0074,
     "margin_pctile": 0.2,
     "market_phase_score": null,
@@ -125,8 +125,8 @@
         "stale": true
       }
     ],
-    "price_pctile_10y": 0.934,
-    "price_drawdown_10y": 0.117
+    "price_pctile_10y": 0.943,
+    "price_drawdown_10y": 0.095
   },
   "structural": {
     "sales_cagr": 0.1013,
@@ -147,16 +147,16 @@
     "normalized_margin": 0.01,
     "normalized_ordinary": 712543777.1,
     "normalized_eps": 4.58,
-    "normalized_per": 429.4,
+    "normalized_per": 440.0,
     "midcycle_per": 12.0,
     "fair_value": 55.0,
     "expected_return_x": 0.03,
-    "pbr": 1.26
+    "pbr": 1.29
   },
   "liquidation": {
     "value": 116442100000.0,
     "per_share": 1070.1,
-    "downside_to_liquidation": 0.456
+    "downside_to_liquidation": 0.469
   },
   "checklist": {
     "A_cycle_not_structural": {

@@ -9,12 +9,12 @@
     "name": "高原",
     "label": "⑤ 高原",
     "zone": "sell",
-    "level": 0.988,
+    "level": 0.983,
     "momentum": 0.158
   },
-  "as_of_price": "2026-06-09",
-  "price": 5444.0,
-  "market_cap_oku": 6423,
+  "as_of_price": "2026-06-17",
+  "price": 5411.0,
+  "market_cap_oku": 6384,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": 0.0754
   },
   "trough": {
-    "score": 0.02,
+    "score": 0.025,
     "latest_margin": 0.0827,
     "margin_pctile": 1.0,
     "market_phase_score": null,
@@ -125,8 +125,8 @@
         "stale": true
       }
     ],
-    "price_pctile_10y": 0.967,
-    "price_drawdown_10y": 0.042
+    "price_pctile_10y": 0.951,
+    "price_drawdown_10y": 0.048
   },
   "structural": {
     "sales_cagr": 0.0731,
@@ -147,11 +147,11 @@
     "normalized_margin": 0.0754,
     "normalized_ordinary": 42443800286.4,
     "normalized_eps": 251.79,
-    "normalized_per": 21.6,
+    "normalized_per": 21.5,
     "midcycle_per": 12.0,
     "fair_value": 3021.4,
     "expected_return_x": 0.56,
-    "pbr": 1.58
+    "pbr": 1.57
   },
   "liquidation": {
     "value": 43664400000.0,
@@ -175,7 +175,7 @@
       "note": "平常時の利益で評価すると理論株価は現在値の 0.6倍（-44%）。営業レバレッジ DOL は 0.86（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 35.5,
+  "auto_score": 35.6,
   "passes": {
     "s0_size": true,
     "s1_cheap": false,

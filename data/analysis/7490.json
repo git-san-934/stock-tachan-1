@@ -12,8 +12,8 @@
     "level": 0.679,
     "momentum": -0.233
   },
-  "as_of_price": "2026-06-09",
-  "price": 2205.0,
+  "as_of_price": "2026-06-17",
+  "price": 2208.0,
   "market_cap_oku": 167,
   "fy_range": [
     2017,
@@ -147,7 +147,7 @@
   "liquidation": {
     "value": 7836204200.0,
     "per_share": 1031.1,
-    "downside_to_liquidation": 0.532
+    "downside_to_liquidation": 0.533
   },
   "checklist": {
     "A_cycle_not_structural": {

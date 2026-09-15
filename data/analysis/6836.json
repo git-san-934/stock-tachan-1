@@ -9,12 +9,12 @@
     "name": "過熱",
     "label": "④ 過熱",
     "zone": "sell",
-    "level": 0.868,
+    "level": 0.865,
     "momentum": 0.361
   },
-  "as_of_price": "2026-06-09",
-  "price": 761.0,
-  "market_cap_oku": 36,
+  "as_of_price": "2026-06-17",
+  "price": 719.0,
+  "market_cap_oku": 34,
   "fy_range": [
     2017,
     2026
@@ -111,7 +111,7 @@
     "median_margin": -0.0968
   },
   "trough": {
-    "score": 0.157,
+    "score": 0.163,
     "latest_margin": 0.0204,
     "margin_pctile": 1.0,
     "market_phase_score": 0.0,
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.631,
-    "price_drawdown_10y": 0.581
+    "price_pctile_10y": 0.623,
+    "price_drawdown_10y": 0.604
   },
   "structural": {
     "sales_cagr": 0.0152,
@@ -159,12 +159,12 @@
     "midcycle_per": 12.0,
     "fair_value": null,
     "expected_return_x": null,
-    "pbr": 8.24
+    "pbr": 7.79
   },
   "liquidation": {
     "value": -138781600.0,
     "per_share": -29.0,
-    "downside_to_liquidation": 1.038
+    "downside_to_liquidation": 1.04
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -183,7 +183,7 @@
       "note": "平常時の利益がマイナス圏で試算できず"
     }
   },
-  "auto_score": 44.9,
+  "auto_score": 45.1,
   "passes": {
     "s0_size": false,
     "s1_cheap": false,

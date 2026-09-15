@@ -1,7 +1,7 @@
 {
   "symbol": "416A.T",
-  "as_of": "2026-06-09",
-  "latest": 1122.0,
+  "as_of": "2026-06-17",
+  "latest": 1165.0,
   "monthly": [
     [
       "2016-09",
@@ -488,9 +488,9 @@
       1290.0
     ]
   ],
-  "pctile_10y": 0.656,
-  "drawdown_from_peak_10y": 0.394,
-  "chg_1y": -0.019,
+  "pctile_10y": 0.689,
+  "drawdown_from_peak_10y": 0.37,
+  "chg_1y": 0.018,
   "currency": "JPY",
   "latest_source": "jquants"
 }

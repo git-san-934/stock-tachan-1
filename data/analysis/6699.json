@@ -12,8 +12,8 @@
     "level": 0.588,
     "momentum": 0.177
   },
-  "as_of_price": "2026-06-09",
-  "price": 477.0,
+  "as_of_price": "2026-06-17",
+  "price": 475.0,
   "market_cap_oku": 55,
   "fy_range": [
     2019,
@@ -122,7 +122,7 @@
       }
     ],
     "price_pctile_10y": 0.071,
-    "price_drawdown_10y": 0.831
+    "price_drawdown_10y": 0.832
   },
   "structural": {
     "sales_cagr": 0.0824,
@@ -152,7 +152,7 @@
   "liquidation": {
     "value": -40477800000.0,
     "per_share": -3464.4,
-    "downside_to_liquidation": 8.263
+    "downside_to_liquidation": 8.293
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -171,7 +171,7 @@
       "note": "平常時の利益で評価すると理論株価は現在値の 1.9倍（+90%）。営業レバレッジ DOL は 0.47（大きいほど山で利益が跳ねる）。"
     }
   },
-  "auto_score": 33.3,
+  "auto_score": 33.5,
   "passes": {
     "s0_size": false,
     "s1_cheap": true,

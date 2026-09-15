@@ -1,7 +1,7 @@
 {
   "symbol": "9115.T",
-  "as_of": "2026-06-09",
-  "latest": 936.0,
+  "as_of": "2026-06-17",
+  "latest": 805.0,
   "monthly": [
     [
       "2016-09",
@@ -488,9 +488,9 @@
       1114.0
     ]
   ],
-  "pctile_10y": 0.934,
-  "drawdown_from_peak_10y": 0.306,
-  "chg_1y": 0.34,
+  "pctile_10y": 0.885,
+  "drawdown_from_peak_10y": 0.403,
+  "chg_1y": 0.152,
   "currency": "JPY",
   "latest_source": "jquants"
 }

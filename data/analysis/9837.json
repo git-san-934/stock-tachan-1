@@ -12,8 +12,8 @@
     "level": 0.974,
     "momentum": 0.326
   },
-  "as_of_price": "2026-06-09",
-  "price": 1749.0,
+  "as_of_price": "2026-06-17",
+  "price": 1748.0,
   "market_cap_oku": 468,
   "fy_range": [
     2016,
@@ -117,7 +117,7 @@
     "market_phase_score": null,
     "market_phase_detail": [],
     "price_pctile_10y": 0.926,
-    "price_drawdown_10y": 0.153
+    "price_drawdown_10y": 0.154
   },
   "structural": {
     "sales_cagr": 0.0396,

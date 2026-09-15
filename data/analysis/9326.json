@@ -9,11 +9,11 @@
     "name": "回復",
     "label": "② 回復",
     "zone": "buy",
-    "level": 0.269,
+    "level": 0.273,
     "momentum": 0.906
   },
-  "as_of_price": "2026-06-09",
-  "price": 410.0,
+  "as_of_price": "2026-06-17",
+  "price": 411.0,
   "market_cap_oku": 42,
   "fy_range": [
     2017,
@@ -111,7 +111,7 @@
     "median_margin": 0.0303
   },
   "trough": {
-    "score": 0.643,
+    "score": 0.64,
     "latest_margin": 0.0155,
     "margin_pctile": 0.3,
     "market_phase_score": 0.5,
@@ -125,8 +125,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.212,
-    "price_drawdown_10y": 0.675
+    "price_pctile_10y": 0.225,
+    "price_drawdown_10y": 0.674
   },
   "structural": {
     "sales_cagr": 0.176,
@@ -147,7 +147,7 @@
     "normalized_margin": 0.0303,
     "normalized_ordinary": 333413454.0,
     "normalized_eps": 22.64,
-    "normalized_per": 18.1,
+    "normalized_per": 18.2,
     "midcycle_per": 12.0,
     "fair_value": 271.7,
     "expected_return_x": 0.66,
@@ -156,7 +156,7 @@
   "liquidation": {
     "value": -3080375200.0,
     "per_share": -298.8,
-    "downside_to_liquidation": 1.729
+    "downside_to_liquidation": 1.727
   },
   "checklist": {
     "A_cycle_not_structural": {

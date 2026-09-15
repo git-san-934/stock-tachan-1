@@ -12,9 +12,9 @@
     "level": 0.971,
     "momentum": 0.61
   },
-  "as_of_price": "2026-06-09",
-  "price": 1481.0,
-  "market_cap_oku": 8437,
+  "as_of_price": "2026-06-17",
+  "price": 1500.5,
+  "market_cap_oku": 8548,
   "fy_range": [
     2017,
     2026
@@ -134,7 +134,7 @@
       }
     ],
     "price_pctile_10y": 0.918,
-    "price_drawdown_10y": 0.148
+    "price_drawdown_10y": 0.137
   },
   "structural": {
     "sales_cagr": -0.0468,
@@ -155,16 +155,16 @@
     "normalized_margin": 0.0449,
     "normalized_ordinary": 29648809401.7,
     "normalized_eps": 36.43,
-    "normalized_per": 40.7,
+    "normalized_per": 41.2,
     "midcycle_per": 12.0,
     "fair_value": 437.1,
-    "expected_return_x": 0.3,
-    "pbr": 1.86
+    "expected_return_x": 0.29,
+    "pbr": 1.88
   },
   "liquidation": {
     "value": -115480300000.0,
     "per_share": -202.7,
-    "downside_to_liquidation": 1.137
+    "downside_to_liquidation": 1.135
   },
   "checklist": {
     "A_cycle_not_structural": {
@@ -180,7 +180,7 @@
     "C_operating_leverage_upside": {
       "mark": "×",
       "criteria": "○＝平常時の利益で見て株価が2倍以上（+100%）になる余地／△＝1.5倍以上（+50%）／×＝1.5倍未満、または試算できず",
-      "note": "平常時の利益で評価すると理論株価は現在値の 0.3倍（-70%）。営業レバレッジ DOL は None（大きいほど山で利益が跳ねる）。"
+      "note": "平常時の利益で評価すると理論株価は現在値の 0.3倍（-71%）。営業レバレッジ DOL は None（大きいほど山で利益が跳ねる）。"
     }
   },
   "auto_score": 24.0,

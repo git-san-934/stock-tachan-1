@@ -9,12 +9,12 @@
     "name": "過熱",
     "label": "④ 過熱",
     "zone": "sell",
-    "level": 0.898,
+    "level": 0.896,
     "momentum": 0.603
   },
-  "as_of_price": "2026-06-09",
-  "price": 1074.0,
-  "market_cap_oku": 630,
+  "as_of_price": "2026-06-17",
+  "price": 1058.0,
+  "market_cap_oku": 620,
   "fy_range": [
     2017,
     2026
@@ -133,8 +133,8 @@
         "stale": false
       }
     ],
-    "price_pctile_10y": 0.893,
-    "price_drawdown_10y": 0.443
+    "price_pctile_10y": 0.885,
+    "price_drawdown_10y": 0.451
   },
   "structural": {
     "sales_cagr": 0.0255,
@@ -155,16 +155,16 @@
     "normalized_margin": 0.0731,
     "normalized_ordinary": 2549564692.8,
     "normalized_eps": 30.41,
-    "normalized_per": 35.3,
+    "normalized_per": 34.8,
     "midcycle_per": 12.0,
     "fair_value": 364.9,
     "expected_return_x": 0.34,
-    "pbr": 1.05
+    "pbr": 1.03
   },
   "liquidation": {
     "value": 31609640300.0,
     "per_share": 538.5,
-    "downside_to_liquidation": 0.499
+    "downside_to_liquidation": 0.491
   },
   "checklist": {
     "A_cycle_not_structural": {

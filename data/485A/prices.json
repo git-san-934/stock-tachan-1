@@ -1,7 +1,7 @@
 {
   "symbol": "485A.T",
-  "as_of": "2026-06-09",
-  "latest": 2492.0,
+  "as_of": "2026-06-17",
+  "latest": 2291.0,
   "monthly": [
     [
       "2025-12",
@@ -45,7 +45,7 @@
     ]
   ],
   "pctile_10y": 0.818,
-  "drawdown_from_peak_10y": 0.354,
+  "drawdown_from_peak_10y": 0.406,
   "chg_1y": null,
   "currency": "JPY",
   "latest_source": "jquants"
